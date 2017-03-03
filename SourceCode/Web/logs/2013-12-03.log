@@ -1,0 +1,960 @@
+2013-12-03 15:18:05.7168 INFO Execution started of MvcApplication.Application_Start ()
+2013-12-03 15:18:06.6757 INFO Execution started of AdminAreaRegistration.get_AreaName ()
+2013-12-03 15:18:06.6757 INFO Execution finished for get_AreaName
+2013-12-03 15:18:06.6757 INFO Execution started of AdminAreaRegistration.RegisterArea (context = System.Web.Mvc.AreaRegistrationContext, )
+2013-12-03 15:18:06.6757 INFO Execution finished for RegisterArea
+2013-12-03 15:18:06.6757 INFO Execution finished for Application_Start
+2013-12-03 15:18:06.7107 INFO Execution started of MiniProfilerStartupModule.Init (context = ASP.global_asax, )
+2013-12-03 15:18:06.7107 INFO Execution finished for Init
+2013-12-03 15:18:06.8967 INFO Execution started of HomeController.Index ()
+2013-12-03 15:18:06.8967 INFO Execution finished for Index
+2013-12-03 15:18:08.4046 INFO Execution started of MiniProfilerStartupModule.Init (context = ASP.global_asax, )
+2013-12-03 15:18:08.4046 INFO Execution finished for Init
+2013-12-03 15:18:10.1764 INFO Execution started of AccountController.LogOn (returnUrl = /Home/Default, )
+2013-12-03 15:18:10.2024 ERROR Exception in :[System.Web.Mvc.ActionResult LogOn(System.String)], Message:[text exception]
+2013-12-03 15:18:10.2024 INFO Execution finished for LogOn
+2013-12-03 15:20:19.9727 INFO Execution started of MvcApplication.Application_Start ()
+2013-12-03 15:20:20.3497 INFO Execution started of AdminAreaRegistration.get_AreaName ()
+2013-12-03 15:20:20.3507 INFO Execution finished for get_AreaName
+2013-12-03 15:20:20.3507 INFO Execution started of AdminAreaRegistration.RegisterArea (context = System.Web.Mvc.AreaRegistrationContext, )
+2013-12-03 15:20:20.3507 INFO Execution finished for RegisterArea
+2013-12-03 15:20:20.3507 INFO Execution finished for Application_Start
+2013-12-03 15:20:20.3777 INFO Execution started of MiniProfilerStartupModule.Init (context = ASP.global_asax, )
+2013-12-03 15:20:20.3777 INFO Execution finished for Init
+2013-12-03 15:20:20.5817 INFO Execution started of HomeController.Index ()
+2013-12-03 15:20:20.5817 INFO Execution finished for Index
+2013-12-03 15:20:21.7867 INFO Execution started of MiniProfilerStartupModule.Init (context = ASP.global_asax, )
+2013-12-03 15:20:21.7867 INFO Execution finished for Init
+2013-12-03 15:20:24.2367 INFO Execution started of AccountController.LogOn (returnUrl = /Home/Default, )
+2013-12-03 15:20:26.7097 ERROR Exception in :[System.Web.Mvc.ActionResult LogOn(System.String)], Message:[text exception]
+2013-12-03 15:20:26.7257 INFO Execution finished for LogOn
+2013-12-03 15:21:18.6267 INFO Execution started of AccountController.LogOn (returnUrl = /Home/Default, )
+2013-12-03 15:21:20.7137 ERROR Exception in :[System.Web.Mvc.ActionResult LogOn(System.String)], Message:[text exception]
+2013-12-03 15:21:20.7137 INFO Execution finished for LogOn
+2013-12-03 15:21:31.0967 INFO Execution started of AccountController.LogOn (returnUrl = /Home/Default, )
+2013-12-03 15:21:32.9357 ERROR Exception in :[System.Web.Mvc.ActionResult LogOn(System.String)], Message:[text exception]
+2013-12-03 15:21:32.9357 INFO Execution finished for LogOn
+2013-12-03 15:21:48.1527 INFO Execution started of AccountController.LogOn (returnUrl = /Home/Default, )
+2013-12-03 15:21:49.4437 ERROR Exception in :[System.Web.Mvc.ActionResult LogOn(System.String)], Message:[text exception]
+2013-12-03 15:21:49.4577 INFO Execution finished for LogOn
+2013-12-03 15:23:14.6827 INFO Execution started of AccountController.LogOn (returnUrl = /Home/Default, )
+2013-12-03 15:23:17.8027 ERROR Exception in :[System.Web.Mvc.ActionResult LogOn(System.String)], Message:[text exception]
+2013-12-03 15:23:17.8157 INFO Execution finished for LogOn
+2013-12-03 15:24:20.1097 INFO Execution started of MvcApplication.Application_Start ()
+2013-12-03 15:24:20.5547 INFO Execution started of AdminAreaRegistration.get_AreaName ()
+2013-12-03 15:24:20.5547 INFO Execution finished for get_AreaName
+2013-12-03 15:24:20.5547 INFO Execution started of AdminAreaRegistration.RegisterArea (context = System.Web.Mvc.AreaRegistrationContext, )
+2013-12-03 15:24:20.5637 INFO Execution finished for RegisterArea
+2013-12-03 15:24:20.5637 INFO Execution finished for Application_Start
+2013-12-03 15:24:20.5897 INFO Execution started of MiniProfilerStartupModule.Init (context = ASP.global_asax, )
+2013-12-03 15:24:20.5897 INFO Execution finished for Init
+2013-12-03 15:24:20.8267 INFO Execution started of HomeController.Index ()
+2013-12-03 15:24:20.8267 INFO Execution finished for Index
+2013-12-03 15:24:22.2827 INFO Execution started of MiniProfilerStartupModule.Init (context = ASP.global_asax, )
+2013-12-03 15:24:22.2827 INFO Execution finished for Init
+2013-12-03 15:24:23.9127 INFO Execution started of AccountController.LogOn (returnUrl = /Home/Default, )
+2013-12-03 15:24:23.9347 INFO Execution finished for LogOn
+2013-12-03 15:25:06.7017 INFO Execution started of MvcApplication.Application_Start ()
+2013-12-03 15:25:07.0327 INFO Execution started of AdminAreaRegistration.get_AreaName ()
+2013-12-03 15:25:07.0327 INFO Execution finished for get_AreaName
+2013-12-03 15:25:07.0327 INFO Execution started of AdminAreaRegistration.RegisterArea (context = System.Web.Mvc.AreaRegistrationContext, )
+2013-12-03 15:25:07.0327 INFO Execution finished for RegisterArea
+2013-12-03 15:25:07.0327 INFO Execution finished for Application_Start
+2013-12-03 15:25:07.0667 INFO Execution started of MiniProfilerStartupModule.Init (context = ASP.global_asax, )
+2013-12-03 15:25:07.0667 INFO Execution finished for Init
+2013-12-03 15:25:07.2837 INFO Execution started of HomeController.Index ()
+2013-12-03 15:25:07.2837 INFO Execution finished for Index
+2013-12-03 15:25:08.5647 INFO Execution started of MiniProfilerStartupModule.Init (context = ASP.global_asax, )
+2013-12-03 15:25:08.5647 INFO Execution finished for Init
+2013-12-03 15:25:10.5727 INFO Execution started of AccountController.LogOn (returnUrl = /Home/Default, )
+2013-12-03 15:25:10.5987 ERROR Exception in :[System.Web.Mvc.ActionResult LogOn(System.String)], Message:[erre ]
+2013-12-03 15:25:10.5987 INFO Execution finished for LogOn
+2013-12-03 15:30:04.0244 INFO Execution started of MvcApplication.Application_Start ()
+2013-12-03 15:30:05.4826 INFO Execution started of AdminAreaRegistration.get_AreaName ()
+2013-12-03 15:30:05.4826 INFO Execution finished for get_AreaName
+2013-12-03 15:30:05.4826 INFO Execution started of AdminAreaRegistration.RegisterArea (context = System.Web.Mvc.AreaRegistrationContext, )
+2013-12-03 15:30:05.4826 INFO Execution finished for RegisterArea
+2013-12-03 15:30:05.4826 INFO Execution finished for Application_Start
+2013-12-03 15:30:05.6126 INFO Execution started of MiniProfilerStartupModule.Init (context = ASP.global_asax, )
+2013-12-03 15:30:05.6126 INFO Execution finished for Init
+2013-12-03 15:30:05.8166 INFO Execution started of HomeController.Index ()
+2013-12-03 15:30:05.8166 INFO Execution finished for Index
+2013-12-03 15:30:07.4578 INFO Execution started of MiniProfilerStartupModule.Init (context = ASP.global_asax, )
+2013-12-03 15:30:07.4578 INFO Execution finished for Init
+2013-12-03 15:30:09.8640 INFO Execution started of AccountController.LogOn (returnUrl = /Home/Default, )
+2013-12-03 15:30:09.8860 ERROR Exception in :[System.Web.Mvc.ActionResult LogOn(System.String)], Message:[erre ]
+2013-12-03 15:30:09.8860 INFO Execution finished for LogOn
+2013-12-03 15:38:26.3697 INFO Execution started of MvcApplication.Application_Start ()
+2013-12-03 15:38:26.7447 INFO Execution started of AdminAreaRegistration.get_AreaName ()
+2013-12-03 15:38:26.7447 INFO Execution finished for get_AreaName
+2013-12-03 15:38:26.7447 INFO Execution started of AdminAreaRegistration.RegisterArea (context = System.Web.Mvc.AreaRegistrationContext, )
+2013-12-03 15:38:26.7517 INFO Execution finished for RegisterArea
+2013-12-03 15:38:26.7517 INFO Execution finished for Application_Start
+2013-12-03 15:38:26.7807 INFO Execution started of MiniProfilerStartupModule.Init (context = ASP.global_asax, )
+2013-12-03 15:38:26.7817 INFO Execution finished for Init
+2013-12-03 15:38:43.1563 INFO Execution started of HomeController.Index ()
+2013-12-03 15:38:43.1563 INFO Execution finished for Index
+2013-12-03 15:38:44.5325 INFO Execution started of MiniProfilerStartupModule.Init (context = ASP.global_asax, )
+2013-12-03 15:38:44.5325 INFO Execution finished for Init
+2013-12-03 15:38:44.5825 INFO Execution started of MiniProfilerStartupModule.Init (context = ASP.global_asax, )
+2013-12-03 15:38:44.5825 INFO Execution finished for Init
+2013-12-03 15:38:46.8377 INFO Execution started of AccountController.LogOn (returnUrl = /Home/Default, )
+2013-12-03 15:38:46.8607 INFO Execution finished for LogOn
+2013-12-03 15:39:23.2453 INFO Execution started of MvcApplication.Application_Start ()
+2013-12-03 15:39:23.6764 INFO Execution started of AdminAreaRegistration.get_AreaName ()
+2013-12-03 15:39:23.6774 INFO Execution finished for get_AreaName
+2013-12-03 15:39:23.6774 INFO Execution started of AdminAreaRegistration.RegisterArea (context = System.Web.Mvc.AreaRegistrationContext, )
+2013-12-03 15:39:23.6774 INFO Execution finished for RegisterArea
+2013-12-03 15:39:23.6774 INFO Execution finished for Application_Start
+2013-12-03 15:39:23.7244 INFO Execution started of MiniProfilerStartupModule.Init (context = ASP.global_asax, )
+2013-12-03 15:39:23.7244 INFO Execution finished for Init
+2013-12-03 15:39:24.0334 INFO Execution started of HomeController.Index ()
+2013-12-03 15:39:24.0334 INFO Execution finished for Index
+2013-12-03 15:39:25.7826 INFO Execution started of MiniProfilerStartupModule.Init (context = ASP.global_asax, )
+2013-12-03 15:39:25.7836 INFO Execution finished for Init
+2013-12-03 15:39:30.6891 INFO Execution started of AccountController.LogOn (returnUrl = /Home/Default, )
+2013-12-03 15:39:30.7131 ERROR Exception in :[System.Web.Mvc.ActionResult LogOn(System.String)], Message:[dfsfds ]
+2013-12-03 15:39:30.7131 INFO Execution finished for LogOn
+2013-12-03 15:44:06.2867 INFO Execution started of MvcApplication.Application_Start ()
+2013-12-03 15:44:06.6327 INFO Execution started of AdminAreaRegistration.get_AreaName ()
+2013-12-03 15:44:06.6327 INFO Execution finished for get_AreaName
+2013-12-03 15:44:06.6327 INFO Execution started of AdminAreaRegistration.RegisterArea (context = System.Web.Mvc.AreaRegistrationContext, )
+2013-12-03 15:44:06.6327 INFO Execution finished for RegisterArea
+2013-12-03 15:44:06.6327 INFO Execution finished for Application_Start
+2013-12-03 15:44:06.6617 INFO Execution started of MiniProfilerStartupModule.Init (context = ASP.global_asax, )
+2013-12-03 15:44:06.6617 INFO Execution finished for Init
+2013-12-03 15:44:06.8767 INFO Execution started of HomeController.Index ()
+2013-12-03 15:44:06.8787 INFO Execution finished for Index
+2013-12-03 15:44:08.2498 INFO Execution started of MiniProfilerStartupModule.Init (context = ASP.global_asax, )
+2013-12-03 15:44:08.2508 INFO Execution finished for Init
+2013-12-03 15:44:10.0220 INFO Execution started of AccountController.LogOn (returnUrl = /Home/Default, )
+2013-12-03 15:44:10.0440 ERROR Exception in :[System.Web.Mvc.ActionResult LogOn(System.String)], Message:[dfsfds ]
+2013-12-03 15:44:10.0450 INFO Execution finished for LogOn
+2013-12-03 15:53:22.6043 INFO Execution started of MvcApplication.Application_Start ()
+2013-12-03 15:53:22.9513 INFO Execution started of AdminAreaRegistration.get_AreaName ()
+2013-12-03 15:53:22.9523 INFO Execution finished for get_AreaName
+2013-12-03 15:53:22.9523 INFO Execution started of AdminAreaRegistration.RegisterArea (context = System.Web.Mvc.AreaRegistrationContext, )
+2013-12-03 15:53:22.9523 INFO Execution finished for RegisterArea
+2013-12-03 15:53:22.9523 INFO Execution finished for Application_Start
+2013-12-03 15:53:22.9833 INFO Execution started of MiniProfilerStartupModule.Init (context = ASP.global_asax, )
+2013-12-03 15:53:22.9833 INFO Execution finished for Init
+2013-12-03 15:53:23.2143 INFO Execution started of HomeController.Index ()
+2013-12-03 15:53:23.2393 ERROR Exception in :[System.Web.Mvc.ActionResult Index()], Message:[dfsfds ]
+2013-12-03 15:53:23.2393 INFO Execution finished for Index
+2013-12-03 15:56:15.4706 INFO Execution started of MvcApplication.Application_Start ()
+2013-12-03 15:56:15.8776 INFO Execution started of AdminAreaRegistration.get_AreaName ()
+2013-12-03 15:56:15.8776 INFO Execution finished for get_AreaName
+2013-12-03 15:56:15.8776 INFO Execution started of AdminAreaRegistration.RegisterArea (context = System.Web.Mvc.AreaRegistrationContext, )
+2013-12-03 15:56:15.8776 INFO Execution finished for RegisterArea
+2013-12-03 15:56:15.8876 INFO Execution finished for Application_Start
+2013-12-03 15:56:15.9086 INFO Execution started of MiniProfilerStartupModule.Init (context = ASP.global_asax, )
+2013-12-03 15:56:15.9086 INFO Execution finished for Init
+2013-12-03 15:56:16.1406 INFO Execution started of HomeController.Index ()
+2013-12-03 15:56:16.1696 ERROR Exception in :[System.Web.Mvc.ActionResult Index()], Message:[dfsfds ]
+2013-12-03 15:56:16.1696 INFO Execution finished for Index
+2013-12-03 15:57:23.2283 INFO Execution started of HomeController.Index ()
+2013-12-03 15:57:23.2483 ERROR Exception in :[System.Web.Mvc.ActionResult Index()], Message:[dfsfds ]
+2013-12-03 15:57:23.2483 INFO Execution finished for Index
+2013-12-03 16:00:50.1720 INFO Execution started of MvcApplication.Application_Start ()
+2013-12-03 16:00:50.2690 INFO Execution started of AdminAreaRegistration.get_AreaName ()
+2013-12-03 16:00:50.2690 INFO Execution finished for get_AreaName
+2013-12-03 16:00:50.2740 INFO Execution started of AdminAreaRegistration.RegisterArea (context = System.Web.Mvc.AreaRegistrationContext, )
+2013-12-03 16:00:50.2740 INFO Execution finished for RegisterArea
+2013-12-03 16:00:50.2740 INFO Execution finished for Application_Start
+2013-12-03 16:00:50.3420 INFO Execution started of MiniProfilerStartupModule.Init (context = ASP.global_asax, )
+2013-12-03 16:00:50.3420 INFO Execution finished for Init
+2013-12-03 16:00:50.5271 INFO Execution started of HomeController.Index ()
+2013-12-03 16:00:50.5581 ERROR Exception in :[System.Web.Mvc.ActionResult Index()], Message:[dfsfds ]
+2013-12-03 16:00:50.5581 INFO Execution finished for Index
+2013-12-03 16:00:52.9403 INFO Execution started of HomeController.Index ()
+2013-12-03 16:00:52.9573 ERROR Exception in :[System.Web.Mvc.ActionResult Index()], Message:[dfsfds ]
+2013-12-03 16:00:52.9573 INFO Execution finished for Index
+2013-12-03 16:00:54.5835 INFO Execution started of HomeController.Index ()
+2013-12-03 16:00:54.6065 ERROR Exception in :[System.Web.Mvc.ActionResult Index()], Message:[dfsfds ]
+2013-12-03 16:00:54.6065 INFO Execution finished for Index
+2013-12-03 16:00:54.9975 INFO Execution started of HomeController.Index ()
+2013-12-03 16:00:55.0205 ERROR Exception in :[System.Web.Mvc.ActionResult Index()], Message:[dfsfds ]
+2013-12-03 16:00:55.0205 INFO Execution finished for Index
+2013-12-03 16:00:55.1765 INFO Execution started of HomeController.Index ()
+2013-12-03 16:00:55.1965 ERROR Exception in :[System.Web.Mvc.ActionResult Index()], Message:[dfsfds ]
+2013-12-03 16:00:55.1965 INFO Execution finished for Index
+2013-12-03 16:00:55.3335 INFO Execution started of HomeController.Index ()
+2013-12-03 16:00:55.3525 ERROR Exception in :[System.Web.Mvc.ActionResult Index()], Message:[dfsfds ]
+2013-12-03 16:00:55.3525 INFO Execution finished for Index
+2013-12-03 16:00:55.5076 INFO Execution started of HomeController.Index ()
+2013-12-03 16:00:55.5256 ERROR Exception in :[System.Web.Mvc.ActionResult Index()], Message:[dfsfds ]
+2013-12-03 16:00:55.5256 INFO Execution finished for Index
+2013-12-03 16:00:55.6866 INFO Execution started of HomeController.Index ()
+2013-12-03 16:00:55.7046 ERROR Exception in :[System.Web.Mvc.ActionResult Index()], Message:[dfsfds ]
+2013-12-03 16:00:55.7046 INFO Execution finished for Index
+2013-12-03 16:02:05.3846 INFO Execution started of HomeController.Index ()
+2013-12-03 16:02:05.4116 ERROR Exception in :[System.Web.Mvc.ActionResult Index()], Message:[dfsfds ]
+2013-12-03 16:02:05.4116 INFO Execution finished for Index
+2013-12-03 16:02:09.4860 INFO Execution started of HomeController.Index ()
+2013-12-03 16:02:09.5010 ERROR Exception in :[System.Web.Mvc.ActionResult Index()], Message:[dfsfds ]
+2013-12-03 16:02:09.5010 INFO Execution finished for Index
+2013-12-03 16:02:10.2180 INFO Execution started of HomeController.Index ()
+2013-12-03 16:02:10.2340 ERROR Exception in :[System.Web.Mvc.ActionResult Index()], Message:[dfsfds ]
+2013-12-03 16:02:10.2340 INFO Execution finished for Index
+2013-12-03 16:02:10.4401 INFO Execution started of HomeController.Index ()
+2013-12-03 16:02:10.4591 ERROR Exception in :[System.Web.Mvc.ActionResult Index()], Message:[dfsfds ]
+2013-12-03 16:02:10.4591 INFO Execution finished for Index
+2013-12-03 16:02:10.6141 INFO Execution started of HomeController.Index ()
+2013-12-03 16:02:10.6331 ERROR Exception in :[System.Web.Mvc.ActionResult Index()], Message:[dfsfds ]
+2013-12-03 16:02:10.6331 INFO Execution finished for Index
+2013-12-03 16:02:10.9641 INFO Execution started of HomeController.Index ()
+2013-12-03 16:02:10.9941 ERROR Exception in :[System.Web.Mvc.ActionResult Index()], Message:[dfsfds ]
+2013-12-03 16:02:10.9941 INFO Execution finished for Index
+2013-12-03 16:02:11.1531 INFO Execution started of HomeController.Index ()
+2013-12-03 16:02:11.1711 ERROR Exception in :[System.Web.Mvc.ActionResult Index()], Message:[dfsfds ]
+2013-12-03 16:02:11.1711 INFO Execution finished for Index
+2013-12-03 16:02:11.3261 INFO Execution started of HomeController.Index ()
+2013-12-03 16:02:11.3451 ERROR Exception in :[System.Web.Mvc.ActionResult Index()], Message:[dfsfds ]
+2013-12-03 16:02:11.3451 INFO Execution finished for Index
+2013-12-03 16:02:11.5152 INFO Execution started of HomeController.Index ()
+2013-12-03 16:02:11.5362 ERROR Exception in :[System.Web.Mvc.ActionResult Index()], Message:[dfsfds ]
+2013-12-03 16:02:11.5372 INFO Execution finished for Index
+2013-12-03 16:02:11.6922 INFO Execution started of HomeController.Index ()
+2013-12-03 16:02:11.7132 ERROR Exception in :[System.Web.Mvc.ActionResult Index()], Message:[dfsfds ]
+2013-12-03 16:02:11.7132 INFO Execution finished for Index
+2013-12-03 16:08:17.2997 INFO Execution started of MvcApplication.Application_Start ()
+2013-12-03 16:08:17.3477 INFO Execution started of AdminAreaRegistration.get_AreaName ()
+2013-12-03 16:08:17.3477 INFO Execution finished for get_AreaName
+2013-12-03 16:08:17.3477 INFO Execution started of AdminAreaRegistration.RegisterArea (context = System.Web.Mvc.AreaRegistrationContext, )
+2013-12-03 16:08:17.3477 INFO Execution finished for RegisterArea
+2013-12-03 16:08:17.3477 INFO Execution finished for Application_Start
+2013-12-03 16:08:17.4087 INFO Execution started of MiniProfilerStartupModule.Init (context = ASP.global_asax, )
+2013-12-03 16:08:17.4087 INFO Execution finished for Init
+2013-12-03 16:08:17.5888 INFO Execution started of HomeController.Index ()
+2013-12-03 16:08:17.6188 ERROR Exception in :[System.Web.Mvc.ActionResult Index()], Message:[dfsfds ]
+2013-12-03 16:08:17.6188 INFO Execution finished for Index
+2013-12-03 16:08:43.0133 INFO Execution started of HomeController.Index ()
+2013-12-03 16:08:43.0403 ERROR Exception in :[System.Web.Mvc.ActionResult Index()], Message:[dfsfds ]
+2013-12-03 16:08:43.0403 INFO Execution finished for Index
+2013-12-03 16:09:19.5490 INFO Execution started of MvcApplication.Application_Start ()
+2013-12-03 16:09:19.6000 INFO Execution started of AdminAreaRegistration.get_AreaName ()
+2013-12-03 16:09:19.6000 INFO Execution finished for get_AreaName
+2013-12-03 16:09:19.6000 INFO Execution started of AdminAreaRegistration.RegisterArea (context = System.Web.Mvc.AreaRegistrationContext, )
+2013-12-03 16:09:19.6000 INFO Execution finished for RegisterArea
+2013-12-03 16:09:19.6090 INFO Execution finished for Application_Start
+2013-12-03 16:09:19.6650 INFO Execution started of MiniProfilerStartupModule.Init (context = ASP.global_asax, )
+2013-12-03 16:09:19.6650 INFO Execution finished for Init
+2013-12-03 16:09:19.9200 INFO Execution started of HomeController.Index ()
+2013-12-03 16:09:19.9980 ERROR Exception in :[System.Web.Mvc.ActionResult Index()], Message:[dfsfds ]
+2013-12-03 16:09:19.9980 INFO Execution finished for Index
+2013-12-03 16:15:00.5591 INFO Execution started of MvcApplication.Application_Start ()
+2013-12-03 16:15:00.9051 INFO Execution started of AdminAreaRegistration.get_AreaName ()
+2013-12-03 16:15:00.9051 INFO Execution finished for get_AreaName
+2013-12-03 16:15:00.9051 INFO Execution started of AdminAreaRegistration.RegisterArea (context = System.Web.Mvc.AreaRegistrationContext, )
+2013-12-03 16:15:00.9051 INFO Execution finished for RegisterArea
+2013-12-03 16:15:00.9051 INFO Execution finished for Application_Start
+2013-12-03 16:15:00.9371 INFO Execution started of MiniProfilerStartupModule.Init (context = ASP.global_asax, )
+2013-12-03 16:15:00.9371 INFO Execution finished for Init
+2013-12-03 16:15:01.1481 INFO Execution started of HomeController.Index ()
+2013-12-03 16:15:01.1701 ERROR Exception in :[System.Web.Mvc.ActionResult Index()], Message:[dfsfds ]
+2013-12-03 16:15:01.1701 INFO Execution finished for Index
+2013-12-03 16:17:55.1705 INFO Execution started of MvcApplication.Application_Start ()
+2013-12-03 16:17:55.6316 INFO Execution started of AdminAreaRegistration.get_AreaName ()
+2013-12-03 16:17:55.6336 INFO Execution finished for get_AreaName
+2013-12-03 16:17:55.6336 INFO Execution started of AdminAreaRegistration.RegisterArea (context = System.Web.Mvc.AreaRegistrationContext, )
+2013-12-03 16:17:55.6336 INFO Execution finished for RegisterArea
+2013-12-03 16:17:55.6336 INFO Execution finished for Application_Start
+2013-12-03 16:17:55.6656 INFO Execution started of MiniProfilerStartupModule.Init (context = ASP.global_asax, )
+2013-12-03 16:17:55.6656 INFO Execution finished for Init
+2013-12-03 16:17:55.9046 INFO Execution started of MiniProfilerStartupModule.Init (context = ASP.global_asax, )
+2013-12-03 16:17:55.9046 INFO Execution finished for Init
+2013-12-03 16:17:56.0626 INFO Execution started of HomeController.Index ()
+2013-12-03 16:17:56.1096 ERROR Exception in :[System.Web.Mvc.ActionResult Index()], Message:[dfsfds ]
+2013-12-03 16:17:56.1096 INFO Execution finished for Index
+2013-12-03 16:18:52.6343 INFO Execution started of MvcApplication.Application_Start ()
+2013-12-03 16:18:52.6803 INFO Execution started of AdminAreaRegistration.get_AreaName ()
+2013-12-03 16:18:52.6803 INFO Execution finished for get_AreaName
+2013-12-03 16:18:52.6803 INFO Execution started of AdminAreaRegistration.RegisterArea (context = System.Web.Mvc.AreaRegistrationContext, )
+2013-12-03 16:18:52.6853 INFO Execution finished for RegisterArea
+2013-12-03 16:18:52.6853 INFO Execution finished for Application_Start
+2013-12-03 16:18:52.7323 INFO Execution started of MiniProfilerStartupModule.Init (context = ASP.global_asax, )
+2013-12-03 16:18:52.7323 INFO Execution finished for Init
+2013-12-03 16:26:06.1303 INFO Execution started of MvcApplication.Application_Start ()
+2013-12-03 16:26:06.5373 INFO Execution started of AdminAreaRegistration.get_AreaName ()
+2013-12-03 16:26:06.5373 INFO Execution finished for get_AreaName
+2013-12-03 16:26:06.5373 INFO Execution started of AdminAreaRegistration.RegisterArea (context = System.Web.Mvc.AreaRegistrationContext, )
+2013-12-03 16:26:06.5373 INFO Execution finished for RegisterArea
+2013-12-03 16:26:06.5373 INFO Execution finished for Application_Start
+2013-12-03 16:26:06.5703 INFO Execution started of MiniProfilerStartupModule.Init (context = ASP.global_asax, )
+2013-12-03 16:26:06.5703 INFO Execution finished for Init
+2013-12-03 16:26:06.7893 INFO Execution started of HomeController.Index ()
+2013-12-03 16:26:06.8163 ERROR Exception in :[System.Web.Mvc.ActionResult Index()], Message:[dfsfds ]
+2013-12-03 16:26:06.8173 INFO Execution finished for Index
+2013-12-03 16:39:16.8847 INFO Execution started of MvcApplication.Application_Start ()
+2013-12-03 16:39:18.3628 INFO Execution started of AdminAreaRegistration.get_AreaName ()
+2013-12-03 16:39:18.3628 INFO Execution finished for get_AreaName
+2013-12-03 16:39:18.3628 INFO Execution started of AdminAreaRegistration.RegisterArea (context = System.Web.Mvc.AreaRegistrationContext, )
+2013-12-03 16:39:18.3628 INFO Execution finished for RegisterArea
+2013-12-03 16:39:18.3628 INFO Execution finished for Application_Start
+2013-12-03 16:39:18.4658 INFO Execution started of MiniProfilerStartupModule.Init (context = ASP.global_asax, )
+2013-12-03 16:39:18.4658 INFO Execution finished for Init
+2013-12-03 16:39:18.6789 INFO Execution started of HomeController.Index ()
+2013-12-03 16:39:18.7059 ERROR Exception in :[System.Web.Mvc.ActionResult Index()], Message:[dfsfds ]
+2013-12-03 16:39:18.7059 INFO Execution finished for Index
+2013-12-03 16:41:38.3858 INFO Execution started of MvcApplication.Application_Start ()
+2013-12-03 16:41:38.7659 INFO Execution started of AdminAreaRegistration.get_AreaName ()
+2013-12-03 16:41:38.7659 INFO Execution finished for get_AreaName
+2013-12-03 16:41:38.7699 INFO Execution started of AdminAreaRegistration.RegisterArea (context = System.Web.Mvc.AreaRegistrationContext, )
+2013-12-03 16:41:38.7699 INFO Execution finished for RegisterArea
+2013-12-03 16:41:38.7699 INFO Execution finished for Application_Start
+2013-12-03 16:41:38.7959 INFO Execution started of MiniProfilerStartupModule.Init (context = ASP.global_asax, )
+2013-12-03 16:41:38.7959 INFO Execution finished for Init
+2013-12-03 16:41:39.0119 INFO Execution started of HomeController.Index ()
+2013-12-03 16:41:39.0359 ERROR Exception in :[System.Web.Mvc.ActionResult Index()], Message:[dfsfds ]
+2013-12-03 16:41:39.0359 INFO Execution finished for Index
+2013-12-03 16:44:40.4670 INFO Execution started of MvcApplication.Application_Start ()
+2013-12-03 16:44:42.9653 INFO Execution started of AdminAreaRegistration.get_AreaName ()
+2013-12-03 16:44:42.9673 INFO Execution finished for get_AreaName
+2013-12-03 16:44:42.9673 INFO Execution started of AdminAreaRegistration.RegisterArea (context = System.Web.Mvc.AreaRegistrationContext, )
+2013-12-03 16:44:42.9673 INFO Execution finished for RegisterArea
+2013-12-03 16:45:02.2102 INFO Execution started of AdminAreaRegistration.get_AreaName ()
+2013-12-03 16:45:02.2102 INFO Execution finished for get_AreaName
+2013-12-03 16:45:02.2102 INFO Execution started of AdminAreaRegistration.RegisterArea (context = System.Web.Mvc.AreaRegistrationContext, )
+2013-12-03 16:45:02.2832 ERROR Exception in :[Void RegisterArea(System.Web.Mvc.AreaRegistrationContext)], Message:[A route named 'Admin_default' is already in the route collection. Route names must be unique.
+Parameter name: name]
+2013-12-03 16:45:02.2832 INFO Execution finished for RegisterArea
+2013-12-03 16:45:04.1964 ERROR Exception in :[Void Application_Start()], Message:[A route named 'Default' is already in the route collection. Route names must be unique.
+Parameter name: name]
+2013-12-03 16:45:04.2054 INFO Execution finished for Application_Start
+2013-12-03 16:45:08.1708 INFO Execution started of MiniProfilerStartupModule.Init (context = ASP.global_asax, )
+2013-12-03 16:45:08.1708 INFO Execution finished for Init
+2013-12-03 16:45:08.3698 INFO Execution started of HomeController.Index ()
+2013-12-03 16:45:08.3948 ERROR Exception in :[System.Web.Mvc.ActionResult Index()], Message:[dfsfds ]
+2013-12-03 16:45:08.3958 INFO Execution finished for Index
+2013-12-03 16:52:24.9165 INFO Execution started of MvcApplication.Application_Start ()
+2013-12-03 16:52:28.5198 INFO Execution started of AdminAreaRegistration.get_AreaName ()
+2013-12-03 16:52:28.5198 INFO Execution finished for get_AreaName
+2013-12-03 16:52:28.5198 INFO Execution started of AdminAreaRegistration.RegisterArea (context = System.Web.Mvc.AreaRegistrationContext, )
+2013-12-03 16:52:28.5258 INFO Execution finished for RegisterArea
+2013-12-03 16:52:28.5258 INFO Execution finished for Application_Start
+2013-12-03 16:52:28.5588 INFO Execution started of MiniProfilerStartupModule.Init (context = ASP.global_asax, )
+2013-12-03 16:52:28.5588 INFO Execution finished for Init
+2013-12-03 16:52:28.7659 INFO Execution started of HomeController.Index ()
+2013-12-03 16:52:28.7909 ERROR Exception in :[System.Web.Mvc.ActionResult Index()], Message:[dfsfds ]
+2013-12-03 16:52:28.7909 INFO Execution finished for Index
+2013-12-03 16:52:50.5940 INFO Execution started of HomeController.Index ()
+2013-12-03 16:52:52.9453 ERROR Exception in :[System.Web.Mvc.ActionResult Index()], Message:[dfsfds ]
+2013-12-03 16:52:52.9583 INFO Execution finished for Index
+2013-12-03 17:02:35.4695 INFO Execution started of MvcApplication.Application_Start ()
+2013-12-03 17:02:42.3172 INFO Execution started of AdminAreaRegistration.get_AreaName ()
+2013-12-03 17:02:42.3172 INFO Execution finished for get_AreaName
+2013-12-03 17:02:42.3172 INFO Execution started of AdminAreaRegistration.RegisterArea (context = System.Web.Mvc.AreaRegistrationContext, )
+2013-12-03 17:02:42.3222 INFO Execution finished for RegisterArea
+2013-12-03 17:02:42.3222 INFO Execution finished for Application_Start
+2013-12-03 17:02:42.3462 INFO Execution started of MiniProfilerStartupModule.Init (context = ASP.global_asax, )
+2013-12-03 17:02:42.3462 INFO Execution finished for Init
+2013-12-03 17:02:42.5352 INFO Execution started of HomeController.Index ()
+2013-12-03 17:02:42.5352 INFO Execution finished for Index
+2013-12-03 17:02:43.7114 INFO Execution started of MiniProfilerStartupModule.Init (context = ASP.global_asax, )
+2013-12-03 17:02:43.7114 INFO Execution finished for Init
+2013-12-03 17:02:47.6427 INFO Execution started of AccountController.LogOn (returnUrl = /Home/Default, )
+2013-12-03 17:02:47.6728 INFO Execution finished for LogOn
+2013-12-03 17:05:40.1870 INFO Execution started of MvcApplication.Application_Start ()
+2013-12-03 17:05:40.5490 INFO Execution started of AdminAreaRegistration.get_AreaName ()
+2013-12-03 17:05:40.5490 INFO Execution finished for get_AreaName
+2013-12-03 17:05:40.5490 INFO Execution started of AdminAreaRegistration.RegisterArea (context = System.Web.Mvc.AreaRegistrationContext, )
+2013-12-03 17:05:40.5490 INFO Execution finished for RegisterArea
+2013-12-03 17:05:40.5490 INFO Execution finished for Application_Start
+2013-12-03 17:05:40.5880 INFO Execution started of MiniProfilerStartupModule.Init (context = ASP.global_asax, )
+2013-12-03 17:05:40.5880 INFO Execution finished for Init
+2013-12-03 17:05:40.8191 INFO Execution started of HomeController.Index ()
+2013-12-03 17:05:40.8191 INFO Execution finished for Index
+2013-12-03 17:05:42.1712 INFO Execution started of MiniProfilerStartupModule.Init (context = ASP.global_asax, )
+2013-12-03 17:05:42.1712 INFO Execution finished for Init
+2013-12-03 17:05:46.6396 INFO Execution started of ErrorController.DetailedError ()
+2013-12-03 17:05:46.6396 INFO Execution finished for DetailedError
+2013-12-03 17:05:58.2748 INFO Execution started of MvcApplication.Application_Error (sender = ASP.global_asax, e = System.EventArgs, )
+2013-12-03 17:06:03.7694 INFO Application_Error: System.Web.HttpParseException (0x80004005): Only one 'model' statement is allowed in a file.
+
+   at System.Web.WebPages.Razor.RazorBuildProvider.EnsureGeneratedCode()
+   at System.Web.WebPages.Razor.RazorBuildProvider.get_CodeCompilerType()
+   at System.Web.Compilation.BuildProvider.GetCompilerTypeFromBuildProvider(BuildProvider buildProvider)
+   at System.Web.Compilation.BuildProvidersCompiler.ProcessBuildProviders()
+   at System.Web.Compilation.BuildProvidersCompiler.PerformBuild()
+   at System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean throwIfNotFound)
+   at System.Web.Compilation.BuildManager.GetObjectFactory(String virtualPath, Boolean throwIfNotFound)
+   at System.Web.Mvc.BuildManagerWrapper.System.Web.Mvc.IBuildManager.FileExists(String virtualPath)
+   at System.Web.Mvc.BuildManagerViewEngine.FileExists(ControllerContext controllerContext, String virtualPath)
+   at System.Web.Mvc.VirtualPathProviderViewEngine.GetPathFromGeneralName(ControllerContext controllerContext, List`1 locations, String name, String controllerName, String areaName, String cacheKey, String[]& searchedLocations)
+   at System.Web.Mvc.VirtualPathProviderViewEngine.GetPath(ControllerContext controllerContext, String[] locations, String[] areaLocations, String locationsPropertyName, String name, String controllerName, String cacheKeyPrefix, Boolean useCache, String[]& searchedLocations)
+   at System.Web.Mvc.VirtualPathProviderViewEngine.FindPartialView(ControllerContext controllerContext, String partialViewName, Boolean useCache)
+   at StackExchange.Profiling.MVCHelpers.ProfilingViewEngine.<>c__DisplayClass1.<FindPartialView>b__0() in C:\Users\sam\Desktop\MiniProfiler\StackExchange.Profiling\MVCHelpers\ProfilingViewEngine.cs:line 93
+   at StackExchange.Profiling.MVCHelpers.ProfilingViewEngine.Find(ControllerContext controllerContext, String name, Func`1 finder, Boolean isPartial) in C:\Users\sam\Desktop\MiniProfiler\StackExchange.Profiling\MVCHelpers\ProfilingViewEngine.cs:line 66
+   at StackExchange.Profiling.MVCHelpers.ProfilingViewEngine.FindPartialView(ControllerContext controllerContext, String partialViewName, Boolean useCache) in C:\Users\sam\Desktop\MiniProfiler\StackExchange.Profiling\MVCHelpers\ProfilingViewEngine.cs:line 93
+   at System.Web.Mvc.ViewEngineCollection.<>c__DisplayClass8.<FindPartialView>b__7(IViewEngine e)
+   at System.Web.Mvc.ViewEngineCollection.Find(Func`2 lookup, Boolean trackSearchedPaths)
+   at System.Web.Mvc.ViewEngineCollection.FindPartialView(ControllerContext controllerContext, String partialViewName)
+   at System.Web.Mvc.PartialViewResult.FindView(ControllerContext context)
+   at System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResult(ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass1c.<InvokeActionResultWithFilters>b__19()
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilter(IResultFilter filter, ResultExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass1c.<>c__DisplayClass1e.<InvokeActionResultWithFilters>b__1b()
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilter(IResultFilter filter, ResultExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass1c.<>c__DisplayClass1e.<InvokeActionResultWithFilters>b__1b()
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeAction(ControllerContext controllerContext, String actionName)
+   at System.Web.Mvc.Controller.ExecuteCore()
+   at System.Web.Mvc.ControllerBase.Execute(RequestContext requestContext)
+   at System.Web.Mvc.ControllerBase.System.Web.Mvc.IController.Execute(RequestContext requestContext)
+   at System.Web.Mvc.MvcHandler.<>c__DisplayClass6.<>c__DisplayClassb.<BeginProcessRequest>b__5()
+   at System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass1.<MakeVoidDelegate>b__0()
+   at System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass8`1.<BeginSynchronous>b__7(IAsyncResult _)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.End()
+   at System.Web.Mvc.MvcHandler.<>c__DisplayClasse.<EndProcessRequest>b__d()
+   at System.Web.Mvc.SecurityUtil.<GetCallInAppTrustThunk>b__0(Action f)
+   at System.Web.Mvc.SecurityUtil.ProcessInApplicationTrust(Action action)
+   at System.Web.Mvc.MvcHandler.EndProcessRequest(IAsyncResult asyncResult)
+   at System.Web.Mvc.MvcHandler.System.Web.IHttpAsyncHandler.EndProcessRequest(IAsyncResult result)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2013-12-03 17:06:29.9000 INFO Execution started of ErrorController.DetailedError ()
+2013-12-03 17:06:29.9000 INFO Execution finished for DetailedError
+2013-12-03 17:06:36.4696 INFO Execution finished for Application_Error
+2013-12-03 17:06:57.5557 INFO Execution started of ErrorController.DetailedError ()
+2013-12-03 17:07:02.5382 INFO Execution finished for DetailedError
+2013-12-03 17:07:54.2744 INFO Execution started of MvcApplication.Application_Error (sender = ASP.global_asax, e = System.EventArgs, )
+2013-12-03 17:07:56.4536 INFO Application_Error: System.Web.HttpParseException (0x80004005): Only one 'model' statement is allowed in a file.
+
+   at System.Web.WebPages.Razor.RazorBuildProvider.EnsureGeneratedCode()
+   at System.Web.WebPages.Razor.RazorBuildProvider.get_CodeCompilerType()
+   at System.Web.Compilation.BuildProvider.GetCompilerTypeFromBuildProvider(BuildProvider buildProvider)
+   at System.Web.Compilation.BuildProvidersCompiler.ProcessBuildProviders()
+   at System.Web.Compilation.BuildProvidersCompiler.PerformBuild()
+   at System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean throwIfNotFound)
+   at System.Web.Compilation.BuildManager.GetObjectFactory(String virtualPath, Boolean throwIfNotFound)
+   at System.Web.Mvc.BuildManagerWrapper.System.Web.Mvc.IBuildManager.FileExists(String virtualPath)
+   at System.Web.Mvc.BuildManagerViewEngine.FileExists(ControllerContext controllerContext, String virtualPath)
+   at System.Web.Mvc.VirtualPathProviderViewEngine.GetPathFromGeneralName(ControllerContext controllerContext, List`1 locations, String name, String controllerName, String areaName, String cacheKey, String[]& searchedLocations)
+   at System.Web.Mvc.VirtualPathProviderViewEngine.GetPath(ControllerContext controllerContext, String[] locations, String[] areaLocations, String locationsPropertyName, String name, String controllerName, String cacheKeyPrefix, Boolean useCache, String[]& searchedLocations)
+   at System.Web.Mvc.VirtualPathProviderViewEngine.FindPartialView(ControllerContext controllerContext, String partialViewName, Boolean useCache)
+   at StackExchange.Profiling.MVCHelpers.ProfilingViewEngine.<>c__DisplayClass1.<FindPartialView>b__0() in C:\Users\sam\Desktop\MiniProfiler\StackExchange.Profiling\MVCHelpers\ProfilingViewEngine.cs:line 93
+   at StackExchange.Profiling.MVCHelpers.ProfilingViewEngine.Find(ControllerContext controllerContext, String name, Func`1 finder, Boolean isPartial) in C:\Users\sam\Desktop\MiniProfiler\StackExchange.Profiling\MVCHelpers\ProfilingViewEngine.cs:line 66
+   at StackExchange.Profiling.MVCHelpers.ProfilingViewEngine.FindPartialView(ControllerContext controllerContext, String partialViewName, Boolean useCache) in C:\Users\sam\Desktop\MiniProfiler\StackExchange.Profiling\MVCHelpers\ProfilingViewEngine.cs:line 93
+   at System.Web.Mvc.ViewEngineCollection.<>c__DisplayClass8.<FindPartialView>b__7(IViewEngine e)
+   at System.Web.Mvc.ViewEngineCollection.Find(Func`2 lookup, Boolean trackSearchedPaths)
+   at System.Web.Mvc.ViewEngineCollection.FindPartialView(ControllerContext controllerContext, String partialViewName)
+   at System.Web.Mvc.PartialViewResult.FindView(ControllerContext context)
+   at System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResult(ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass1c.<InvokeActionResultWithFilters>b__19()
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilter(IResultFilter filter, ResultExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass1c.<>c__DisplayClass1e.<InvokeActionResultWithFilters>b__1b()
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilter(IResultFilter filter, ResultExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass1c.<>c__DisplayClass1e.<InvokeActionResultWithFilters>b__1b()
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeAction(ControllerContext controllerContext, String actionName)
+   at System.Web.Mvc.Controller.ExecuteCore()
+   at System.Web.Mvc.ControllerBase.Execute(RequestContext requestContext)
+   at System.Web.Mvc.ControllerBase.System.Web.Mvc.IController.Execute(RequestContext requestContext)
+   at System.Web.Mvc.MvcHandler.<>c__DisplayClass6.<>c__DisplayClassb.<BeginProcessRequest>b__5()
+   at System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass1.<MakeVoidDelegate>b__0()
+   at System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass8`1.<BeginSynchronous>b__7(IAsyncResult _)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.End()
+   at System.Web.Mvc.MvcHandler.<>c__DisplayClasse.<EndProcessRequest>b__d()
+   at System.Web.Mvc.SecurityUtil.<GetCallInAppTrustThunk>b__0(Action f)
+   at System.Web.Mvc.SecurityUtil.ProcessInApplicationTrust(Action action)
+   at System.Web.Mvc.MvcHandler.EndProcessRequest(IAsyncResult asyncResult)
+   at System.Web.Mvc.MvcHandler.System.Web.IHttpAsyncHandler.EndProcessRequest(IAsyncResult result)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2013-12-03 17:07:56.4536 INFO Execution started of ErrorController.DetailedError ()
+2013-12-03 17:07:57.6367 INFO Execution finished for DetailedError
+2013-12-03 17:07:59.1629 INFO Execution finished for Application_Error
+2013-12-03 17:11:21.1481 INFO Execution started of MvcApplication.Application_Start ()
+2013-12-03 17:11:21.1881 INFO Execution started of AdminAreaRegistration.get_AreaName ()
+2013-12-03 17:11:21.1881 INFO Execution finished for get_AreaName
+2013-12-03 17:11:21.1881 INFO Execution started of AdminAreaRegistration.RegisterArea (context = System.Web.Mvc.AreaRegistrationContext, )
+2013-12-03 17:11:21.1881 INFO Execution finished for RegisterArea
+2013-12-03 17:11:21.1881 INFO Execution finished for Application_Start
+2013-12-03 17:11:21.2431 INFO Execution started of MiniProfilerStartupModule.Init (context = ASP.global_asax, )
+2013-12-03 17:11:21.2431 INFO Execution finished for Init
+2013-12-03 17:11:21.3421 INFO Execution started of MvcApplication.Application_Error (sender = ASP.global_asax, e = System.EventArgs, )
+2013-12-03 17:11:31.6891 INFO Execution started of MiniProfilerStartupModule.Init (context = ASP.global_asax, )
+2013-12-03 17:11:31.7031 INFO Execution finished for Init
+2013-12-03 17:11:31.7232 INFO Application_Error: System.Web.HttpException (0x80004005): Path '/Views/Error/DetailedError.cshtml' was not found.
+   at System.Web.HttpNotFoundHandler.ProcessRequest(HttpContext context)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2013-12-03 17:11:31.7832 INFO Execution started of ErrorController.DetailedError ()
+2013-12-03 17:11:31.7832 INFO Execution started of ErrorController.DetailedError ()
+2013-12-03 17:11:34.6004 INFO Execution finished for DetailedError
+2013-12-03 17:11:34.6004 INFO Execution finished for DetailedError
+2013-12-03 17:11:47.4607 INFO Execution finished for Application_Error
+2013-12-03 17:11:47.5207 INFO Execution started of MvcApplication.Application_Error (sender = ASP.global_asax, e = System.EventArgs, )
+2013-12-03 17:11:49.5389 INFO Application_Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at ASP._Page_Views_Error_DetailedError_cshtml.Execute() in c:\Niraj\Projects\Blueprint\SourceCode\Web\Views\Error\DetailedError.cshtml:line 40
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy()
+   at System.Web.Mvc.WebViewPage.ExecutePageHierarchy()
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)
+   at System.Web.Mvc.RazorView.RenderView(ViewContext viewContext, TextWriter writer, Object instance)
+   at System.Web.Mvc.BuildManagerCompiledView.Render(ViewContext viewContext, TextWriter writer)
+   at StackExchange.Profiling.MVCHelpers.ProfilingViewEngine.WrappedView.Render(ViewContext viewContext, TextWriter writer) in C:\Users\sam\Desktop\MiniProfiler\StackExchange.Profiling\MVCHelpers\ProfilingViewEngine.cs:line 34
+   at System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResult(ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass1c.<InvokeActionResultWithFilters>b__19()
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilter(IResultFilter filter, ResultExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass1c.<>c__DisplayClass1e.<InvokeActionResultWithFilters>b__1b()
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilter(IResultFilter filter, ResultExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass1c.<>c__DisplayClass1e.<InvokeActionResultWithFilters>b__1b()
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeAction(ControllerContext controllerContext, String actionName)
+   at System.Web.Mvc.Controller.ExecuteCore()
+   at System.Web.Mvc.ControllerBase.Execute(RequestContext requestContext)
+   at System.Web.Mvc.ControllerBase.System.Web.Mvc.IController.Execute(RequestContext requestContext)
+   at System.Web.Mvc.MvcHandler.<>c__DisplayClass6.<>c__DisplayClassb.<BeginProcessRequest>b__5()
+   at System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass1.<MakeVoidDelegate>b__0()
+   at System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass8`1.<BeginSynchronous>b__7(IAsyncResult _)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.End()
+   at System.Web.Mvc.MvcHandler.<>c__DisplayClasse.<EndProcessRequest>b__d()
+   at System.Web.Mvc.SecurityUtil.<GetCallInAppTrustThunk>b__0(Action f)
+   at System.Web.Mvc.SecurityUtil.ProcessInApplicationTrust(Action action)
+   at System.Web.Mvc.MvcHandler.EndProcessRequest(IAsyncResult asyncResult)
+   at System.Web.Mvc.MvcHandler.System.Web.IHttpAsyncHandler.EndProcessRequest(IAsyncResult result)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2013-12-03 17:11:49.5389 INFO Execution started of ErrorController.DetailedError ()
+2013-12-03 17:11:50.3940 INFO Execution finished for DetailedError
+2013-12-03 17:11:50.3940 INFO Execution finished for Application_Error
+2013-12-03 17:12:16.6176 INFO Execution started of MvcApplication.Application_Start ()
+2013-12-03 17:12:16.6766 INFO Execution started of AdminAreaRegistration.get_AreaName ()
+2013-12-03 17:12:16.6766 INFO Execution finished for get_AreaName
+2013-12-03 17:12:16.6766 INFO Execution started of AdminAreaRegistration.RegisterArea (context = System.Web.Mvc.AreaRegistrationContext, )
+2013-12-03 17:12:16.6806 INFO Execution finished for RegisterArea
+2013-12-03 17:12:16.6806 INFO Execution finished for Application_Start
+2013-12-03 17:12:16.7287 INFO Execution started of MiniProfilerStartupModule.Init (context = ASP.global_asax, )
+2013-12-03 17:12:16.7287 INFO Execution finished for Init
+2013-12-03 17:12:16.8717 INFO Execution started of HomeController.Index ()
+2013-12-03 17:12:16.8717 INFO Execution finished for Index
+2013-12-03 17:12:17.4047 INFO Execution started of MiniProfilerStartupModule.Init (context = ASP.global_asax, )
+2013-12-03 17:12:17.4047 INFO Execution finished for Init
+2013-12-03 17:12:21.1091 INFO Execution started of ErrorController.DetailedError ()
+2013-12-03 17:12:23.0373 INFO Execution finished for DetailedError
+2013-12-03 17:12:28.0158 INFO Execution started of MvcApplication.Application_Error (sender = ASP.global_asax, e = System.EventArgs, )
+2013-12-03 17:12:28.0298 INFO Application_Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at ASP._Page_Views_Error_DetailedError_cshtml.Execute() in c:\Niraj\Projects\Blueprint\SourceCode\Web\Views\Error\DetailedError.cshtml:line 40
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy()
+   at System.Web.Mvc.WebViewPage.ExecutePageHierarchy()
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)
+   at System.Web.Mvc.RazorView.RenderView(ViewContext viewContext, TextWriter writer, Object instance)
+   at System.Web.Mvc.BuildManagerCompiledView.Render(ViewContext viewContext, TextWriter writer)
+   at StackExchange.Profiling.MVCHelpers.ProfilingViewEngine.WrappedView.Render(ViewContext viewContext, TextWriter writer) in C:\Users\sam\Desktop\MiniProfiler\StackExchange.Profiling\MVCHelpers\ProfilingViewEngine.cs:line 34
+   at System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResult(ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass1c.<InvokeActionResultWithFilters>b__19()
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilter(IResultFilter filter, ResultExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass1c.<>c__DisplayClass1e.<InvokeActionResultWithFilters>b__1b()
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilter(IResultFilter filter, ResultExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass1c.<>c__DisplayClass1e.<InvokeActionResultWithFilters>b__1b()
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeAction(ControllerContext controllerContext, String actionName)
+   at System.Web.Mvc.Controller.ExecuteCore()
+   at System.Web.Mvc.ControllerBase.Execute(RequestContext requestContext)
+   at System.Web.Mvc.ControllerBase.System.Web.Mvc.IController.Execute(RequestContext requestContext)
+   at System.Web.Mvc.MvcHandler.<>c__DisplayClass6.<>c__DisplayClassb.<BeginProcessRequest>b__5()
+   at System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass1.<MakeVoidDelegate>b__0()
+   at System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass8`1.<BeginSynchronous>b__7(IAsyncResult _)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.End()
+   at System.Web.Mvc.MvcHandler.<>c__DisplayClasse.<EndProcessRequest>b__d()
+   at System.Web.Mvc.SecurityUtil.<GetCallInAppTrustThunk>b__0(Action f)
+   at System.Web.Mvc.SecurityUtil.ProcessInApplicationTrust(Action action)
+   at System.Web.Mvc.MvcHandler.EndProcessRequest(IAsyncResult asyncResult)
+   at System.Web.Mvc.MvcHandler.System.Web.IHttpAsyncHandler.EndProcessRequest(IAsyncResult result)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2013-12-03 17:12:28.0298 INFO Execution started of ErrorController.DetailedError ()
+2013-12-03 17:12:28.0298 INFO Execution finished for DetailedError
+2013-12-03 17:12:28.0298 INFO Execution finished for Application_Error
+2013-12-03 17:15:06.6336 INFO Execution started of ErrorController.DetailedError ()
+2013-12-03 17:15:08.3578 INFO Execution finished for DetailedError
+2013-12-03 17:15:11.7722 INFO Execution started of MvcApplication.Application_Error (sender = ASP.global_asax, e = System.EventArgs, )
+2013-12-03 17:15:12.5772 INFO Application_Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at ASP._Page_Views_Error_DetailedError_cshtml.Execute() in c:\Niraj\Projects\Blueprint\SourceCode\Web\Views\Error\DetailedError.cshtml:line 40
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy()
+   at System.Web.Mvc.WebViewPage.ExecutePageHierarchy()
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)
+   at System.Web.Mvc.RazorView.RenderView(ViewContext viewContext, TextWriter writer, Object instance)
+   at System.Web.Mvc.BuildManagerCompiledView.Render(ViewContext viewContext, TextWriter writer)
+   at StackExchange.Profiling.MVCHelpers.ProfilingViewEngine.WrappedView.Render(ViewContext viewContext, TextWriter writer) in C:\Users\sam\Desktop\MiniProfiler\StackExchange.Profiling\MVCHelpers\ProfilingViewEngine.cs:line 34
+   at System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResult(ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass1c.<InvokeActionResultWithFilters>b__19()
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilter(IResultFilter filter, ResultExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass1c.<>c__DisplayClass1e.<InvokeActionResultWithFilters>b__1b()
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilter(IResultFilter filter, ResultExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass1c.<>c__DisplayClass1e.<InvokeActionResultWithFilters>b__1b()
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeAction(ControllerContext controllerContext, String actionName)
+   at System.Web.Mvc.Controller.ExecuteCore()
+   at System.Web.Mvc.ControllerBase.Execute(RequestContext requestContext)
+   at System.Web.Mvc.ControllerBase.System.Web.Mvc.IController.Execute(RequestContext requestContext)
+   at System.Web.Mvc.MvcHandler.<>c__DisplayClass6.<>c__DisplayClassb.<BeginProcessRequest>b__5()
+   at System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass1.<MakeVoidDelegate>b__0()
+   at System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass8`1.<BeginSynchronous>b__7(IAsyncResult _)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.End()
+   at System.Web.Mvc.MvcHandler.<>c__DisplayClasse.<EndProcessRequest>b__d()
+   at System.Web.Mvc.SecurityUtil.<GetCallInAppTrustThunk>b__0(Action f)
+   at System.Web.Mvc.SecurityUtil.ProcessInApplicationTrust(Action action)
+   at System.Web.Mvc.MvcHandler.EndProcessRequest(IAsyncResult asyncResult)
+   at System.Web.Mvc.MvcHandler.System.Web.IHttpAsyncHandler.EndProcessRequest(IAsyncResult result)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2013-12-03 17:15:12.5792 INFO Execution started of ErrorController.DetailedError ()
+2013-12-03 17:15:13.4793 INFO Execution finished for DetailedError
+2013-12-03 17:15:13.4863 INFO Execution finished for Application_Error
+2013-12-03 17:15:13.5413 INFO Execution started of MiniProfilerStartupModule.Init (context = ASP.global_asax, )
+2013-12-03 17:15:13.5413 INFO Execution finished for Init
+2013-12-03 17:15:13.5473 INFO Execution started of MiniProfilerStartupModule.Init (context = ASP.global_asax, )
+2013-12-03 17:15:13.5473 INFO Execution finished for Init
+2013-12-03 17:17:54.1504 INFO Execution started of ErrorController.DetailedError ()
+2013-12-03 17:17:55.6385 INFO Execution finished for DetailedError
+2013-12-03 17:17:57.5187 INFO Execution started of MvcApplication.Application_Error (sender = ASP.global_asax, e = System.EventArgs, )
+2013-12-03 17:17:58.4028 INFO Application_Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at ASP._Page_Views_Error_DetailedError_cshtml.Execute() in c:\Niraj\Projects\Blueprint\SourceCode\Web\Views\Error\DetailedError.cshtml:line 44
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy()
+   at System.Web.Mvc.WebViewPage.ExecutePageHierarchy()
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)
+   at System.Web.Mvc.RazorView.RenderView(ViewContext viewContext, TextWriter writer, Object instance)
+   at System.Web.Mvc.BuildManagerCompiledView.Render(ViewContext viewContext, TextWriter writer)
+   at StackExchange.Profiling.MVCHelpers.ProfilingViewEngine.WrappedView.Render(ViewContext viewContext, TextWriter writer) in C:\Users\sam\Desktop\MiniProfiler\StackExchange.Profiling\MVCHelpers\ProfilingViewEngine.cs:line 34
+   at System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResult(ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass1c.<InvokeActionResultWithFilters>b__19()
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilter(IResultFilter filter, ResultExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass1c.<>c__DisplayClass1e.<InvokeActionResultWithFilters>b__1b()
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilter(IResultFilter filter, ResultExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass1c.<>c__DisplayClass1e.<InvokeActionResultWithFilters>b__1b()
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeAction(ControllerContext controllerContext, String actionName)
+   at System.Web.Mvc.Controller.ExecuteCore()
+   at System.Web.Mvc.ControllerBase.Execute(RequestContext requestContext)
+   at System.Web.Mvc.ControllerBase.System.Web.Mvc.IController.Execute(RequestContext requestContext)
+   at System.Web.Mvc.MvcHandler.<>c__DisplayClass6.<>c__DisplayClassb.<BeginProcessRequest>b__5()
+   at System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass1.<MakeVoidDelegate>b__0()
+   at System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass8`1.<BeginSynchronous>b__7(IAsyncResult _)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.End()
+   at System.Web.Mvc.MvcHandler.<>c__DisplayClasse.<EndProcessRequest>b__d()
+   at System.Web.Mvc.SecurityUtil.<GetCallInAppTrustThunk>b__0(Action f)
+   at System.Web.Mvc.SecurityUtil.ProcessInApplicationTrust(Action action)
+   at System.Web.Mvc.MvcHandler.EndProcessRequest(IAsyncResult asyncResult)
+   at System.Web.Mvc.MvcHandler.System.Web.IHttpAsyncHandler.EndProcessRequest(IAsyncResult result)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2013-12-03 17:17:58.4028 INFO Execution started of ErrorController.DetailedError ()
+2013-12-03 17:17:59.1729 INFO Execution finished for DetailedError
+2013-12-03 17:17:59.1729 INFO Execution finished for Application_Error
+2013-12-03 17:17:59.2089 INFO Execution started of MiniProfilerStartupModule.Init (context = ASP.global_asax, )
+2013-12-03 17:17:59.2089 INFO Execution started of MiniProfilerStartupModule.Init (context = ASP.global_asax, )
+2013-12-03 17:17:59.2089 INFO Execution started of MiniProfilerStartupModule.Init (context = ASP.global_asax, )
+2013-12-03 17:17:59.2099 INFO Execution finished for Init
+2013-12-03 17:17:59.2099 INFO Execution finished for Init
+2013-12-03 17:17:59.2099 INFO Execution finished for Init
+2013-12-03 17:18:51.8322 INFO Execution started of ErrorController.DetailedError ()
+2013-12-03 17:18:53.2963 INFO Execution finished for DetailedError
+2013-12-03 17:18:55.0465 INFO Execution started of MvcApplication.Application_Error (sender = ASP.global_asax, e = System.EventArgs, )
+2013-12-03 17:18:55.8116 INFO Application_Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at ASP._Page_Views_Error_DetailedError_cshtml.Execute() in c:\Niraj\Projects\Blueprint\SourceCode\Web\Views\Error\DetailedError.cshtml:line 44
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy()
+   at System.Web.Mvc.WebViewPage.ExecutePageHierarchy()
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)
+   at System.Web.Mvc.RazorView.RenderView(ViewContext viewContext, TextWriter writer, Object instance)
+   at System.Web.Mvc.BuildManagerCompiledView.Render(ViewContext viewContext, TextWriter writer)
+   at StackExchange.Profiling.MVCHelpers.ProfilingViewEngine.WrappedView.Render(ViewContext viewContext, TextWriter writer) in C:\Users\sam\Desktop\MiniProfiler\StackExchange.Profiling\MVCHelpers\ProfilingViewEngine.cs:line 34
+   at System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResult(ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass1c.<InvokeActionResultWithFilters>b__19()
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilter(IResultFilter filter, ResultExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass1c.<>c__DisplayClass1e.<InvokeActionResultWithFilters>b__1b()
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilter(IResultFilter filter, ResultExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass1c.<>c__DisplayClass1e.<InvokeActionResultWithFilters>b__1b()
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeAction(ControllerContext controllerContext, String actionName)
+   at System.Web.Mvc.Controller.ExecuteCore()
+   at System.Web.Mvc.ControllerBase.Execute(RequestContext requestContext)
+   at System.Web.Mvc.ControllerBase.System.Web.Mvc.IController.Execute(RequestContext requestContext)
+   at System.Web.Mvc.MvcHandler.<>c__DisplayClass6.<>c__DisplayClassb.<BeginProcessRequest>b__5()
+   at System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass1.<MakeVoidDelegate>b__0()
+   at System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass8`1.<BeginSynchronous>b__7(IAsyncResult _)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.End()
+   at System.Web.Mvc.MvcHandler.<>c__DisplayClasse.<EndProcessRequest>b__d()
+   at System.Web.Mvc.SecurityUtil.<GetCallInAppTrustThunk>b__0(Action f)
+   at System.Web.Mvc.SecurityUtil.ProcessInApplicationTrust(Action action)
+   at System.Web.Mvc.MvcHandler.EndProcessRequest(IAsyncResult asyncResult)
+   at System.Web.Mvc.MvcHandler.System.Web.IHttpAsyncHandler.EndProcessRequest(IAsyncResult result)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2013-12-03 17:18:55.8116 INFO Execution started of ErrorController.DetailedError ()
+2013-12-03 17:18:56.5806 INFO Execution finished for DetailedError
+2013-12-03 17:18:56.5806 INFO Execution finished for Application_Error
+2013-12-03 17:18:56.6246 INFO Execution started of MiniProfilerStartupModule.Init (context = ASP.global_asax, )
+2013-12-03 17:18:56.6246 INFO Execution finished for Init
+2013-12-03 17:19:46.9727 INFO Execution started of ErrorController.DetailedError ()
+2013-12-03 17:19:49.5049 INFO Execution finished for DetailedError
+2013-12-03 17:19:51.1331 INFO Execution started of MvcApplication.Application_Error (sender = ASP.global_asax, e = System.EventArgs, )
+2013-12-03 17:19:51.9352 INFO Application_Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at ASP._Page_Views_Error_DetailedError_cshtml.Execute() in c:\Niraj\Projects\Blueprint\SourceCode\Web\Views\Error\DetailedError.cshtml:line 44
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy()
+   at System.Web.Mvc.WebViewPage.ExecutePageHierarchy()
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)
+   at System.Web.Mvc.RazorView.RenderView(ViewContext viewContext, TextWriter writer, Object instance)
+   at System.Web.Mvc.BuildManagerCompiledView.Render(ViewContext viewContext, TextWriter writer)
+   at StackExchange.Profiling.MVCHelpers.ProfilingViewEngine.WrappedView.Render(ViewContext viewContext, TextWriter writer) in C:\Users\sam\Desktop\MiniProfiler\StackExchange.Profiling\MVCHelpers\ProfilingViewEngine.cs:line 34
+   at System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResult(ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass1c.<InvokeActionResultWithFilters>b__19()
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilter(IResultFilter filter, ResultExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass1c.<>c__DisplayClass1e.<InvokeActionResultWithFilters>b__1b()
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilter(IResultFilter filter, ResultExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass1c.<>c__DisplayClass1e.<InvokeActionResultWithFilters>b__1b()
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeAction(ControllerContext controllerContext, String actionName)
+   at System.Web.Mvc.Controller.ExecuteCore()
+   at System.Web.Mvc.ControllerBase.Execute(RequestContext requestContext)
+   at System.Web.Mvc.ControllerBase.System.Web.Mvc.IController.Execute(RequestContext requestContext)
+   at System.Web.Mvc.MvcHandler.<>c__DisplayClass6.<>c__DisplayClassb.<BeginProcessRequest>b__5()
+   at System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass1.<MakeVoidDelegate>b__0()
+   at System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass8`1.<BeginSynchronous>b__7(IAsyncResult _)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.End()
+   at System.Web.Mvc.MvcHandler.<>c__DisplayClasse.<EndProcessRequest>b__d()
+   at System.Web.Mvc.SecurityUtil.<GetCallInAppTrustThunk>b__0(Action f)
+   at System.Web.Mvc.SecurityUtil.ProcessInApplicationTrust(Action action)
+   at System.Web.Mvc.MvcHandler.EndProcessRequest(IAsyncResult asyncResult)
+   at System.Web.Mvc.MvcHandler.System.Web.IHttpAsyncHandler.EndProcessRequest(IAsyncResult result)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2013-12-03 17:19:51.9352 INFO Execution started of ErrorController.DetailedError ()
+2013-12-03 17:19:52.9013 INFO Execution finished for DetailedError
+2013-12-03 17:19:52.9083 INFO Execution finished for Application_Error
+2013-12-03 17:19:52.9643 INFO Execution started of MiniProfilerStartupModule.Init (context = ASP.global_asax, )
+2013-12-03 17:19:52.9643 INFO Execution finished for Init
+2013-12-03 17:21:37.2797 INFO Execution started of MvcApplication.Application_Start ()
+2013-12-03 17:21:37.6387 INFO Execution started of AdminAreaRegistration.get_AreaName ()
+2013-12-03 17:21:37.6387 INFO Execution finished for get_AreaName
+2013-12-03 17:21:37.6387 INFO Execution started of AdminAreaRegistration.RegisterArea (context = System.Web.Mvc.AreaRegistrationContext, )
+2013-12-03 17:21:37.6387 INFO Execution finished for RegisterArea
+2013-12-03 17:21:37.6387 INFO Execution finished for Application_Start
+2013-12-03 17:21:37.6717 INFO Execution started of MiniProfilerStartupModule.Init (context = ASP.global_asax, )
+2013-12-03 17:21:37.6717 INFO Execution finished for Init
+2013-12-03 17:21:37.8658 INFO Execution started of HomeController.Index ()
+2013-12-03 17:21:37.8878 ERROR Exception in :[System.Web.Mvc.ActionResult Index()], Message:[test exception]
+2013-12-03 17:21:37.8878 INFO Execution finished for Index
+2013-12-03 17:21:50.0360 INFO Execution started of ErrorController.DetailedError ()
+2013-12-03 17:21:50.0360 INFO Execution finished for DetailedError
+2013-12-03 17:21:54.0644 INFO Execution started of MvcApplication.Application_Error (sender = ASP.global_asax, e = System.EventArgs, )
+2013-12-03 17:21:54.0814 INFO Application_Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at ASP._Page_Views_Error_DetailedError_cshtml.Execute() in c:\Niraj\Projects\Blueprint\SourceCode\Web\Views\Error\DetailedError.cshtml:line 44
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy()
+   at System.Web.Mvc.WebViewPage.ExecutePageHierarchy()
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)
+   at System.Web.Mvc.RazorView.RenderView(ViewContext viewContext, TextWriter writer, Object instance)
+   at System.Web.Mvc.BuildManagerCompiledView.Render(ViewContext viewContext, TextWriter writer)
+   at StackExchange.Profiling.MVCHelpers.ProfilingViewEngine.WrappedView.Render(ViewContext viewContext, TextWriter writer) in C:\Users\sam\Desktop\MiniProfiler\StackExchange.Profiling\MVCHelpers\ProfilingViewEngine.cs:line 34
+   at System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResult(ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass1c.<InvokeActionResultWithFilters>b__19()
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilter(IResultFilter filter, ResultExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass1c.<>c__DisplayClass1e.<InvokeActionResultWithFilters>b__1b()
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilter(IResultFilter filter, ResultExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass1c.<>c__DisplayClass1e.<InvokeActionResultWithFilters>b__1b()
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeAction(ControllerContext controllerContext, String actionName)
+   at System.Web.Mvc.Controller.ExecuteCore()
+   at System.Web.Mvc.ControllerBase.Execute(RequestContext requestContext)
+   at System.Web.Mvc.ControllerBase.System.Web.Mvc.IController.Execute(RequestContext requestContext)
+   at System.Web.Mvc.MvcHandler.<>c__DisplayClass6.<>c__DisplayClassb.<BeginProcessRequest>b__5()
+   at System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass1.<MakeVoidDelegate>b__0()
+   at System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass8`1.<BeginSynchronous>b__7(IAsyncResult _)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.End()
+   at System.Web.Mvc.MvcHandler.<>c__DisplayClasse.<EndProcessRequest>b__d()
+   at System.Web.Mvc.SecurityUtil.<GetCallInAppTrustThunk>b__0(Action f)
+   at System.Web.Mvc.SecurityUtil.ProcessInApplicationTrust(Action action)
+   at System.Web.Mvc.MvcHandler.EndProcessRequest(IAsyncResult asyncResult)
+   at System.Web.Mvc.MvcHandler.System.Web.IHttpAsyncHandler.EndProcessRequest(IAsyncResult result)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2013-12-03 17:21:54.0814 INFO Execution started of ErrorController.DetailedError ()
+2013-12-03 17:21:54.0814 INFO Execution finished for DetailedError
+2013-12-03 17:21:54.0984 INFO Execution finished for Application_Error
+2013-12-03 17:21:54.1174 INFO Execution started of MiniProfilerStartupModule.Init (context = ASP.global_asax, )
+2013-12-03 17:21:54.1174 INFO Execution finished for Init
+2013-12-03 17:22:05.4645 INFO Execution started of MvcApplication.Application_Error (sender = ASP.global_asax, e = System.EventArgs, )
+2013-12-03 17:22:05.4985 INFO Application_Error: System.Web.HttpException (0x80004005): A public action method 'test' was not found on controller 'Confluence.Blueprint.Web.Controllers.ErrorController'.
+   at System.Web.Mvc.Controller.HandleUnknownAction(String actionName)
+   at System.Web.Mvc.Controller.ExecuteCore()
+   at System.Web.Mvc.ControllerBase.Execute(RequestContext requestContext)
+   at System.Web.Mvc.ControllerBase.System.Web.Mvc.IController.Execute(RequestContext requestContext)
+   at System.Web.Mvc.MvcHandler.<>c__DisplayClass6.<>c__DisplayClassb.<BeginProcessRequest>b__5()
+   at System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass1.<MakeVoidDelegate>b__0()
+   at System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass8`1.<BeginSynchronous>b__7(IAsyncResult _)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.End()
+   at System.Web.Mvc.MvcHandler.<>c__DisplayClasse.<EndProcessRequest>b__d()
+   at System.Web.Mvc.SecurityUtil.<GetCallInAppTrustThunk>b__0(Action f)
+   at System.Web.Mvc.SecurityUtil.ProcessInApplicationTrust(Action action)
+   at System.Web.Mvc.MvcHandler.EndProcessRequest(IAsyncResult asyncResult)
+   at System.Web.Mvc.MvcHandler.System.Web.IHttpAsyncHandler.EndProcessRequest(IAsyncResult result)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2013-12-03 17:22:05.4995 INFO Execution started of ErrorController.DetailedError ()
+2013-12-03 17:22:05.4995 INFO Execution finished for DetailedError
+2013-12-03 17:22:05.4995 INFO Execution finished for Application_Error
+2013-12-03 17:22:14.7434 INFO Execution started of MvcApplication.Application_Error (sender = ASP.global_asax, e = System.EventArgs, )
+2013-12-03 17:22:14.7434 INFO Application_Error: System.Web.HttpException (0x80004005): The controller for path '/test' was not found or does not implement IController.
+   at System.Web.Mvc.DefaultControllerFactory.GetControllerInstance(RequestContext requestContext, Type controllerType)
+   at System.Web.Mvc.DefaultControllerFactory.CreateController(RequestContext requestContext, String controllerName)
+   at System.Web.Mvc.MvcHandler.ProcessRequestInit(HttpContextBase httpContext, IController& controller, IControllerFactory& factory)
+   at System.Web.Mvc.MvcHandler.<>c__DisplayClass6.<BeginProcessRequest>b__2()
+   at System.Web.Mvc.SecurityUtil.<>c__DisplayClassb`1.<ProcessInApplicationTrust>b__a()
+   at System.Web.Mvc.SecurityUtil.<GetCallInAppTrustThunk>b__0(Action f)
+   at System.Web.Mvc.SecurityUtil.ProcessInApplicationTrust(Action action)
+   at System.Web.Mvc.SecurityUtil.ProcessInApplicationTrust[TResult](Func`1 func)
+   at System.Web.Mvc.MvcHandler.BeginProcessRequest(HttpContextBase httpContext, AsyncCallback callback, Object state)
+   at System.Web.Mvc.MvcHandler.BeginProcessRequest(HttpContext httpContext, AsyncCallback callback, Object state)
+   at System.Web.Mvc.MvcHandler.System.Web.IHttpAsyncHandler.BeginProcessRequest(HttpContext context, AsyncCallback cb, Object extraData)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2013-12-03 17:22:14.7434 INFO Execution started of ErrorController.DetailedError ()
+2013-12-03 17:22:14.7434 INFO Execution finished for DetailedError
+2013-12-03 17:22:14.7434 INFO Execution finished for Application_Error
+2013-12-03 20:15:46.8600 INFO Execution started of MvcApplication.Application_Start ()
+2013-12-03 20:15:47.8890 INFO Execution started of AdminAreaRegistration.get_AreaName ()
+2013-12-03 20:15:47.8890 INFO Execution finished for get_AreaName
+2013-12-03 20:15:47.8890 INFO Execution started of AdminAreaRegistration.RegisterArea (context = System.Web.Mvc.AreaRegistrationContext, )
+2013-12-03 20:15:47.8890 INFO Execution finished for RegisterArea
+2013-12-03 20:15:47.8980 INFO Execution finished for Application_Start
+2013-12-03 20:15:47.9890 INFO Execution started of MiniProfilerStartupModule.Init (context = ASP.global_asax, )
+2013-12-03 20:15:47.9890 INFO Execution finished for Init
+2013-12-03 20:15:48.2030 INFO Execution started of HomeController.Index ()
+2013-12-03 20:15:48.2030 INFO Execution finished for Index
+2013-12-03 20:15:49.3561 INFO Execution started of MiniProfilerStartupModule.Init (context = ASP.global_asax, )
+2013-12-03 20:15:49.3561 INFO Execution finished for Init
+2013-12-03 20:15:49.3781 INFO Execution started of MiniProfilerStartupModule.Init (context = ASP.global_asax, )
+2013-12-03 20:15:49.3781 INFO Execution finished for Init
+2013-12-03 20:15:55.1114 INFO Execution started of AccountController.LogOn (returnUrl = /Home/Default, )
+2013-12-03 20:15:55.1404 INFO Execution finished for LogOn
+2013-12-03 20:15:56.2245 INFO Execution started of MiniProfilerStartupModule.Init (context = ASP.global_asax, )
+2013-12-03 20:15:56.2265 INFO Execution finished for Init
+2013-12-03 20:16:14.7445 INFO Execution started of AccountController.LogOn (model = Confluence.Blueprint.Models.LogOnModel, )
+2013-12-03 20:16:14.7445 INFO Execution started of AccountService.GetUserDetails (email = admin@eqms.com, )
+2013-12-03 20:16:14.7445 INFO Execution started of UserFacade.GetUserDetails (email = admin@eqms.com, )
+2013-12-03 20:16:15.0396 INFO Execution finished for GetUserDetails
+2013-12-03 20:16:15.0416 INFO Execution finished for GetUserDetails
+2013-12-03 20:16:15.0596 INFO Execution started of BaseController.Redirect (url = /Home/Default, )
+2013-12-03 20:16:15.0596 INFO Execution finished for Redirect
+2013-12-03 20:16:15.0596 INFO Execution finished for LogOn
+2013-12-03 20:16:15.0596 INFO Execution started of AjaxAwareRedirectResult.ExecuteResult (context = System.Web.Mvc.ControllerContext, )
+2013-12-03 20:16:15.0786 INFO Execution finished for ExecuteResult
+2013-12-03 20:16:15.1166 INFO Execution started of HomeController.Default ()
+2013-12-03 20:16:15.1166 INFO Execution finished for Default
+2013-12-03 20:16:17.7997 INFO Execution started of MvcApplication.Application_Error (sender = ASP.global_asax, e = System.EventArgs, )
+2013-12-03 20:16:17.8207 INFO Application_Error: System.Web.HttpException (0x80004005): File does not exist.
+   at System.Web.StaticFileHandler.ProcessRequestForNonMapPathBasedVirtualFile(HttpRequest request, HttpResponse response, String overrideVirtualPath)
+   at System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context, String overrideVirtualPath)
+   at System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2013-12-03 20:16:17.8207 INFO Execution started of ErrorController.DetailedError ()
+2013-12-03 20:16:17.8207 INFO Execution finished for DetailedError
+2013-12-03 20:16:18.4848 INFO Execution finished for Application_Error
+2013-12-03 20:16:19.9018 INFO Execution started of CommonService.GetUserDashboard (UserID = 1, )
+2013-12-03 20:16:19.9088 INFO Execution started of CommonFacade.GetDashboardData (UserID = 1, )
+2013-12-03 20:16:20.1569 INFO Execution finished for GetDashboardData
+2013-12-03 20:16:20.1589 INFO Execution finished for GetUserDashboard
+2013-12-03 20:27:47.6052 INFO Execution started of MvcApplication.Application_Start ()
+2013-12-03 20:27:47.9212 INFO Execution started of AdminAreaRegistration.get_AreaName ()
+2013-12-03 20:27:47.9212 INFO Execution finished for get_AreaName
+2013-12-03 20:27:47.9212 INFO Execution started of AdminAreaRegistration.RegisterArea (context = System.Web.Mvc.AreaRegistrationContext, )
+2013-12-03 20:27:47.9212 INFO Execution finished for RegisterArea
+2013-12-03 20:27:47.9212 INFO Execution finished for Application_Start
+2013-12-03 20:27:47.9512 INFO Execution started of MiniProfilerStartupModule.Init (context = ASP.global_asax, )
+2013-12-03 20:27:47.9512 INFO Execution finished for Init
+2013-12-03 20:27:48.1352 INFO Execution started of HomeController.Index ()
+2013-12-03 20:27:48.1352 INFO Execution finished for Index
+2013-12-03 20:27:48.9473 INFO Execution started of MiniProfilerStartupModule.Init (context = ASP.global_asax, )
+2013-12-03 20:27:48.9483 INFO Execution finished for Init
+2013-12-03 20:27:48.9483 INFO Execution started of MiniProfilerStartupModule.Init (context = ASP.global_asax, )
+2013-12-03 20:27:48.9483 INFO Execution finished for Init
+2013-12-03 20:27:51.4484 INFO Execution started of AccountController.LogOn (returnUrl = /Home/Default, )
+2013-12-03 20:27:51.4694 INFO Execution finished for LogOn
+2013-12-03 20:28:06.6103 INFO Execution started of AccountController.LogOn (model = Confluence.Blueprint.Models.LogOnModel, )
+2013-12-03 20:28:06.6103 INFO Execution started of AccountService.GetUserDetails (email = admin@eqms.com, )
+2013-12-03 20:28:06.6103 INFO Execution started of UserFacade.GetUserDetails (email = admin@eqms.com, )
+2013-12-03 20:28:06.7193 INFO Execution finished for GetUserDetails
+2013-12-03 20:28:06.7193 INFO Execution finished for GetUserDetails
+2013-12-03 20:28:06.7193 INFO Execution started of BaseController.Redirect (url = /Home/Default, )
+2013-12-03 20:28:06.7193 INFO Execution finished for Redirect
+2013-12-03 20:28:06.7193 INFO Execution finished for LogOn
+2013-12-03 20:28:06.7193 INFO Execution started of AjaxAwareRedirectResult.ExecuteResult (context = System.Web.Mvc.ControllerContext, )
+2013-12-03 20:28:06.7373 INFO Execution finished for ExecuteResult
+2013-12-03 20:28:06.7713 INFO Execution started of HomeController.Default ()
+2013-12-03 20:28:06.7713 INFO Execution finished for Default
+2013-12-03 20:28:09.0004 INFO Execution started of MiniProfilerStartupModule.Init (context = ASP.global_asax, )
+2013-12-03 20:28:09.0004 INFO Execution finished for Init
+2013-12-03 20:28:09.4924 INFO Execution started of MvcApplication.Application_Error (sender = ASP.global_asax, e = System.EventArgs, )
+2013-12-03 20:28:09.5454 INFO Application_Error: System.Web.HttpException (0x80004005): File does not exist.
+   at System.Web.StaticFileHandler.ProcessRequestForNonMapPathBasedVirtualFile(HttpRequest request, HttpResponse response, String overrideVirtualPath)
+   at System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context, String overrideVirtualPath)
+   at System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2013-12-03 20:28:09.5454 INFO Execution started of ErrorController.DetailedError ()
+2013-12-03 20:28:09.5454 INFO Execution finished for DetailedError
+2013-12-03 20:28:10.2055 INFO Execution finished for Application_Error
+2013-12-03 20:28:11.4975 INFO Execution started of CommonService.GetUserDashboard (UserID = 1, )
+2013-12-03 20:28:11.4975 INFO Execution started of CommonFacade.GetDashboardData (UserID = 1, )
+2013-12-03 20:28:11.5345 INFO Execution finished for GetDashboardData
+2013-12-03 20:28:11.5345 INFO Execution finished for GetUserDashboard
+2013-12-03 20:55:45.0431 INFO Execution started of MvcApplication.Application_Start ()
+2013-12-03 20:55:46.1882 INFO Execution started of AdminAreaRegistration.get_AreaName ()
+2013-12-03 20:55:46.1882 INFO Execution finished for get_AreaName
+2013-12-03 20:55:46.1882 INFO Execution started of AdminAreaRegistration.RegisterArea (context = System.Web.Mvc.AreaRegistrationContext, )
+2013-12-03 20:55:46.1982 INFO Execution finished for RegisterArea
+2013-12-03 20:55:46.1982 INFO Execution finished for Application_Start
+2013-12-03 20:55:46.2902 INFO Execution started of MiniProfilerStartupModule.Init (context = ASP.global_asax, )
+2013-12-03 20:55:46.2902 INFO Execution finished for Init
+2013-12-03 20:55:46.4682 INFO Execution started of HomeController.Index ()
+2013-12-03 20:55:46.4682 INFO Execution finished for Index
+2013-12-03 20:55:47.5163 INFO Execution started of MiniProfilerStartupModule.Init (context = ASP.global_asax, )
+2013-12-03 20:55:47.5163 INFO Execution finished for Init
+2013-12-03 20:55:47.5463 INFO Execution started of MiniProfilerStartupModule.Init (context = ASP.global_asax, )
+2013-12-03 20:55:47.5463 INFO Execution finished for Init
+2013-12-03 20:55:51.0425 INFO Execution started of AccountController.LogOn (returnUrl = /Home/Default, )
+2013-12-03 20:55:51.0635 INFO Execution finished for LogOn
+2013-12-03 20:56:04.5592 INFO Execution started of AccountController.LogOn (model = Confluence.Blueprint.Models.LogOnModel, )
+2013-12-03 20:56:04.5592 INFO Execution started of AccountService.GetUserDetails (email = admin@eqms.com, )
+2013-12-03 20:56:04.5592 INFO Execution started of UserFacade.GetUserDetails (email = admin@eqms.com, )
+2013-12-03 20:56:04.9203 INFO Execution finished for GetUserDetails
+2013-12-03 20:56:04.9203 INFO Execution finished for GetUserDetails
+2013-12-03 20:56:04.9203 INFO Execution started of BaseController.Redirect (url = /Home/Default, )
+2013-12-03 20:56:04.9293 INFO Execution finished for Redirect
+2013-12-03 20:56:04.9293 INFO Execution finished for LogOn
+2013-12-03 20:56:04.9293 INFO Execution started of AjaxAwareRedirectResult.ExecuteResult (context = System.Web.Mvc.ControllerContext, )
+2013-12-03 20:56:04.9293 INFO Execution finished for ExecuteResult
+2013-12-03 20:56:04.9643 INFO Execution started of HomeController.Default ()
+2013-12-03 20:56:04.9643 INFO Execution finished for Default
+2013-12-03 20:56:07.5424 INFO Execution started of MiniProfilerStartupModule.Init (context = ASP.global_asax, )
+2013-12-03 20:56:07.5424 INFO Execution finished for Init
+2013-12-03 20:56:07.7074 INFO Execution started of MvcApplication.Application_Error (sender = ASP.global_asax, e = System.EventArgs, )
+2013-12-03 20:56:07.7074 INFO Application_Error: System.Web.HttpException (0x80004005): File does not exist.
+   at System.Web.StaticFileHandler.ProcessRequestForNonMapPathBasedVirtualFile(HttpRequest request, HttpResponse response, String overrideVirtualPath)
+   at System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context, String overrideVirtualPath)
+   at System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2013-12-03 20:56:07.7074 INFO Execution started of ErrorController.DetailedError ()
+2013-12-03 20:56:07.7074 INFO Execution finished for DetailedError
+2013-12-03 20:56:08.4445 INFO Execution finished for Application_Error
+2013-12-03 20:56:09.6995 INFO Execution started of CommonService.GetUserDashboard (UserID = 1, )
+2013-12-03 20:56:09.7025 INFO Execution started of CommonFacade.GetDashboardData (UserID = 1, )
+2013-12-03 20:56:09.7025 INFO Execution finished for GetDashboardData
+2013-12-03 20:56:09.7025 INFO Execution finished for GetUserDashboard

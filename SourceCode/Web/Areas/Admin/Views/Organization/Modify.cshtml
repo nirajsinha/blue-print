@@ -1,0 +1,307 @@
+﻿@model Confluence.Blueprint.Models.OrganizationModel
+@using Confluence.Blueprint.Models;
+@{
+    ViewBag.Title = "Organization";
+}
+
+@section MenuGroup{
+
+}
+@section PageScripts{
+<script type="text/javascript" src="@Url.Content("~/js/assets/jquery.validate.min.js")"></script>
+<script type="text/javascript" src="@Url.Content("~/js/modern/dialog.js")"></script>
+<script type="text/javascript" src="@Url.Content("~/js/assets/jquery.form.min.js")"></script>
+}
+@section PageStyles{
+<style>
+    #progress { position:relative; width:400px; border: 1px solid #ddd; padding: 1px; border-radius: 3px; }
+    #bar { background-color: #B4F5B4; width:0%; height:20px; border-radius: 3px; }
+    #percent { position:absolute; display:inline-block; top:3px; left:48%; }
+</style>
+}
+
+@section PageHeader{Organization}
+
+        <p>
+                Use the form below to modify organization info. 
+        </p>
+            
+            
+            <div>
+                <fieldset>
+                    <legend>Organization Information</legend>
+               
+                 
+                <table >
+                    <tbody>
+                    @using (Html.BeginForm(null, null, FormMethod.Get, new { id = "myForm", name = "myForm" }))
+                    {
+                        <tr>
+                            <td style="width:200px">
+                                <div class="editor-label">
+                                    @Html.HiddenFor(m => m.OrganizationID, new { id = "hidOrgId" })
+                                    @Html.LabelFor(m => m.OrganizationName)*
+                                </div>
+                            </td>
+                            <td>
+                                <div class="input-control text" style="width:380px;">
+                                    @Html.TextBoxFor(m => m.OrganizationName, new { placeholder = "Enter organization name", id = "OrganizationName", name = "OrganizationName", @class = "required uppercase" })
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div class="editor-label">
+                                    @Html.LabelFor(m => m.OrganizationAbbreviate)*
+                                </div>
+                            </td>
+                            <td>
+                                <div class="input-control text" style="width:380px;">
+                                    @Html.TextBoxFor(m => m.OrganizationAbbreviate, new { placeholder = "Enter organization abbreviate", id = "OrganizationAbbreviate", name = "OrganizationAbbreviate", @class = "required uppercase", minlength = "2", maxlength = "6" })
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td >
+                                <div class="editor-label">
+                                        @Html.LabelFor(m => m.CorporateAddress)*
+                                </div>
+                            </td>
+                            <td >
+                                    <div class="input-control text" style="width:380px;">
+                                @Html.TextAreaFor(m => m.CorporateAddress, new { placeholder = "Enter corporate address", id = "CorporateAddress", name = "CorporateAddress", @class = "required uppercase" })
+                            </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td >
+                                <div class="editor-label">
+                                        <label>Site Address</label>*
+                                </div>
+                            </td>
+                            <td >
+                                    <div class="input-control text" style="width:380px;">
+                                @Html.TextAreaFor(m => m.Address, new { placeholder = "Enter office address", id = "Address", name = "Address", @class = "required uppercase" })
+                            </div>
+                            </td>
+                        </tr>
+                        
+                        <tr>
+                            <td >
+                                <div class="editor-label">
+                                        @Html.LabelFor(m => m.MDEmail)
+                                </div>
+                            </td>
+                            <td >
+                                    <div class="input-control text" style="width:380px;">
+                                    @Html.TextBoxFor(m => m.MDEmail, new { placeholder = "Enter MD's email id", id = "MDEmail", name = "MDEmail", @class = "required email" })
+                                </div>
+                                   
+                            </td>
+                        </tr>
+                        <tr>
+                            <td >
+                                <div class="editor-label">
+                                        @Html.LabelFor(m => m.ContactNumber)
+                                </div>
+                            </td>
+                            <td >
+                                    <div class="input-control text" style="width:380px;">
+                                    @Html.TextBoxFor(m => m.ContactNumber, new { placeholder = "Enter contact number", id = "ContactNumber", name = "ContactNumber", @class = "digits", maxlength = "10" })
+                                </div>
+                                   
+                            </td>
+                        </tr>
+                        <tr>
+                            <td >
+                                <div class="editor-label">
+                                        @Html.LabelFor(m => m.OfficePhoneNumber)
+                                </div>
+                            </td>
+                            <td >
+                                    <div class="input-control text" style="width:380px;">
+                                    @Html.TextBoxFor(m => m.OfficePhoneNumber, new { placeholder = "Office LL number", id = "OfficePhoneNumber", name = "OfficePhoneNumber", @class = "digits", maxlength = "11" })
+                                </div>
+                                   
+                            </td>
+                        </tr>
+                        <tr>
+                            <td >
+                                <div class="editor-label">
+                                        @Html.LabelFor(m => m.FaxNumber)
+                                </div>
+                            </td>
+                            <td >
+                                    <div class="input-control text" style="width:380px;">
+                                    @Html.TextBoxFor(m => m.FaxNumber, new { placeholder = "Enter fax number", id = "FaxNumber", name = "FaxNumber", @class = "digits", maxlength = "11" })
+                                </div>
+                                   
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td >
+                                <div class="editor-label">
+                                        @Html.LabelFor(m => m.WebSite)
+                                </div>
+                            </td>
+                            <td >
+                                    <div class="input-control text" style="width:380px;">
+                                    @Html.TextBoxFor(m => m.WebSite, new { placeholder = "Enter web site", id = "WebSite", name = "WebSite", @class = "url" }) <br />
+                                    
+                                </div>
+                                   <label>Note: Enter complete url including http://, https:// or ftp://</label>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td >
+                                <div class="editor-label">
+                                        @Html.LabelFor(m => m.TerminologiesEnum)
+                                </div>
+                            </td>
+                            <td >
+                                    @Html.RadioButton("TerminologyID", (int)Terminologies.Department, Model.TerminologiesEnum == Terminologies.Department, new { @class = "rdept" }) Department
+                                    @Html.RadioButton("TerminologyID", (int)Terminologies.Process, Model.TerminologiesEnum == Terminologies.Process, new { @class = "rproc" }) Process
+                                    @Html.RadioButton("TerminologyID", (int)Terminologies.Group, Model.TerminologiesEnum == Terminologies.Group, new { @class = "rgroup" }) Group
+                            </td>
+                        </tr>
+                    }
+                        
+                        <tr>
+                            <td>
+                                <label>Logo:</label>
+                            </td>
+                            <td>
+                            @if (Model.CorporateLogoUploaded)
+                            { 
+                                <script type="text/javascript">
+                                    PrintCorporateLogo(@Model.OrganizationID);
+                                </script>
+                            }
+                            <form id="upload" action="/Admin/Organization/Modify" method="post" enctype="multipart/form-data">
+                                 <input type="file" id="file_upload" name="uploadFile" style="width:380px;height:32px;" >
+                                 <input type="submit" value="Upload Logo">
+                             </form>
+ 
+                             <div id="progress">
+                                    <div id="bar"></div>
+                                    <div id="percent">0%</div >
+                            </div>   
+                       </td>
+                        </tr>
+                        <tr>
+                            <td colspan="2">
+                                <input type="button" class="command-button default" value="Update" id="modify"/>
+                                <input type="button" value="Cancel" id="cancel" />
+                                   
+                            </td>
+                        </tr>             
+                     </tbody>
+                </table>
+                
+                 
+                    
+                    
+                </fieldset>
+            </div>
+
+            
+            
+@section PageFooterScripts{
+<script type="text/javascript">
+    $(document).ready(function () {
+        var options = {
+            beforeSend: validate,
+            uploadProgress: function (event, position, total, percentComplete) {
+                $("#bar").width(percentComplete + '%');
+                $("#percent").html(percentComplete + '%');
+            },
+            success: function () {
+                $("#bar").width('100%');
+                $("#percent").html('100%');
+            },
+            complete: function (response) {
+            },
+            error: function () {
+            }
+
+        };
+        function validate(formData, jqForm, options) {
+            $("#progress").show();
+            //clear everything
+            $("#bar").width('0%');
+            $("#message").html("");
+            $("#percent").html("0%");
+            if ($('#file_upload').val() == '') {
+                alert('Please select the logo image.');
+                return false;
+            }
+            else {
+                var ext = $('#file_upload').val().split('.').pop().toLowerCase();
+                if ($.inArray(ext, ['jpg', 'jpe', 'png', 'gif']) == -1) {
+                    alert('Only jpg, png and gif is allowed.');
+                    return false;
+                }
+            }
+            //for (var i = 0; i < formData.length; i++) {
+            //    if (!formData[i].value) {
+            //        alert('Please enter a value for both Username and Password');
+            //        return false;
+            //    }
+            //}
+            return true;
+        }
+        $("#upload").ajaxForm(options);
+
+        $('#modify').click(function (e) {
+
+            var IsFormValid = $("#myForm").valid();
+            if (IsFormValid) {
+                var term = 1;
+                if ($('.rproc').prop('checked')) term = 2;
+                else if ($('.rgroup').prop('checked')) term = 3;
+
+                // build json request
+                var jsonParams = JSON.stringify({ "OrgID": $("#hidOrgId").val(), "OrgName": $("#OrganizationName").val(), "OrgAbbr": $("#OrganizationAbbreviate").val(), "Addr": $("#Address").val(), "ContactNo": $("#ContactNumber").val(), "FaxNo": $("#FaxNumber").val(), "MDEmail": $("#MDEmail").val(), "WebSite": $("#WebSite").val(), "CorporateAddress": $("#CorporateAddress").val(), "OfficePhoneNumber": $("#OfficePhoneNumber").val(), "TerminologyID": term });
+                $.ajax({
+                    type: "POST",
+                    url: "/Admin/Organization/Save",
+                    data: jsonParams,
+                    contentType: "application/json; charset=utf-8",
+                    dataType: "json",
+                    success: function (data) {
+                        var jsonObj = '';
+                        if (data.hasOwnProperty("d")) {
+                            jsonObj = $.parseJSON(data.d);
+                        }
+                        else {
+                            jsonObj = $.parseJSON(data);
+                        }
+                        if (jsonObj != '' && jsonObj.Error && jsonObj.Error != '') {
+                            $.alert(jsonObj.Error, "Error", "Error");
+
+                        }
+                        else if (jsonObj != '' && jsonObj.OrgName != '') {
+                            // Display  confirmation message
+                            $.redirect('@Url.Content("~/Admin")', "Success", "Successfully updated " + jsonObj.OrgName + " Organization");
+                        }
+
+                    },
+                    error: function (XMLHttpRequest, textStatus, errorThrown) {
+                        $.alert("responseText=" + XMLHttpRequest.responseText + "\n textStatus=" + textStatus + "\n errorThrown=" + errorThrown, "Error", "Error");
+
+                    }
+                });
+
+            }
+        });
+
+
+        $('#cancel').click(function (e) {
+            $.redirect('@Url.Content("~/Admin")', "Warning", "Updation of Organization details cancelled");
+        });
+    });
+        
+    </script>
+}
+ 

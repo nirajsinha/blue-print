@@ -1,0 +1,39 @@
+C:\Projects\Public Storage\PS-WebChamp\Development\Source\PSServices\Framework.Data\bin\Debug\PublicStorage.Framework.DataAccess.dll
+C:\Projects\Public Storage\PS-WebChamp\Development\Source\PSServices\Framework.Data\bin\Debug\PublicStorage.Framework.DataAccess.pdb
+C:\Projects\Public Storage\PS-WebChamp\Development\Source\PSServices\Framework.Data\obj\Debug\ResolveAssemblyReference.cache
+C:\Projects\Public Storage\PS-WebChamp\Development\Source\PSServices\Framework.Data\obj\Debug\PublicStorage.Framework.DataAccess.dll
+C:\Projects\Public Storage\PS-WebChamp\Development\Source\PSServices\Framework.Data\obj\Debug\PublicStorage.Framework.DataAccess.pdb
+C:\Projects\Public Storage\PS-Onyx\Rashid_PSOnyxServices 11132012\PSOnyxServices\Framework.Data\bin\Debug\PublicStorage.Framework.DataAccess.dll
+C:\Projects\Public Storage\PS-Onyx\Rashid_PSOnyxServices 11132012\PSOnyxServices\Framework.Data\bin\Debug\PublicStorage.Framework.DataAccess.pdb
+C:\Projects\Public Storage\PS-Onyx\Rashid_PSOnyxServices 11132012\PSOnyxServices\Framework.Data\obj\Debug\ResolveAssemblyReference.cache
+C:\Projects\Public Storage\PS-Onyx\Rashid_PSOnyxServices 11132012\PSOnyxServices\Framework.Data\obj\Debug\PublicStorage.Framework.DataAccess.dll
+C:\Projects\Public Storage\PS-Onyx\Rashid_PSOnyxServices 11132012\PSOnyxServices\Framework.Data\obj\Debug\PublicStorage.Framework.DataAccess.pdb
+E:\SOS\PSOnyx\PSOnyxServices\Framework.Data\bin\Debug\PublicStorage.Framework.DataAccess.dll
+E:\SOS\PSOnyx\PSOnyxServices\Framework.Data\bin\Debug\PublicStorage.Framework.DataAccess.pdb
+E:\SOS\PSOnyx\PSOnyxServices\Framework.Data\obj\Debug\ResolveAssemblyReference.cache
+E:\SOS\PSOnyx\PSOnyxServices\Framework.Data\obj\Debug\PublicStorage.Framework.DataAccess.dll
+E:\SOS\PSOnyx\PSOnyxServices\Framework.Data\obj\Debug\PublicStorage.Framework.DataAccess.pdb
+C:\Projects\Public Storage\PS-Onyx\Development\PSOnyxServices\Framework.Data\bin\Debug\PublicStorage.Framework.DataAccess.dll
+C:\Projects\Public Storage\PS-Onyx\Development\PSOnyxServices\Framework.Data\bin\Debug\PublicStorage.Framework.DataAccess.pdb
+C:\Projects\Public Storage\PS-Onyx\Development\PSOnyxServices\Framework.Data\obj\Debug\ResolveAssemblyReference.cache
+C:\Projects\Public Storage\PS-Onyx\Development\PSOnyxServices\Framework.Data\obj\Debug\PublicStorage.Framework.DataAccess.dll
+C:\Projects\Public Storage\PS-Onyx\Development\PSOnyxServices\Framework.Data\obj\Debug\PublicStorage.Framework.DataAccess.pdb
+C:\My Folder\eQMS\SourceCode\Framework.Data\bin\Debug\Framework.Data.dll
+C:\My Folder\eQMS\SourceCode\Framework.Data\bin\Debug\Framework.Data.pdb
+C:\My Folder\eQMS\SourceCode\Framework.Data\obj\Debug\ResolveAssemblyReference.cache
+C:\My Folder\eQMS\SourceCode\Framework.Data\obj\Debug\Framework.Data.dll
+C:\My Folder\eQMS\SourceCode\Framework.Data\obj\Debug\Framework.Data.pdb
+C:\My Folder\eQMS\eqms\SourceCode\Framework.Data\bin\Debug\Framework.Data.dll
+C:\My Folder\eQMS\eqms\SourceCode\Framework.Data\bin\Debug\Framework.Data.pdb
+C:\My Folder\eQMS\eqms\SourceCode\Framework.Data\obj\Debug\ResolveAssemblyReference.cache
+C:\My Folder\eQMS\eqms\SourceCode\Framework.Data\obj\Debug\Framework.Data.dll
+C:\My Folder\eQMS\eqms\SourceCode\Framework.Data\obj\Debug\Framework.Data.pdb
+C:\My Folder\Projects\eqms\SourceCode\Framework.Data\bin\Debug\Framework.Data.dll
+C:\My Folder\Projects\eqms\SourceCode\Framework.Data\bin\Debug\Framework.Data.pdb
+C:\My Folder\Projects\eqms\SourceCode\Framework.Data\obj\Debug\Framework.Data.dll
+C:\My Folder\Projects\eqms\SourceCode\Framework.Data\obj\Debug\Framework.Data.pdb
+C:\Niraj\Projects\Blueprint\SourceCode\Framework.Data\bin\Debug\Framework.Data.dll
+C:\Niraj\Projects\Blueprint\SourceCode\Framework.Data\bin\Debug\Framework.Data.pdb
+C:\Niraj\Projects\Blueprint\SourceCode\Framework.Data\obj\Debug\Framework.Data.dll
+C:\Niraj\Projects\Blueprint\SourceCode\Framework.Data\obj\Debug\Framework.Data.pdb
+C:\Niraj\Projects\Blueprint\SourceCode\Framework.Data\obj\Debug\Framework.Data.csprojResolveAssemblyReference.cache

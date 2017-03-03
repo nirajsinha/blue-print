@@ -1,0 +1,47 @@
+C:\My Folder\eQMS\SourceCode\BusinessFacade\bin\Debug\BusinessFacade.dll
+C:\My Folder\eQMS\SourceCode\BusinessFacade\bin\Debug\BusinessFacade.pdb
+C:\My Folder\eQMS\SourceCode\BusinessFacade\bin\Debug\eQMS.Models.dll
+C:\My Folder\eQMS\SourceCode\BusinessFacade\bin\Debug\Framework.Data.dll
+C:\My Folder\eQMS\SourceCode\BusinessFacade\bin\Debug\Framework.Data.pdb
+C:\My Folder\eQMS\SourceCode\BusinessFacade\bin\Debug\eQMS.Models.pdb
+C:\My Folder\eQMS\SourceCode\BusinessFacade\obj\Debug\ResolveAssemblyReference.cache
+C:\My Folder\eQMS\SourceCode\BusinessFacade\obj\Debug\BusinessFacade.dll
+C:\My Folder\eQMS\SourceCode\BusinessFacade\obj\Debug\BusinessFacade.pdb
+C:\My Folder\eQMS\eqms\SourceCode\BusinessFacade\bin\Debug\BusinessFacade.dll
+C:\My Folder\eQMS\eqms\SourceCode\BusinessFacade\bin\Debug\BusinessFacade.pdb
+C:\My Folder\eQMS\eqms\SourceCode\BusinessFacade\bin\Debug\eQMS.Models.dll
+C:\My Folder\eQMS\eqms\SourceCode\BusinessFacade\bin\Debug\Framework.Data.dll
+C:\My Folder\eQMS\eqms\SourceCode\BusinessFacade\bin\Debug\Framework.Data.pdb
+C:\My Folder\eQMS\eqms\SourceCode\BusinessFacade\bin\Debug\eQMS.Models.pdb
+C:\My Folder\eQMS\eqms\SourceCode\BusinessFacade\obj\Debug\ResolveAssemblyReference.cache
+C:\My Folder\eQMS\eqms\SourceCode\BusinessFacade\obj\Debug\BusinessFacade.dll
+C:\My Folder\eQMS\eqms\SourceCode\BusinessFacade\obj\Debug\BusinessFacade.pdb
+C:\My Folder\Projects\eqms\SourceCode\BusinessFacade\bin\Debug\BusinessFacade.dll
+C:\My Folder\Projects\eqms\SourceCode\BusinessFacade\bin\Debug\BusinessFacade.pdb
+C:\My Folder\Projects\eqms\SourceCode\BusinessFacade\bin\Debug\Framework.Data.dll
+C:\My Folder\Projects\eqms\SourceCode\BusinessFacade\bin\Debug\Framework.Data.pdb
+C:\My Folder\Projects\eqms\SourceCode\BusinessFacade\obj\Debug\BusinessFacade.dll
+C:\My Folder\Projects\eqms\SourceCode\BusinessFacade\obj\Debug\BusinessFacade.pdb
+C:\My Folder\Projects\eqms\SourceCode\BusinessFacade\bin\Debug\Confluence.Blueprint.Models.dll
+C:\My Folder\Projects\eqms\SourceCode\BusinessFacade\bin\Debug\Confluence.Blueprint.Models.pdb
+C:\My Folder\Projects\eqms\SourceCode\BusinessFacade\obj\Debug\BusinessFacade.csprojResolveAssemblyReference.cache
+C:\Niraj\Projects\Blueprint\SourceCode\BusinessFacade\bin\Debug\Confluence.Blueprint.BusinessFacade.dll
+C:\Niraj\Projects\Blueprint\SourceCode\BusinessFacade\bin\Debug\Confluence.Blueprint.BusinessFacade.pdb
+C:\Niraj\Projects\Blueprint\SourceCode\BusinessFacade\bin\Debug\Confluence.Blueprint.Models.dll
+C:\Niraj\Projects\Blueprint\SourceCode\BusinessFacade\bin\Debug\Framework.Data.dll
+C:\Niraj\Projects\Blueprint\SourceCode\BusinessFacade\bin\Debug\Framework.Logging.dll
+C:\Niraj\Projects\Blueprint\SourceCode\BusinessFacade\bin\Debug\PostSharp.dll
+C:\Niraj\Projects\Blueprint\SourceCode\BusinessFacade\bin\Debug\NLog.dll
+C:\Niraj\Projects\Blueprint\SourceCode\BusinessFacade\bin\Debug\MiniProfiler.dll
+C:\Niraj\Projects\Blueprint\SourceCode\BusinessFacade\bin\Debug\Framework.Data.pdb
+C:\Niraj\Projects\Blueprint\SourceCode\BusinessFacade\bin\Debug\Framework.Logging.pdb
+C:\Niraj\Projects\Blueprint\SourceCode\BusinessFacade\bin\Debug\Confluence.Blueprint.Models.pdb
+C:\Niraj\Projects\Blueprint\SourceCode\BusinessFacade\bin\Debug\PostSharp.xml
+C:\Niraj\Projects\Blueprint\SourceCode\BusinessFacade\bin\Debug\NLog.xml
+C:\Niraj\Projects\Blueprint\SourceCode\BusinessFacade\bin\Debug\MiniProfiler.pdb
+C:\Niraj\Projects\Blueprint\SourceCode\BusinessFacade\bin\Debug\MiniProfiler.xml
+C:\Niraj\Projects\Blueprint\SourceCode\BusinessFacade\obj\Debug\BusinessFacade.csprojResolveAssemblyReference.cache
+C:\Niraj\Projects\Blueprint\SourceCode\BusinessFacade\obj\Debug\Confluence.Blueprint.BusinessFacade.dll
+C:\Niraj\Projects\Blueprint\SourceCode\BusinessFacade\obj\Debug\Confluence.Blueprint.BusinessFacade.pdb
+C:\Niraj\Projects\Blueprint\SourceCode\BusinessFacade\bin\Debug\Confluence.Blueprint.BusinessFacade.pssym
+C:\Niraj\Projects\Blueprint\SourceCode\BusinessFacade\obj\Debug\Confluence.Blueprint.BusinessFacade.dll.postsharp

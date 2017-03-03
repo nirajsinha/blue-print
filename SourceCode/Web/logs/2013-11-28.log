@@ -1,0 +1,332 @@
+2013-11-28 13:22:23.2942 INFO Execution started of MvcApplication.Application_Start ()
+2013-11-28 13:22:32.8331 INFO Execution started of AdminAreaRegistration.get_AreaName ()
+2013-11-28 13:22:32.8331 INFO Execution finished for get_AreaName
+2013-11-28 13:22:32.8331 INFO Execution started of AdminAreaRegistration.RegisterArea (context = System.Web.Mvc.AreaRegistrationContext, )
+2013-11-28 13:22:32.8331 INFO Execution finished for RegisterArea
+2013-11-28 13:22:32.8331 INFO Execution finished for Application_Start
+2013-11-28 13:22:34.6533 INFO Execution started of MiniProfilerStartupModule.Init (context = ASP.global_asax, )
+2013-11-28 13:22:34.6533 INFO Execution finished for Init
+2013-11-28 13:22:35.2614 INFO Execution started of HomeController.Index ()
+2013-11-28 13:22:35.2614 INFO Execution finished for Index
+2013-11-28 13:22:36.8235 INFO Execution started of MiniProfilerStartupModule.Init (context = ASP.global_asax, )
+2013-11-28 13:22:36.8235 INFO Execution finished for Init
+2013-11-28 13:22:36.8566 INFO Execution started of MiniProfilerStartupModule.Init (context = ASP.global_asax, )
+2013-11-28 13:22:36.8566 INFO Execution finished for Init
+2013-11-28 13:22:47.4486 INFO Execution started of AccountController.LogOn (returnUrl = /Home/Default, )
+2013-11-28 13:22:47.7686 INFO Execution finished for LogOn
+2013-11-28 13:22:49.5768 INFO Execution started of MiniProfilerStartupModule.Init (context = ASP.global_asax, )
+2013-11-28 13:22:49.5768 INFO Execution finished for Init
+2013-11-28 13:23:08.1997 INFO Execution started of AccountController.LogOn (model = Confluence.Blueprint.Models.LogOnModel, )
+2013-11-28 13:23:08.1997 INFO Execution started of AccountService.GetUserDetails (email = admin@eqms.com, )
+2013-11-28 13:23:08.1997 INFO Execution started of UserFacade.GetUserDetails (email = admin@eqms.com, )
+2013-11-28 13:23:14.2563 INFO Execution finished for GetUserDetails
+2013-11-28 13:23:14.2563 INFO Execution finished for GetUserDetails
+2013-11-28 13:23:14.2933 INFO Execution started of BaseController.Redirect (url = /Home/Default, )
+2013-11-28 13:23:14.2933 INFO Execution finished for Redirect
+2013-11-28 13:23:14.2933 INFO Execution finished for LogOn
+2013-11-28 13:23:14.2993 INFO Execution started of AjaxAwareRedirectResult.ExecuteResult (context = System.Web.Mvc.ControllerContext, )
+2013-11-28 13:23:14.2993 INFO Execution finished for ExecuteResult
+2013-11-28 13:23:14.3223 INFO Execution started of HomeController.Default ()
+2013-11-28 13:23:14.3223 INFO Execution finished for Default
+2013-11-28 13:23:19.3358 INFO Execution started of CommonService.GetUserDashboard (UserID = 1, )
+2013-11-28 13:23:19.3388 INFO Execution started of CommonFacade.GetDashboardData (UserID = 1, )
+2013-11-28 13:23:20.3159 INFO Execution finished for GetDashboardData
+2013-11-28 13:23:20.3159 INFO Execution finished for GetUserDashboard
+2013-11-28 13:23:27.3826 INFO Execution started of RequiredRoleAttribute.AuthorizeCore (httpContext = System.Web.HttpContextWrapper, )
+2013-11-28 13:23:27.3826 INFO Execution finished for AuthorizeCore
+2013-11-28 13:23:27.3826 INFO Execution started of AdminController.Index ()
+2013-11-28 13:23:27.3826 INFO Execution finished for Index
+2013-11-28 13:23:32.6601 INFO Execution started of RequiredRoleAttribute.AuthorizeCore (httpContext = System.Web.HttpContextWrapper, )
+2013-11-28 13:23:32.6601 INFO Execution finished for AuthorizeCore
+2013-11-28 13:23:32.6621 INFO Execution started of DocumentLevelsController.Index ()
+2013-11-28 13:23:32.6621 INFO Execution finished for Index
+2013-11-28 13:23:35.9535 INFO Execution started of DocumentLevelService.GetDocumentLevels (OrgID = 1, )
+2013-11-28 13:23:35.9535 INFO Execution started of DocumentLevelService.GetDocumentLevelList (OrgID = 1, )
+2013-11-28 13:23:35.9535 INFO Execution started of DocumentLevelsFacade.GetDocumentLevels (OrgID = 1, )
+2013-11-28 13:23:36.3135 INFO Execution finished for GetDocumentLevels
+2013-11-28 13:23:37.2866 INFO Execution finished for GetDocumentLevelList
+2013-11-28 13:23:37.2866 INFO Execution finished for GetDocumentLevels
+2013-11-28 13:34:42.5302 INFO Execution started of MvcApplication.Application_Start ()
+2013-11-28 13:34:42.7112 INFO Execution started of AdminAreaRegistration.get_AreaName ()
+2013-11-28 13:34:42.7112 INFO Execution finished for get_AreaName
+2013-11-28 13:34:42.7112 INFO Execution started of AdminAreaRegistration.RegisterArea (context = System.Web.Mvc.AreaRegistrationContext, )
+2013-11-28 13:34:42.7172 INFO Execution finished for RegisterArea
+2013-11-28 13:34:42.7172 INFO Execution finished for Application_Start
+2013-11-28 13:34:43.0472 INFO Execution started of MiniProfilerStartupModule.Init (context = ASP.global_asax, )
+2013-11-28 13:34:43.0472 INFO Execution finished for Init
+2013-11-28 13:34:56.2852 INFO Execution started of HomeController.Index ()
+2013-11-28 13:34:56.2852 INFO Execution finished for Index
+2013-11-28 13:34:56.6602 INFO Execution started of MiniProfilerStartupModule.Init (context = ASP.global_asax, )
+2013-11-28 13:34:56.6602 INFO Execution finished for Init
+2013-11-28 13:34:56.6882 INFO Execution started of MiniProfilerStartupModule.Init (context = ASP.global_asax, )
+2013-11-28 13:34:56.6882 INFO Execution finished for Init
+2013-11-28 13:34:58.4542 INFO Execution started of AccountController.LogOn (returnUrl = /Home/Default, )
+2013-11-28 13:34:58.5122 INFO Execution finished for LogOn
+2013-11-28 13:35:09.4792 INFO Execution started of AccountController.LogOn (model = Confluence.Blueprint.Models.LogOnModel, )
+2013-11-28 13:35:09.4792 INFO Execution started of AccountService.GetUserDetails (email = admin@eqms.com, )
+2013-11-28 13:35:09.4852 INFO Execution started of UserFacade.GetUserDetails (email = admin@eqms.com, )
+2013-11-28 13:35:10.4192 INFO Execution finished for GetUserDetails
+2013-11-28 13:35:10.4202 INFO Execution finished for GetUserDetails
+2013-11-28 13:35:10.4202 INFO Execution started of BaseController.Redirect (url = /Home/Default, )
+2013-11-28 13:35:10.4202 INFO Execution finished for Redirect
+2013-11-28 13:35:10.4202 INFO Execution finished for LogOn
+2013-11-28 13:35:10.4202 INFO Execution started of AjaxAwareRedirectResult.ExecuteResult (context = System.Web.Mvc.ControllerContext, )
+2013-11-28 13:35:10.4372 INFO Execution finished for ExecuteResult
+2013-11-28 13:35:10.4372 INFO Execution started of HomeController.Default ()
+2013-11-28 13:35:10.4522 INFO Execution finished for Default
+2013-11-28 13:35:15.5452 INFO Execution started of MiniProfilerStartupModule.Init (context = ASP.global_asax, )
+2013-11-28 13:35:15.5452 INFO Execution finished for Init
+2013-11-28 13:35:15.9972 INFO Execution started of CommonService.GetUserDashboard (UserID = 1, )
+2013-11-28 13:35:15.9972 INFO Execution started of CommonFacade.GetDashboardData (UserID = 1, )
+2013-11-28 13:35:16.0092 INFO Execution finished for GetDashboardData
+2013-11-28 13:35:16.0092 INFO Execution finished for GetUserDashboard
+2013-11-28 13:35:19.0372 INFO Execution started of RequiredRoleAttribute.AuthorizeCore (httpContext = System.Web.HttpContextWrapper, )
+2013-11-28 13:35:19.0372 INFO Execution finished for AuthorizeCore
+2013-11-28 13:35:19.0372 INFO Execution started of AdminController.Index ()
+2013-11-28 13:35:19.0372 INFO Execution finished for Index
+2013-11-28 13:35:20.9642 INFO Execution started of RequiredRoleAttribute.AuthorizeCore (httpContext = System.Web.HttpContextWrapper, )
+2013-11-28 13:35:20.9682 INFO Execution finished for AuthorizeCore
+2013-11-28 13:35:20.9682 INFO Execution started of DocumentLevelsController.Index ()
+2013-11-28 13:35:20.9812 INFO Execution finished for Index
+2013-11-28 13:35:25.3602 INFO Execution started of DocumentLevelService.GetDocumentLevels (OrgID = 1, )
+2013-11-28 13:35:25.3602 INFO Execution started of DocumentLevelService.GetDocumentLevelList (OrgID = 1, )
+2013-11-28 13:35:25.3662 INFO Execution started of DocumentLevelsFacade.GetDocumentLevels (OrgID = 1, )
+2013-11-28 13:35:25.3922 INFO Execution finished for GetDocumentLevels
+2013-11-28 13:35:25.3922 INFO Execution finished for GetDocumentLevelList
+2013-11-28 13:35:25.3922 INFO Execution finished for GetDocumentLevels
+2013-11-28 13:38:29.7858 INFO Execution started of MvcApplication.Application_Start ()
+2013-11-28 13:38:29.8218 INFO Execution started of AdminAreaRegistration.get_AreaName ()
+2013-11-28 13:38:29.8218 INFO Execution finished for get_AreaName
+2013-11-28 13:38:29.8218 INFO Execution started of AdminAreaRegistration.RegisterArea (context = System.Web.Mvc.AreaRegistrationContext, )
+2013-11-28 13:38:29.8218 INFO Execution finished for RegisterArea
+2013-11-28 13:38:29.8218 INFO Execution finished for Application_Start
+2013-11-28 13:38:29.9809 INFO Execution started of MiniProfilerStartupModule.Init (context = ASP.global_asax, )
+2013-11-28 13:38:29.9809 INFO Execution finished for Init
+2013-11-28 13:38:35.7174 INFO Execution started of HomeController.Index ()
+2013-11-28 13:38:35.7174 INFO Execution finished for Index
+2013-11-28 13:38:35.8254 INFO Execution started of MiniProfilerStartupModule.Init (context = ASP.global_asax, )
+2013-11-28 13:38:35.8254 INFO Execution started of MiniProfilerStartupModule.Init (context = ASP.global_asax, )
+2013-11-28 13:38:35.8254 INFO Execution finished for Init
+2013-11-28 13:38:35.8254 INFO Execution finished for Init
+2013-11-28 13:38:38.1507 INFO Execution started of AccountController.LogOn (returnUrl = /Home/Default, )
+2013-11-28 13:38:38.1637 INFO Execution finished for LogOn
+2013-11-28 13:38:48.5207 INFO Execution started of AccountController.LogOn (model = Confluence.Blueprint.Models.LogOnModel, )
+2013-11-28 13:38:48.5237 INFO Execution started of AccountService.GetUserDetails (email = admin@eqms.com, )
+2013-11-28 13:38:48.5237 INFO Execution started of UserFacade.GetUserDetails (email = admin@eqms.com, )
+2013-11-28 13:38:48.6777 INFO Execution finished for GetUserDetails
+2013-11-28 13:38:48.6777 INFO Execution finished for GetUserDetails
+2013-11-28 13:38:48.6787 INFO Execution started of BaseController.Redirect (url = /Home/Default, )
+2013-11-28 13:38:48.6787 INFO Execution finished for Redirect
+2013-11-28 13:38:48.6787 INFO Execution finished for LogOn
+2013-11-28 13:38:48.6787 INFO Execution started of AjaxAwareRedirectResult.ExecuteResult (context = System.Web.Mvc.ControllerContext, )
+2013-11-28 13:38:48.6787 INFO Execution finished for ExecuteResult
+2013-11-28 13:38:48.6947 INFO Execution started of HomeController.Default ()
+2013-11-28 13:38:48.6947 INFO Execution finished for Default
+2013-11-28 13:38:50.5769 INFO Execution started of MiniProfilerStartupModule.Init (context = ASP.global_asax, )
+2013-11-28 13:38:50.5769 INFO Execution finished for Init
+2013-11-28 13:38:51.3120 INFO Execution started of CommonService.GetUserDashboard (UserID = 1, )
+2013-11-28 13:38:51.3120 INFO Execution started of CommonFacade.GetDashboardData (UserID = 1, )
+2013-11-28 13:38:51.3150 INFO Execution finished for GetDashboardData
+2013-11-28 13:38:51.3150 INFO Execution finished for GetUserDashboard
+2013-11-28 13:38:53.0232 INFO Execution started of RequiredRoleAttribute.AuthorizeCore (httpContext = System.Web.HttpContextWrapper, )
+2013-11-28 13:38:53.0232 INFO Execution finished for AuthorizeCore
+2013-11-28 13:38:53.0232 INFO Execution started of AdminController.Index ()
+2013-11-28 13:38:53.0312 INFO Execution finished for Index
+2013-11-28 13:38:55.2014 INFO Execution started of RequiredRoleAttribute.AuthorizeCore (httpContext = System.Web.HttpContextWrapper, )
+2013-11-28 13:38:55.2014 INFO Execution finished for AuthorizeCore
+2013-11-28 13:38:55.2014 INFO Execution started of DocumentLevelsController.Index ()
+2013-11-28 13:38:55.2014 INFO Execution finished for Index
+2013-11-28 13:38:58.2067 INFO Execution started of DocumentLevelService.GetDocumentLevels (OrgID = 1, )
+2013-11-28 13:38:58.2067 INFO Execution started of DocumentLevelService.GetDocumentLevelList (OrgID = 1, )
+2013-11-28 13:38:58.2107 INFO Execution started of DocumentLevelsFacade.GetDocumentLevels (OrgID = 1, )
+2013-11-28 13:38:58.2107 INFO Execution finished for GetDocumentLevels
+2013-11-28 13:38:58.2107 INFO Execution finished for GetDocumentLevelList
+2013-11-28 13:38:58.2107 INFO Execution finished for GetDocumentLevels
+2013-11-28 13:42:07.7886 INFO Execution started of RequiredRoleAttribute.AuthorizeCore (httpContext = System.Web.HttpContextWrapper, )
+2013-11-28 13:42:07.7886 INFO Execution finished for AuthorizeCore
+2013-11-28 13:42:07.7886 INFO Execution started of DocumentLevelsController.Index ()
+2013-11-28 13:42:07.7886 INFO Execution finished for Index
+2013-11-28 13:42:09.9149 INFO Execution started of MiniProfilerStartupModule.Init (context = ASP.global_asax, )
+2013-11-28 13:42:09.9149 INFO Execution finished for Init
+2013-11-28 13:42:09.9149 INFO Execution started of MiniProfilerStartupModule.Init (context = ASP.global_asax, )
+2013-11-28 13:42:09.9149 INFO Execution finished for Init
+2013-11-28 13:42:11.9491 INFO Execution started of DocumentLevelService.GetDocumentLevels (OrgID = 1, )
+2013-11-28 13:42:11.9491 INFO Execution started of DocumentLevelService.GetDocumentLevelList (OrgID = 1, )
+2013-11-28 13:42:11.9491 INFO Execution started of DocumentLevelsFacade.GetDocumentLevels (OrgID = 1, )
+2013-11-28 13:42:11.9591 INFO Execution finished for GetDocumentLevels
+2013-11-28 13:42:11.9591 INFO Execution finished for GetDocumentLevelList
+2013-11-28 13:42:11.9591 INFO Execution finished for GetDocumentLevels
+2013-11-28 13:42:12.1501 INFO Execution started of MiniProfilerStartupModule.Init (context = ASP.global_asax, )
+2013-11-28 13:42:12.1501 INFO Execution finished for Init
+2013-11-28 13:42:12.1621 INFO Execution started of MiniProfilerStartupModule.Init (context = ASP.global_asax, )
+2013-11-28 13:42:12.1621 INFO Execution finished for Init
+2013-11-28 13:42:12.1621 INFO Execution started of MiniProfilerStartupModule.Init (context = ASP.global_asax, )
+2013-11-28 13:42:12.1621 INFO Execution finished for Init
+2013-11-28 13:43:26.8956 INFO Execution started of RequiredRoleAttribute.AuthorizeCore (httpContext = System.Web.HttpContextWrapper, )
+2013-11-28 13:43:26.8956 INFO Execution finished for AuthorizeCore
+2013-11-28 13:43:26.8956 INFO Execution started of DocumentLevelsController.Index ()
+2013-11-28 13:43:26.8956 INFO Execution finished for Index
+2013-11-28 13:43:29.5608 INFO Execution started of DocumentLevelService.GetDocumentLevels (OrgID = 1, )
+2013-11-28 13:43:29.5608 INFO Execution started of DocumentLevelService.GetDocumentLevelList (OrgID = 1, )
+2013-11-28 13:43:29.5608 INFO Execution started of DocumentLevelsFacade.GetDocumentLevels (OrgID = 1, )
+2013-11-28 13:43:29.5768 INFO Execution finished for GetDocumentLevels
+2013-11-28 13:43:29.5768 INFO Execution finished for GetDocumentLevelList
+2013-11-28 13:43:29.5768 INFO Execution finished for GetDocumentLevels
+2013-11-28 13:44:49.6148 INFO Execution started of RequiredRoleAttribute.AuthorizeCore (httpContext = System.Web.HttpContextWrapper, )
+2013-11-28 13:44:49.6148 INFO Execution finished for AuthorizeCore
+2013-11-28 13:44:49.6148 INFO Execution started of DocumentLevelsController.Index ()
+2013-11-28 13:44:49.6178 INFO Execution finished for Index
+2013-11-28 13:44:52.8671 INFO Execution started of DocumentLevelService.GetDocumentLevels (OrgID = 1, )
+2013-11-28 13:44:52.8671 INFO Execution started of DocumentLevelService.GetDocumentLevelList (OrgID = 1, )
+2013-11-28 13:44:52.8671 INFO Execution started of DocumentLevelsFacade.GetDocumentLevels (OrgID = 1, )
+2013-11-28 13:44:52.8671 INFO Execution finished for GetDocumentLevels
+2013-11-28 13:44:52.8671 INFO Execution finished for GetDocumentLevelList
+2013-11-28 13:44:52.8671 INFO Execution finished for GetDocumentLevels
+2013-11-28 13:45:44.6533 INFO Execution started of RequiredRoleAttribute.AuthorizeCore (httpContext = System.Web.HttpContextWrapper, )
+2013-11-28 13:45:44.6533 INFO Execution finished for AuthorizeCore
+2013-11-28 13:45:44.6533 INFO Execution started of DocumentLevelsController.Index ()
+2013-11-28 13:45:44.6533 INFO Execution finished for Index
+2013-11-28 13:45:45.7924 INFO Execution started of MiniProfilerStartupModule.Init (context = ASP.global_asax, )
+2013-11-28 13:45:45.7924 INFO Execution started of MiniProfilerStartupModule.Init (context = ASP.global_asax, )
+2013-11-28 13:45:45.7924 INFO Execution started of MiniProfilerStartupModule.Init (context = ASP.global_asax, )
+2013-11-28 13:45:45.8294 INFO Execution finished for Init
+2013-11-28 13:45:45.8044 INFO Execution finished for Init
+2013-11-28 13:45:45.8294 INFO Execution finished for Init
+2013-11-28 13:45:45.8584 INFO Execution started of MiniProfilerStartupModule.Init (context = ASP.global_asax, )
+2013-11-28 13:45:45.8584 INFO Execution finished for Init
+2013-11-28 13:45:47.2406 INFO Execution started of DocumentLevelService.GetDocumentLevels (OrgID = 1, )
+2013-11-28 13:45:47.2406 INFO Execution started of DocumentLevelService.GetDocumentLevelList (OrgID = 1, )
+2013-11-28 13:45:47.2406 INFO Execution started of DocumentLevelsFacade.GetDocumentLevels (OrgID = 1, )
+2013-11-28 13:45:47.2476 INFO Execution finished for GetDocumentLevels
+2013-11-28 13:45:47.2476 INFO Execution finished for GetDocumentLevelList
+2013-11-28 13:45:47.2476 INFO Execution finished for GetDocumentLevels
+2013-11-28 13:48:37.2456 INFO Execution started of RequiredRoleAttribute.AuthorizeCore (httpContext = System.Web.HttpContextWrapper, )
+2013-11-28 13:48:37.2456 INFO Execution finished for AuthorizeCore
+2013-11-28 13:48:37.2456 INFO Execution started of DocumentLevelsController.Index ()
+2013-11-28 13:48:37.2506 INFO Execution finished for Index
+2013-11-28 13:48:38.6367 INFO Execution started of MiniProfilerStartupModule.Init (context = ASP.global_asax, )
+2013-11-28 13:48:38.6377 INFO Execution finished for Init
+2013-11-28 13:48:38.6377 INFO Execution started of MiniProfilerStartupModule.Init (context = ASP.global_asax, )
+2013-11-28 13:48:38.6377 INFO Execution started of MiniProfilerStartupModule.Init (context = ASP.global_asax, )
+2013-11-28 13:48:38.6377 INFO Execution finished for Init
+2013-11-28 13:48:38.6377 INFO Execution started of MiniProfilerStartupModule.Init (context = ASP.global_asax, )
+2013-11-28 13:48:38.6537 INFO Execution finished for Init
+2013-11-28 13:48:38.6377 INFO Execution finished for Init
+2013-11-28 13:48:40.1869 INFO Execution started of DocumentLevelService.GetDocumentLevels (OrgID = 1, )
+2013-11-28 13:48:40.1869 INFO Execution started of DocumentLevelService.GetDocumentLevelList (OrgID = 1, )
+2013-11-28 13:48:40.1869 INFO Execution started of DocumentLevelsFacade.GetDocumentLevels (OrgID = 1, )
+2013-11-28 13:48:40.1869 INFO Execution finished for GetDocumentLevels
+2013-11-28 13:48:40.1869 INFO Execution finished for GetDocumentLevelList
+2013-11-28 13:48:40.1869 INFO Execution finished for GetDocumentLevels
+2013-11-28 13:48:46.6995 INFO Execution started of RequiredRoleAttribute.AuthorizeCore (httpContext = System.Web.HttpContextWrapper, )
+2013-11-28 13:48:46.6995 INFO Execution finished for AuthorizeCore
+2013-11-28 13:48:46.6995 INFO Execution started of DocumentLevelsController.Index ()
+2013-11-28 13:48:46.7025 INFO Execution finished for Index
+2013-11-28 13:48:48.3887 INFO Execution started of DocumentLevelService.GetDocumentLevels (OrgID = 1, )
+2013-11-28 13:48:48.3887 INFO Execution started of DocumentLevelService.GetDocumentLevelList (OrgID = 1, )
+2013-11-28 13:48:48.3887 INFO Execution started of DocumentLevelsFacade.GetDocumentLevels (OrgID = 1, )
+2013-11-28 13:48:48.3887 INFO Execution finished for GetDocumentLevels
+2013-11-28 13:48:48.3887 INFO Execution finished for GetDocumentLevelList
+2013-11-28 13:48:48.4037 INFO Execution finished for GetDocumentLevels
+2013-11-28 13:50:09.3118 INFO Execution started of RequiredRoleAttribute.AuthorizeCore (httpContext = System.Web.HttpContextWrapper, )
+2013-11-28 13:50:09.3118 INFO Execution finished for AuthorizeCore
+2013-11-28 13:50:09.3118 INFO Execution started of DocumentLevelsController.Index ()
+2013-11-28 13:50:09.3118 INFO Execution finished for Index
+2013-11-28 13:50:12.1471 INFO Execution started of DocumentLevelService.GetDocumentLevels (OrgID = 1, )
+2013-11-28 13:50:12.1481 INFO Execution started of DocumentLevelService.GetDocumentLevelList (OrgID = 1, )
+2013-11-28 13:50:12.1481 INFO Execution started of DocumentLevelsFacade.GetDocumentLevels (OrgID = 1, )
+2013-11-28 13:50:12.1481 INFO Execution finished for GetDocumentLevels
+2013-11-28 13:50:12.1481 INFO Execution finished for GetDocumentLevelList
+2013-11-28 13:50:12.1481 INFO Execution finished for GetDocumentLevels
+2013-11-28 13:52:17.5686 INFO Execution started of RequiredRoleAttribute.AuthorizeCore (httpContext = System.Web.HttpContextWrapper, )
+2013-11-28 13:52:17.5686 INFO Execution finished for AuthorizeCore
+2013-11-28 13:52:17.5686 INFO Execution started of DocumentLevelsController.Index ()
+2013-11-28 13:52:17.5686 INFO Execution finished for Index
+2013-11-28 13:52:19.4418 INFO Execution started of MiniProfilerStartupModule.Init (context = ASP.global_asax, )
+2013-11-28 13:52:19.4418 INFO Execution finished for Init
+2013-11-28 13:52:19.4618 INFO Execution started of MiniProfilerStartupModule.Init (context = ASP.global_asax, )
+2013-11-28 13:52:19.4618 INFO Execution finished for Init
+2013-11-28 13:52:20.7939 INFO Execution started of DocumentLevelService.GetDocumentLevels (OrgID = 1, )
+2013-11-28 13:52:20.7939 INFO Execution started of DocumentLevelService.GetDocumentLevelList (OrgID = 1, )
+2013-11-28 13:52:20.7939 INFO Execution started of DocumentLevelsFacade.GetDocumentLevels (OrgID = 1, )
+2013-11-28 13:52:20.7939 INFO Execution finished for GetDocumentLevels
+2013-11-28 13:52:20.8079 INFO Execution finished for GetDocumentLevelList
+2013-11-28 13:52:20.8079 INFO Execution finished for GetDocumentLevels
+2013-11-28 13:55:21.2950 INFO Execution started of RequiredRoleAttribute.AuthorizeCore (httpContext = System.Web.HttpContextWrapper, )
+2013-11-28 13:55:21.2950 INFO Execution finished for AuthorizeCore
+2013-11-28 13:55:21.2950 INFO Execution started of DocumentLevelsController.Index ()
+2013-11-28 13:55:21.2950 INFO Execution finished for Index
+2013-11-28 13:55:22.8631 INFO Execution started of MiniProfilerStartupModule.Init (context = ASP.global_asax, )
+2013-11-28 13:55:22.8801 INFO Execution finished for Init
+2013-11-28 13:55:22.9081 INFO Execution started of MiniProfilerStartupModule.Init (context = ASP.global_asax, )
+2013-11-28 13:55:22.9201 INFO Execution finished for Init
+2013-11-28 13:55:23.0492 INFO Execution started of MiniProfilerStartupModule.Init (context = ASP.global_asax, )
+2013-11-28 13:55:23.0492 INFO Execution started of MiniProfilerStartupModule.Init (context = ASP.global_asax, )
+2013-11-28 13:55:23.0672 INFO Execution started of MiniProfilerStartupModule.Init (context = ASP.global_asax, )
+2013-11-28 13:55:23.0672 INFO Execution finished for Init
+2013-11-28 13:55:23.0892 INFO Execution finished for Init
+2013-11-28 13:55:23.0832 INFO Execution finished for Init
+2013-11-28 13:55:24.4293 INFO Execution started of DocumentLevelService.GetDocumentLevels (OrgID = 1, )
+2013-11-28 13:55:24.4293 INFO Execution started of DocumentLevelService.GetDocumentLevelList (OrgID = 1, )
+2013-11-28 13:55:24.4293 INFO Execution started of DocumentLevelsFacade.GetDocumentLevels (OrgID = 1, )
+2013-11-28 13:55:24.4293 INFO Execution finished for GetDocumentLevels
+2013-11-28 13:55:24.4293 INFO Execution finished for GetDocumentLevelList
+2013-11-28 13:55:24.4293 INFO Execution finished for GetDocumentLevels
+2013-11-28 15:10:00.1870 INFO Execution started of RequiredRoleAttribute.AuthorizeCore (httpContext = System.Web.HttpContextWrapper, )
+2013-11-28 15:10:00.1870 INFO Execution finished for AuthorizeCore
+2013-11-28 15:10:00.1870 INFO Execution started of DocumentLevelsController.Index ()
+2013-11-28 15:10:00.1870 INFO Execution finished for Index
+2013-11-28 15:10:04.0170 INFO Execution started of MiniProfilerStartupModule.Init (context = ASP.global_asax, )
+2013-11-28 15:10:04.0170 INFO Execution finished for Init
+2013-11-28 15:10:04.0190 INFO Execution started of MiniProfilerStartupModule.Init (context = ASP.global_asax, )
+2013-11-28 15:10:04.0410 INFO Execution finished for Init
+2013-11-28 15:10:05.6060 INFO Execution started of DocumentLevelService.GetDocumentLevels (OrgID = 1, )
+2013-11-28 15:10:05.6060 INFO Execution started of DocumentLevelService.GetDocumentLevelList (OrgID = 1, )
+2013-11-28 15:10:05.6060 INFO Execution started of DocumentLevelsFacade.GetDocumentLevels (OrgID = 1, )
+2013-11-28 15:10:05.6290 INFO Execution finished for GetDocumentLevels
+2013-11-28 15:10:05.6290 INFO Execution finished for GetDocumentLevelList
+2013-11-28 15:10:05.6290 INFO Execution finished for GetDocumentLevels
+2013-11-28 15:11:21.2750 INFO Execution started of RequiredRoleAttribute.AuthorizeCore (httpContext = System.Web.HttpContextWrapper, )
+2013-11-28 15:11:21.2750 INFO Execution finished for AuthorizeCore
+2013-11-28 15:11:21.2750 INFO Execution started of DocumentLevelsController.Index ()
+2013-11-28 15:11:21.2750 INFO Execution finished for Index
+2013-11-28 15:11:22.3110 INFO Execution started of MiniProfilerStartupModule.Init (context = ASP.global_asax, )
+2013-11-28 15:11:22.3110 INFO Execution finished for Init
+2013-11-28 15:11:22.3110 INFO Execution started of MiniProfilerStartupModule.Init (context = ASP.global_asax, )
+2013-11-28 15:11:22.3110 INFO Execution finished for Init
+2013-11-28 15:11:23.8670 INFO Execution started of DocumentLevelService.GetDocumentLevels (OrgID = 1, )
+2013-11-28 15:11:23.8670 INFO Execution started of DocumentLevelService.GetDocumentLevelList (OrgID = 1, )
+2013-11-28 15:11:23.8670 INFO Execution started of DocumentLevelsFacade.GetDocumentLevels (OrgID = 1, )
+2013-11-28 15:11:23.8740 INFO Execution finished for GetDocumentLevels
+2013-11-28 15:11:23.8740 INFO Execution finished for GetDocumentLevelList
+2013-11-28 15:11:23.8740 INFO Execution finished for GetDocumentLevels
+2013-11-28 15:15:29.9998 INFO Execution started of RequiredRoleAttribute.AuthorizeCore (httpContext = System.Web.HttpContextWrapper, )
+2013-11-28 15:15:29.9998 INFO Execution finished for AuthorizeCore
+2013-11-28 15:15:29.9998 INFO Execution started of DocumentLevelsController.Index ()
+2013-11-28 15:15:29.9998 INFO Execution finished for Index
+2013-11-28 15:15:31.2089 INFO Execution started of MiniProfilerStartupModule.Init (context = ASP.global_asax, )
+2013-11-28 15:15:31.2089 INFO Execution finished for Init
+2013-11-28 15:15:31.2089 INFO Execution started of MiniProfilerStartupModule.Init (context = ASP.global_asax, )
+2013-11-28 15:15:31.2089 INFO Execution finished for Init
+2013-11-28 15:15:31.2179 INFO Execution started of MiniProfilerStartupModule.Init (context = ASP.global_asax, )
+2013-11-28 15:15:31.2179 INFO Execution started of MiniProfilerStartupModule.Init (context = ASP.global_asax, )
+2013-11-28 15:15:31.2179 INFO Execution finished for Init
+2013-11-28 15:15:31.2179 INFO Execution finished for Init
+2013-11-28 15:15:32.8491 INFO Execution started of DocumentLevelService.GetDocumentLevels (OrgID = 1, )
+2013-11-28 15:15:32.8491 INFO Execution started of DocumentLevelService.GetDocumentLevelList (OrgID = 1, )
+2013-11-28 15:15:32.8491 INFO Execution started of DocumentLevelsFacade.GetDocumentLevels (OrgID = 1, )
+2013-11-28 15:15:32.8921 INFO Execution finished for GetDocumentLevels
+2013-11-28 15:15:32.8921 INFO Execution finished for GetDocumentLevelList
+2013-11-28 15:15:32.8921 INFO Execution finished for GetDocumentLevels
+2013-11-28 15:18:32.5011 INFO Execution started of RequiredRoleAttribute.AuthorizeCore (httpContext = System.Web.HttpContextWrapper, )
+2013-11-28 15:18:32.5011 INFO Execution finished for AuthorizeCore
+2013-11-28 15:18:32.5011 INFO Execution started of DocumentLevelsController.Index ()
+2013-11-28 15:18:32.5011 INFO Execution finished for Index
+2013-11-28 15:18:33.5672 INFO Execution started of MiniProfilerStartupModule.Init (context = ASP.global_asax, )
+2013-11-28 15:18:33.5672 INFO Execution finished for Init
+2013-11-28 15:18:35.1123 INFO Execution started of DocumentLevelService.GetDocumentLevels (OrgID = 1, )
+2013-11-28 15:18:35.1123 INFO Execution started of DocumentLevelService.GetDocumentLevelList (OrgID = 1, )
+2013-11-28 15:18:35.1123 INFO Execution started of DocumentLevelsFacade.GetDocumentLevels (OrgID = 1, )
+2013-11-28 15:18:35.1203 INFO Execution finished for GetDocumentLevels
+2013-11-28 15:18:35.1203 INFO Execution finished for GetDocumentLevelList
+2013-11-28 15:18:35.1203 INFO Execution finished for GetDocumentLevels

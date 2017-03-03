@@ -1,0 +1,11 @@
+2013-10-21 15:48:32.5683 INFO Application started.
+2013-10-21 16:49:55.0329 INFO Application started.
+2013-10-21 17:17:57.3941 INFO Application started.
+2013-10-21 17:18:40.1246 INFO Application started.
+2013-10-21 17:19:01.1298 INFO Application started.
+2013-10-21 17:58:09.6041 INFO Application started.
+2013-10-21 18:31:02.9980 INFO Application started.
+2013-10-21 18:33:54.7718 INFO Executing UserController.Execute (requestContext=System.Web.Routing.RequestContext,)
+2013-10-21 18:34:01.9582 INFO Executing UserController.Execute (requestContext=System.Web.Routing.RequestContext,)
+2013-10-21 18:34:57.6244 INFO Executing UserController.Dispose (disposing=True,)
+2013-10-21 18:35:06.6989 INFO Executing UserController.Dispose (disposing=True,)

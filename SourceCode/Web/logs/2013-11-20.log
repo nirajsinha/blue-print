@@ -1,0 +1,122 @@
+2013-11-20 21:02:40.3713 INFO Execution started of MvcApplication.Application_Start ()
+2013-11-20 21:02:45.1516 INFO Execution started of AdminAreaRegistration.get_AreaName ()
+2013-11-20 21:02:45.1516 INFO Execution finished for get_AreaName
+2013-11-20 21:02:45.1516 INFO Execution started of AdminAreaRegistration.RegisterArea (context = System.Web.Mvc.AreaRegistrationContext, )
+2013-11-20 21:02:45.1516 INFO Execution finished for RegisterArea
+2013-11-20 21:02:45.1666 INFO Execution finished for Application_Start
+2013-11-20 21:02:45.6396 INFO Execution started of MiniProfilerStartupModule.Init (context = ASP.global_asax, )
+2013-11-20 21:02:45.6396 INFO Execution finished for Init
+2013-11-20 21:02:46.1936 INFO Execution started of HomeController.Index ()
+2013-11-20 21:02:46.1936 INFO Execution finished for Index
+2013-11-20 21:02:47.9627 INFO Execution started of MiniProfilerStartupModule.Init (context = ASP.global_asax, )
+2013-11-20 21:02:47.9727 INFO Execution finished for Init
+2013-11-20 21:02:48.8858 INFO Execution started of MiniProfilerStartupModule.Init (context = ASP.global_asax, )
+2013-11-20 21:02:48.8858 INFO Execution finished for Init
+2013-11-20 21:02:52.3300 INFO Execution started of AccountController.LogOn (returnUrl = /Home/Default, )
+2013-11-20 21:02:52.3640 INFO Execution finished for LogOn
+2013-11-20 21:03:08.9429 INFO Execution started of AccountController.LogOn (model = Confluence.Blueprint.Models.LogOnModel, )
+2013-11-20 21:03:08.9429 INFO Execution started of AccountService.GetUserDetails (email = admin@eqms.com, )
+2013-11-20 21:03:08.9519 INFO Execution started of UserFacade.GetUserDetails (email = admin@eqms.com, )
+2013-11-20 21:03:09.3709 INFO Execution finished for GetUserDetails
+2013-11-20 21:03:09.3729 INFO Execution finished for GetUserDetails
+2013-11-20 21:03:09.3729 INFO Execution started of BaseController.Redirect (url = /Home/Default, )
+2013-11-20 21:03:09.3880 INFO Execution finished for Redirect
+2013-11-20 21:03:09.3880 INFO Execution finished for LogOn
+2013-11-20 21:03:09.3880 INFO Execution started of AjaxAwareRedirectResult.ExecuteResult (context = System.Web.Mvc.ControllerContext, )
+2013-11-20 21:03:09.4450 INFO Execution finished for ExecuteResult
+2013-11-20 21:03:09.5060 INFO Execution started of HomeController.Default ()
+2013-11-20 21:03:09.5060 INFO Execution finished for Default
+2013-11-20 21:05:55.2924 INFO Execution started of HomeController.Default ()
+2013-11-20 21:05:55.2924 INFO Execution finished for Default
+2013-11-20 21:05:57.2566 INFO Execution started of MiniProfilerStartupModule.Init (context = ASP.global_asax, )
+2013-11-20 21:05:57.2566 INFO Execution finished for Init
+2013-11-20 21:05:57.3086 INFO Execution started of MiniProfilerStartupModule.Init (context = ASP.global_asax, )
+2013-11-20 21:05:57.3086 INFO Execution finished for Init
+2013-11-20 21:05:59.0587 INFO Execution started of CommonService.GetUserDashboard (UserID = 1, )
+2013-11-20 21:05:59.0587 INFO Execution started of CommonFacade.GetDashboardData (UserID = 1, )
+2013-11-20 21:05:59.1127 INFO Execution finished for GetDashboardData
+2013-11-20 21:05:59.1127 INFO Execution finished for GetUserDashboard
+2013-11-20 21:06:18.2568 INFO Execution started of RequiredRoleAttribute.AuthorizeCore (httpContext = System.Web.HttpContextWrapper, )
+2013-11-20 21:06:18.2578 INFO Execution finished for AuthorizeCore
+2013-11-20 21:06:18.2578 INFO Execution started of AdminController.Index ()
+2013-11-20 21:06:18.2578 INFO Execution finished for Index
+2013-11-20 21:10:39.0257 INFO Execution started of RequiredRoleAttribute.AuthorizeCore (httpContext = System.Web.HttpContextWrapper, )
+2013-11-20 21:10:39.0257 INFO Execution finished for AuthorizeCore
+2013-11-20 21:10:39.0257 INFO Execution started of AdminController.Index ()
+2013-11-20 21:10:39.0257 INFO Execution finished for Index
+2013-11-20 21:10:40.3957 INFO Execution started of MiniProfilerStartupModule.Init (context = ASP.global_asax, )
+2013-11-20 21:10:40.3957 INFO Execution finished for Init
+2013-11-20 21:10:40.4527 INFO Execution started of MiniProfilerStartupModule.Init (context = ASP.global_asax, )
+2013-11-20 21:10:40.4527 INFO Execution finished for Init
+2013-11-20 21:10:51.2634 INFO Execution started of RequiredRoleAttribute.AuthorizeCore (httpContext = System.Web.HttpContextWrapper, )
+2013-11-20 21:10:51.2634 INFO Execution finished for AuthorizeCore
+2013-11-20 21:10:51.2634 INFO Execution started of OrganizationController.Index ()
+2013-11-20 21:10:51.2634 INFO Execution started of OrganizationService.GetOrganizationByUserEmail (userEmail = admin@eqms.com, )
+2013-11-20 21:10:51.2764 INFO Execution started of OrganizationFacade.GetOrganization (userEmail = admin@eqms.com, )
+2013-11-20 21:10:51.3174 INFO Execution finished for GetOrganization
+2013-11-20 21:10:51.3174 INFO Execution finished for GetOrganizationByUserEmail
+2013-11-20 21:10:51.3174 INFO Execution finished for Index
+2013-11-20 21:17:17.1024 INFO Execution started of RequiredRoleAttribute.AuthorizeCore (httpContext = System.Web.HttpContextWrapper, )
+2013-11-20 21:17:17.1024 INFO Execution finished for AuthorizeCore
+2013-11-20 21:17:17.1024 INFO Execution started of OrganizationController.Index ()
+2013-11-20 21:17:17.1024 INFO Execution started of OrganizationService.GetOrganizationByUserEmail (userEmail = admin@eqms.com, )
+2013-11-20 21:17:17.1024 INFO Execution started of OrganizationFacade.GetOrganization (userEmail = admin@eqms.com, )
+2013-11-20 21:17:17.1324 INFO Execution finished for GetOrganization
+2013-11-20 21:17:17.1324 INFO Execution finished for GetOrganizationByUserEmail
+2013-11-20 21:17:17.1324 INFO Execution finished for Index
+2013-11-20 21:17:17.4695 INFO Execution started of MiniProfilerStartupModule.Init (context = ASP.global_asax, )
+2013-11-20 21:17:17.4735 INFO Execution finished for Init
+2013-11-20 21:17:32.1383 INFO Execution started of HomeController.Index ()
+2013-11-20 21:17:32.1383 INFO Execution finished for Index
+2013-11-20 21:17:34.2454 INFO Execution started of HomeController.Default ()
+2013-11-20 21:17:34.2454 INFO Execution finished for Default
+2013-11-20 21:17:35.5635 INFO Execution started of MiniProfilerStartupModule.Init (context = ASP.global_asax, )
+2013-11-20 21:17:35.5635 INFO Execution finished for Init
+2013-11-20 21:17:35.9415 INFO Execution started of CommonService.GetUserDashboard (UserID = 1, )
+2013-11-20 21:17:35.9415 INFO Execution started of CommonFacade.GetDashboardData (UserID = 1, )
+2013-11-20 21:17:35.9415 INFO Execution finished for GetDashboardData
+2013-11-20 21:17:35.9415 INFO Execution finished for GetUserDashboard
+2013-11-20 21:18:09.5504 INFO Execution started of MvcApplication.Application_Start ()
+2013-11-20 21:18:09.6104 INFO Execution started of AdminAreaRegistration.get_AreaName ()
+2013-11-20 21:18:09.6104 INFO Execution finished for get_AreaName
+2013-11-20 21:18:09.6104 INFO Execution started of AdminAreaRegistration.RegisterArea (context = System.Web.Mvc.AreaRegistrationContext, )
+2013-11-20 21:18:09.6104 INFO Execution finished for RegisterArea
+2013-11-20 21:18:09.6104 INFO Execution finished for Application_Start
+2013-11-20 21:18:09.6764 INFO Execution started of MiniProfilerStartupModule.Init (context = ASP.global_asax, )
+2013-11-20 21:18:09.6764 INFO Execution finished for Init
+2013-11-20 21:18:09.8295 INFO Execution started of HomeController.Index ()
+2013-11-20 21:18:09.8295 INFO Execution finished for Index
+2013-11-20 21:18:10.3375 INFO Execution started of MiniProfilerStartupModule.Init (context = ASP.global_asax, )
+2013-11-20 21:18:10.3415 INFO Execution finished for Init
+2013-11-20 21:18:48.6557 INFO Execution started of MvcApplication.Application_Start ()
+2013-11-20 21:18:48.9637 INFO Execution started of AdminAreaRegistration.get_AreaName ()
+2013-11-20 21:18:48.9637 INFO Execution finished for get_AreaName
+2013-11-20 21:18:48.9657 INFO Execution started of AdminAreaRegistration.RegisterArea (context = System.Web.Mvc.AreaRegistrationContext, )
+2013-11-20 21:18:48.9657 INFO Execution finished for RegisterArea
+2013-11-20 21:18:48.9657 INFO Execution finished for Application_Start
+2013-11-20 21:18:48.9887 INFO Execution started of MiniProfilerStartupModule.Init (context = ASP.global_asax, )
+2013-11-20 21:18:48.9887 INFO Execution finished for Init
+2013-11-20 21:18:49.1607 INFO Execution started of HomeController.Index ()
+2013-11-20 21:18:49.1607 INFO Execution finished for Index
+2013-11-20 21:18:50.8058 INFO Execution started of MiniProfilerStartupModule.Init (context = ASP.global_asax, )
+2013-11-20 21:18:50.8078 INFO Execution finished for Init
+2013-11-20 21:18:52.4929 INFO Execution started of AccountController.LogOn (returnUrl = /Home/Default, )
+2013-11-20 21:18:52.5239 INFO Execution finished for LogOn
+2013-11-20 21:18:53.4579 INFO Execution started of MiniProfilerStartupModule.Init (context = ASP.global_asax, )
+2013-11-20 21:18:53.4709 INFO Execution finished for Init
+2013-11-20 21:19:04.7566 INFO Execution started of AccountController.LogOn (model = Confluence.Blueprint.Models.LogOnModel, )
+2013-11-20 21:19:04.7566 INFO Execution started of AccountService.GetUserDetails (email = admin@eqms.com, )
+2013-11-20 21:19:04.7566 INFO Execution started of UserFacade.GetUserDetails (email = admin@eqms.com, )
+2013-11-20 21:19:04.8626 INFO Execution finished for GetUserDetails
+2013-11-20 21:19:04.8626 INFO Execution finished for GetUserDetails
+2013-11-20 21:19:04.8626 INFO Execution started of BaseController.Redirect (url = /Home/Default, )
+2013-11-20 21:19:04.8626 INFO Execution finished for Redirect
+2013-11-20 21:19:04.8626 INFO Execution finished for LogOn
+2013-11-20 21:19:04.8626 INFO Execution started of AjaxAwareRedirectResult.ExecuteResult (context = System.Web.Mvc.ControllerContext, )
+2013-11-20 21:19:04.8626 INFO Execution finished for ExecuteResult
+2013-11-20 21:19:04.8786 INFO Execution started of HomeController.Default ()
+2013-11-20 21:19:04.8786 INFO Execution finished for Default
+2013-11-20 21:19:08.8248 INFO Execution started of CommonService.GetUserDashboard (UserID = 1, )
+2013-11-20 21:19:08.8248 INFO Execution started of CommonFacade.GetDashboardData (UserID = 1, )
+2013-11-20 21:19:08.8248 INFO Execution finished for GetDashboardData
+2013-11-20 21:19:08.8248 INFO Execution finished for GetUserDashboard

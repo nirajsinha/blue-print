@@ -1,0 +1,434 @@
+2014-01-07 20:33:11.9551 INFO Execution started of MvcApplication.Application_Start ()
+2014-01-07 20:33:14.0983 INFO Execution started of AdminAreaRegistration.get_AreaName ()
+2014-01-07 20:33:14.0983 INFO Execution finished for get_AreaName
+2014-01-07 20:33:14.0983 INFO Execution started of AdminAreaRegistration.RegisterArea (context = System.Web.Mvc.AreaRegistrationContext, )
+2014-01-07 20:33:14.1073 INFO Execution finished for RegisterArea
+2014-01-07 20:33:14.1073 INFO Execution finished for Application_Start
+2014-01-07 20:33:14.3373 INFO Execution started of HomeController.Index ()
+2014-01-07 20:33:14.3373 INFO Execution finished for Index
+2014-01-07 20:33:44.0610 INFO Execution started of AccountController.LogOn (returnUrl = /Home/Default, )
+2014-01-07 20:33:44.1260 INFO Execution finished for LogOn
+2014-01-07 20:33:59.0998 INFO Execution started of AccountController.LogOn (model = Confluence.Blueprint.Models.LogOnModel, )
+2014-01-07 20:33:59.0998 INFO Execution started of OrganizationService.GetOrganizationByUserEmail (userEmail = admin@eqms.com, )
+2014-01-07 20:33:59.1138 INFO Execution started of OrganizationFacade.GetOrganization (userEmail = admin@eqms.com, )
+2014-01-07 20:34:00.5459 INFO Execution finished for GetOrganization
+2014-01-07 20:34:00.5459 INFO Execution finished for GetOrganizationByUserEmail
+2014-01-07 20:34:00.5499 INFO Execution started of AccountService.GetUserDetails (email = admin@eqms.com, )
+2014-01-07 20:34:00.5499 INFO Execution started of UserFacade.GetUserDetails (email = admin@eqms.com, )
+2014-01-07 20:34:00.6419 INFO Execution finished for GetUserDetails
+2014-01-07 20:34:00.6419 INFO Execution finished for GetUserDetails
+2014-01-07 20:34:00.6419 INFO Execution started of BaseController.GetTerminology (id = 3, )
+2014-01-07 20:34:00.6419 INFO Execution finished for GetTerminology
+2014-01-07 20:34:00.6719 INFO Execution started of BaseController.Redirect (url = /Home/Default, )
+2014-01-07 20:34:00.6739 INFO Execution finished for Redirect
+2014-01-07 20:34:00.6739 INFO Execution finished for LogOn
+2014-01-07 20:34:00.6739 INFO Execution started of AjaxAwareRedirectResult.ExecuteResult (context = System.Web.Mvc.ControllerContext, )
+2014-01-07 20:34:00.6939 INFO Execution finished for ExecuteResult
+2014-01-07 20:34:00.7419 INFO Execution started of HomeController.Default ()
+2014-01-07 20:34:00.7419 INFO Execution finished for Default
+2014-01-07 20:34:04.8092 INFO Execution started of CommonService.GetUserDashboard (UserID = 1, )
+2014-01-07 20:34:04.8092 INFO Execution started of CommonFacade.GetDashboardData (UserID = 1, )
+2014-01-07 20:34:04.9462 INFO Execution finished for GetDashboardData
+2014-01-07 20:34:04.9482 INFO Execution finished for GetUserDashboard
+2014-01-07 20:34:10.7505 INFO Execution started of DocumentLibraryController.Index ()
+2014-01-07 20:34:10.7545 INFO Execution started of OrganizationService.GetOrganizationByID (orgid = 1, )
+2014-01-07 20:34:10.7665 INFO Execution started of OrganizationFacade.GetOrganization (orgid = 1, )
+2014-01-07 20:34:10.8105 INFO Execution finished for GetOrganization
+2014-01-07 20:34:10.8105 INFO Execution finished for GetOrganizationByID
+2014-01-07 20:34:10.8135 INFO Execution started of DepartmentService.GetDepartmentDetails (deptid = 1, )
+2014-01-07 20:34:10.8135 INFO Execution started of DepartmentFacade.GetDepartmentDetail (deptid = 1, )
+2014-01-07 20:34:10.8695 INFO Execution finished for GetDepartmentDetail
+2014-01-07 20:34:10.8695 INFO Execution finished for GetDepartmentDetails
+2014-01-07 20:34:10.8695 INFO Execution started of DepartmentService.GetDepartmentDetails (deptid = 2, )
+2014-01-07 20:34:10.8695 INFO Execution started of DepartmentFacade.GetDepartmentDetail (deptid = 2, )
+2014-01-07 20:34:10.8925 INFO Execution finished for GetDepartmentDetail
+2014-01-07 20:34:10.8925 INFO Execution finished for GetDepartmentDetails
+2014-01-07 20:34:10.8925 INFO Execution started of DepartmentService.GetDepartmentDetails (deptid = 3, )
+2014-01-07 20:34:10.8925 INFO Execution started of DepartmentFacade.GetDepartmentDetail (deptid = 3, )
+2014-01-07 20:34:10.9125 INFO Execution finished for GetDepartmentDetail
+2014-01-07 20:34:10.9125 INFO Execution finished for GetDepartmentDetails
+2014-01-07 20:34:10.9125 INFO Execution started of DepartmentService.GetDepartmentDetails (deptid = 4, )
+2014-01-07 20:34:10.9125 INFO Execution started of DepartmentFacade.GetDepartmentDetail (deptid = 4, )
+2014-01-07 20:34:10.9355 INFO Execution finished for GetDepartmentDetail
+2014-01-07 20:34:10.9355 INFO Execution finished for GetDepartmentDetails
+2014-01-07 20:34:10.9385 INFO Execution started of DepartmentService.GetDepartmentDetails (deptid = 11, )
+2014-01-07 20:34:10.9385 INFO Execution started of DepartmentFacade.GetDepartmentDetail (deptid = 11, )
+2014-01-07 20:34:10.9565 INFO Execution finished for GetDepartmentDetail
+2014-01-07 20:34:10.9565 INFO Execution finished for GetDepartmentDetails
+2014-01-07 20:34:10.9565 INFO Execution finished for Index
+2014-01-07 20:34:13.7637 INFO Execution started of DocumentLibraryController.CheckPublishPermission ()
+2014-01-07 20:34:13.7637 INFO Execution finished for CheckPublishPermission
+2014-01-07 20:34:14.9777 INFO Execution started of DocumentLibraryController.BuildDocumentList (dept = 1, subdept = 0, )
+2014-01-07 20:34:14.9797 INFO Execution started of DocumentFacade.GetDocumentDetailsList (orgID = 1, userId = 1, deptID = 1, subDeptID = 0, )
+2014-01-07 20:34:14.9797 INFO Execution started of DocumentFacade.GetDocumentList (orgID = 1, )
+2014-01-07 20:34:15.0928 INFO Execution finished for GetDocumentList
+2014-01-07 20:34:15.0928 INFO Execution started of DocumentFacade.GetDocumentDetails (DocID = 29, )
+2014-01-07 20:34:15.4138 INFO Execution finished for GetDocumentDetails
+2014-01-07 20:34:15.4188 INFO Execution started of DocumentFacade.ValidateDocumentPermission (userid = 1, docid = 29, )
+2014-01-07 20:34:15.4568 INFO Execution finished for ValidateDocumentPermission
+2014-01-07 20:34:15.4568 INFO Execution started of DocumentFacade.GetDocumentDetails (DocID = 48, )
+2014-01-07 20:34:15.4828 INFO Execution finished for GetDocumentDetails
+2014-01-07 20:34:15.4828 INFO Execution started of DocumentFacade.ValidateDocumentPermission (userid = 1, docid = 48, )
+2014-01-07 20:34:15.5038 INFO Execution finished for ValidateDocumentPermission
+2014-01-07 20:34:15.5038 INFO Execution started of DocumentFacade.GetDocumentDetails (DocID = 54, )
+2014-01-07 20:34:15.5308 INFO Execution finished for GetDocumentDetails
+2014-01-07 20:34:15.5308 INFO Execution started of DocumentFacade.ValidateDocumentPermission (userid = 1, docid = 54, )
+2014-01-07 20:34:15.5508 INFO Execution finished for ValidateDocumentPermission
+2014-01-07 20:34:15.5508 INFO Execution started of DocumentFacade.GetDocumentDetails (DocID = 56, )
+2014-01-07 20:34:15.5718 INFO Execution finished for GetDocumentDetails
+2014-01-07 20:34:15.5718 INFO Execution started of DocumentFacade.ValidateDocumentPermission (userid = 1, docid = 56, )
+2014-01-07 20:34:15.6178 INFO Execution finished for ValidateDocumentPermission
+2014-01-07 20:34:15.6188 INFO Execution started of DocumentFacade.GetDocumentDetails (DocID = 58, )
+2014-01-07 20:34:15.6188 INFO Execution finished for GetDocumentDetails
+2014-01-07 20:34:15.6188 INFO Execution started of DocumentFacade.ValidateDocumentPermission (userid = 1, docid = 58, )
+2014-01-07 20:34:15.6398 INFO Execution finished for ValidateDocumentPermission
+2014-01-07 20:34:15.6398 INFO Execution started of DocumentFacade.GetDocumentDetails (DocID = 64, )
+2014-01-07 20:34:15.6668 INFO Execution finished for GetDocumentDetails
+2014-01-07 20:34:15.6668 INFO Execution started of DocumentFacade.ValidateDocumentPermission (userid = 1, docid = 64, )
+2014-01-07 20:34:15.6668 INFO Execution finished for ValidateDocumentPermission
+2014-01-07 20:34:15.6668 INFO Execution started of DocumentFacade.GetDocumentDetails (DocID = 67, )
+2014-01-07 20:34:15.6808 INFO Execution finished for GetDocumentDetails
+2014-01-07 20:34:15.6808 INFO Execution started of DocumentFacade.ValidateDocumentPermission (userid = 1, docid = 67, )
+2014-01-07 20:34:15.7038 INFO Execution finished for ValidateDocumentPermission
+2014-01-07 20:34:15.7038 INFO Execution finished for GetDocumentDetailsList
+2014-01-07 20:34:15.7038 INFO Execution finished for BuildDocumentList
+2014-01-07 20:34:22.0741 INFO Execution started of DocumentLibraryController.ChangeRequest (id = 64, )
+2014-01-07 20:34:22.0781 INFO Execution started of DocumentLibraryController.CheckDocumentLevelPermissions (docid = 64, role = Raise Change Request, )
+2014-01-07 20:34:22.0781 INFO Execution started of DocumentFacade.GetDocumentDetails (DocID = 64, )
+2014-01-07 20:34:22.1002 INFO Execution finished for GetDocumentDetails
+2014-01-07 20:34:22.1082 INFO Execution finished for CheckDocumentLevelPermissions
+2014-01-07 20:34:22.1602 INFO Execution started of DocumentFacade.GetDocumentChangeRequest (docid = 64, )
+2014-01-07 20:34:22.2252 INFO Execution finished for GetDocumentChangeRequest
+2014-01-07 20:34:22.2252 INFO Execution started of DocumentFacade.GetDocumentDetails (DocID = 64, )
+2014-01-07 20:34:22.2452 INFO Execution finished for GetDocumentDetails
+2014-01-07 20:34:22.2452 INFO Execution finished for ChangeRequest
+2014-01-07 20:39:59.0044 INFO Execution started of DocumentLibraryController.ChangeRequest (id = 64, )
+2014-01-07 20:39:59.0044 INFO Execution started of DocumentLibraryController.CheckDocumentLevelPermissions (docid = 64, role = Raise Change Request, )
+2014-01-07 20:39:59.0044 INFO Execution started of DocumentFacade.GetDocumentDetails (DocID = 64, )
+2014-01-07 20:39:59.0344 INFO Execution finished for GetDocumentDetails
+2014-01-07 20:39:59.0444 INFO Execution finished for CheckDocumentLevelPermissions
+2014-01-07 20:39:59.0444 INFO Execution started of DocumentFacade.GetDocumentChangeRequest (docid = 64, )
+2014-01-07 20:39:59.0544 INFO Execution finished for GetDocumentChangeRequest
+2014-01-07 20:39:59.0544 INFO Execution started of DocumentFacade.GetDocumentDetails (DocID = 64, )
+2014-01-07 20:39:59.0544 INFO Execution finished for GetDocumentDetails
+2014-01-07 20:39:59.0544 INFO Execution finished for ChangeRequest
+2014-01-07 20:40:43.2730 INFO Execution started of DocumentLibraryController.ChangeRequest (id = 64, )
+2014-01-07 20:40:43.2730 INFO Execution started of DocumentLibraryController.CheckDocumentLevelPermissions (docid = 64, role = Raise Change Request, )
+2014-01-07 20:40:43.2730 INFO Execution started of DocumentFacade.GetDocumentDetails (DocID = 64, )
+2014-01-07 20:40:43.2950 INFO Execution finished for GetDocumentDetails
+2014-01-07 20:40:43.3030 INFO Execution finished for CheckDocumentLevelPermissions
+2014-01-07 20:40:43.3030 INFO Execution started of DocumentFacade.GetDocumentChangeRequest (docid = 64, )
+2014-01-07 20:40:43.3160 INFO Execution finished for GetDocumentChangeRequest
+2014-01-07 20:40:43.3160 INFO Execution started of DocumentFacade.GetDocumentDetails (DocID = 64, )
+2014-01-07 20:40:43.3160 INFO Execution finished for GetDocumentDetails
+2014-01-07 20:40:43.3160 INFO Execution finished for ChangeRequest
+2014-01-07 20:40:50.5204 INFO Execution started of DocumentLibraryController.ChangeRequest (id = 64, )
+2014-01-07 20:40:50.5204 INFO Execution started of DocumentLibraryController.CheckDocumentLevelPermissions (docid = 64, role = Raise Change Request, )
+2014-01-07 20:40:50.5204 INFO Execution started of DocumentFacade.GetDocumentDetails (DocID = 64, )
+2014-01-07 20:40:50.5204 INFO Execution finished for GetDocumentDetails
+2014-01-07 20:40:50.5384 INFO Execution finished for CheckDocumentLevelPermissions
+2014-01-07 20:40:50.5384 INFO Execution started of DocumentFacade.GetDocumentChangeRequest (docid = 64, )
+2014-01-07 20:40:50.5384 INFO Execution finished for GetDocumentChangeRequest
+2014-01-07 20:40:50.5384 INFO Execution started of DocumentFacade.GetDocumentDetails (DocID = 64, )
+2014-01-07 20:40:50.5504 INFO Execution finished for GetDocumentDetails
+2014-01-07 20:40:50.5504 INFO Execution finished for ChangeRequest
+2014-01-07 20:42:41.3527 INFO Execution started of DocumentLibraryController.ChangeRequest (id = 64, )
+2014-01-07 20:42:41.3527 INFO Execution started of DocumentLibraryController.CheckDocumentLevelPermissions (docid = 64, role = Raise Change Request, )
+2014-01-07 20:42:41.3527 INFO Execution started of DocumentFacade.GetDocumentDetails (DocID = 64, )
+2014-01-07 20:42:41.3647 INFO Execution finished for GetDocumentDetails
+2014-01-07 20:42:41.3757 INFO Execution finished for CheckDocumentLevelPermissions
+2014-01-07 20:42:41.3757 INFO Execution started of DocumentFacade.GetDocumentChangeRequest (docid = 64, )
+2014-01-07 20:42:41.3757 INFO Execution finished for GetDocumentChangeRequest
+2014-01-07 20:42:41.3757 INFO Execution started of DocumentFacade.GetDocumentDetails (DocID = 64, )
+2014-01-07 20:42:41.3927 INFO Execution finished for GetDocumentDetails
+2014-01-07 20:42:41.3927 INFO Execution finished for ChangeRequest
+2014-01-07 20:44:42.8457 INFO Execution started of DocumentLibraryController.ChangeRequest (id = 64, )
+2014-01-07 20:44:42.8457 INFO Execution started of DocumentLibraryController.CheckDocumentLevelPermissions (docid = 64, role = Raise Change Request, )
+2014-01-07 20:44:42.8457 INFO Execution started of DocumentFacade.GetDocumentDetails (DocID = 64, )
+2014-01-07 20:44:42.8677 INFO Execution finished for GetDocumentDetails
+2014-01-07 20:44:42.8677 INFO Execution finished for CheckDocumentLevelPermissions
+2014-01-07 20:44:42.8677 INFO Execution started of DocumentFacade.GetDocumentChangeRequest (docid = 64, )
+2014-01-07 20:44:42.8677 INFO Execution finished for GetDocumentChangeRequest
+2014-01-07 20:44:42.8677 INFO Execution started of DocumentFacade.GetDocumentDetails (DocID = 64, )
+2014-01-07 20:44:42.8887 INFO Execution finished for GetDocumentDetails
+2014-01-07 20:44:42.8887 INFO Execution finished for ChangeRequest
+2014-01-07 20:48:01.7320 INFO Execution started of DocumentLibraryController.ChangeRequest (id = 64, )
+2014-01-07 20:48:01.7320 INFO Execution started of DocumentLibraryController.CheckDocumentLevelPermissions (docid = 64, role = Raise Change Request, )
+2014-01-07 20:48:01.7320 INFO Execution started of DocumentFacade.GetDocumentDetails (DocID = 64, )
+2014-01-07 20:48:01.7440 INFO Execution finished for GetDocumentDetails
+2014-01-07 20:48:01.7630 INFO Execution finished for CheckDocumentLevelPermissions
+2014-01-07 20:48:01.7630 INFO Execution started of DocumentFacade.GetDocumentChangeRequest (docid = 64, )
+2014-01-07 20:48:01.7710 INFO Execution finished for GetDocumentChangeRequest
+2014-01-07 20:48:01.7710 INFO Execution started of DocumentFacade.GetDocumentDetails (DocID = 64, )
+2014-01-07 20:48:01.7710 INFO Execution finished for GetDocumentDetails
+2014-01-07 20:48:01.7710 INFO Execution finished for ChangeRequest
+2014-01-07 20:49:18.3314 INFO Execution started of DocumentLibraryController.ChangeRequest (id = 64, )
+2014-01-07 20:49:18.3314 INFO Execution started of DocumentLibraryController.CheckDocumentLevelPermissions (docid = 64, role = Raise Change Request, )
+2014-01-07 20:49:18.3334 INFO Execution started of DocumentFacade.GetDocumentDetails (DocID = 64, )
+2014-01-07 20:49:18.3334 INFO Execution finished for GetDocumentDetails
+2014-01-07 20:49:18.3504 INFO Execution finished for CheckDocumentLevelPermissions
+2014-01-07 20:49:18.3504 INFO Execution started of DocumentFacade.GetDocumentChangeRequest (docid = 64, )
+2014-01-07 20:49:18.3504 INFO Execution finished for GetDocumentChangeRequest
+2014-01-07 20:49:18.3504 INFO Execution started of DocumentFacade.GetDocumentDetails (DocID = 64, )
+2014-01-07 20:49:18.3694 INFO Execution finished for GetDocumentDetails
+2014-01-07 20:49:18.3694 INFO Execution finished for ChangeRequest
+2014-01-07 20:57:51.2858 INFO Execution started of DocumentLibraryController.ChangeRequest (id = 64, )
+2014-01-07 20:57:51.2858 INFO Execution started of DocumentLibraryController.CheckDocumentLevelPermissions (docid = 64, role = Raise Change Request, )
+2014-01-07 20:57:51.2858 INFO Execution started of DocumentFacade.GetDocumentDetails (DocID = 64, )
+2014-01-07 20:57:51.2988 INFO Execution finished for GetDocumentDetails
+2014-01-07 20:57:51.3148 INFO Execution finished for CheckDocumentLevelPermissions
+2014-01-07 20:57:51.3148 INFO Execution started of DocumentFacade.GetDocumentChangeRequest (docid = 64, )
+2014-01-07 20:57:51.3148 INFO Execution finished for GetDocumentChangeRequest
+2014-01-07 20:57:51.3148 INFO Execution started of DocumentFacade.GetDocumentDetails (DocID = 64, )
+2014-01-07 20:57:51.3318 INFO Execution finished for GetDocumentDetails
+2014-01-07 20:57:51.3318 INFO Execution finished for ChangeRequest
+2014-01-07 20:59:58.3600 INFO Execution started of DocumentLibraryController.ChangeRequest (id = 64, )
+2014-01-07 20:59:58.3600 INFO Execution started of DocumentLibraryController.CheckDocumentLevelPermissions (docid = 64, role = Raise Change Request, )
+2014-01-07 20:59:58.3600 INFO Execution started of DocumentFacade.GetDocumentDetails (DocID = 64, )
+2014-01-07 20:59:58.3600 INFO Execution finished for GetDocumentDetails
+2014-01-07 20:59:58.3750 INFO Execution finished for CheckDocumentLevelPermissions
+2014-01-07 20:59:58.3750 INFO Execution started of DocumentFacade.GetDocumentChangeRequest (docid = 64, )
+2014-01-07 20:59:58.4010 INFO Execution finished for GetDocumentChangeRequest
+2014-01-07 20:59:58.4010 INFO Execution started of DocumentFacade.GetDocumentDetails (DocID = 64, )
+2014-01-07 20:59:58.4110 INFO Execution finished for GetDocumentDetails
+2014-01-07 20:59:58.4110 INFO Execution finished for ChangeRequest
+2014-01-07 21:01:17.9586 INFO Execution started of DocumentLibraryController.ChangeRequest (id = 64, )
+2014-01-07 21:01:17.9586 INFO Execution started of DocumentLibraryController.CheckDocumentLevelPermissions (docid = 64, role = Raise Change Request, )
+2014-01-07 21:01:17.9586 INFO Execution started of DocumentFacade.GetDocumentDetails (DocID = 64, )
+2014-01-07 21:01:17.9806 INFO Execution finished for GetDocumentDetails
+2014-01-07 21:01:17.9956 INFO Execution finished for CheckDocumentLevelPermissions
+2014-01-07 21:01:17.9956 INFO Execution started of DocumentFacade.GetDocumentChangeRequest (docid = 64, )
+2014-01-07 21:01:18.0026 INFO Execution finished for GetDocumentChangeRequest
+2014-01-07 21:01:18.0026 INFO Execution started of DocumentFacade.GetDocumentDetails (DocID = 64, )
+2014-01-07 21:01:18.0026 INFO Execution finished for GetDocumentDetails
+2014-01-07 21:01:18.0026 INFO Execution finished for ChangeRequest
+2014-01-07 21:02:24.4094 INFO Execution started of DocumentLibraryController.ChangeRequest (id = 64, )
+2014-01-07 21:02:24.4094 INFO Execution started of DocumentLibraryController.CheckDocumentLevelPermissions (docid = 64, role = Raise Change Request, )
+2014-01-07 21:02:24.4094 INFO Execution started of DocumentFacade.GetDocumentDetails (DocID = 64, )
+2014-01-07 21:02:24.4254 INFO Execution finished for GetDocumentDetails
+2014-01-07 21:02:24.4254 INFO Execution finished for CheckDocumentLevelPermissions
+2014-01-07 21:02:24.4254 INFO Execution started of DocumentFacade.GetDocumentChangeRequest (docid = 64, )
+2014-01-07 21:02:24.4434 INFO Execution finished for GetDocumentChangeRequest
+2014-01-07 21:02:24.4434 INFO Execution started of DocumentFacade.GetDocumentDetails (DocID = 64, )
+2014-01-07 21:02:24.4434 INFO Execution finished for GetDocumentDetails
+2014-01-07 21:02:24.4434 INFO Execution finished for ChangeRequest
+2014-01-07 21:07:32.3430 INFO Execution started of DocumentLibraryController.ChangeRequest (id = 64, )
+2014-01-07 21:07:32.3430 INFO Execution started of DocumentLibraryController.CheckDocumentLevelPermissions (docid = 64, role = Raise Change Request, )
+2014-01-07 21:07:32.3430 INFO Execution started of DocumentFacade.GetDocumentDetails (DocID = 64, )
+2014-01-07 21:07:32.3530 INFO Execution finished for GetDocumentDetails
+2014-01-07 21:07:32.3530 INFO Execution finished for CheckDocumentLevelPermissions
+2014-01-07 21:07:32.3530 INFO Execution started of DocumentFacade.GetDocumentChangeRequest (docid = 64, )
+2014-01-07 21:07:32.3930 INFO Execution finished for GetDocumentChangeRequest
+2014-01-07 21:07:32.3930 INFO Execution started of DocumentFacade.GetDocumentDetails (DocID = 64, )
+2014-01-07 21:07:32.4040 INFO Execution finished for GetDocumentDetails
+2014-01-07 21:07:32.4040 INFO Execution finished for ChangeRequest
+2014-01-07 21:09:21.9933 INFO Execution started of DocumentLibraryController.ChangeRequest (id = 64, )
+2014-01-07 21:09:21.9933 INFO Execution started of DocumentLibraryController.CheckDocumentLevelPermissions (docid = 64, role = Raise Change Request, )
+2014-01-07 21:09:21.9933 INFO Execution started of DocumentFacade.GetDocumentDetails (DocID = 64, )
+2014-01-07 21:09:22.0133 INFO Execution finished for GetDocumentDetails
+2014-01-07 21:09:22.0133 INFO Execution finished for CheckDocumentLevelPermissions
+2014-01-07 21:09:22.0133 INFO Execution started of DocumentFacade.GetDocumentChangeRequest (docid = 64, )
+2014-01-07 21:09:22.0223 INFO Execution finished for GetDocumentChangeRequest
+2014-01-07 21:09:22.0223 INFO Execution started of DocumentFacade.GetDocumentDetails (DocID = 64, )
+2014-01-07 21:09:22.0403 INFO Execution finished for GetDocumentDetails
+2014-01-07 21:09:22.0403 INFO Execution finished for ChangeRequest
+2014-01-07 21:13:30.1505 INFO Execution started of DocumentLibraryController.ChangeRequest (id = 64, )
+2014-01-07 21:13:30.1505 INFO Execution started of DocumentLibraryController.CheckDocumentLevelPermissions (docid = 64, role = Raise Change Request, )
+2014-01-07 21:13:30.1505 INFO Execution started of DocumentFacade.GetDocumentDetails (DocID = 64, )
+2014-01-07 21:13:30.1625 INFO Execution finished for GetDocumentDetails
+2014-01-07 21:13:30.1725 INFO Execution finished for CheckDocumentLevelPermissions
+2014-01-07 21:13:30.1725 INFO Execution started of DocumentFacade.GetDocumentChangeRequest (docid = 64, )
+2014-01-07 21:13:30.1725 INFO Execution finished for GetDocumentChangeRequest
+2014-01-07 21:13:30.1725 INFO Execution started of DocumentFacade.GetDocumentDetails (DocID = 64, )
+2014-01-07 21:13:30.1725 INFO Execution finished for GetDocumentDetails
+2014-01-07 21:13:30.1725 INFO Execution finished for ChangeRequest
+2014-01-07 21:15:27.7062 INFO Execution started of DocumentLibraryController.ChangeRequest (id = 64, )
+2014-01-07 21:15:27.7062 INFO Execution started of DocumentLibraryController.CheckDocumentLevelPermissions (docid = 64, role = Raise Change Request, )
+2014-01-07 21:15:27.7062 INFO Execution started of DocumentFacade.GetDocumentDetails (DocID = 64, )
+2014-01-07 21:15:27.7282 INFO Execution finished for GetDocumentDetails
+2014-01-07 21:15:27.7422 INFO Execution finished for CheckDocumentLevelPermissions
+2014-01-07 21:15:27.7422 INFO Execution started of DocumentFacade.GetDocumentChangeRequest (docid = 64, )
+2014-01-07 21:15:27.7552 INFO Execution finished for GetDocumentChangeRequest
+2014-01-07 21:15:27.7552 INFO Execution started of DocumentFacade.GetDocumentDetails (DocID = 64, )
+2014-01-07 21:15:27.7552 INFO Execution finished for GetDocumentDetails
+2014-01-07 21:15:27.7552 INFO Execution finished for ChangeRequest
+2014-01-07 21:17:38.5337 INFO Execution started of DocumentLibraryController.ChangeRequest (id = 64, )
+2014-01-07 21:17:38.5337 INFO Execution started of DocumentLibraryController.CheckDocumentLevelPermissions (docid = 64, role = Raise Change Request, )
+2014-01-07 21:17:38.5337 INFO Execution started of DocumentFacade.GetDocumentDetails (DocID = 64, )
+2014-01-07 21:17:38.5427 INFO Execution finished for GetDocumentDetails
+2014-01-07 21:17:38.5427 INFO Execution finished for CheckDocumentLevelPermissions
+2014-01-07 21:17:38.5427 INFO Execution started of DocumentFacade.GetDocumentChangeRequest (docid = 64, )
+2014-01-07 21:17:38.5607 INFO Execution finished for GetDocumentChangeRequest
+2014-01-07 21:17:38.5607 INFO Execution started of DocumentFacade.GetDocumentDetails (DocID = 64, )
+2014-01-07 21:17:38.5607 INFO Execution finished for GetDocumentDetails
+2014-01-07 21:17:38.5607 INFO Execution finished for ChangeRequest
+2014-01-07 21:18:09.8454 INFO Execution started of DocumentLibraryController.ChangeRequest (id = 64, )
+2014-01-07 21:18:09.8454 INFO Execution started of DocumentLibraryController.CheckDocumentLevelPermissions (docid = 64, role = Raise Change Request, )
+2014-01-07 21:18:09.8454 INFO Execution started of DocumentFacade.GetDocumentDetails (DocID = 64, )
+2014-01-07 21:18:09.8575 INFO Execution finished for GetDocumentDetails
+2014-01-07 21:18:09.8575 INFO Execution finished for CheckDocumentLevelPermissions
+2014-01-07 21:18:09.8675 INFO Execution started of DocumentFacade.GetDocumentChangeRequest (docid = 64, )
+2014-01-07 21:18:09.8675 INFO Execution finished for GetDocumentChangeRequest
+2014-01-07 21:18:09.8675 INFO Execution started of DocumentFacade.GetDocumentDetails (DocID = 64, )
+2014-01-07 21:18:09.8865 INFO Execution finished for GetDocumentDetails
+2014-01-07 21:18:09.8865 INFO Execution finished for ChangeRequest
+2014-01-07 21:18:13.2926 INFO Execution started of MvcApplication.Application_Start ()
+2014-01-07 21:18:13.3016 INFO Execution started of AdminAreaRegistration.get_AreaName ()
+2014-01-07 21:18:13.3016 INFO Execution finished for get_AreaName
+2014-01-07 21:18:13.3156 INFO Execution started of AdminAreaRegistration.RegisterArea (context = System.Web.Mvc.AreaRegistrationContext, )
+2014-01-07 21:18:13.3156 INFO Execution finished for RegisterArea
+2014-01-07 21:18:13.3156 INFO Execution finished for Application_Start
+2014-01-07 21:19:19.7574 INFO Execution started of DocumentLibraryController.ChangeRequest (id = 64, )
+2014-01-07 21:19:19.7574 INFO Execution started of DocumentLibraryController.CheckDocumentLevelPermissions (docid = 64, role = Raise Change Request, )
+2014-01-07 21:19:19.7884 INFO Execution started of DocumentFacade.GetDocumentDetails (DocID = 64, )
+2014-01-07 21:19:19.8255 INFO Execution finished for GetDocumentDetails
+2014-01-07 21:19:19.8355 INFO Execution finished for CheckDocumentLevelPermissions
+2014-01-07 21:19:19.8895 INFO Execution started of DocumentFacade.GetDocumentChangeRequest (docid = 64, )
+2014-01-07 21:19:19.8985 INFO Execution finished for GetDocumentChangeRequest
+2014-01-07 21:19:19.8985 INFO Execution started of DocumentFacade.GetDocumentDetails (DocID = 64, )
+2014-01-07 21:19:19.8985 INFO Execution finished for GetDocumentDetails
+2014-01-07 21:19:19.8985 INFO Execution finished for ChangeRequest
+2014-01-07 21:20:19.7669 INFO Execution started of DocumentLibraryController.ChangeRequest (id = 64, )
+2014-01-07 21:20:19.7669 INFO Execution started of DocumentLibraryController.CheckDocumentLevelPermissions (docid = 64, role = Raise Change Request, )
+2014-01-07 21:20:19.7669 INFO Execution started of DocumentFacade.GetDocumentDetails (DocID = 64, )
+2014-01-07 21:20:19.7869 INFO Execution finished for GetDocumentDetails
+2014-01-07 21:20:19.7869 INFO Execution finished for CheckDocumentLevelPermissions
+2014-01-07 21:20:19.7869 INFO Execution started of DocumentFacade.GetDocumentChangeRequest (docid = 64, )
+2014-01-07 21:20:19.8019 INFO Execution finished for GetDocumentChangeRequest
+2014-01-07 21:20:19.8019 INFO Execution started of DocumentFacade.GetDocumentDetails (DocID = 64, )
+2014-01-07 21:20:19.8199 INFO Execution finished for GetDocumentDetails
+2014-01-07 21:20:19.8199 INFO Execution finished for ChangeRequest
+2014-01-07 21:26:05.1956 INFO Execution started of DocumentLibraryController.ChangeRequest (id = 64, )
+2014-01-07 21:26:05.1956 INFO Execution started of DocumentLibraryController.CheckDocumentLevelPermissions (docid = 64, role = Raise Change Request, )
+2014-01-07 21:26:05.1956 INFO Execution started of DocumentFacade.GetDocumentDetails (DocID = 64, )
+2014-01-07 21:26:05.2076 INFO Execution finished for GetDocumentDetails
+2014-01-07 21:26:05.2076 INFO Execution finished for CheckDocumentLevelPermissions
+2014-01-07 21:26:05.2076 INFO Execution started of DocumentFacade.GetDocumentChangeRequest (docid = 64, )
+2014-01-07 21:26:05.2216 INFO Execution finished for GetDocumentChangeRequest
+2014-01-07 21:26:05.2216 INFO Execution started of DocumentFacade.GetDocumentDetails (DocID = 64, )
+2014-01-07 21:26:05.2216 INFO Execution finished for GetDocumentDetails
+2014-01-07 21:26:05.2216 INFO Execution finished for ChangeRequest
+2014-01-07 21:26:32.0172 INFO Execution started of DocumentLibraryController.ChangeRequest (id = 64, )
+2014-01-07 21:26:32.0182 INFO Execution started of DocumentLibraryController.CheckDocumentLevelPermissions (docid = 64, role = Raise Change Request, )
+2014-01-07 21:26:32.0182 INFO Execution started of DocumentFacade.GetDocumentDetails (DocID = 64, )
+2014-01-07 21:26:32.0182 INFO Execution finished for GetDocumentDetails
+2014-01-07 21:26:32.0342 INFO Execution finished for CheckDocumentLevelPermissions
+2014-01-07 21:26:32.0342 INFO Execution started of DocumentFacade.GetDocumentChangeRequest (docid = 64, )
+2014-01-07 21:26:32.0342 INFO Execution finished for GetDocumentChangeRequest
+2014-01-07 21:26:32.0342 INFO Execution started of DocumentFacade.GetDocumentDetails (DocID = 64, )
+2014-01-07 21:26:32.0542 INFO Execution finished for GetDocumentDetails
+2014-01-07 21:26:32.0542 INFO Execution finished for ChangeRequest
+2014-01-07 21:27:44.1493 INFO Execution started of DocumentLibraryController.ChangeRequest (id = 64, )
+2014-01-07 21:27:44.1493 INFO Execution started of DocumentLibraryController.CheckDocumentLevelPermissions (docid = 64, role = Raise Change Request, )
+2014-01-07 21:27:44.1493 INFO Execution started of DocumentFacade.GetDocumentDetails (DocID = 64, )
+2014-01-07 21:27:44.1623 INFO Execution finished for GetDocumentDetails
+2014-01-07 21:27:44.1783 INFO Execution finished for CheckDocumentLevelPermissions
+2014-01-07 21:27:44.1783 INFO Execution started of DocumentFacade.GetDocumentChangeRequest (docid = 64, )
+2014-01-07 21:27:44.1873 INFO Execution finished for GetDocumentChangeRequest
+2014-01-07 21:27:44.1873 INFO Execution started of DocumentFacade.GetDocumentDetails (DocID = 64, )
+2014-01-07 21:27:44.1873 INFO Execution finished for GetDocumentDetails
+2014-01-07 21:27:44.1873 INFO Execution finished for ChangeRequest
+2014-01-07 21:28:16.0041 INFO Execution started of DocumentLibraryController.ChangeRequest (id = 64, )
+2014-01-07 21:28:16.0041 INFO Execution started of DocumentLibraryController.CheckDocumentLevelPermissions (docid = 64, role = Raise Change Request, )
+2014-01-07 21:28:16.0101 INFO Execution started of DocumentFacade.GetDocumentDetails (DocID = 64, )
+2014-01-07 21:28:16.0241 INFO Execution finished for GetDocumentDetails
+2014-01-07 21:28:16.0241 INFO Execution finished for CheckDocumentLevelPermissions
+2014-01-07 21:28:16.0241 INFO Execution started of DocumentFacade.GetDocumentChangeRequest (docid = 64, )
+2014-01-07 21:28:16.0241 INFO Execution finished for GetDocumentChangeRequest
+2014-01-07 21:28:16.0461 INFO Execution started of DocumentFacade.GetDocumentDetails (DocID = 64, )
+2014-01-07 21:28:16.0621 INFO Execution finished for GetDocumentDetails
+2014-01-07 21:28:16.0621 INFO Execution finished for ChangeRequest
+2014-01-07 21:36:18.4737 INFO Execution started of DocumentLibraryController.ChangeRequest (id = 64, )
+2014-01-07 21:36:18.4737 INFO Execution started of DocumentLibraryController.CheckDocumentLevelPermissions (docid = 64, role = Raise Change Request, )
+2014-01-07 21:36:18.4737 INFO Execution started of DocumentFacade.GetDocumentDetails (DocID = 64, )
+2014-01-07 21:36:18.5247 INFO Execution finished for GetDocumentDetails
+2014-01-07 21:36:18.5247 INFO Execution finished for CheckDocumentLevelPermissions
+2014-01-07 21:36:18.5247 INFO Execution started of DocumentFacade.GetDocumentChangeRequest (docid = 64, )
+2014-01-07 21:36:18.5417 INFO Execution finished for GetDocumentChangeRequest
+2014-01-07 21:36:18.5417 INFO Execution started of DocumentFacade.GetDocumentDetails (DocID = 64, )
+2014-01-07 21:36:18.5507 INFO Execution finished for GetDocumentDetails
+2014-01-07 21:36:18.5507 INFO Execution finished for ChangeRequest
+2014-01-07 21:39:59.2663 INFO Execution started of DocumentLibraryController.ChangeRequest (id = 64, )
+2014-01-07 21:39:59.2663 INFO Execution started of DocumentLibraryController.CheckDocumentLevelPermissions (docid = 64, role = Raise Change Request, )
+2014-01-07 21:39:59.2663 INFO Execution started of DocumentFacade.GetDocumentDetails (DocID = 64, )
+2014-01-07 21:39:59.3153 INFO Execution finished for GetDocumentDetails
+2014-01-07 21:39:59.3153 INFO Execution finished for CheckDocumentLevelPermissions
+2014-01-07 21:39:59.3153 INFO Execution started of DocumentFacade.GetDocumentChangeRequest (docid = 64, )
+2014-01-07 21:39:59.3293 INFO Execution finished for GetDocumentChangeRequest
+2014-01-07 21:39:59.3293 INFO Execution started of DocumentFacade.GetDocumentDetails (DocID = 64, )
+2014-01-07 21:39:59.3293 INFO Execution finished for GetDocumentDetails
+2014-01-07 21:39:59.3393 INFO Execution finished for ChangeRequest
+2014-01-07 21:51:11.4098 INFO Execution started of DocumentLibraryController.ChangeRequest (id = 64, )
+2014-01-07 21:51:11.4098 INFO Execution started of DocumentLibraryController.CheckDocumentLevelPermissions (docid = 64, role = Raise Change Request, )
+2014-01-07 21:51:11.4298 INFO Execution started of DocumentFacade.GetDocumentDetails (DocID = 64, )
+2014-01-07 21:51:11.4408 INFO Execution finished for GetDocumentDetails
+2014-01-07 21:51:11.4408 INFO Execution finished for CheckDocumentLevelPermissions
+2014-01-07 21:51:11.4408 INFO Execution started of DocumentFacade.GetDocumentChangeRequest (docid = 64, )
+2014-01-07 21:51:11.4538 INFO Execution finished for GetDocumentChangeRequest
+2014-01-07 21:51:11.4538 INFO Execution started of DocumentFacade.GetDocumentDetails (DocID = 64, )
+2014-01-07 21:51:11.4708 INFO Execution finished for GetDocumentDetails
+2014-01-07 21:51:11.4708 INFO Execution finished for ChangeRequest
+2014-01-07 21:52:52.3176 INFO Execution started of DocumentLibraryController.ChangeRequest (id = 64, )
+2014-01-07 21:52:52.3176 INFO Execution started of DocumentLibraryController.CheckDocumentLevelPermissions (docid = 64, role = Raise Change Request, )
+2014-01-07 21:52:52.3176 INFO Execution started of DocumentFacade.GetDocumentDetails (DocID = 64, )
+2014-01-07 21:52:52.3336 INFO Execution finished for GetDocumentDetails
+2014-01-07 21:52:52.3416 INFO Execution finished for CheckDocumentLevelPermissions
+2014-01-07 21:52:52.3416 INFO Execution started of DocumentFacade.GetDocumentChangeRequest (docid = 64, )
+2014-01-07 21:52:52.3416 INFO Execution finished for GetDocumentChangeRequest
+2014-01-07 21:52:52.3416 INFO Execution started of DocumentFacade.GetDocumentDetails (DocID = 64, )
+2014-01-07 21:52:52.3676 INFO Execution finished for GetDocumentDetails
+2014-01-07 21:52:52.3676 INFO Execution finished for ChangeRequest
+2014-01-07 21:53:59.3944 INFO Execution started of DocumentLibraryController.ChangeRequest (id = 64, )
+2014-01-07 21:53:59.3944 INFO Execution started of DocumentLibraryController.CheckDocumentLevelPermissions (docid = 64, role = Raise Change Request, )
+2014-01-07 21:53:59.3944 INFO Execution started of DocumentFacade.GetDocumentDetails (DocID = 64, )
+2014-01-07 21:53:59.4064 INFO Execution finished for GetDocumentDetails
+2014-01-07 21:53:59.4064 INFO Execution finished for CheckDocumentLevelPermissions
+2014-01-07 21:53:59.4064 INFO Execution started of DocumentFacade.GetDocumentChangeRequest (docid = 64, )
+2014-01-07 21:53:59.4224 INFO Execution finished for GetDocumentChangeRequest
+2014-01-07 21:53:59.4224 INFO Execution started of DocumentFacade.GetDocumentDetails (DocID = 64, )
+2014-01-07 21:53:59.4224 INFO Execution finished for GetDocumentDetails
+2014-01-07 21:53:59.4384 INFO Execution finished for ChangeRequest
+2014-01-07 21:55:00.2989 INFO Execution started of DocumentLibraryController.ChangeRequest (id = 64, )
+2014-01-07 21:55:00.2989 INFO Execution started of DocumentLibraryController.CheckDocumentLevelPermissions (docid = 64, role = Raise Change Request, )
+2014-01-07 21:55:00.2989 INFO Execution started of DocumentFacade.GetDocumentDetails (DocID = 64, )
+2014-01-07 21:55:00.3229 INFO Execution finished for GetDocumentDetails
+2014-01-07 21:55:00.3229 INFO Execution finished for CheckDocumentLevelPermissions
+2014-01-07 21:55:00.3229 INFO Execution started of DocumentFacade.GetDocumentChangeRequest (docid = 64, )
+2014-01-07 21:55:00.3229 INFO Execution finished for GetDocumentChangeRequest
+2014-01-07 21:55:00.3229 INFO Execution started of DocumentFacade.GetDocumentDetails (DocID = 64, )
+2014-01-07 21:55:00.3389 INFO Execution finished for GetDocumentDetails
+2014-01-07 21:55:00.3659 INFO Execution finished for ChangeRequest
+2014-01-07 21:55:47.0016 INFO Execution started of DocumentLibraryController.ChangeRequest (id = 64, )
+2014-01-07 21:55:47.0016 INFO Execution started of DocumentLibraryController.CheckDocumentLevelPermissions (docid = 64, role = Raise Change Request, )
+2014-01-07 21:55:47.0016 INFO Execution started of DocumentFacade.GetDocumentDetails (DocID = 64, )
+2014-01-07 21:55:47.0146 INFO Execution finished for GetDocumentDetails
+2014-01-07 21:55:47.0146 INFO Execution finished for CheckDocumentLevelPermissions
+2014-01-07 21:55:47.0146 INFO Execution started of DocumentFacade.GetDocumentChangeRequest (docid = 64, )
+2014-01-07 21:55:47.0316 INFO Execution finished for GetDocumentChangeRequest
+2014-01-07 21:55:47.0316 INFO Execution started of DocumentFacade.GetDocumentDetails (DocID = 64, )
+2014-01-07 21:55:47.0456 INFO Execution finished for GetDocumentDetails
+2014-01-07 21:55:47.0456 INFO Execution finished for ChangeRequest
+2014-01-07 22:02:04.7622 INFO Execution started of DocumentLibraryController.ChangeRequest (id = 64, )
+2014-01-07 22:02:04.7622 INFO Execution started of DocumentLibraryController.CheckDocumentLevelPermissions (docid = 64, role = Raise Change Request, )
+2014-01-07 22:02:04.7622 INFO Execution started of DocumentFacade.GetDocumentDetails (DocID = 64, )
+2014-01-07 22:02:04.7832 INFO Execution finished for GetDocumentDetails
+2014-01-07 22:02:04.7882 INFO Execution finished for CheckDocumentLevelPermissions
+2014-01-07 22:02:04.7882 INFO Execution started of DocumentFacade.GetDocumentChangeRequest (docid = 64, )
+2014-01-07 22:02:04.8062 INFO Execution finished for GetDocumentChangeRequest
+2014-01-07 22:02:04.8062 INFO Execution started of DocumentFacade.GetDocumentDetails (DocID = 64, )
+2014-01-07 22:02:04.8062 INFO Execution finished for GetDocumentDetails
+2014-01-07 22:02:04.8062 INFO Execution finished for ChangeRequest
+2014-01-07 22:04:06.7371 INFO Execution started of DocumentLibraryController.ChangeRequest (id = 64, )
+2014-01-07 22:04:06.7371 INFO Execution started of DocumentLibraryController.CheckDocumentLevelPermissions (docid = 64, role = Raise Change Request, )
+2014-01-07 22:04:06.7371 INFO Execution started of DocumentFacade.GetDocumentDetails (DocID = 64, )
+2014-01-07 22:04:06.7561 INFO Execution finished for GetDocumentDetails
+2014-01-07 22:04:06.7841 INFO Execution finished for CheckDocumentLevelPermissions
+2014-01-07 22:04:06.7841 INFO Execution started of DocumentFacade.GetDocumentChangeRequest (docid = 64, )
+2014-01-07 22:04:06.7841 INFO Execution finished for GetDocumentChangeRequest
+2014-01-07 22:04:06.7951 INFO Execution started of DocumentFacade.GetDocumentDetails (DocID = 64, )
+2014-01-07 22:04:06.7951 INFO Execution finished for GetDocumentDetails
+2014-01-07 22:04:06.7951 INFO Execution finished for ChangeRequest
+2014-01-07 22:06:51.4416 INFO Execution started of DocumentLibraryController.GenerateChangeRequestNumber (id = 1, )
+2014-01-07 22:06:51.4416 INFO Execution started of DocumentFacade.GenerateChangeRequestNumber (deptid = 1, )
+2014-01-07 22:06:51.5146 INFO Execution finished for GenerateChangeRequestNumber
+2014-01-07 22:06:51.5166 INFO Execution finished for GenerateChangeRequestNumber

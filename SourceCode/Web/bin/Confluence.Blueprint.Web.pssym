@@ -1,0 +1,331 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Symbols xmlns="http://schemas.postsharp.org/2.0/symbols">
+  <Class Class="#1=T:[Framework.Logging]Framework.Logging.MethodTraceAspect">
+    <Instance Declaration="#2=A:Confluence.Blueprint.Web" Id="83594555ac48dd48">
+      <Target Target="#3=M:[Confluence.Blueprint.Web]Confluence.Blueprint.Web.ApplicationServices.AccountService::GetUserDetails(System.String)">
+        <JoinPoint Advising="#1" Description="#4=Wrapped by advice(s) OnEntry, OnSuccess, OnException, OnExit" />
+      </Target>
+      <Target Target="#5=M:[Confluence.Blueprint.Web]Confluence.Blueprint.Web.ApplicationServices.AccountService::GetUserDetailsByOrganizationID(System.Int32, System.String)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#6=M:[Confluence.Blueprint.Web]Confluence.Blueprint.Web.ApplicationServices.CommonService::GetUserDashboard(System.Int32)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#7=M:[Confluence.Blueprint.Web]Confluence.Blueprint.Web.ApplicationServices.DocumentService::GetDocumentDetails(System.Int32)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#8=M:[Confluence.Blueprint.Web]Confluence.Blueprint.Web.ApplicationServices.DocumentService::GetDocuments(System.Int32, System.Int32, System.Int32)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#9=M:[Confluence.Blueprint.Web]Confluence.Blueprint.Web.ApplicationServices.DepartmentService::GetDepartmentDetails(System.Int32)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#10=M:[Confluence.Blueprint.Web]Confluence.Blueprint.Web.ApplicationServices.DocumentLevelService::GetDocumentLevels(System.Int32)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#11=M:[Confluence.Blueprint.Web]Confluence.Blueprint.Web.ApplicationServices.DocumentLevelService::CheckAssociatedDocuments(System.Int32, System.String)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#12=M:[Confluence.Blueprint.Web]Confluence.Blueprint.Web.ApplicationServices.DocumentLevelService::GetDocumentLevelList(System.Int32)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#13=M:[Confluence.Blueprint.Web]Confluence.Blueprint.Web.ApplicationServices.OrganizationService::GetOrganizationByUserEmail(System.String)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#14=M:[Confluence.Blueprint.Web]Confluence.Blueprint.Web.ApplicationServices.OrganizationService::GetOrganizationByID(System.Int32)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#15=M:[Confluence.Blueprint.Web]Confluence.Blueprint.Web.ApplicationServices.SubDepartmentService::GetSubDepartmentDetails(System.Int32)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#16=M:[Confluence.Blueprint.Web]Confluence.Blueprint.Web.App_Start.MiniProfilerStartupModule::Init(System.Web.HttpApplication)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#17=M:[Confluence.Blueprint.Web]Confluence.Blueprint.Web.Areas.Admin.AdminAreaRegistration::get_AreaName()">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#18=M:[Confluence.Blueprint.Web]Confluence.Blueprint.Web.Areas.Admin.AdminAreaRegistration::RegisterArea(System.Web.Mvc.AreaRegistrationContext)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#19=M:[Confluence.Blueprint.Web]Confluence.Blueprint.Web.Controllers.BaseController::Redirect(System.String)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#20=M:[Confluence.Blueprint.Web]Confluence.Blueprint.Web.Controllers.BaseController::GetTerminology(System.Int32)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#21=M:[Confluence.Blueprint.Web]Confluence.Blueprint.Web.Areas.Admin.Controllers.DocumentMasterController::Index()">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#22=M:[Confluence.Blueprint.Web]Confluence.Blueprint.Web.Areas.Admin.Controllers.DocumentMasterController::Index(Confluence.Blueprint.Models.DocumentMasterModel)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#23=M:[Confluence.Blueprint.Web]Confluence.Blueprint.Web.Areas.Admin.Controllers.UserController::ManageUser()">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#24=M:[Confluence.Blueprint.Web]Confluence.Blueprint.Web.Areas.Admin.Controllers.UserController::ManageUserDetail(System.Int32)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#25=M:[Confluence.Blueprint.Web]Confluence.Blueprint.Web.Areas.Admin.Controllers.UserController::ManageUserDetail(Confluence.Blueprint.Models.UserModel)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#26=M:[Confluence.Blueprint.Web]Confluence.Blueprint.Web.Areas.Admin.Controllers.UserController::UploadCertificates()">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#27=M:[Confluence.Blueprint.Web]Confluence.Blueprint.Web.Areas.Admin.Controllers.UserController::RemoveCertificates(System.String)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#28=M:[Confluence.Blueprint.Web]Confluence.Blueprint.Web.Areas.Admin.Controllers.UserController::SaveCertificates(System.Int32)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#29=M:[Confluence.Blueprint.Web]Confluence.Blueprint.Web.Areas.Admin.Controllers.UserController::Register()">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#30=M:[Confluence.Blueprint.Web]Confluence.Blueprint.Web.Areas.Admin.Controllers.UserController::Register(Confluence.Blueprint.Models.UserModel)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#31=M:[Confluence.Blueprint.Web]Confluence.Blueprint.Web.Areas.Admin.Controllers.UserController::ResetPassword(System.String)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#32=M:[Confluence.Blueprint.Web]Confluence.Blueprint.Web.Areas.Admin.Controllers.UserController::Delete(System.String)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#33=M:[Confluence.Blueprint.Web]Confluence.Blueprint.Web.Areas.Admin.Controllers.UserController::SearchUser(System.String)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#34=M:[Confluence.Blueprint.Web]Confluence.Blueprint.Web.Areas.Admin.Controllers.UserController::GetUsersFilteredUserList(System.Int32, System.String)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#35=M:[Confluence.Blueprint.Web]Confluence.Blueprint.Web.Controllers.Account.AccountController::Index()">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#36=M:[Confluence.Blueprint.Web]Confluence.Blueprint.Web.Controllers.Account.AccountController::LogOn(System.String)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#37=M:[Confluence.Blueprint.Web]Confluence.Blueprint.Web.Controllers.Account.AccountController::LogOn(Confluence.Blueprint.Models.LogOnModel)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#38=M:[Confluence.Blueprint.Web]Confluence.Blueprint.Web.Controllers.Account.AccountController::LogOff()">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#39=M:[Confluence.Blueprint.Web]Confluence.Blueprint.Web.Controllers.Account.AccountController::ChangePassword()">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#40=M:[Confluence.Blueprint.Web]Confluence.Blueprint.Web.Controllers.Account.AccountController::ChangePassword(Confluence.Blueprint.Models.ChangePasswordModel)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#41=M:[Confluence.Blueprint.Web]Confluence.Blueprint.Web.Controllers.Account.AccountController::EditProfile()">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#42=M:[Confluence.Blueprint.Web]Confluence.Blueprint.Web.Controllers.Account.AccountController::EditProfile(Confluence.Blueprint.Models.UserModel)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#43=M:[Confluence.Blueprint.Web]Confluence.Blueprint.Web.Areas.Admin.Controllers.AdminController::Index()">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#44=M:[Confluence.Blueprint.Web]Confluence.Blueprint.Web.Areas.Admin.Controllers.DepartmentController::Index()">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#45=M:[Confluence.Blueprint.Web]Confluence.Blueprint.Web.Areas.Admin.Controllers.DepartmentController::Details(System.Int32)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#46=M:[Confluence.Blueprint.Web]Confluence.Blueprint.Web.Areas.Admin.Controllers.DepartmentController::Create()">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#47=M:[Confluence.Blueprint.Web]Confluence.Blueprint.Web.Areas.Admin.Controllers.DepartmentController::Save(Confluence.Blueprint.Models.DepartmentModel)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#48=M:[Confluence.Blueprint.Web]Confluence.Blueprint.Web.Areas.Admin.Controllers.DepartmentController::Delete()">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#49=M:[Confluence.Blueprint.Web]Confluence.Blueprint.Web.Areas.Admin.Controllers.DepartmentController::Delete(System.String, System.String)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#50=M:[Confluence.Blueprint.Web]Confluence.Blueprint.Web.Areas.Admin.Controllers.SubDepartmentController::Index()">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#51=M:[Confluence.Blueprint.Web]Confluence.Blueprint.Web.Areas.Admin.Controllers.SubDepartmentController::Details(System.Int32)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#52=M:[Confluence.Blueprint.Web]Confluence.Blueprint.Web.Areas.Admin.Controllers.SubDepartmentController::Create()">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#53=M:[Confluence.Blueprint.Web]Confluence.Blueprint.Web.Areas.Admin.Controllers.SubDepartmentController::Save(Confluence.Blueprint.Models.SubDepartmentModel)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#54=M:[Confluence.Blueprint.Web]Confluence.Blueprint.Web.Areas.Admin.Controllers.SubDepartmentController::Delete()">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#55=M:[Confluence.Blueprint.Web]Confluence.Blueprint.Web.Areas.Admin.Controllers.SubDepartmentController::Delete(System.String, System.String)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#56=M:[Confluence.Blueprint.Web]Confluence.Blueprint.Web.Areas.Admin.Controllers.DocumentLevelsController::Index()">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#57=M:[Confluence.Blueprint.Web]Confluence.Blueprint.Web.Areas.Admin.Controllers.DocumentLevelsController::Save(System.String)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#58=M:[Confluence.Blueprint.Web]Confluence.Blueprint.Web.Controllers.ErrorController::DetailedError()">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#59=M:[Confluence.Blueprint.Web]Confluence.Blueprint.Web.Controllers.RedirectController::Index(System.String, System.String, System.String)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#60=M:[Confluence.Blueprint.Web]Confluence.Blueprint.Web.Controllers.AjaxAwareRedirectResult::ExecuteResult(System.Web.Mvc.ControllerContext)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#61=M:[Confluence.Blueprint.Web]Confluence.Blueprint.Web.Areas.Admin.Controllers.SecurityController::Index()">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#62=M:[Confluence.Blueprint.Web]Confluence.Blueprint.Web.Areas.Admin.Controllers.SecurityController::Index(Confluence.Blueprint.Models.RoleGroupConfigurationModel)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#63=M:[Confluence.Blueprint.Web]Confluence.Blueprint.Web.Controllers.DMS.DocumentLibraryController::Index()">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#64=M:[Confluence.Blueprint.Web]Confluence.Blueprint.Web.Controllers.DMS.DocumentLibraryController::Upload()">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#65=M:[Confluence.Blueprint.Web]Confluence.Blueprint.Web.Controllers.DMS.DocumentLibraryController::Upload(Confluence.Blueprint.Models.Document, System.Web.HttpPostedFileBase)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#66=M:[Confluence.Blueprint.Web]Confluence.Blueprint.Web.Controllers.DMS.DocumentLibraryController::Revise(System.Int32)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#67=M:[Confluence.Blueprint.Web]Confluence.Blueprint.Web.Controllers.DMS.DocumentLibraryController::DCR()">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#68=M:[Confluence.Blueprint.Web]Confluence.Blueprint.Web.Controllers.DMS.DocumentLibraryController::ChangeRequest(System.Int32, System.Int32)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#69=M:[Confluence.Blueprint.Web]Confluence.Blueprint.Web.Controllers.DMS.DocumentLibraryController::SaveChangeRequest(Confluence.Blueprint.Models.DocumentChangeRequest)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#70=M:[Confluence.Blueprint.Web]Confluence.Blueprint.Web.Controllers.DMS.DocumentLibraryController::Download(System.String, System.String)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#71=M:[Confluence.Blueprint.Web]Confluence.Blueprint.Web.Controllers.DMS.DocumentLibraryController::Viewer(System.String, System.String, System.String, System.String, System.String)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#72=M:[Confluence.Blueprint.Web]Confluence.Blueprint.Web.Controllers.DMS.DocumentLibraryController::CheckPublishPermission()">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#73=M:[Confluence.Blueprint.Web]Confluence.Blueprint.Web.Controllers.DMS.DocumentLibraryController::ExecuteDocumentWorkflow(System.Int32)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#74=M:[Confluence.Blueprint.Web]Confluence.Blueprint.Web.Controllers.DMS.DocumentLibraryController::PublishDocument(System.Int32)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#75=M:[Confluence.Blueprint.Web]Confluence.Blueprint.Web.Controllers.DMS.DocumentLibraryController::GenerateChangeRequestNumber(System.Int32)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#76=M:[Confluence.Blueprint.Web]Confluence.Blueprint.Web.Controllers.DMS.DocumentLibraryController::GetChangeRequestNumber(System.Int32)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#77=M:[Confluence.Blueprint.Web]Confluence.Blueprint.Web.Controllers.DMS.DocumentLibraryController::LoadSubDepartmentsByDepartment(System.Int32)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#78=M:[Confluence.Blueprint.Web]Confluence.Blueprint.Web.Controllers.DMS.DocumentLibraryController::BuildDocumentList(System.String, System.String)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#79=M:[Confluence.Blueprint.Web]Confluence.Blueprint.Web.Controllers.DMS.DocumentLibraryController::GetDocumentHistory(System.Int32)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#80=M:[Confluence.Blueprint.Web]Confluence.Blueprint.Web.Controllers.DMS.DocumentLibraryController::CheckoutDocument(System.Int32, System.Boolean)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#81=M:[Confluence.Blueprint.Web]Confluence.Blueprint.Web.Controllers.DMS.DocumentLibraryController::DeleteDocument(System.Int32)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#82=M:[Confluence.Blueprint.Web]Confluence.Blueprint.Web.Controllers.DMS.DocumentLibraryController::SearchDocType(System.String)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#83=M:[Confluence.Blueprint.Web]Confluence.Blueprint.Web.Controllers.DMS.DocumentLibraryController::BuildDocumentTree()">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#84=M:[Confluence.Blueprint.Web]Confluence.Blueprint.Web.Controllers.DMS.DocumentLibraryController::BuildDocTypeList(System.Int32)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#85=M:[Confluence.Blueprint.Web]Confluence.Blueprint.Web.Controllers.DMS.DocumentLibraryController::BuildDocTypeList_OldCode(System.Int32)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#86=M:[Confluence.Blueprint.Web]Confluence.Blueprint.Web.Controllers.DMS.DocumentLibraryController::AddRecursive([Confluence.Blueprint.Web]Confluence.Blueprint.Web.Helpers.DocType, System.Int32, System.Collections.Generic.List{[Confluence.Blueprint.Models]Confluence.Blueprint.Models.Level})">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#87=M:[Confluence.Blueprint.Web]Confluence.Blueprint.Web.Controllers.DMS.DocumentLibraryController::CheckDocumentLevelPermissions(System.Int32, System.String)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#88=M:[Confluence.Blueprint.Web]Confluence.Blueprint.Web.Areas.Admin.Controllers.OrganizationController::Index()">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#89=M:[Confluence.Blueprint.Web]Confluence.Blueprint.Web.Areas.Admin.Controllers.OrganizationController::Create()">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#90=M:[Confluence.Blueprint.Web]Confluence.Blueprint.Web.Areas.Admin.Controllers.OrganizationController::Save(System.Int32, System.String, System.String, System.String, System.String, System.String, System.String, System.String, System.String, System.String, System.Int32)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#91=M:[Confluence.Blueprint.Web]Confluence.Blueprint.Web.Areas.Admin.Controllers.OrganizationController::Modify()">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#92=M:[Confluence.Blueprint.Web]Confluence.Blueprint.Web.Controllers.HomeController::Default()">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#93=M:[Confluence.Blueprint.Web]Confluence.Blueprint.Web.Controllers.HomeController::Index()">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#94=M:[Confluence.Blueprint.Web]Confluence.Blueprint.Web.Controllers.HomeController::About()">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#95=M:[Confluence.Blueprint.Web]Confluence.Blueprint.Web.Controllers.HomeController::AccessDenied(System.String)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#96=M:[Confluence.Blueprint.Web]Confluence.Blueprint.Web.Filters.AjaxMessagesFilter::OnActionExecuted(System.Web.Mvc.ActionExecutedContext)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#97=M:[Confluence.Blueprint.Web]Confluence.Blueprint.Web.Filters.JsonExceptionFilterAttribute::OnException(System.Web.Mvc.ExceptionContext)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#98=M:[Confluence.Blueprint.Web]Confluence.Blueprint.Web.MvcApplication::Application_Start()">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#99=M:[Confluence.Blueprint.Web]Confluence.Blueprint.Web.MvcApplication::Application_Error(System.Object, System.EventArgs)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#100=M:[Confluence.Blueprint.Web]Confluence.Blueprint.Web.Handlers.MhtHandler::get_IsReusable()">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#101=M:[Confluence.Blueprint.Web]Confluence.Blueprint.Web.Handlers.MhtHandler::ProcessRequest(System.Web.HttpContext)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#102=M:[Confluence.Blueprint.Web]Confluence.Blueprint.Web.Helpers.DocType::get_DocName()">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#103=M:[Confluence.Blueprint.Web]Confluence.Blueprint.Web.Helpers.DocType::set_DocName(System.String)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#104=M:[Confluence.Blueprint.Web]Confluence.Blueprint.Web.Helpers.DocType::get_Description()">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#105=M:[Confluence.Blueprint.Web]Confluence.Blueprint.Web.Helpers.DocType::set_Description(System.String)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#106=M:[Confluence.Blueprint.Web]Confluence.Blueprint.Web.Helpers.DocType::get_Parent()">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#107=M:[Confluence.Blueprint.Web]Confluence.Blueprint.Web.Helpers.DocType::set_Parent([Confluence.Blueprint.Web]Confluence.Blueprint.Web.Helpers.DocType)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#108=M:[Confluence.Blueprint.Web]Confluence.Blueprint.Web.Helpers.DocType::get_AllChilds()">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#109=M:[Confluence.Blueprint.Web]Confluence.Blueprint.Web.Helpers.DocType::ExtractAllChilds([Confluence.Blueprint.Web]Confluence.Blueprint.Web.Helpers.DocType)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#110=M:[Confluence.Blueprint.Web]Confluence.Blueprint.Web.Helpers.DocType::get_DocPath()">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#111=M:[Confluence.Blueprint.Web]Confluence.Blueprint.Web.Helpers.DocType::BuildDocPath([Confluence.Blueprint.Web]Confluence.Blueprint.Web.Helpers.DocType)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+    </Instance>
+  </Class>
+</Symbols>

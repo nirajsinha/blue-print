@@ -1,0 +1,38 @@
+C:\My Folder\Projects\eqms\SourceCode\BusinessFacade\bin\Release\Confluence.Blueprint.Models.dll
+C:\My Folder\Projects\eqms\SourceCode\BusinessFacade\bin\Release\Framework.Data.dll
+C:\My Folder\Projects\eqms\SourceCode\BusinessFacade\bin\Release\Framework.Data.pdb
+C:\My Folder\Projects\eqms\SourceCode\BusinessFacade\bin\Release\Confluence.Blueprint.Models.pdb
+C:\My Folder\Projects\eqms\SourceCode\BusinessFacade\obj\Release\BusinessFacade.csprojResolveAssemblyReference.cache
+C:\My Folder\Projects\eqms\SourceCode\BusinessFacade\bin\Release\Confluence.Blueprint.BusinessFacade.dll
+C:\My Folder\Projects\eqms\SourceCode\BusinessFacade\bin\Release\Confluence.Blueprint.BusinessFacade.pdb
+C:\My Folder\Projects\eqms\SourceCode\BusinessFacade\obj\Release\Confluence.Blueprint.BusinessFacade.dll
+C:\My Folder\Projects\eqms\SourceCode\BusinessFacade\obj\Release\Confluence.Blueprint.BusinessFacade.pdb
+C:\My Folder\Projects\Blueprint\SourceCode\BusinessFacade\bin\Release\Confluence.Blueprint.BusinessFacade.dll
+C:\My Folder\Projects\Blueprint\SourceCode\BusinessFacade\bin\Release\Confluence.Blueprint.BusinessFacade.pdb
+C:\My Folder\Projects\Blueprint\SourceCode\BusinessFacade\bin\Release\Confluence.Blueprint.Models.dll
+C:\My Folder\Projects\Blueprint\SourceCode\BusinessFacade\bin\Release\Framework.Data.dll
+C:\My Folder\Projects\Blueprint\SourceCode\BusinessFacade\bin\Release\Framework.Data.pdb
+C:\My Folder\Projects\Blueprint\SourceCode\BusinessFacade\bin\Release\Confluence.Blueprint.Models.pdb
+C:\My Folder\Projects\Blueprint\SourceCode\BusinessFacade\obj\Release\BusinessFacade.csprojResolveAssemblyReference.cache
+C:\My Folder\Projects\Blueprint\SourceCode\BusinessFacade\obj\Release\Confluence.Blueprint.BusinessFacade.dll
+C:\My Folder\Projects\Blueprint\SourceCode\BusinessFacade\obj\Release\Confluence.Blueprint.BusinessFacade.pdb
+C:\Niraj\Projects\Blueprint\SourceCode\BusinessFacade\obj\Release\BusinessFacade.csprojResolveAssemblyReference.cache
+C:\Niraj\Projects\Blueprint\SourceCode\BusinessFacade\obj\Release\Confluence.Blueprint.BusinessFacade.dll
+C:\Niraj\Projects\Blueprint\SourceCode\BusinessFacade\obj\Release\Confluence.Blueprint.BusinessFacade.pdb
+C:\Niraj\Projects\Blueprint\SourceCode\BusinessFacade\bin\Release\Confluence.Blueprint.BusinessFacade.dll
+C:\Niraj\Projects\Blueprint\SourceCode\BusinessFacade\bin\Release\Confluence.Blueprint.BusinessFacade.pdb
+C:\Niraj\Projects\Blueprint\SourceCode\BusinessFacade\bin\Release\Confluence.Blueprint.Models.dll
+C:\Niraj\Projects\Blueprint\SourceCode\BusinessFacade\bin\Release\Framework.Data.dll
+C:\Niraj\Projects\Blueprint\SourceCode\BusinessFacade\bin\Release\Framework.Logging.dll
+C:\Niraj\Projects\Blueprint\SourceCode\BusinessFacade\bin\Release\PostSharp.dll
+C:\Niraj\Projects\Blueprint\SourceCode\BusinessFacade\bin\Release\NLog.dll
+C:\Niraj\Projects\Blueprint\SourceCode\BusinessFacade\bin\Release\Framework.Data.pdb
+C:\Niraj\Projects\Blueprint\SourceCode\BusinessFacade\bin\Release\Framework.Logging.pdb
+C:\Niraj\Projects\Blueprint\SourceCode\BusinessFacade\bin\Release\Confluence.Blueprint.Models.pdb
+C:\Niraj\Projects\Blueprint\SourceCode\BusinessFacade\bin\Release\PostSharp.xml
+C:\Niraj\Projects\Blueprint\SourceCode\BusinessFacade\bin\Release\NLog.xml
+C:\Niraj\Projects\Blueprint\SourceCode\BusinessFacade\bin\Release\MiniProfiler.dll
+C:\Niraj\Projects\Blueprint\SourceCode\BusinessFacade\bin\Release\MiniProfiler.pdb
+C:\Niraj\Projects\Blueprint\SourceCode\BusinessFacade\bin\Release\MiniProfiler.xml
+C:\Niraj\Projects\Blueprint\SourceCode\BusinessFacade\bin\Release\Confluence.Blueprint.BusinessFacade.pssym
+C:\Niraj\Projects\Blueprint\SourceCode\BusinessFacade\obj\Release\Confluence.Blueprint.BusinessFacade.dll.postsharp

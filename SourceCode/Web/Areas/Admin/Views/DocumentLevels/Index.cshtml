@@ -1,0 +1,383 @@
+﻿@using Confluence.Blueprint.Models;
+@model Confluence.Blueprint.Models.DocumentLevelsModel
+
+@{
+    ViewBag.Title = "Document Levels";
+}
+
+@section MenuGroup{
+        
+}
+@section PageScripts{
+<script src="@Url.Content("~/js/assets/jquery.validate.min.js")" type="text/javascript"></script>
+<script type="text/javascript" src="@Url.Content("~/js/modern/dialog.js")"></script>
+<script src="@Url.Content("~/js/assets/knockout-2.2.1.js")" type="text/javascript"></script>
+<script src="@Url.Content("~/js/assets/jquery.xml2json.js")" type="text/javascript"></script>
+}
+
+@section PageHeader{Document Levels}
+
+            <p>
+                Configure document levels and sublevels here. Change in abbreviation attracts changes in existing documents.
+            </p>
+            <form id="myForm" name="myForm">
+                <div id="loading">
+                        <h3>Loading....</h3>
+                </div>
+                <div>
+                    <fieldset>
+
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th style="width: 90px">&nbsp;</th>
+                                    <th colspan="2" style="width: 310px">
+                                        <label>Document Name</label></th>
+                                    <th style="width: 200px">
+                                        <label>Abbreviate</label></th>
+                                    <th style="width: 100px"></th>
+
+                                </tr>
+                            </thead>
+                            <tbody data-bind="foreach: levels">
+                                <tr>
+                                    <td style="width: 90px; vertical-align: top">Level&nbsp;<input data-bind='value: ($index() + 1)' style="width: 30px; border: 0" />
+                                        <a href='#' data-bind='click: $root.removeLevel'>Delete</a>
+
+
+                                    </td>
+                                    <td colspan="4">
+                                        <table>
+                                            <tbody data-bind="foreach: sublevels">
+                                                <tr>
+                                                    <td style="width: 30px">
+                                                        <div class="input-control text" style="width: 30px;">
+                                                            <input type="text" data-bind='value: ($index() + 1)' style="border: 0" />
+                                                        </div>
+                                                    </td>
+                                                    <td>
+                                                        <div class="input-control text">
+                                                            <input type="text" data-bind='value: Name' class="required uppercase unique" maxlength="100" id="DocName" name="DocName" placeholder="Enter Document name" />
+                                                        </div>
+                                                    </td>
+                                                    <td style="width: 200px;">
+                                                        <div class="input-control text">
+                                                            <input type="text" data-bind='value: Abbreviate' id="DocAbbr" name="DocAbbr" class="required uppercase unique" maxlength="4" minlength="2" />
+                                                        </div>
+                                                    </td>
+                                                    <td style="width: 100px;">
+
+                                                        <a href='#' data-bind='click: $root.removeSubLevel'>Delete</a>
+
+                                                    </td>
+
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                        <button data-bind='click: $root.addSubLevel'>Add Document Type</button>
+
+                                    </td>
+
+                                </tr>
+                            </tbody>
+                        </table>
+
+
+                        <button data-bind='click: addLevel'>Add Level</button>
+                        <div style="float: right; padding-right: 20px">
+                            <input type="button" class="command-button default" value="Save" data-bind='click: save, enable: levels().length > 0' />
+                            <input type="button" value="Cancel" id="cancel" />
+                        </div>
+
+                        @*<textarea data-bind='value: lastSavedJson' rows='10' cols='100' > </textarea>*@
+
+
+                    </fieldset>
+                </div>
+            </form>
+
+
+@section PageFooterScripts{
+  <script type="text/javascript">
+//       var initialData = [];
+
+      var timeoutid;
+      var orgid = $.cookie('OrgID');
+
+      ko.extenders.duplicate = function (target, array) {
+          //add some sub-observables to our observable
+          target.hasError = ko.observable();
+          target.validationMessage = ko.observable();
+
+          //define a function to do validation
+          function validate(newValue) {
+              target.hasError(newValue ? false : true);
+              target.validationMessage(checkDuplicate(target, array) ? "" : "Duplicate field");
+          }
+
+          //initial validation
+          validate(target());
+
+          //validate whenever the value changes
+          target.subscribe(validate);
+
+          //return the original observable
+          return target;
+      };
+      var checkDuplicate = function (array) {
+          var nameArray = [], abbrArray = [];
+          if (array != null) {
+              for (var i = 0; i < array.length; i++) {
+                  var level = array[i];
+                  var sub_level_length = level.sublevels.length;
+                  for (var j = 0; j < sub_level_length; j++) {
+                      var sub_level = level.sublevels[j];
+                      nameArray.push(sub_level.Name.toUpperCase());
+                      abbrArray.push(sub_level.Abbreviate.toUpperCase());
+                  }
+              }
+          }
+
+          var textHash = {};
+          for (var i = 0; i < abbrArray.length; i++) {
+              var key = $.trim(abbrArray[i]);
+              if (key == '') {
+                  highlightControls(key);
+                  return true;
+              }
+              if (textHash[key]) {
+                  highlightControls(key);
+                  return true;
+              } else {
+                  textHash[key] = true;
+              }
+          }
+          // name validation
+          for (var i = 0; i < nameArray.length; i++) {
+              var key = $.trim(nameArray[i]);
+              if (key == '') {
+                  highlightControls(key);
+                  return true;
+              }
+              if (textHash[key]) {
+                  highlightControls(key);
+                  return true;
+              } else {
+                  textHash[key] = true;
+              }
+          }
+          return false;
+      }
+      var rearrangeLevels = function (levels) {
+          if (levels != null) {
+              for (var i = 0; i < levels.length; i++) {
+                  levels[i].LevelID = i + 1;
+                  var sub_level_length = levels[i].sublevels.length;
+                  for (var j = 0; j < sub_level_length; j++) {
+                      levels[i].sublevels[j].LevelID = i + 1;
+                      levels[i].sublevels[j].SubLevelID = j + 1;
+                  }
+              }
+          }
+          return levels;
+      }
+      var checkDocumentExistance = function (items) {
+          var returnval = false;
+          items.every(function (e) {
+              var sub_level_name = e.Name;
+              $.ajax({
+                  url: "/ApplicationServices/DocumentLevelService.asmx/CheckAssociatedDocuments",
+                  data: JSON.stringify({ OrgID: orgid, DocType: sub_level_name }),
+                  type: "POST",
+                  contentType: "application/json; charset=utf-8",
+                  async: false,
+                  success: function (data) {
+                      if (data.hasOwnProperty("d")) returnval = data.d;
+                      else returnval = data;
+                      if (returnval) {
+                          $.alert('Access denied! Some documents are associated with this level.', "Error", "Error");
+                          return false; //break loop
+                      }
+                  },
+                  error: function (XMLHttpRequest, textStatus, errorThrown) {
+                      returnval = false;
+                      return true; // continue loop
+                  }
+              });
+          });
+          return returnval;
+      }
+      var DocumentLevelsModel = function (levels) {
+          var self = this;
+          self.levels = ko.observableArray(
+                            ko.utils.arrayMap(levels, function (level) {
+                                return {
+                                    LevelID: level.LevelID,
+                                    OrganizationID: level.OrganizationID,
+                                    sublevels: ko.observableArray(level.sublevels)
+                                }; //.extend({ duplicate: levels })
+                            }
+                        ));
+
+          self.addLevel = function () {
+              self.levels.push({
+                  OrganizationID: orgid,
+                  LevelID: (self.levels().length + 1),
+                  sublevels: ko.observableArray()
+              });
+          };
+
+          self.removeLevel = function (level) {
+              $.Dialog({
+                  'title': 'Warning',
+                  'content': '<p>This action will permanently delete the level. <br />Are you sure to continue?</p>',
+                  'overlay': true,
+                  'closeButton': true,
+                  'draggable': true,
+                  'modal': true,
+                  'buttonsAlign': 'right',
+                  'buttons': {
+                      'Yes': {
+                          'action': function () {
+                              var docExists = checkDocumentExistance(ko.toJS(level.sublevels));
+                              if (!docExists) {
+                                  self.levels.remove(level);
+                              }
+                          }
+                      },
+                      'No': {
+                      }
+                  }
+              });
+
+          };
+
+          self.addSubLevel = function (level) {
+              level.sublevels.push({
+                  LevelID: level.LevelID,
+                  SubLevelID: (level.sublevels().length + 1),
+                  Name: "",
+                  Abbreviate: ""
+              });
+          };
+
+          self.removeSubLevel = function (sublevel) {
+              $.Dialog({
+                  'title': 'Warning',
+                  'content': '<p>This action will permanently delete the sub level. <br />Are you sure to continue?</p>',
+                  'overlay': true,
+                  'closeButton': true,
+                  'draggable': true,
+                  'buttonsAlign': 'right',
+                  'buttons': {
+                      'Yes': {
+                          'action': function () {
+                              var docExists = checkDocumentExistance([sublevel]);
+                              if (!docExists) {
+                                  $.each(self.levels(), function () { this.sublevels.remove(sublevel) })
+                              }
+                          }
+                      },
+                      'No': {
+                      }
+                  }
+              });
+
+          };
+
+          self.save = function () {
+              var levels = rearrangeLevels(ko.toJS(self.levels));
+
+              if (!checkDuplicate(levels)) {
+                  $('#loading').show();
+
+                  self.lastSavedJson(JSON.stringify(levels, null, 2));
+
+                  $.ajax({
+                      url: "/Admin/DocumentLevels/Save",
+                      data: { json: self.lastSavedJson },
+                      type: "POST",
+                      async: false,
+                      success: function (data) {
+                          var jsonObj = '';
+                          if (data.hasOwnProperty("d")) jsonObj = $.parseJSON(data.d)
+                          else jsonObj = $.parseJSON(data);
+
+                          if (jsonObj != '' && jsonObj.Error && jsonObj.Error != '') {
+                              $.alert(jsonObj.Error, "Error", "Error");
+                          }
+                          else if (jsonObj != '' && jsonObj.Success != '') {
+                              // Display  confirmation message
+                              $.redirect('@Url.Content("~/Admin")', "Success", "Document levels and names configured successfully");
+                          }
+                      },
+                      error: function (XMLHttpRequest, textStatus, errorThrown) {
+                          $.alert("responseText=" + XMLHttpRequest.responseText + "\n textStatus=" + textStatus + "\n errorThrown=" + errorThrown, "Error", "Error");
+                      }
+                  });
+
+                  $('#loading').hide();
+
+              }
+              else
+                  $.alert('Validation failed! Duplicate or blank data found.', "Error", "Error");
+          };
+
+          self.lastSavedJson = ko.observable("")
+      };
+
+       function LoadDocumentLevels(orgid) {
+           $.ajax({
+               url: "/ApplicationServices/DocumentLevelService.asmx/GetDocumentLevels",
+               data: JSON.stringify({ OrgID: orgid }),
+               type: "POST",
+               contentType: "application/json; charset=utf-8",
+               async: false,
+               success: function (data) {
+                   //bind data
+                   var array;
+                   if (data.hasOwnProperty("d")) array = $.parseJSON(data.d)
+                   else array = $.parseJSON(data);
+                   
+                   ko.applyBindings(new DocumentLevelsModel(array));
+                   window.clearTimeout(timeoutid);
+
+               },
+               error: function (XMLHttpRequest, textStatus, errorThrown) {
+                   alert("responseText=" + XMLHttpRequest.responseText + "\n textStatus=" + textStatus + "\n errorThrown=" + errorThrown);
+                   window.clearTimeout(timeoutid);
+               }
+           });
+           $('#loading').hide();
+       }
+       function highlightControls(validation_text)
+       {
+
+           var allTextBoxes = $('input:text').filter(function () { return (this.id == 'DocName' || this.id == 'DocAbbr') });
+           allTextBoxes.each(function () {
+               mark_validity($(this), true);
+           });
+           var emptyTextBoxes = $('input:text').filter(function () { return (this.id == 'DocName' || this.id == 'DocAbbr'); });
+           emptyTextBoxes.each(function () {
+               if ($(this).val() == validation_text) mark_validity($(this), false);
+           });
+           
+       }
+       function mark_validity(id, is_valid) {
+           if (is_valid) {
+               $(id).closest('div').removeClass('ui-state-error');
+           } else {
+               $(id).closest('div').removeClass("ui-state-error").addClass('ui-state-error');
+           }
+       }
+       $(document).ready(function () {
+           $('#cancel').click(function (e) {
+               $.redirect('@Url.Content("~/Admin")', "Warning", "Document levels and names configuration cancelled");
+           });
+           timeoutid = window.setTimeout("LoadDocumentLevels(" + orgid + ")", 1000);
+
+       });
+
+    </script>
+    
+}

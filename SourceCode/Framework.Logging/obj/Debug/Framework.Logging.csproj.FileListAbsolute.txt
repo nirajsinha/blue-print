@@ -1,0 +1,16 @@
+C:\Niraj\Projects\Blueprint\SourceCode\Framework.Logging\bin\Debug\Framework.Logging.dll
+C:\Niraj\Projects\Blueprint\SourceCode\Framework.Logging\bin\Debug\Framework.Logging.pdb
+C:\Niraj\Projects\Blueprint\SourceCode\Framework.Logging\bin\Debug\Microsoft.Web.Infrastructure.dll
+C:\Niraj\Projects\Blueprint\SourceCode\Framework.Logging\bin\Debug\MiniProfiler.dll
+C:\Niraj\Projects\Blueprint\SourceCode\Framework.Logging\bin\Debug\NLog.dll
+C:\Niraj\Projects\Blueprint\SourceCode\Framework.Logging\bin\Debug\PostSharp.dll
+C:\Niraj\Projects\Blueprint\SourceCode\Framework.Logging\bin\Debug\WebActivator.dll
+C:\Niraj\Projects\Blueprint\SourceCode\Framework.Logging\bin\Debug\MiniProfiler.pdb
+C:\Niraj\Projects\Blueprint\SourceCode\Framework.Logging\bin\Debug\MiniProfiler.xml
+C:\Niraj\Projects\Blueprint\SourceCode\Framework.Logging\bin\Debug\NLog.xml
+C:\Niraj\Projects\Blueprint\SourceCode\Framework.Logging\bin\Debug\PostSharp.xml
+C:\Niraj\Projects\Blueprint\SourceCode\Framework.Logging\bin\Debug\Framework.Logging.pssym
+C:\Niraj\Projects\Blueprint\SourceCode\Framework.Logging\obj\Debug\Framework.Logging.dll
+C:\Niraj\Projects\Blueprint\SourceCode\Framework.Logging\obj\Debug\Framework.Logging.pdb
+C:\Niraj\Projects\Blueprint\SourceCode\Framework.Logging\obj\Debug\Framework.Logging.dll.postsharp
+C:\Niraj\Projects\Blueprint\SourceCode\Framework.Logging\obj\Debug\Framework.Logging.csprojResolveAssemblyReference.cache

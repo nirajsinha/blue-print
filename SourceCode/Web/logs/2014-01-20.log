@@ -1,0 +1,564 @@
+2014-01-20 21:22:12.5803 INFO Execution started of MvcApplication.Application_Start ()
+2014-01-20 21:22:16.4976 INFO Execution started of AdminAreaRegistration.get_AreaName ()
+2014-01-20 21:22:16.4986 INFO Execution finished for get_AreaName
+2014-01-20 21:22:16.4986 INFO Execution started of AdminAreaRegistration.RegisterArea (context = System.Web.Mvc.AreaRegistrationContext, )
+2014-01-20 21:22:16.4986 INFO Execution finished for RegisterArea
+2014-01-20 21:22:16.4986 INFO Execution finished for Application_Start
+2014-01-20 21:22:16.8566 INFO Execution started of MvcApplication.Application_Error (sender = ASP.global_asax, e = System.EventArgs, )
+2014-01-20 21:22:16.8956 INFO Application_Error: System.Web.HttpException (0x80004005): Path '/Views/DocumentLibrary/ChangeRequest.cshtml' was not found.
+   at System.Web.HttpNotFoundHandler.ProcessRequest(HttpContext context)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2014-01-20 21:22:16.9156 INFO Execution started of ErrorController.DetailedError ()
+2014-01-20 21:22:16.9156 INFO Execution finished for DetailedError
+2014-01-20 21:22:18.1636 INFO Execution finished for Application_Error
+2014-01-20 21:23:04.5673 INFO Execution started of MvcApplication.Application_Start ()
+2014-01-20 21:23:04.9983 INFO Execution started of AdminAreaRegistration.get_AreaName ()
+2014-01-20 21:23:04.9993 INFO Execution finished for get_AreaName
+2014-01-20 21:23:04.9993 INFO Execution started of AdminAreaRegistration.RegisterArea (context = System.Web.Mvc.AreaRegistrationContext, )
+2014-01-20 21:23:04.9993 INFO Execution finished for RegisterArea
+2014-01-20 21:23:04.9993 INFO Execution finished for Application_Start
+2014-01-20 21:23:05.2263 INFO Execution started of HomeController.Index ()
+2014-01-20 21:23:05.2263 INFO Execution finished for Index
+2014-01-20 21:23:09.7646 INFO Execution started of MvcApplication.Application_Error (sender = ASP.global_asax, e = System.EventArgs, )
+2014-01-20 21:23:09.7836 INFO Application_Error: System.Web.HttpException (0x80004005): The controller for path '/favicon.ico' was not found or does not implement IController.
+   at System.Web.Mvc.DefaultControllerFactory.GetControllerInstance(RequestContext requestContext, Type controllerType)
+   at System.Web.Mvc.DefaultControllerFactory.CreateController(RequestContext requestContext, String controllerName)
+   at System.Web.Mvc.MvcHandler.ProcessRequestInit(HttpContextBase httpContext, IController& controller, IControllerFactory& factory)
+   at System.Web.Mvc.MvcHandler.<>c__DisplayClass6.<BeginProcessRequest>b__2()
+   at System.Web.Mvc.SecurityUtil.<>c__DisplayClassb`1.<ProcessInApplicationTrust>b__a()
+   at System.Web.Mvc.SecurityUtil.<GetCallInAppTrustThunk>b__0(Action f)
+   at System.Web.Mvc.SecurityUtil.ProcessInApplicationTrust(Action action)
+   at System.Web.Mvc.SecurityUtil.ProcessInApplicationTrust[TResult](Func`1 func)
+   at System.Web.Mvc.MvcHandler.BeginProcessRequest(HttpContextBase httpContext, AsyncCallback callback, Object state)
+   at System.Web.Mvc.MvcHandler.BeginProcessRequest(HttpContext httpContext, AsyncCallback callback, Object state)
+   at System.Web.Mvc.MvcHandler.System.Web.IHttpAsyncHandler.BeginProcessRequest(HttpContext context, AsyncCallback cb, Object extraData)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2014-01-20 21:23:09.7896 INFO Execution started of ErrorController.DetailedError ()
+2014-01-20 21:23:09.7896 INFO Execution finished for DetailedError
+2014-01-20 21:23:10.9527 INFO Execution started of AccountController.LogOn (returnUrl = /Home/Default, )
+2014-01-20 21:23:11.0157 INFO Execution finished for Application_Error
+2014-01-20 21:23:11.0817 INFO Execution finished for LogOn
+2014-01-20 21:23:12.9808 INFO Execution started of MvcApplication.Application_Error (sender = ASP.global_asax, e = System.EventArgs, )
+2014-01-20 21:23:12.9808 INFO Application_Error: System.Web.HttpException (0x80004005): The controller for path '/favicon.ico' was not found or does not implement IController.
+   at System.Web.Mvc.DefaultControllerFactory.GetControllerInstance(RequestContext requestContext, Type controllerType)
+   at System.Web.Mvc.DefaultControllerFactory.CreateController(RequestContext requestContext, String controllerName)
+   at System.Web.Mvc.MvcHandler.ProcessRequestInit(HttpContextBase httpContext, IController& controller, IControllerFactory& factory)
+   at System.Web.Mvc.MvcHandler.<>c__DisplayClass6.<BeginProcessRequest>b__2()
+   at System.Web.Mvc.SecurityUtil.<>c__DisplayClassb`1.<ProcessInApplicationTrust>b__a()
+   at System.Web.Mvc.SecurityUtil.<GetCallInAppTrustThunk>b__0(Action f)
+   at System.Web.Mvc.SecurityUtil.ProcessInApplicationTrust(Action action)
+   at System.Web.Mvc.SecurityUtil.ProcessInApplicationTrust[TResult](Func`1 func)
+   at System.Web.Mvc.MvcHandler.BeginProcessRequest(HttpContextBase httpContext, AsyncCallback callback, Object state)
+   at System.Web.Mvc.MvcHandler.BeginProcessRequest(HttpContext httpContext, AsyncCallback callback, Object state)
+   at System.Web.Mvc.MvcHandler.System.Web.IHttpAsyncHandler.BeginProcessRequest(HttpContext context, AsyncCallback cb, Object extraData)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2014-01-20 21:23:12.9808 INFO Execution started of ErrorController.DetailedError ()
+2014-01-20 21:23:12.9808 INFO Execution finished for DetailedError
+2014-01-20 21:23:12.9888 INFO Execution finished for Application_Error
+2014-01-20 21:23:25.3255 INFO Execution started of AccountController.LogOn (model = Confluence.Blueprint.Models.LogOnModel, )
+2014-01-20 21:23:25.3265 INFO Execution started of OrganizationService.GetOrganizationByUserEmail (userEmail = admin@eqms.com, )
+2014-01-20 21:23:25.3265 INFO Execution started of OrganizationFacade.GetOrganization (userEmail = admin@eqms.com, )
+2014-01-20 21:23:25.8375 INFO Execution finished for GetOrganization
+2014-01-20 21:23:25.8375 INFO Execution finished for GetOrganizationByUserEmail
+2014-01-20 21:23:25.8425 INFO Execution started of AccountService.GetUserDetails (email = admin@eqms.com, )
+2014-01-20 21:23:25.8425 INFO Execution started of UserFacade.GetUserDetails (email = admin@eqms.com, )
+2014-01-20 21:23:25.8725 INFO Execution finished for GetUserDetails
+2014-01-20 21:23:25.8725 INFO Execution finished for GetUserDetails
+2014-01-20 21:23:25.8725 INFO Execution started of BaseController.GetTerminology (id = 3, )
+2014-01-20 21:23:25.8725 INFO Execution finished for GetTerminology
+2014-01-20 21:23:25.8725 INFO Execution started of BaseController.Redirect (url = /Home/Default, )
+2014-01-20 21:23:25.8885 INFO Execution finished for Redirect
+2014-01-20 21:23:25.8885 INFO Execution finished for LogOn
+2014-01-20 21:23:25.8885 INFO Execution started of AjaxAwareRedirectResult.ExecuteResult (context = System.Web.Mvc.ControllerContext, )
+2014-01-20 21:23:25.9135 INFO Execution finished for ExecuteResult
+2014-01-20 21:23:25.9715 INFO Execution started of HomeController.Default ()
+2014-01-20 21:23:25.9715 INFO Execution finished for Default
+2014-01-20 21:23:30.8848 INFO Execution started of CommonService.GetUserDashboard (UserID = 1, )
+2014-01-20 21:23:30.8848 INFO Execution started of CommonFacade.GetDashboardData (UserID = 1, )
+2014-01-20 21:23:30.9798 INFO Execution finished for GetDashboardData
+2014-01-20 21:23:30.9798 INFO Execution finished for GetUserDashboard
+2014-01-20 21:23:33.7770 INFO Execution started of DocumentLibraryController.Index ()
+2014-01-20 21:23:33.7770 INFO Execution started of OrganizationService.GetOrganizationByID (orgid = 1, )
+2014-01-20 21:23:33.7870 INFO Execution started of OrganizationFacade.GetOrganization (orgid = 1, )
+2014-01-20 21:23:33.8340 INFO Execution finished for GetOrganization
+2014-01-20 21:23:33.8340 INFO Execution finished for GetOrganizationByID
+2014-01-20 21:23:33.8340 INFO Execution started of DepartmentService.GetDepartmentDetails (deptid = 1, )
+2014-01-20 21:23:33.8440 INFO Execution started of DepartmentFacade.GetDepartmentDetail (deptid = 1, )
+2014-01-20 21:23:33.8810 INFO Execution finished for GetDepartmentDetail
+2014-01-20 21:23:33.8810 INFO Execution finished for GetDepartmentDetails
+2014-01-20 21:23:33.8810 INFO Execution started of DepartmentService.GetDepartmentDetails (deptid = 2, )
+2014-01-20 21:23:33.8810 INFO Execution started of DepartmentFacade.GetDepartmentDetail (deptid = 2, )
+2014-01-20 21:23:33.9050 INFO Execution finished for GetDepartmentDetail
+2014-01-20 21:23:33.9080 INFO Execution finished for GetDepartmentDetails
+2014-01-20 21:23:33.9080 INFO Execution started of DepartmentService.GetDepartmentDetails (deptid = 3, )
+2014-01-20 21:23:33.9080 INFO Execution started of DepartmentFacade.GetDepartmentDetail (deptid = 3, )
+2014-01-20 21:23:33.9310 INFO Execution finished for GetDepartmentDetail
+2014-01-20 21:23:33.9310 INFO Execution finished for GetDepartmentDetails
+2014-01-20 21:23:33.9310 INFO Execution started of DepartmentService.GetDepartmentDetails (deptid = 4, )
+2014-01-20 21:23:33.9310 INFO Execution started of DepartmentFacade.GetDepartmentDetail (deptid = 4, )
+2014-01-20 21:23:33.9620 INFO Execution finished for GetDepartmentDetail
+2014-01-20 21:23:33.9620 INFO Execution finished for GetDepartmentDetails
+2014-01-20 21:23:33.9620 INFO Execution started of DepartmentService.GetDepartmentDetails (deptid = 11, )
+2014-01-20 21:23:33.9620 INFO Execution started of DepartmentFacade.GetDepartmentDetail (deptid = 11, )
+2014-01-20 21:23:33.9860 INFO Execution finished for GetDepartmentDetail
+2014-01-20 21:23:33.9860 INFO Execution finished for GetDepartmentDetails
+2014-01-20 21:23:33.9860 INFO Execution finished for Index
+2014-01-20 21:23:36.9542 INFO Execution started of DocumentLibraryController.CheckPublishPermission ()
+2014-01-20 21:23:36.9542 INFO Execution finished for CheckPublishPermission
+2014-01-20 21:23:37.7552 INFO Execution started of DocumentLibraryController.BuildDocumentList (dept = 1, subdept = 0, )
+2014-01-20 21:23:37.7552 INFO Execution started of DocumentFacade.GetDocumentDetailsList (orgID = 1, userId = 1, deptID = 1, subDeptID = 0, )
+2014-01-20 21:23:37.7612 INFO Execution started of DocumentFacade.GetDocumentList (orgID = 1, )
+2014-01-20 21:23:37.8512 INFO Execution finished for GetDocumentList
+2014-01-20 21:23:37.8542 INFO Execution started of DocumentFacade.GetDocumentDetails (DocID = 29, )
+2014-01-20 21:23:37.9162 INFO Execution finished for GetDocumentDetails
+2014-01-20 21:23:37.9162 INFO Execution started of DocumentFacade.ValidateDocumentPermission (userid = 1, docid = 29, )
+2014-01-20 21:23:37.9392 INFO Execution finished for ValidateDocumentPermission
+2014-01-20 21:23:37.9392 INFO Execution started of DocumentFacade.GetDocumentDetails (DocID = 48, )
+2014-01-20 21:23:37.9472 INFO Execution finished for GetDocumentDetails
+2014-01-20 21:23:37.9472 INFO Execution started of DocumentFacade.ValidateDocumentPermission (userid = 1, docid = 48, )
+2014-01-20 21:23:37.9472 INFO Execution finished for ValidateDocumentPermission
+2014-01-20 21:23:37.9472 INFO Execution started of DocumentFacade.GetDocumentDetails (DocID = 54, )
+2014-01-20 21:23:37.9632 INFO Execution finished for GetDocumentDetails
+2014-01-20 21:23:37.9632 INFO Execution started of DocumentFacade.ValidateDocumentPermission (userid = 1, docid = 54, )
+2014-01-20 21:23:37.9632 INFO Execution finished for ValidateDocumentPermission
+2014-01-20 21:23:37.9632 INFO Execution started of DocumentFacade.GetDocumentDetails (DocID = 56, )
+2014-01-20 21:23:37.9632 INFO Execution finished for GetDocumentDetails
+2014-01-20 21:23:37.9782 INFO Execution started of DocumentFacade.ValidateDocumentPermission (userid = 1, docid = 56, )
+2014-01-20 21:23:37.9782 INFO Execution finished for ValidateDocumentPermission
+2014-01-20 21:23:37.9782 INFO Execution started of DocumentFacade.GetDocumentDetails (DocID = 58, )
+2014-01-20 21:23:37.9782 INFO Execution finished for GetDocumentDetails
+2014-01-20 21:23:37.9782 INFO Execution started of DocumentFacade.ValidateDocumentPermission (userid = 1, docid = 58, )
+2014-01-20 21:23:37.9972 INFO Execution finished for ValidateDocumentPermission
+2014-01-20 21:23:37.9972 INFO Execution started of DocumentFacade.GetDocumentDetails (DocID = 64, )
+2014-01-20 21:23:37.9972 INFO Execution finished for GetDocumentDetails
+2014-01-20 21:23:37.9972 INFO Execution started of DocumentFacade.ValidateDocumentPermission (userid = 1, docid = 64, )
+2014-01-20 21:23:38.0112 INFO Execution finished for ValidateDocumentPermission
+2014-01-20 21:23:38.0112 INFO Execution started of DocumentFacade.GetDocumentDetails (DocID = 67, )
+2014-01-20 21:23:38.0112 INFO Execution finished for GetDocumentDetails
+2014-01-20 21:23:38.0112 INFO Execution started of DocumentFacade.ValidateDocumentPermission (userid = 1, docid = 67, )
+2014-01-20 21:23:38.0272 INFO Execution finished for ValidateDocumentPermission
+2014-01-20 21:23:38.0272 INFO Execution finished for GetDocumentDetailsList
+2014-01-20 21:23:38.0272 INFO Execution finished for BuildDocumentList
+2014-01-20 21:23:41.8334 INFO Execution started of DocumentLibraryController.DCR ()
+2014-01-20 21:23:41.8334 INFO Execution started of DocumentFacade.GetDocumentChangeRequestList (orgid = 1, )
+2014-01-20 21:23:41.9004 INFO Execution finished for GetDocumentChangeRequestList
+2014-01-20 21:23:41.9434 INFO Execution finished for DCR
+2014-01-20 21:23:48.9198 INFO Execution started of DocumentLibraryController.ChangeRequest (id = 0, dcr = 2, )
+2014-01-20 21:23:48.9198 INFO Execution started of DocumentLibraryController.CheckDocumentLevelPermissions (docid = 0, role = Raise Change Request, )
+2014-01-20 21:23:48.9198 INFO Execution started of DocumentFacade.GetDocumentDetails (DocID = 0, )
+2014-01-20 21:23:48.9968 INFO Execution finished for GetDocumentDetails
+2014-01-20 21:23:49.0408 INFO Execution finished for CheckDocumentLevelPermissions
+2014-01-20 21:23:49.1399 INFO Execution started of DocumentFacade.GetDocumentChangeRequest (docid = 0, dcr = 2, )
+2014-01-20 21:23:49.1849 INFO Execution finished for GetDocumentChangeRequest
+2014-01-20 21:23:49.1849 INFO Execution started of DocumentFacade.GetDocumentDetails (DocID = 22, )
+2014-01-20 21:23:49.2029 INFO Execution finished for GetDocumentDetails
+2014-01-20 21:23:49.2759 INFO Execution started of DocumentFacade.GetDocumentDetailsList (orgID = 1, userId = 0, deptID = 1, subDeptID = 0, )
+2014-01-20 21:23:49.2759 INFO Execution started of DocumentFacade.GetDocumentList (orgID = 1, )
+2014-01-20 21:23:49.2969 INFO Execution finished for GetDocumentList
+2014-01-20 21:23:49.2969 INFO Execution started of DocumentFacade.GetDocumentDetails (DocID = 29, )
+2014-01-20 21:23:49.3149 INFO Execution finished for GetDocumentDetails
+2014-01-20 21:23:49.3149 INFO Execution started of DocumentFacade.ValidateDocumentPermission (userid = 0, docid = 29, )
+2014-01-20 21:23:49.3149 INFO Execution finished for ValidateDocumentPermission
+2014-01-20 21:23:49.3149 INFO Execution started of DocumentFacade.GetDocumentDetails (DocID = 48, )
+2014-01-20 21:23:49.3199 INFO Execution finished for GetDocumentDetails
+2014-01-20 21:23:49.3349 INFO Execution started of DocumentFacade.ValidateDocumentPermission (userid = 0, docid = 48, )
+2014-01-20 21:23:49.3349 INFO Execution finished for ValidateDocumentPermission
+2014-01-20 21:23:49.3349 INFO Execution started of DocumentFacade.GetDocumentDetails (DocID = 54, )
+2014-01-20 21:23:49.3519 INFO Execution finished for GetDocumentDetails
+2014-01-20 21:23:49.3519 INFO Execution started of DocumentFacade.ValidateDocumentPermission (userid = 0, docid = 54, )
+2014-01-20 21:23:49.3519 INFO Execution finished for ValidateDocumentPermission
+2014-01-20 21:23:49.3519 INFO Execution started of DocumentFacade.GetDocumentDetails (DocID = 56, )
+2014-01-20 21:23:49.3709 INFO Execution finished for GetDocumentDetails
+2014-01-20 21:23:49.3709 INFO Execution started of DocumentFacade.ValidateDocumentPermission (userid = 0, docid = 56, )
+2014-01-20 21:23:49.3709 INFO Execution finished for ValidateDocumentPermission
+2014-01-20 21:23:49.3709 INFO Execution started of DocumentFacade.GetDocumentDetails (DocID = 58, )
+2014-01-20 21:23:49.3899 INFO Execution finished for GetDocumentDetails
+2014-01-20 21:23:49.3899 INFO Execution started of DocumentFacade.ValidateDocumentPermission (userid = 0, docid = 58, )
+2014-01-20 21:23:49.3899 INFO Execution finished for ValidateDocumentPermission
+2014-01-20 21:23:49.3899 INFO Execution started of DocumentFacade.GetDocumentDetails (DocID = 64, )
+2014-01-20 21:23:49.4089 INFO Execution finished for GetDocumentDetails
+2014-01-20 21:23:49.4089 INFO Execution started of DocumentFacade.ValidateDocumentPermission (userid = 0, docid = 64, )
+2014-01-20 21:23:49.4089 INFO Execution finished for ValidateDocumentPermission
+2014-01-20 21:23:49.4129 INFO Execution started of DocumentFacade.GetDocumentDetails (DocID = 67, )
+2014-01-20 21:23:49.4129 INFO Execution finished for GetDocumentDetails
+2014-01-20 21:23:49.4299 INFO Execution started of DocumentFacade.ValidateDocumentPermission (userid = 0, docid = 67, )
+2014-01-20 21:23:49.4299 INFO Execution finished for ValidateDocumentPermission
+2014-01-20 21:23:49.4299 INFO Execution finished for GetDocumentDetailsList
+2014-01-20 21:23:49.4489 INFO Execution finished for ChangeRequest
+2014-01-20 21:24:01.2555 INFO Execution started of DocumentLibraryController.ChangeRequest (id = 0, dcr = 2, )
+2014-01-20 21:24:01.2555 INFO Execution started of DocumentLibraryController.CheckDocumentLevelPermissions (docid = 0, role = Raise Change Request, )
+2014-01-20 21:24:01.2555 INFO Execution started of DocumentFacade.GetDocumentDetails (DocID = 0, )
+2014-01-20 21:24:01.2715 INFO Execution finished for GetDocumentDetails
+2014-01-20 21:24:01.2715 INFO Execution finished for CheckDocumentLevelPermissions
+2014-01-20 21:24:01.2715 INFO Execution started of DocumentFacade.GetDocumentChangeRequest (docid = 0, dcr = 2, )
+2014-01-20 21:24:01.2875 INFO Execution finished for GetDocumentChangeRequest
+2014-01-20 21:24:01.2875 INFO Execution started of DocumentFacade.GetDocumentDetails (DocID = 22, )
+2014-01-20 21:24:01.3095 INFO Execution finished for GetDocumentDetails
+2014-01-20 21:24:01.3095 INFO Execution started of DocumentFacade.GetDocumentDetailsList (orgID = 1, userId = 0, deptID = 1, subDeptID = 0, )
+2014-01-20 21:24:01.3095 INFO Execution started of DocumentFacade.GetDocumentList (orgID = 1, )
+2014-01-20 21:24:01.3276 INFO Execution finished for GetDocumentList
+2014-01-20 21:24:01.3276 INFO Execution started of DocumentFacade.GetDocumentDetails (DocID = 29, )
+2014-01-20 21:24:01.3406 INFO Execution finished for GetDocumentDetails
+2014-01-20 21:24:01.3406 INFO Execution started of DocumentFacade.ValidateDocumentPermission (userid = 0, docid = 29, )
+2014-01-20 21:24:01.3406 INFO Execution finished for ValidateDocumentPermission
+2014-01-20 21:24:01.3406 INFO Execution started of DocumentFacade.GetDocumentDetails (DocID = 48, )
+2014-01-20 21:24:01.3546 INFO Execution finished for GetDocumentDetails
+2014-01-20 21:24:01.3546 INFO Execution started of DocumentFacade.ValidateDocumentPermission (userid = 0, docid = 48, )
+2014-01-20 21:24:01.3546 INFO Execution finished for ValidateDocumentPermission
+2014-01-20 21:24:01.3546 INFO Execution started of DocumentFacade.GetDocumentDetails (DocID = 54, )
+2014-01-20 21:24:01.3706 INFO Execution finished for GetDocumentDetails
+2014-01-20 21:24:01.3706 INFO Execution started of DocumentFacade.ValidateDocumentPermission (userid = 0, docid = 54, )
+2014-01-20 21:24:01.3706 INFO Execution finished for ValidateDocumentPermission
+2014-01-20 21:24:01.3706 INFO Execution started of DocumentFacade.GetDocumentDetails (DocID = 56, )
+2014-01-20 21:24:01.3856 INFO Execution finished for GetDocumentDetails
+2014-01-20 21:24:01.3856 INFO Execution started of DocumentFacade.ValidateDocumentPermission (userid = 0, docid = 56, )
+2014-01-20 21:24:01.3856 INFO Execution finished for ValidateDocumentPermission
+2014-01-20 21:24:01.3856 INFO Execution started of DocumentFacade.GetDocumentDetails (DocID = 58, )
+2014-01-20 21:24:01.3986 INFO Execution finished for GetDocumentDetails
+2014-01-20 21:24:01.3986 INFO Execution started of DocumentFacade.ValidateDocumentPermission (userid = 0, docid = 58, )
+2014-01-20 21:24:01.3986 INFO Execution finished for ValidateDocumentPermission
+2014-01-20 21:24:01.3986 INFO Execution started of DocumentFacade.GetDocumentDetails (DocID = 64, )
+2014-01-20 21:24:01.4126 INFO Execution finished for GetDocumentDetails
+2014-01-20 21:24:01.4126 INFO Execution started of DocumentFacade.ValidateDocumentPermission (userid = 0, docid = 64, )
+2014-01-20 21:24:01.4126 INFO Execution finished for ValidateDocumentPermission
+2014-01-20 21:24:01.4126 INFO Execution started of DocumentFacade.GetDocumentDetails (DocID = 67, )
+2014-01-20 21:24:01.4276 INFO Execution finished for GetDocumentDetails
+2014-01-20 21:24:01.4276 INFO Execution started of DocumentFacade.ValidateDocumentPermission (userid = 0, docid = 67, )
+2014-01-20 21:24:01.4276 INFO Execution finished for ValidateDocumentPermission
+2014-01-20 21:24:01.4276 INFO Execution finished for GetDocumentDetailsList
+2014-01-20 21:24:01.4276 INFO Execution finished for ChangeRequest
+2014-01-20 21:24:34.1544 INFO Execution started of DocumentLibraryController.ChangeRequest (id = 0, dcr = 2, )
+2014-01-20 21:24:34.1544 INFO Execution started of DocumentLibraryController.CheckDocumentLevelPermissions (docid = 0, role = Raise Change Request, )
+2014-01-20 21:24:34.1544 INFO Execution started of DocumentFacade.GetDocumentDetails (DocID = 0, )
+2014-01-20 21:24:34.1544 INFO Execution finished for GetDocumentDetails
+2014-01-20 21:24:34.1744 INFO Execution finished for CheckDocumentLevelPermissions
+2014-01-20 21:24:34.1744 INFO Execution started of DocumentFacade.GetDocumentChangeRequest (docid = 0, dcr = 2, )
+2014-01-20 21:24:34.1744 INFO Execution finished for GetDocumentChangeRequest
+2014-01-20 21:24:34.1744 INFO Execution started of DocumentFacade.GetDocumentDetails (DocID = 22, )
+2014-01-20 21:24:34.1934 INFO Execution finished for GetDocumentDetails
+2014-01-20 21:24:34.1934 INFO Execution started of DocumentFacade.GetDocumentDetailsList (orgID = 1, userId = 0, deptID = 1, subDeptID = 0, )
+2014-01-20 21:24:34.1934 INFO Execution started of DocumentFacade.GetDocumentList (orgID = 1, )
+2014-01-20 21:24:34.2054 INFO Execution finished for GetDocumentList
+2014-01-20 21:24:34.2054 INFO Execution started of DocumentFacade.GetDocumentDetails (DocID = 29, )
+2014-01-20 21:24:34.2174 INFO Execution finished for GetDocumentDetails
+2014-01-20 21:24:34.2174 INFO Execution started of DocumentFacade.ValidateDocumentPermission (userid = 0, docid = 29, )
+2014-01-20 21:24:34.2174 INFO Execution finished for ValidateDocumentPermission
+2014-01-20 21:24:34.2174 INFO Execution started of DocumentFacade.GetDocumentDetails (DocID = 48, )
+2014-01-20 21:24:34.2174 INFO Execution finished for GetDocumentDetails
+2014-01-20 21:24:34.2174 INFO Execution started of DocumentFacade.ValidateDocumentPermission (userid = 0, docid = 48, )
+2014-01-20 21:24:34.2174 INFO Execution finished for ValidateDocumentPermission
+2014-01-20 21:24:34.2174 INFO Execution started of DocumentFacade.GetDocumentDetails (DocID = 54, )
+2014-01-20 21:24:34.2394 INFO Execution finished for GetDocumentDetails
+2014-01-20 21:24:34.2394 INFO Execution started of DocumentFacade.ValidateDocumentPermission (userid = 0, docid = 54, )
+2014-01-20 21:24:34.2394 INFO Execution finished for ValidateDocumentPermission
+2014-01-20 21:24:34.2394 INFO Execution started of DocumentFacade.GetDocumentDetails (DocID = 56, )
+2014-01-20 21:24:34.2534 INFO Execution finished for GetDocumentDetails
+2014-01-20 21:24:34.2534 INFO Execution started of DocumentFacade.ValidateDocumentPermission (userid = 0, docid = 56, )
+2014-01-20 21:24:34.2534 INFO Execution finished for ValidateDocumentPermission
+2014-01-20 21:24:34.2534 INFO Execution started of DocumentFacade.GetDocumentDetails (DocID = 58, )
+2014-01-20 21:24:34.2534 INFO Execution finished for GetDocumentDetails
+2014-01-20 21:24:34.2534 INFO Execution started of DocumentFacade.ValidateDocumentPermission (userid = 0, docid = 58, )
+2014-01-20 21:24:34.2634 INFO Execution finished for ValidateDocumentPermission
+2014-01-20 21:24:34.2634 INFO Execution started of DocumentFacade.GetDocumentDetails (DocID = 64, )
+2014-01-20 21:24:34.2634 INFO Execution finished for GetDocumentDetails
+2014-01-20 21:24:34.2634 INFO Execution started of DocumentFacade.ValidateDocumentPermission (userid = 0, docid = 64, )
+2014-01-20 21:24:34.2634 INFO Execution finished for ValidateDocumentPermission
+2014-01-20 21:24:34.2634 INFO Execution started of DocumentFacade.GetDocumentDetails (DocID = 67, )
+2014-01-20 21:24:34.2794 INFO Execution finished for GetDocumentDetails
+2014-01-20 21:24:34.2794 INFO Execution started of DocumentFacade.ValidateDocumentPermission (userid = 0, docid = 67, )
+2014-01-20 21:24:34.2794 INFO Execution finished for ValidateDocumentPermission
+2014-01-20 21:24:34.2794 INFO Execution finished for GetDocumentDetailsList
+2014-01-20 21:24:34.2794 INFO Execution finished for ChangeRequest
+2014-01-20 21:40:18.1474 INFO Execution started of MvcApplication.Application_Start ()
+2014-01-20 21:40:18.5404 INFO Execution started of AdminAreaRegistration.get_AreaName ()
+2014-01-20 21:40:18.5404 INFO Execution finished for get_AreaName
+2014-01-20 21:40:18.5404 INFO Execution started of AdminAreaRegistration.RegisterArea (context = System.Web.Mvc.AreaRegistrationContext, )
+2014-01-20 21:40:18.5404 INFO Execution finished for RegisterArea
+2014-01-20 21:40:18.5404 INFO Execution finished for Application_Start
+2014-01-20 21:40:18.7205 INFO Execution started of HomeController.Index ()
+2014-01-20 21:40:18.7205 INFO Execution finished for Index
+2014-01-20 21:40:22.6487 INFO Execution started of AccountController.LogOn (returnUrl = /Home/Default, )
+2014-01-20 21:40:22.6997 INFO Execution finished for LogOn
+2014-01-20 21:40:36.8885 INFO Execution started of AccountController.LogOn (model = Confluence.Blueprint.Models.LogOnModel, )
+2014-01-20 21:40:36.8885 INFO Execution started of OrganizationService.GetOrganizationByUserEmail (userEmail = admin@eqms.com, )
+2014-01-20 21:40:36.8995 INFO Execution started of OrganizationFacade.GetOrganization (userEmail = admin@eqms.com, )
+2014-01-20 21:40:36.9805 INFO Execution finished for GetOrganization
+2014-01-20 21:40:36.9805 INFO Execution finished for GetOrganizationByUserEmail
+2014-01-20 21:40:36.9805 INFO Execution started of AccountService.GetUserDetails (email = admin@eqms.com, )
+2014-01-20 21:40:36.9805 INFO Execution started of UserFacade.GetUserDetails (email = admin@eqms.com, )
+2014-01-20 21:40:36.9965 INFO Execution finished for GetUserDetails
+2014-01-20 21:40:36.9965 INFO Execution finished for GetUserDetails
+2014-01-20 21:40:36.9965 INFO Execution started of BaseController.GetTerminology (id = 3, )
+2014-01-20 21:40:36.9965 INFO Execution finished for GetTerminology
+2014-01-20 21:40:36.9965 INFO Execution started of BaseController.Redirect (url = /Home/Default, )
+2014-01-20 21:40:36.9965 INFO Execution finished for Redirect
+2014-01-20 21:40:36.9965 INFO Execution finished for LogOn
+2014-01-20 21:40:36.9965 INFO Execution started of AjaxAwareRedirectResult.ExecuteResult (context = System.Web.Mvc.ControllerContext, )
+2014-01-20 21:40:37.0285 INFO Execution finished for ExecuteResult
+2014-01-20 21:40:37.0285 INFO Execution started of HomeController.Default ()
+2014-01-20 21:40:37.0285 INFO Execution finished for Default
+2014-01-20 21:40:40.8547 INFO Execution started of CommonService.GetUserDashboard (UserID = 1, )
+2014-01-20 21:40:40.8547 INFO Execution started of CommonFacade.GetDashboardData (UserID = 1, )
+2014-01-20 21:40:40.8887 INFO Execution finished for GetDashboardData
+2014-01-20 21:40:40.8887 INFO Execution finished for GetUserDashboard
+2014-01-20 21:40:44.8599 INFO Execution started of DocumentLibraryController.Index ()
+2014-01-20 21:40:44.8599 INFO Execution started of OrganizationService.GetOrganizationByID (orgid = 1, )
+2014-01-20 21:40:44.8599 INFO Execution started of OrganizationFacade.GetOrganization (orgid = 1, )
+2014-01-20 21:40:44.8930 INFO Execution finished for GetOrganization
+2014-01-20 21:40:44.8930 INFO Execution finished for GetOrganizationByID
+2014-01-20 21:40:44.8930 INFO Execution started of DepartmentService.GetDepartmentDetails (deptid = 1, )
+2014-01-20 21:40:44.8930 INFO Execution started of DepartmentFacade.GetDepartmentDetail (deptid = 1, )
+2014-01-20 21:40:44.9170 INFO Execution finished for GetDepartmentDetail
+2014-01-20 21:40:44.9170 INFO Execution finished for GetDepartmentDetails
+2014-01-20 21:40:44.9170 INFO Execution started of DepartmentService.GetDepartmentDetails (deptid = 2, )
+2014-01-20 21:40:44.9170 INFO Execution started of DepartmentFacade.GetDepartmentDetail (deptid = 2, )
+2014-01-20 21:40:44.9340 INFO Execution finished for GetDepartmentDetail
+2014-01-20 21:40:44.9340 INFO Execution finished for GetDepartmentDetails
+2014-01-20 21:40:44.9340 INFO Execution started of DepartmentService.GetDepartmentDetails (deptid = 3, )
+2014-01-20 21:40:44.9340 INFO Execution started of DepartmentFacade.GetDepartmentDetail (deptid = 3, )
+2014-01-20 21:40:44.9340 INFO Execution finished for GetDepartmentDetail
+2014-01-20 21:40:44.9340 INFO Execution finished for GetDepartmentDetails
+2014-01-20 21:40:44.9340 INFO Execution started of DepartmentService.GetDepartmentDetails (deptid = 4, )
+2014-01-20 21:40:44.9340 INFO Execution started of DepartmentFacade.GetDepartmentDetail (deptid = 4, )
+2014-01-20 21:40:44.9490 INFO Execution finished for GetDepartmentDetail
+2014-01-20 21:40:44.9490 INFO Execution finished for GetDepartmentDetails
+2014-01-20 21:40:44.9490 INFO Execution started of DepartmentService.GetDepartmentDetails (deptid = 11, )
+2014-01-20 21:40:44.9490 INFO Execution started of DepartmentFacade.GetDepartmentDetail (deptid = 11, )
+2014-01-20 21:40:44.9680 INFO Execution finished for GetDepartmentDetail
+2014-01-20 21:40:44.9680 INFO Execution finished for GetDepartmentDetails
+2014-01-20 21:40:44.9680 INFO Execution finished for Index
+2014-01-20 21:40:47.4911 INFO Execution started of DocumentLibraryController.CheckPublishPermission ()
+2014-01-20 21:40:47.4911 INFO Execution finished for CheckPublishPermission
+2014-01-20 21:40:48.2391 INFO Execution started of DocumentLibraryController.DCR ()
+2014-01-20 21:40:48.2431 INFO Execution started of DocumentFacade.GetDocumentChangeRequestList (orgid = 1, )
+2014-01-20 21:40:48.2661 INFO Execution finished for GetDocumentChangeRequestList
+2014-01-20 21:40:48.3161 INFO Execution finished for DCR
+2014-01-20 21:40:51.0503 INFO Execution started of DocumentLibraryController.ChangeRequest (id = 0, dcr = 2, )
+2014-01-20 21:40:51.0503 INFO Execution started of DocumentLibraryController.CheckDocumentLevelPermissions (docid = 0, role = Raise Change Request, )
+2014-01-20 21:40:51.0503 INFO Execution started of DocumentFacade.GetDocumentDetails (DocID = 0, )
+2014-01-20 21:40:51.0763 INFO Execution finished for GetDocumentDetails
+2014-01-20 21:40:51.0893 INFO Execution finished for CheckDocumentLevelPermissions
+2014-01-20 21:40:51.1603 INFO Execution started of DocumentFacade.GetDocumentChangeRequest (docid = 0, dcr = 2, )
+2014-01-20 21:40:51.1603 INFO Execution finished for GetDocumentChangeRequest
+2014-01-20 21:40:51.1603 INFO Execution started of DocumentFacade.GetDocumentDetails (DocID = 22, )
+2014-01-20 21:40:51.2623 INFO Execution finished for GetDocumentDetails
+2014-01-20 21:40:51.3783 INFO Execution started of DocumentFacade.GetDocumentDetailsList (orgID = 1, userId = 0, deptID = 1, subDeptID = 0, )
+2014-01-20 21:40:51.3783 INFO Execution started of DocumentFacade.GetDocumentList (orgID = 1, )
+2014-01-20 21:40:51.4123 INFO Execution finished for GetDocumentList
+2014-01-20 21:40:51.4223 INFO Execution started of DocumentFacade.GetDocumentDetails (DocID = 29, )
+2014-01-20 21:40:51.4473 INFO Execution finished for GetDocumentDetails
+2014-01-20 21:40:51.4473 INFO Execution started of DocumentFacade.ValidateDocumentPermission (userid = 0, docid = 29, )
+2014-01-20 21:40:51.4533 INFO Execution finished for ValidateDocumentPermission
+2014-01-20 21:40:51.4533 INFO Execution started of DocumentFacade.GetDocumentDetails (DocID = 48, )
+2014-01-20 21:40:51.4773 INFO Execution finished for GetDocumentDetails
+2014-01-20 21:40:51.4773 INFO Execution started of DocumentFacade.ValidateDocumentPermission (userid = 0, docid = 48, )
+2014-01-20 21:40:51.4773 INFO Execution finished for ValidateDocumentPermission
+2014-01-20 21:40:51.4773 INFO Execution started of DocumentFacade.GetDocumentDetails (DocID = 54, )
+2014-01-20 21:40:51.5013 INFO Execution finished for GetDocumentDetails
+2014-01-20 21:40:51.5013 INFO Execution started of DocumentFacade.ValidateDocumentPermission (userid = 0, docid = 54, )
+2014-01-20 21:40:51.5013 INFO Execution finished for ValidateDocumentPermission
+2014-01-20 21:40:51.5013 INFO Execution started of DocumentFacade.GetDocumentDetails (DocID = 56, )
+2014-01-20 21:40:51.5213 INFO Execution finished for GetDocumentDetails
+2014-01-20 21:40:51.5213 INFO Execution started of DocumentFacade.ValidateDocumentPermission (userid = 0, docid = 56, )
+2014-01-20 21:40:51.5213 INFO Execution finished for ValidateDocumentPermission
+2014-01-20 21:40:51.5213 INFO Execution started of DocumentFacade.GetDocumentDetails (DocID = 58, )
+2014-01-20 21:40:51.5443 INFO Execution finished for GetDocumentDetails
+2014-01-20 21:40:51.5443 INFO Execution started of DocumentFacade.ValidateDocumentPermission (userid = 0, docid = 58, )
+2014-01-20 21:40:51.5443 INFO Execution finished for ValidateDocumentPermission
+2014-01-20 21:40:51.5473 INFO Execution started of DocumentFacade.GetDocumentDetails (DocID = 64, )
+2014-01-20 21:40:51.5693 INFO Execution finished for GetDocumentDetails
+2014-01-20 21:40:51.5693 INFO Execution started of DocumentFacade.ValidateDocumentPermission (userid = 0, docid = 64, )
+2014-01-20 21:40:51.5693 INFO Execution finished for ValidateDocumentPermission
+2014-01-20 21:40:51.5693 INFO Execution started of DocumentFacade.GetDocumentDetails (DocID = 67, )
+2014-01-20 21:40:51.5843 INFO Execution finished for GetDocumentDetails
+2014-01-20 21:40:51.5843 INFO Execution started of DocumentFacade.ValidateDocumentPermission (userid = 0, docid = 67, )
+2014-01-20 21:40:51.5843 INFO Execution finished for ValidateDocumentPermission
+2014-01-20 21:40:51.5843 INFO Execution finished for GetDocumentDetailsList
+2014-01-20 21:40:51.6013 INFO Execution finished for ChangeRequest
+2014-01-20 21:42:26.6358 INFO Execution started of MvcApplication.Application_Start ()
+2014-01-20 21:42:26.9888 INFO Execution started of AdminAreaRegistration.get_AreaName ()
+2014-01-20 21:42:26.9888 INFO Execution finished for get_AreaName
+2014-01-20 21:42:26.9888 INFO Execution started of AdminAreaRegistration.RegisterArea (context = System.Web.Mvc.AreaRegistrationContext, )
+2014-01-20 21:42:26.9888 INFO Execution finished for RegisterArea
+2014-01-20 21:42:26.9888 INFO Execution finished for Application_Start
+2014-01-20 21:42:27.1528 INFO Execution started of HomeController.Index ()
+2014-01-20 21:42:27.1528 INFO Execution finished for Index
+2014-01-20 21:42:30.9290 INFO Execution started of AccountController.LogOn (returnUrl = /Home/Default, )
+2014-01-20 21:42:30.9870 INFO Execution finished for LogOn
+2014-01-20 21:42:43.6017 INFO Execution started of AccountController.LogOn (model = Confluence.Blueprint.Models.LogOnModel, )
+2014-01-20 21:42:43.6027 INFO Execution started of OrganizationService.GetOrganizationByUserEmail (userEmail = admin@eqms.com, )
+2014-01-20 21:42:43.6027 INFO Execution started of OrganizationFacade.GetOrganization (userEmail = admin@eqms.com, )
+2014-01-20 21:42:43.6827 INFO Execution finished for GetOrganization
+2014-01-20 21:42:43.6827 INFO Execution finished for GetOrganizationByUserEmail
+2014-01-20 21:42:43.6827 INFO Execution started of AccountService.GetUserDetails (email = admin@eqms.com, )
+2014-01-20 21:42:43.6827 INFO Execution started of UserFacade.GetUserDetails (email = admin@eqms.com, )
+2014-01-20 21:42:43.7017 INFO Execution finished for GetUserDetails
+2014-01-20 21:42:43.7017 INFO Execution finished for GetUserDetails
+2014-01-20 21:42:43.7017 INFO Execution started of BaseController.GetTerminology (id = 3, )
+2014-01-20 21:42:43.7017 INFO Execution finished for GetTerminology
+2014-01-20 21:42:43.7017 INFO Execution started of BaseController.Redirect (url = /Home/Default, )
+2014-01-20 21:42:43.7127 INFO Execution finished for Redirect
+2014-01-20 21:42:43.7127 INFO Execution finished for LogOn
+2014-01-20 21:42:43.7127 INFO Execution started of AjaxAwareRedirectResult.ExecuteResult (context = System.Web.Mvc.ControllerContext, )
+2014-01-20 21:42:43.7127 INFO Execution finished for ExecuteResult
+2014-01-20 21:42:43.7367 INFO Execution started of HomeController.Default ()
+2014-01-20 21:42:43.7367 INFO Execution finished for Default
+2014-01-20 21:42:47.7010 INFO Execution started of CommonService.GetUserDashboard (UserID = 1, )
+2014-01-20 21:42:47.7060 INFO Execution started of CommonFacade.GetDashboardData (UserID = 1, )
+2014-01-20 21:42:47.7280 INFO Execution finished for GetDashboardData
+2014-01-20 21:42:47.7280 INFO Execution finished for GetUserDashboard
+2014-01-20 21:42:50.9982 INFO Execution started of DocumentLibraryController.Index ()
+2014-01-20 21:42:50.9982 INFO Execution started of OrganizationService.GetOrganizationByID (orgid = 1, )
+2014-01-20 21:42:50.9982 INFO Execution started of OrganizationFacade.GetOrganization (orgid = 1, )
+2014-01-20 21:42:51.0322 INFO Execution finished for GetOrganization
+2014-01-20 21:42:51.0322 INFO Execution finished for GetOrganizationByID
+2014-01-20 21:42:51.0322 INFO Execution started of DepartmentService.GetDepartmentDetails (deptid = 1, )
+2014-01-20 21:42:51.0322 INFO Execution started of DepartmentFacade.GetDepartmentDetail (deptid = 1, )
+2014-01-20 21:42:51.0622 INFO Execution finished for GetDepartmentDetail
+2014-01-20 21:42:51.0622 INFO Execution finished for GetDepartmentDetails
+2014-01-20 21:42:51.0622 INFO Execution started of DepartmentService.GetDepartmentDetails (deptid = 2, )
+2014-01-20 21:42:51.0622 INFO Execution started of DepartmentFacade.GetDepartmentDetail (deptid = 2, )
+2014-01-20 21:42:51.0832 INFO Execution finished for GetDepartmentDetail
+2014-01-20 21:42:51.0832 INFO Execution finished for GetDepartmentDetails
+2014-01-20 21:42:51.0832 INFO Execution started of DepartmentService.GetDepartmentDetails (deptid = 3, )
+2014-01-20 21:42:51.0832 INFO Execution started of DepartmentFacade.GetDepartmentDetail (deptid = 3, )
+2014-01-20 21:42:51.0982 INFO Execution finished for GetDepartmentDetail
+2014-01-20 21:42:51.0982 INFO Execution finished for GetDepartmentDetails
+2014-01-20 21:42:51.0982 INFO Execution started of DepartmentService.GetDepartmentDetails (deptid = 4, )
+2014-01-20 21:42:51.0982 INFO Execution started of DepartmentFacade.GetDepartmentDetail (deptid = 4, )
+2014-01-20 21:42:51.1122 INFO Execution finished for GetDepartmentDetail
+2014-01-20 21:42:51.1122 INFO Execution finished for GetDepartmentDetails
+2014-01-20 21:42:51.1122 INFO Execution started of DepartmentService.GetDepartmentDetails (deptid = 11, )
+2014-01-20 21:42:51.1122 INFO Execution started of DepartmentFacade.GetDepartmentDetail (deptid = 11, )
+2014-01-20 21:42:51.1262 INFO Execution finished for GetDepartmentDetail
+2014-01-20 21:42:51.1262 INFO Execution finished for GetDepartmentDetails
+2014-01-20 21:42:51.1262 INFO Execution finished for Index
+2014-01-20 21:42:53.8263 INFO Execution started of DocumentLibraryController.CheckPublishPermission ()
+2014-01-20 21:42:53.8263 INFO Execution finished for CheckPublishPermission
+2014-01-20 21:42:56.3445 INFO Execution started of DocumentLibraryController.DCR ()
+2014-01-20 21:42:56.3505 INFO Execution started of DocumentFacade.GetDocumentChangeRequestList (orgid = 1, )
+2014-01-20 21:42:56.3805 INFO Execution finished for GetDocumentChangeRequestList
+2014-01-20 21:42:56.4315 INFO Execution finished for DCR
+2014-01-20 21:43:00.8127 INFO Execution started of DocumentLibraryController.Index ()
+2014-01-20 21:43:00.8127 INFO Execution started of OrganizationService.GetOrganizationByID (orgid = 1, )
+2014-01-20 21:43:00.8127 INFO Execution started of OrganizationFacade.GetOrganization (orgid = 1, )
+2014-01-20 21:43:00.8417 INFO Execution finished for GetOrganization
+2014-01-20 21:43:00.8417 INFO Execution finished for GetOrganizationByID
+2014-01-20 21:43:00.8417 INFO Execution started of DepartmentService.GetDepartmentDetails (deptid = 1, )
+2014-01-20 21:43:00.8417 INFO Execution started of DepartmentFacade.GetDepartmentDetail (deptid = 1, )
+2014-01-20 21:43:00.8567 INFO Execution finished for GetDepartmentDetail
+2014-01-20 21:43:00.8567 INFO Execution finished for GetDepartmentDetails
+2014-01-20 21:43:00.8567 INFO Execution started of DepartmentService.GetDepartmentDetails (deptid = 2, )
+2014-01-20 21:43:00.8567 INFO Execution started of DepartmentFacade.GetDepartmentDetail (deptid = 2, )
+2014-01-20 21:43:00.8737 INFO Execution finished for GetDepartmentDetail
+2014-01-20 21:43:00.8737 INFO Execution finished for GetDepartmentDetails
+2014-01-20 21:43:00.8737 INFO Execution started of DepartmentService.GetDepartmentDetails (deptid = 3, )
+2014-01-20 21:43:00.8737 INFO Execution started of DepartmentFacade.GetDepartmentDetail (deptid = 3, )
+2014-01-20 21:43:00.8737 INFO Execution finished for GetDepartmentDetail
+2014-01-20 21:43:00.8737 INFO Execution finished for GetDepartmentDetails
+2014-01-20 21:43:00.8737 INFO Execution started of DepartmentService.GetDepartmentDetails (deptid = 4, )
+2014-01-20 21:43:00.8737 INFO Execution started of DepartmentFacade.GetDepartmentDetail (deptid = 4, )
+2014-01-20 21:43:00.8877 INFO Execution finished for GetDepartmentDetail
+2014-01-20 21:43:00.8877 INFO Execution finished for GetDepartmentDetails
+2014-01-20 21:43:00.8877 INFO Execution started of DepartmentService.GetDepartmentDetails (deptid = 11, )
+2014-01-20 21:43:00.8877 INFO Execution started of DepartmentFacade.GetDepartmentDetail (deptid = 11, )
+2014-01-20 21:43:00.9047 INFO Execution finished for GetDepartmentDetail
+2014-01-20 21:43:00.9047 INFO Execution finished for GetDepartmentDetails
+2014-01-20 21:43:00.9047 INFO Execution finished for Index
+2014-01-20 21:43:02.7768 INFO Execution started of DocumentLibraryController.CheckPublishPermission ()
+2014-01-20 21:43:02.7768 INFO Execution finished for CheckPublishPermission
+2014-01-20 21:43:04.6199 INFO Execution started of DocumentLibraryController.BuildDocumentList (dept = 1, subdept = 0, )
+2014-01-20 21:43:04.6199 INFO Execution started of DocumentFacade.GetDocumentDetailsList (orgID = 1, userId = 1, deptID = 1, subDeptID = 0, )
+2014-01-20 21:43:04.6329 INFO Execution started of DocumentFacade.GetDocumentList (orgID = 1, )
+2014-01-20 21:43:04.6619 INFO Execution finished for GetDocumentList
+2014-01-20 21:43:04.6639 INFO Execution started of DocumentFacade.GetDocumentDetails (DocID = 29, )
+2014-01-20 21:43:04.6799 INFO Execution finished for GetDocumentDetails
+2014-01-20 21:43:04.6799 INFO Execution started of DocumentFacade.ValidateDocumentPermission (userid = 1, docid = 29, )
+2014-01-20 21:43:04.6939 INFO Execution finished for ValidateDocumentPermission
+2014-01-20 21:43:04.6939 INFO Execution started of DocumentFacade.GetDocumentDetails (DocID = 48, )
+2014-01-20 21:43:04.7139 INFO Execution finished for GetDocumentDetails
+2014-01-20 21:43:04.7139 INFO Execution started of DocumentFacade.ValidateDocumentPermission (userid = 1, docid = 48, )
+2014-01-20 21:43:04.7139 INFO Execution finished for ValidateDocumentPermission
+2014-01-20 21:43:04.7139 INFO Execution started of DocumentFacade.GetDocumentDetails (DocID = 54, )
+2014-01-20 21:43:04.7299 INFO Execution finished for GetDocumentDetails
+2014-01-20 21:43:04.7299 INFO Execution started of DocumentFacade.ValidateDocumentPermission (userid = 1, docid = 54, )
+2014-01-20 21:43:04.7299 INFO Execution finished for ValidateDocumentPermission
+2014-01-20 21:43:04.7299 INFO Execution started of DocumentFacade.GetDocumentDetails (DocID = 56, )
+2014-01-20 21:43:04.7450 INFO Execution finished for GetDocumentDetails
+2014-01-20 21:43:04.7450 INFO Execution started of DocumentFacade.ValidateDocumentPermission (userid = 1, docid = 56, )
+2014-01-20 21:43:04.7450 INFO Execution finished for ValidateDocumentPermission
+2014-01-20 21:43:04.7450 INFO Execution started of DocumentFacade.GetDocumentDetails (DocID = 58, )
+2014-01-20 21:43:04.7600 INFO Execution finished for GetDocumentDetails
+2014-01-20 21:43:04.7600 INFO Execution started of DocumentFacade.ValidateDocumentPermission (userid = 1, docid = 58, )
+2014-01-20 21:43:04.7600 INFO Execution finished for ValidateDocumentPermission
+2014-01-20 21:43:04.7600 INFO Execution started of DocumentFacade.GetDocumentDetails (DocID = 64, )
+2014-01-20 21:43:04.7760 INFO Execution finished for GetDocumentDetails
+2014-01-20 21:43:04.7760 INFO Execution started of DocumentFacade.ValidateDocumentPermission (userid = 1, docid = 64, )
+2014-01-20 21:43:04.7760 INFO Execution finished for ValidateDocumentPermission
+2014-01-20 21:43:04.7760 INFO Execution started of DocumentFacade.GetDocumentDetails (DocID = 67, )
+2014-01-20 21:43:04.7910 INFO Execution finished for GetDocumentDetails
+2014-01-20 21:43:04.7910 INFO Execution started of DocumentFacade.ValidateDocumentPermission (userid = 1, docid = 67, )
+2014-01-20 21:43:04.7910 INFO Execution finished for ValidateDocumentPermission
+2014-01-20 21:43:04.7910 INFO Execution finished for GetDocumentDetailsList
+2014-01-20 21:43:04.7910 INFO Execution finished for BuildDocumentList
+2014-01-20 21:43:08.1721 INFO Execution started of DocumentLibraryController.CheckoutDocument (docid = 54, status = True, )
+2014-01-20 21:43:08.1731 INFO Execution started of DocumentLibraryController.CheckDocumentLevelPermissions (docid = 54, role = Doc Review, )
+2014-01-20 21:43:08.1731 INFO Execution started of DocumentFacade.GetDocumentDetails (DocID = 54, )
+2014-01-20 21:43:08.1911 INFO Execution finished for GetDocumentDetails
+2014-01-20 21:43:08.1911 INFO Execution finished for CheckDocumentLevelPermissions
+2014-01-20 21:43:08.1911 INFO Execution started of DocumentFacade.CheckoutDocument (DocID = 54, checkStatus = True, checkedBy = admin@eqms.com, )
+2014-01-20 21:43:08.2211 INFO Execution finished for CheckoutDocument
+2014-01-20 21:43:08.2211 INFO Execution finished for CheckoutDocument
+2014-01-20 21:43:08.2732 INFO Execution started of DocumentLibraryController.Revise (id = 54, )
+2014-01-20 21:43:08.2732 INFO Execution started of DocumentFacade.GetDocumentDetails (DocID = 54, )
+2014-01-20 21:43:08.2832 INFO Execution finished for GetDocumentDetails
+2014-01-20 21:43:08.2832 INFO Execution started of DepartmentService.GetDepartmentDetails (deptid = 1, )
+2014-01-20 21:43:08.2832 INFO Execution started of DepartmentFacade.GetDepartmentDetail (deptid = 1, )
+2014-01-20 21:43:08.2832 INFO Execution finished for GetDepartmentDetail
+2014-01-20 21:43:08.2832 INFO Execution finished for GetDepartmentDetails
+2014-01-20 21:43:08.2832 INFO Execution finished for Revise
+2014-01-20 21:43:11.3033 INFO Execution started of DocumentLibraryController.ChangeRequest (id = 54, dcr = 0, )
+2014-01-20 21:43:11.3033 INFO Execution started of DocumentLibraryController.CheckDocumentLevelPermissions (docid = 54, role = Raise Change Request, )
+2014-01-20 21:43:11.3033 INFO Execution started of DocumentFacade.GetDocumentDetails (DocID = 54, )
+2014-01-20 21:43:11.3233 INFO Execution finished for GetDocumentDetails
+2014-01-20 21:43:11.3243 INFO Execution finished for CheckDocumentLevelPermissions
+2014-01-20 21:43:11.4133 INFO Execution started of DocumentFacade.GetDocumentChangeRequest (docid = 54, dcr = 0, )
+2014-01-20 21:43:11.4363 INFO Execution finished for GetDocumentChangeRequest
+2014-01-20 21:43:11.4363 INFO Execution started of DocumentFacade.GetDocumentDetails (DocID = 54, )
+2014-01-20 21:43:11.4493 INFO Execution finished for GetDocumentDetails
+2014-01-20 21:43:11.5173 INFO Execution started of DocumentFacade.GetDocumentDetailsList (orgID = 1, userId = 0, deptID = 1, subDeptID = 0, )
+2014-01-20 21:43:11.5173 INFO Execution started of DocumentFacade.GetDocumentList (orgID = 1, )
+2014-01-20 21:43:11.5323 INFO Execution finished for GetDocumentList
+2014-01-20 21:43:11.5323 INFO Execution started of DocumentFacade.GetDocumentDetails (DocID = 29, )
+2014-01-20 21:43:11.5503 INFO Execution finished for GetDocumentDetails
+2014-01-20 21:43:11.5503 INFO Execution started of DocumentFacade.ValidateDocumentPermission (userid = 0, docid = 29, )
+2014-01-20 21:43:11.5503 INFO Execution finished for ValidateDocumentPermission
+2014-01-20 21:43:11.5503 INFO Execution started of DocumentFacade.GetDocumentDetails (DocID = 48, )
+2014-01-20 21:43:11.5663 INFO Execution finished for GetDocumentDetails
+2014-01-20 21:43:11.5663 INFO Execution started of DocumentFacade.ValidateDocumentPermission (userid = 0, docid = 48, )
+2014-01-20 21:43:11.5663 INFO Execution finished for ValidateDocumentPermission
+2014-01-20 21:43:11.5663 INFO Execution started of DocumentFacade.GetDocumentDetails (DocID = 54, )
+2014-01-20 21:43:11.5803 INFO Execution finished for GetDocumentDetails
+2014-01-20 21:43:11.5803 INFO Execution started of DocumentFacade.ValidateDocumentPermission (userid = 0, docid = 54, )
+2014-01-20 21:43:11.5803 INFO Execution finished for ValidateDocumentPermission
+2014-01-20 21:43:11.5803 INFO Execution started of DocumentFacade.GetDocumentDetails (DocID = 56, )
+2014-01-20 21:43:11.5963 INFO Execution finished for GetDocumentDetails
+2014-01-20 21:43:11.5963 INFO Execution started of DocumentFacade.ValidateDocumentPermission (userid = 0, docid = 56, )
+2014-01-20 21:43:11.5963 INFO Execution finished for ValidateDocumentPermission
+2014-01-20 21:43:11.5963 INFO Execution started of DocumentFacade.GetDocumentDetails (DocID = 58, )
+2014-01-20 21:43:11.6113 INFO Execution finished for GetDocumentDetails
+2014-01-20 21:43:11.6113 INFO Execution started of DocumentFacade.ValidateDocumentPermission (userid = 0, docid = 58, )
+2014-01-20 21:43:11.6113 INFO Execution finished for ValidateDocumentPermission
+2014-01-20 21:43:11.6113 INFO Execution started of DocumentFacade.GetDocumentDetails (DocID = 64, )
+2014-01-20 21:43:11.6273 INFO Execution finished for GetDocumentDetails
+2014-01-20 21:43:11.6273 INFO Execution started of DocumentFacade.ValidateDocumentPermission (userid = 0, docid = 64, )
+2014-01-20 21:43:11.6273 INFO Execution finished for ValidateDocumentPermission
+2014-01-20 21:43:11.6273 INFO Execution started of DocumentFacade.GetDocumentDetails (DocID = 67, )
+2014-01-20 21:43:11.6443 INFO Execution finished for GetDocumentDetails
+2014-01-20 21:43:11.6443 INFO Execution started of DocumentFacade.ValidateDocumentPermission (userid = 0, docid = 67, )
+2014-01-20 21:43:11.6443 INFO Execution finished for ValidateDocumentPermission
+2014-01-20 21:43:11.6443 INFO Execution finished for GetDocumentDetailsList
+2014-01-20 21:43:11.6633 INFO Execution finished for ChangeRequest

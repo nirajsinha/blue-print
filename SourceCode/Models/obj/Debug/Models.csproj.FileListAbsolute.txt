@@ -1,0 +1,20 @@
+C:\My Folder\eQMS\SourceCode\Models\bin\Debug\eQMS.Models.dll
+C:\My Folder\eQMS\SourceCode\Models\bin\Debug\eQMS.Models.pdb
+C:\My Folder\eQMS\SourceCode\Models\obj\Debug\ResolveAssemblyReference.cache
+C:\My Folder\eQMS\SourceCode\Models\obj\Debug\eQMS.Models.dll
+C:\My Folder\eQMS\SourceCode\Models\obj\Debug\eQMS.Models.pdb
+C:\My Folder\eQMS\eqms\SourceCode\Models\bin\Debug\eQMS.Models.dll
+C:\My Folder\eQMS\eqms\SourceCode\Models\bin\Debug\eQMS.Models.pdb
+C:\My Folder\eQMS\eqms\SourceCode\Models\obj\Debug\ResolveAssemblyReference.cache
+C:\My Folder\eQMS\eqms\SourceCode\Models\obj\Debug\eQMS.Models.dll
+C:\My Folder\eQMS\eqms\SourceCode\Models\obj\Debug\eQMS.Models.pdb
+C:\My Folder\Projects\eqms\SourceCode\Models\bin\Debug\Confluence.Blueprint.Models.dll
+C:\My Folder\Projects\eqms\SourceCode\Models\bin\Debug\Confluence.Blueprint.Models.pdb
+C:\My Folder\Projects\eqms\SourceCode\Models\obj\Debug\Confluence.Blueprint.Models.dll
+C:\My Folder\Projects\eqms\SourceCode\Models\obj\Debug\Confluence.Blueprint.Models.pdb
+C:\My Folder\Projects\eqms\SourceCode\Models\obj\Debug\Models.csprojResolveAssemblyReference.cache
+C:\Niraj\Projects\Blueprint\SourceCode\Models\bin\Debug\Confluence.Blueprint.Models.dll
+C:\Niraj\Projects\Blueprint\SourceCode\Models\bin\Debug\Confluence.Blueprint.Models.pdb
+C:\Niraj\Projects\Blueprint\SourceCode\Models\obj\Debug\Confluence.Blueprint.Models.dll
+C:\Niraj\Projects\Blueprint\SourceCode\Models\obj\Debug\Confluence.Blueprint.Models.pdb
+C:\Niraj\Projects\Blueprint\SourceCode\Models\obj\Debug\Models.csprojResolveAssemblyReference.cache

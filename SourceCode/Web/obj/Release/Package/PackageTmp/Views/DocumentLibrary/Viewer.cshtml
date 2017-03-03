@@ -1,0 +1,26 @@
+﻿@model Confluence.Blueprint.Models.DocumentViewer
+           
+@{
+    ViewBag.Title = "Document Viewer";
+}
+<script type="text/javascript" src="@Url.Content("~/js/assets/jquery.min.js")"></script>
+<link href="@Url.Content("~/css/modern.css")" rel="stylesheet" media="screen"/>
+<link href="@Url.Content("~/css/modern-responsive.css")" rel="stylesheet" media="screen"/>
+<link href="@Url.Content("~/css/site.css")" rel="stylesheet" type="text/css" media="screen"/>
+
+    <div id="div-history">
+    <h2 id="doc_name" class="fg-color-blueDark">@Model.FileName </h2> 
+    <span id="doc_type" class="fg-color-blueDark">@Model.DocNumber </span> ( Ver. <span id="doc_version" class="fg-color-blueDark">@Model.DocVer </span> )<br /><hr /><br />
+    </div>
+
+<div>
+       <iframe id="iframe1" src="@Model.DocumentPath"  width="99%" height='75%' frameborder='0' align="center" scrolling="auto"></iframe>
+</div>
+
+<script type="text/javascript" language="javascript">
+    var docPath='@Model.DocumentPath';
+    $(document).ready(function () {
+        $("#iframe1").attr("src", docPath);
+    });
+</script>
+

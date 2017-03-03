@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-16"?>
+<Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <DocumentID>64</DocumentID>
+  <OrganizationID>0</OrganizationID>
+  <DepartmentID>1</DepartmentID>
+  <SubDepartmentID>0</SubDepartmentID>
+  <DocumentType>ABCDEFGHIJKLMNOPQRSTUVWXYZ-ABCDEFGHIJKLMNOPQRSTUVWXYZ--ABCDEFGHIJKLMNOPQRSTUVWXYZ-ABCDEFGHIJKLMNOPQ1</DocumentType>
+  <DocumentNumber>AHIDCO/BP/aaaa/1</DocumentNumber>
+  <WorkflowStatusName>Initial Draft</WorkflowStatusName>
+  <DocumentName>testnow</DocumentName>
+  <PhysicalPath>1\1\testnow\1.000\</PhysicalPath>
+  <MetaDataPath>1\1\</MetaDataPath>
+  <Version>1.000</Version>
+  <NextVersion>2.000</NextVersion>
+  <CheckInStatus>true</CheckInStatus>
+  <IsActive>true</IsActive>
+  <FileType>.docx</FileType>
+  <CreatedBy>admin@eqms.com</CreatedBy>
+  <CreatedOn>2013-10-28T17:18:25.53</CreatedOn>
+  <AssignedTo>0</AssignedTo>
+</Document>

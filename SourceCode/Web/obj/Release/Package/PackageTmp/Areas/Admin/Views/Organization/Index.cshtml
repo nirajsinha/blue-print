@@ -1,0 +1,21 @@
+﻿@model Confluence.Blueprint.Models.OrganizationModel
+
+@{
+    ViewBag.Title = "Organization";
+}
+
+@section MenuGroup{
+            <li><a href="#" onclick="location.href='@Url.Content("~/Admin/Organization/Create")'" ><img class="place-left" src="@Url.Content("~/images/expand32.png")" style="height: 20px"/> New</a></li>
+            <li><a href="#" onclick="location.href='@Url.Content("~/Admin/Organization/Modify")'" ><img class="place-left" src="@Url.Content("~/images/lock-open.png")" style="height: 20px"/> Modify</a></li>
+}
+@section PageHeader{Organization}
+
+        <p>
+            No organization found. Please click on "New" button to create Organization.
+        </p>
+
+
+
+
+
+ 

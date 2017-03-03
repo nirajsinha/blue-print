@@ -1,0 +1,121 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+@section MenuGroup{
+
+}
+
+@section PageHeader{
+Admin Home
+}
+
+         <div class="clearfix">
+            <a href="#" onclick="location.href='@Url.Content("~/Admin/Organization")'">
+                <div class="tile bg-color-red icon">
+                    <div class="tile-content">
+                        <div class="brand">
+                            <span class="name">Organization</span>
+                         </div>
+                        <img src="@Url.Content("~/images/grid.png")" />
+                    </div>
+                </div>
+            </a>
+            <a href="#" onclick="location.href='@Url.Content("~/Admin/DocumentLevels")'">
+                <div class="tile bg-color-orangeDark icon">
+                    <div class="tile-content">
+                        <div class="brand">
+                            <span class="name">Document Levels</span>
+                         </div>
+                        <img src="@Url.Content("~/images/documents.png")" />
+                    </div>
+                </div>
+            </a>
+            <a href="#" onclick="location.href='@Url.Content("~/Admin/Department")'">
+                <div class="tile bg-color-pink icon">
+                    <div class="tile-content">
+                        <div class="brand">
+                            <span class="name">Dept/Group/Process</span>
+                         </div>
+                        <img src="@Url.Content("~/images/fork-32.png")" />
+                    </div>
+                </div>
+             </a>
+             <a href="#" onclick="location.href='@Url.Content("~/Admin/SubDepartment")'">
+            <div class="tile bg-color-blue icon">
+                <div class="tile-content">
+                    <div class="brand">
+                            <span class="name">Sub-Dept/Group</span>
+                         </div>
+                        <img src="@Url.Content("~/images/schedules.png")" />
+                </div>
+            </div>
+            </a>
+            <a href="#" onclick="location.href='@Url.Content("~/Admin/User/ManageUser/0")'">
+                <div class="tile icon">
+                    <div class="tile-content">
+                        <div class="brand">
+                            <span class="name">User Management</span>
+                        </div>
+                        <img src="@Url.Content("~/images/profile.png")" />
+                    </div>
+                
+                </div>
+            </a>
+        </div>
+        <br />
+        <div class="clearfix">
+            <a href="#" onclick="location.href='@Url.Content("~/Admin/DocumentMaster")'">
+            <div class="tile bg-color-yellow icon">
+                <div class="tile-content">
+                    <div class="brand">
+                        <span class="name">Master Data</span>
+                        </div>
+                        <img src="@Url.Content("~/images/armor.png")" />
+                </div>
+            </div>
+            </a>
+            <a href="#" onclick="location.href='@Url.Content("~/DocumentLibrary/Index")'">
+                <div class="tile bg-color-blueDark icon">
+                    <div class="tile-content">
+                        <div class="brand">
+                            <span class="name">Doc. Management</span>
+                        </div>
+                        <img src="@Url.Content("~/images/word2013icon.png")"/>
+                        
+                     </div>
+                </div>
+            </a>
+            <a href="#" >
+                <div class="tile bg-color-green icon">
+                    <div class="tile-content">
+                        <div class="brand">
+                                <span class="name">Reports Management</span>
+                            </div>
+                            <img src="@Url.Content("~/images/reports.png")" />
+                        </div>
+                </div>
+            </a>
+            <a href="#" >
+                <div class="tile bg-color-teal icon">
+                    <div class="tile-content">
+                        <div class="brand">
+                            <span class="name">Audit Management</span>
+                         </div>
+                         <img src="@Url.Content("~/images/simple.png")" />
+                    </div>
+                </div>
+            </a>
+            <a href="#"  onclick="location.href='@Url.Content("~/Admin/Security")'">
+                <div class="tile bg-color-magenta icon">
+                    <div class="tile-content">
+                        <div class="brand">
+                            <span class="name">Security Configuration</span>
+                         </div>
+                         <i class="icon-flag-2"></i>
+                    </div>
+                </div>
+            </a>
+            
+    
+        </div>

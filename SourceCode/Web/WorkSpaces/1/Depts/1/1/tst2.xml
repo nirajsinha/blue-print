@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-16"?>
+<Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <DocumentID>68</DocumentID>
+  <DepartmentID>1</DepartmentID>
+  <SubDepartmentID>1</SubDepartmentID>
+  <DocumentType>QM/SOP2/L3/</DocumentType>
+  <DocumentName>tst2</DocumentName>
+  <Version>2.200</Version>
+  <NextVersion>3.200</NextVersion>
+  <FileType>.png</FileType>
+  <PhysicalPath>1\Depts\1\1\tst2\2.200\</PhysicalPath>
+  <MetaDataPath>1\Depts\1\1\</MetaDataPath>
+  <IsActive>true</IsActive>
+  <CheckInStatus>true</CheckInStatus>
+  <WorkflowStatusName>Initial Draft</WorkflowStatusName>
+  <CreatedBy>nsinha@hotmail.com</CreatedBy>
+  <CreatedOn>2013-12-30T16:21:17.363</CreatedOn>
+  <OrganizationID>0</OrganizationID>
+  <AssignedTo>0</AssignedTo>
+</Document>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-16"?>
+<Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <DocumentID>26</DocumentID>
+  <DepartmentID>1</DepartmentID>
+  <SubDepartmentID>1</SubDepartmentID>
+  <DocumentType>QUALITY MANUAL</DocumentType>
+  <DocumentName>test 1213</DocumentName>
+  <Version>1.000</Version>
+  <FileType>.docx</FileType>
+  <CheckInStatus>true</CheckInStatus>
+  <CreatedBy>admin@eqms.com</CreatedBy>
+  <CreatedOn>2013-07-17T10:58:42.167</CreatedOn>
+  <NextVersion>1.100</NextVersion>
+  <PhysicalPath>TORG\HR\REC\test 1213\1.000\</PhysicalPath>
+  <MetaDataPath>TORG\HR\REC\</MetaDataPath>
+  <IsActive>true</IsActive>
+  <OrganizationID>0</OrganizationID>
+</Document>

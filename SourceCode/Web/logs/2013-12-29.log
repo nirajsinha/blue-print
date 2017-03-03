@@ -1,0 +1,699 @@
+2013-12-29 13:09:56.3415 INFO Execution started of MvcApplication.Application_Start ()
+2013-12-29 13:09:56.3555 INFO Execution started of AdminAreaRegistration.get_AreaName ()
+2013-12-29 13:09:56.3685 INFO Execution finished for get_AreaName
+2013-12-29 13:09:56.3685 INFO Execution started of AdminAreaRegistration.RegisterArea (context = System.Web.Mvc.AreaRegistrationContext, )
+2013-12-29 13:09:56.3685 INFO Execution finished for RegisterArea
+2013-12-29 13:09:56.3685 INFO Execution finished for Application_Start
+2013-12-29 13:09:56.5655 INFO Execution started of MiniProfilerStartupModule.Init (context = ASP.global_asax, )
+2013-12-29 13:09:56.5655 INFO Execution finished for Init
+2013-12-29 13:09:56.7815 INFO Execution started of HomeController.Index ()
+2013-12-29 13:09:56.7815 INFO Execution finished for Index
+2013-12-29 13:09:57.3815 INFO Execution started of MiniProfilerStartupModule.Init (context = ASP.global_asax, )
+2013-12-29 13:09:57.3825 INFO Execution finished for Init
+2013-12-29 13:09:57.4065 INFO Execution started of MiniProfilerStartupModule.Init (context = ASP.global_asax, )
+2013-12-29 13:09:57.4065 INFO Execution finished for Init
+2013-12-29 13:10:00.5097 INFO Execution started of AccountController.LogOn (returnUrl = /Home/Default, )
+2013-12-29 13:10:00.5787 INFO Execution finished for LogOn
+2013-12-29 13:10:01.2267 INFO Execution started of MiniProfilerStartupModule.Init (context = ASP.global_asax, )
+2013-12-29 13:10:01.2267 INFO Execution finished for Init
+2013-12-29 13:10:19.5148 INFO Execution started of AccountController.LogOn (model = Confluence.Blueprint.Models.LogOnModel, )
+2013-12-29 13:10:19.5148 INFO Execution started of OrganizationService.GetOrganizationByUserEmail (userEmail = nsinha@hotmail.com, )
+2013-12-29 13:10:19.5208 INFO Execution started of OrganizationFacade.GetOrganization (userEmail = nsinha@hotmail.com, )
+2013-12-29 13:10:19.7228 INFO Execution finished for GetOrganization
+2013-12-29 13:10:19.7228 INFO Execution finished for GetOrganizationByUserEmail
+2013-12-29 13:10:19.7228 INFO Execution started of AccountService.GetUserDetails (email = nsinha@hotmail.com, )
+2013-12-29 13:10:19.7228 INFO Execution started of UserFacade.GetUserDetails (email = nsinha@hotmail.com, )
+2013-12-29 13:10:19.7408 INFO Execution finished for GetUserDetails
+2013-12-29 13:10:19.7408 INFO Execution finished for GetUserDetails
+2013-12-29 13:10:19.7408 INFO Execution started of BaseController.GetTerminology (id = 3, )
+2013-12-29 13:10:19.7408 INFO Execution finished for GetTerminology
+2013-12-29 13:10:19.7408 INFO Execution started of BaseController.Redirect (url = /Home/Default, )
+2013-12-29 13:10:19.7408 INFO Execution finished for Redirect
+2013-12-29 13:10:19.7408 INFO Execution finished for LogOn
+2013-12-29 13:10:19.7408 INFO Execution started of AjaxAwareRedirectResult.ExecuteResult (context = System.Web.Mvc.ControllerContext, )
+2013-12-29 13:10:19.7558 INFO Execution finished for ExecuteResult
+2013-12-29 13:10:19.7728 INFO Execution started of HomeController.Default ()
+2013-12-29 13:10:19.7728 INFO Execution finished for Default
+2013-12-29 13:10:21.7769 INFO Execution started of MvcApplication.Application_Error (sender = ASP.global_asax, e = System.EventArgs, )
+2013-12-29 13:10:21.7899 INFO Application_Error: System.Web.HttpException (0x80004005): File does not exist.
+   at System.Web.StaticFileHandler.ProcessRequestForNonMapPathBasedVirtualFile(HttpRequest request, HttpResponse response, String overrideVirtualPath)
+   at System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context, String overrideVirtualPath)
+   at System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2013-12-29 13:10:21.7979 INFO Execution started of ErrorController.DetailedError ()
+2013-12-29 13:10:21.7979 INFO Execution finished for DetailedError
+2013-12-29 13:10:21.9739 INFO Execution finished for Application_Error
+2013-12-29 13:10:23.3150 INFO Execution started of CommonService.GetUserDashboard (UserID = 7, )
+2013-12-29 13:10:23.3150 INFO Execution started of CommonFacade.GetDashboardData (UserID = 7, )
+2013-12-29 13:10:23.3500 INFO Execution finished for GetDashboardData
+2013-12-29 13:10:23.3500 INFO Execution finished for GetUserDashboard
+2013-12-29 13:10:25.3471 INFO Execution started of DocumentLibraryController.Index ()
+2013-12-29 13:10:25.3471 INFO Execution started of OrganizationService.GetOrganizationByID (orgid = 1, )
+2013-12-29 13:10:25.3551 INFO Execution started of OrganizationFacade.GetOrganization (orgid = 1, )
+2013-12-29 13:10:25.3781 INFO Execution finished for GetOrganization
+2013-12-29 13:10:25.3781 INFO Execution finished for GetOrganizationByID
+2013-12-29 13:10:25.3781 INFO Execution started of DepartmentService.GetDepartmentDetails (deptid = 1, )
+2013-12-29 13:10:25.3851 INFO Execution started of DepartmentFacade.GetDepartmentDetail (deptid = 1, )
+2013-12-29 13:10:25.3851 INFO Execution finished for GetDepartmentDetail
+2013-12-29 13:10:25.3851 INFO Execution finished for GetDepartmentDetails
+2013-12-29 13:10:25.3851 INFO Execution started of DepartmentService.GetDepartmentDetails (deptid = 2, )
+2013-12-29 13:10:25.3851 INFO Execution started of DepartmentFacade.GetDepartmentDetail (deptid = 2, )
+2013-12-29 13:10:25.4031 INFO Execution finished for GetDepartmentDetail
+2013-12-29 13:10:25.4031 INFO Execution finished for GetDepartmentDetails
+2013-12-29 13:10:25.4031 INFO Execution started of DepartmentService.GetDepartmentDetails (deptid = 3, )
+2013-12-29 13:10:25.4031 INFO Execution started of DepartmentFacade.GetDepartmentDetail (deptid = 3, )
+2013-12-29 13:10:25.4031 INFO Execution finished for GetDepartmentDetail
+2013-12-29 13:10:25.4031 INFO Execution finished for GetDepartmentDetails
+2013-12-29 13:10:25.4031 INFO Execution started of DepartmentService.GetDepartmentDetails (deptid = 4, )
+2013-12-29 13:10:25.4031 INFO Execution started of DepartmentFacade.GetDepartmentDetail (deptid = 4, )
+2013-12-29 13:10:25.4161 INFO Execution finished for GetDepartmentDetail
+2013-12-29 13:10:25.4161 INFO Execution finished for GetDepartmentDetails
+2013-12-29 13:10:25.4161 INFO Execution started of DepartmentService.GetDepartmentDetails (deptid = 11, )
+2013-12-29 13:10:25.4161 INFO Execution started of DepartmentFacade.GetDepartmentDetail (deptid = 11, )
+2013-12-29 13:10:25.4161 INFO Execution finished for GetDepartmentDetail
+2013-12-29 13:10:25.4161 INFO Execution finished for GetDepartmentDetails
+2013-12-29 13:10:25.4161 INFO Execution finished for Index
+2013-12-29 13:10:25.9372 INFO Execution started of MvcApplication.Application_Error (sender = ASP.global_asax, e = System.EventArgs, )
+2013-12-29 13:10:25.9372 INFO Application_Error: System.Web.HttpException (0x80004005): File does not exist.
+   at System.Web.StaticFileHandler.ProcessRequestForNonMapPathBasedVirtualFile(HttpRequest request, HttpResponse response, String overrideVirtualPath)
+   at System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context, String overrideVirtualPath)
+   at System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2013-12-29 13:10:25.9372 INFO Execution started of ErrorController.DetailedError ()
+2013-12-29 13:10:25.9372 INFO Execution finished for DetailedError
+2013-12-29 13:10:25.9462 INFO Execution finished for Application_Error
+2013-12-29 13:10:25.9782 INFO Execution started of MvcApplication.Application_Error (sender = ASP.global_asax, e = System.EventArgs, )
+2013-12-29 13:10:25.9782 INFO Application_Error: System.Web.HttpException (0x80004005): File does not exist.
+   at System.Web.StaticFileHandler.ProcessRequestForNonMapPathBasedVirtualFile(HttpRequest request, HttpResponse response, String overrideVirtualPath)
+   at System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context, String overrideVirtualPath)
+   at System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2013-12-29 13:10:25.9782 INFO Execution started of ErrorController.DetailedError ()
+2013-12-29 13:10:25.9782 INFO Execution finished for DetailedError
+2013-12-29 13:10:26.0112 INFO Execution finished for Application_Error
+2013-12-29 13:10:27.5052 INFO Execution started of DocumentLibraryController.CheckPublishPermission ()
+2013-12-29 13:10:27.5052 INFO Execution finished for CheckPublishPermission
+2013-12-29 13:10:28.6313 INFO Execution started of DocumentLibraryController.BuildDocumentList (dept = 1, subdept = 0, )
+2013-12-29 13:10:28.6313 INFO Execution started of DocumentFacade.GetDocumentDetailsList (orgID = 1, userId = 7, deptID = 1, subDeptID = 0, userEmail = nsinha@hotmail.com, )
+2013-12-29 13:10:32.5985 INFO Execution started of DocumentFacade.GetDocumentList (orgID = 1, )
+2013-12-29 13:10:32.6565 INFO Execution finished for GetDocumentList
+2013-12-29 13:11:24.5555 INFO Execution started of DocumentFacade.GetDocumentDetails (DocID = 22, )
+2013-12-29 13:11:24.6365 INFO Execution finished for GetDocumentDetails
+2013-12-29 13:11:24.6365 INFO Execution started of DocumentFacade.GetDocumentDetails (DocID = 29, )
+2013-12-29 13:11:24.6365 INFO Execution finished for GetDocumentDetails
+2013-12-29 13:11:24.6495 INFO Execution started of DocumentFacade.GetDocumentDetails (DocID = 32, )
+2013-12-29 13:11:24.6495 INFO Execution finished for GetDocumentDetails
+2013-12-29 13:11:24.6495 INFO Execution started of DocumentFacade.GetDocumentDetails (DocID = 33, )
+2013-12-29 13:11:24.6495 INFO Execution finished for GetDocumentDetails
+2013-12-29 13:11:24.6495 INFO Execution started of DocumentFacade.GetDocumentDetails (DocID = 34, )
+2013-12-29 13:11:24.6495 INFO Execution finished for GetDocumentDetails
+2013-12-29 13:11:24.6495 INFO Execution started of DocumentFacade.GetDocumentDetails (DocID = 35, )
+2013-12-29 13:11:24.6495 INFO Execution finished for GetDocumentDetails
+2013-12-29 13:11:24.6685 INFO Execution started of DocumentFacade.GetDocumentDetails (DocID = 36, )
+2013-12-29 13:11:24.6685 INFO Execution finished for GetDocumentDetails
+2013-12-29 13:11:24.6685 INFO Execution started of DocumentFacade.GetDocumentDetails (DocID = 37, )
+2013-12-29 13:11:24.6685 INFO Execution finished for GetDocumentDetails
+2013-12-29 13:11:24.6685 INFO Execution started of DocumentFacade.GetDocumentDetails (DocID = 38, )
+2013-12-29 13:11:24.6685 INFO Execution finished for GetDocumentDetails
+2013-12-29 13:11:24.6825 INFO Execution started of DocumentFacade.GetDocumentDetails (DocID = 39, )
+2013-12-29 13:11:24.6825 INFO Execution finished for GetDocumentDetails
+2013-12-29 13:11:24.6825 INFO Execution started of DocumentFacade.GetDocumentDetails (DocID = 41, )
+2013-12-29 13:11:24.6825 INFO Execution finished for GetDocumentDetails
+2013-12-29 13:11:24.6825 INFO Execution started of DocumentFacade.GetDocumentDetails (DocID = 42, )
+2013-12-29 13:11:24.6825 INFO Execution finished for GetDocumentDetails
+2013-12-29 13:11:24.6965 INFO Execution started of DocumentFacade.GetDocumentDetails (DocID = 44, )
+2013-12-29 13:11:24.6965 INFO Execution finished for GetDocumentDetails
+2013-12-29 13:11:24.6965 INFO Execution started of DocumentFacade.GetDocumentDetails (DocID = 45, )
+2013-12-29 13:11:24.6965 INFO Execution finished for GetDocumentDetails
+2013-12-29 13:11:24.6965 INFO Execution started of DocumentFacade.GetDocumentDetails (DocID = 46, )
+2013-12-29 13:11:24.6965 INFO Execution finished for GetDocumentDetails
+2013-12-29 13:11:24.6965 INFO Execution started of DocumentFacade.GetDocumentDetails (DocID = 48, )
+2013-12-29 13:11:24.6965 INFO Execution finished for GetDocumentDetails
+2013-12-29 13:11:24.7135 INFO Execution started of DocumentFacade.GetDocumentDetails (DocID = 49, )
+2013-12-29 13:11:24.7135 INFO Execution finished for GetDocumentDetails
+2013-12-29 13:11:24.7135 INFO Execution started of DocumentFacade.GetDocumentDetails (DocID = 53, )
+2013-12-29 13:11:24.7135 INFO Execution finished for GetDocumentDetails
+2013-12-29 13:11:24.7135 INFO Execution started of DocumentFacade.GetDocumentDetails (DocID = 54, )
+2013-12-29 13:11:24.7135 INFO Execution finished for GetDocumentDetails
+2013-12-29 13:11:24.7135 INFO Execution started of DocumentFacade.GetDocumentDetails (DocID = 56, )
+2013-12-29 13:11:24.7135 INFO Execution finished for GetDocumentDetails
+2013-12-29 13:11:24.7135 INFO Execution started of DocumentFacade.GetDocumentDetails (DocID = 57, )
+2013-12-29 13:11:24.7295 INFO Execution finished for GetDocumentDetails
+2013-12-29 13:11:24.7295 INFO Execution started of DocumentFacade.GetDocumentDetails (DocID = 58, )
+2013-12-29 13:11:24.7295 INFO Execution finished for GetDocumentDetails
+2013-12-29 13:11:24.7295 INFO Execution started of DocumentFacade.GetDocumentDetails (DocID = 59, )
+2013-12-29 13:11:24.7295 INFO Execution finished for GetDocumentDetails
+2013-12-29 13:11:24.7295 INFO Execution started of DocumentFacade.GetDocumentDetails (DocID = 60, )
+2013-12-29 13:11:24.7295 INFO Execution finished for GetDocumentDetails
+2013-12-29 13:11:24.7295 INFO Execution started of DocumentFacade.GetDocumentDetails (DocID = 61, )
+2013-12-29 13:11:24.7435 INFO Execution finished for GetDocumentDetails
+2013-12-29 13:11:24.7435 INFO Execution started of DocumentFacade.GetDocumentDetails (DocID = 62, )
+2013-12-29 13:11:24.7435 INFO Execution finished for GetDocumentDetails
+2013-12-29 13:11:24.7435 INFO Execution started of DocumentFacade.GetDocumentDetails (DocID = 63, )
+2013-12-29 13:11:24.7435 INFO Execution finished for GetDocumentDetails
+2013-12-29 13:11:24.7435 INFO Execution started of DocumentFacade.GetDocumentDetails (DocID = 64, )
+2013-12-29 13:11:24.7605 INFO Execution finished for GetDocumentDetails
+2013-12-29 13:11:24.7605 INFO Execution started of DocumentFacade.GetDocumentDetails (DocID = 65, )
+2013-12-29 13:11:24.7605 INFO Execution finished for GetDocumentDetails
+2013-12-29 13:11:24.7605 INFO Execution started of DocumentFacade.GetDocumentDetails (DocID = 67, )
+2013-12-29 13:11:24.7605 INFO Execution finished for GetDocumentDetails
+2013-12-29 13:11:24.7765 INFO Execution finished for GetDocumentDetailsList
+2013-12-29 13:11:24.7765 INFO Execution finished for BuildDocumentList
+2013-12-29 14:41:56.8202 INFO Execution started of MvcApplication.Application_Start ()
+2013-12-29 14:41:57.8853 INFO Execution started of AdminAreaRegistration.get_AreaName ()
+2013-12-29 14:41:57.8853 INFO Execution finished for get_AreaName
+2013-12-29 14:41:57.8853 INFO Execution started of AdminAreaRegistration.RegisterArea (context = System.Web.Mvc.AreaRegistrationContext, )
+2013-12-29 14:41:57.8853 INFO Execution finished for RegisterArea
+2013-12-29 14:41:57.8853 INFO Execution finished for Application_Start
+2013-12-29 14:41:57.9693 INFO Execution started of MiniProfilerStartupModule.Init (context = ASP.global_asax, )
+2013-12-29 14:41:57.9693 INFO Execution finished for Init
+2013-12-29 14:41:58.0803 INFO Execution started of HomeController.Index ()
+2013-12-29 14:41:58.0803 INFO Execution finished for Index
+2013-12-29 14:41:58.7793 INFO Execution started of MiniProfilerStartupModule.Init (context = ASP.global_asax, )
+2013-12-29 14:41:58.7793 INFO Execution started of MiniProfilerStartupModule.Init (context = ASP.global_asax, )
+2013-12-29 14:41:58.7793 INFO Execution finished for Init
+2013-12-29 14:41:58.7793 INFO Execution finished for Init
+2013-12-29 14:42:07.6048 INFO Execution started of AccountController.LogOn (returnUrl = /Home/Default, )
+2013-12-29 14:42:07.6238 INFO Execution finished for LogOn
+2013-12-29 14:42:19.0235 INFO Execution started of AccountController.LogOn (model = Confluence.Blueprint.Models.LogOnModel, )
+2013-12-29 14:42:19.0235 INFO Execution started of OrganizationService.GetOrganizationByUserEmail (userEmail = nsinha@hotmail.com, )
+2013-12-29 14:42:19.0235 INFO Execution started of OrganizationFacade.GetOrganization (userEmail = nsinha@hotmail.com, )
+2013-12-29 14:42:19.2835 INFO Execution finished for GetOrganization
+2013-12-29 14:42:19.2835 INFO Execution finished for GetOrganizationByUserEmail
+2013-12-29 14:42:19.2835 INFO Execution started of AccountService.GetUserDetails (email = nsinha@hotmail.com, )
+2013-12-29 14:42:19.2895 INFO Execution started of UserFacade.GetUserDetails (email = nsinha@hotmail.com, )
+2013-12-29 14:42:19.2895 INFO Execution finished for GetUserDetails
+2013-12-29 14:42:19.2895 INFO Execution finished for GetUserDetails
+2013-12-29 14:42:19.3035 INFO Execution started of BaseController.GetTerminology (id = 3, )
+2013-12-29 14:42:19.3035 INFO Execution finished for GetTerminology
+2013-12-29 14:42:19.3035 INFO Execution started of BaseController.Redirect (url = /Home/Default, )
+2013-12-29 14:42:19.3035 INFO Execution finished for Redirect
+2013-12-29 14:42:19.3035 INFO Execution finished for LogOn
+2013-12-29 14:42:19.3035 INFO Execution started of AjaxAwareRedirectResult.ExecuteResult (context = System.Web.Mvc.ControllerContext, )
+2013-12-29 14:42:19.3035 INFO Execution finished for ExecuteResult
+2013-12-29 14:42:19.3235 INFO Execution started of HomeController.Default ()
+2013-12-29 14:42:19.3235 INFO Execution finished for Default
+2013-12-29 14:42:21.0826 INFO Execution started of MvcApplication.Application_Error (sender = ASP.global_asax, e = System.EventArgs, )
+2013-12-29 14:42:21.0826 INFO Application_Error: System.Web.HttpException (0x80004005): File does not exist.
+   at System.Web.StaticFileHandler.ProcessRequestForNonMapPathBasedVirtualFile(HttpRequest request, HttpResponse response, String overrideVirtualPath)
+   at System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context, String overrideVirtualPath)
+   at System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2013-12-29 14:42:21.0826 INFO Execution started of ErrorController.DetailedError ()
+2013-12-29 14:42:21.0826 INFO Execution finished for DetailedError
+2013-12-29 14:42:21.5756 INFO Execution finished for Application_Error
+2013-12-29 14:42:21.8986 INFO Execution started of MiniProfilerStartupModule.Init (context = ASP.global_asax, )
+2013-12-29 14:42:21.8986 INFO Execution finished for Init
+2013-12-29 14:42:22.7727 INFO Execution started of CommonService.GetUserDashboard (UserID = 7, )
+2013-12-29 14:42:22.7727 INFO Execution started of CommonFacade.GetDashboardData (UserID = 7, )
+2013-12-29 14:42:22.7847 INFO Execution finished for GetDashboardData
+2013-12-29 14:42:22.7847 INFO Execution finished for GetUserDashboard
+2013-12-29 14:42:23.8698 INFO Execution started of DocumentLibraryController.Index ()
+2013-12-29 14:42:23.8698 INFO Execution started of OrganizationService.GetOrganizationByID (orgid = 1, )
+2013-12-29 14:42:23.8738 INFO Execution started of OrganizationFacade.GetOrganization (orgid = 1, )
+2013-12-29 14:42:23.8898 INFO Execution finished for GetOrganization
+2013-12-29 14:42:23.8898 INFO Execution finished for GetOrganizationByID
+2013-12-29 14:42:23.8898 INFO Execution started of DepartmentService.GetDepartmentDetails (deptid = 1, )
+2013-12-29 14:42:23.8898 INFO Execution started of DepartmentFacade.GetDepartmentDetail (deptid = 1, )
+2013-12-29 14:42:23.8898 INFO Execution finished for GetDepartmentDetail
+2013-12-29 14:42:23.8898 INFO Execution finished for GetDepartmentDetails
+2013-12-29 14:42:23.9048 INFO Execution started of DepartmentService.GetDepartmentDetails (deptid = 2, )
+2013-12-29 14:42:23.9048 INFO Execution started of DepartmentFacade.GetDepartmentDetail (deptid = 2, )
+2013-12-29 14:42:23.9048 INFO Execution finished for GetDepartmentDetail
+2013-12-29 14:42:23.9048 INFO Execution finished for GetDepartmentDetails
+2013-12-29 14:42:23.9048 INFO Execution started of DepartmentService.GetDepartmentDetails (deptid = 3, )
+2013-12-29 14:42:23.9048 INFO Execution started of DepartmentFacade.GetDepartmentDetail (deptid = 3, )
+2013-12-29 14:42:23.9048 INFO Execution finished for GetDepartmentDetail
+2013-12-29 14:42:23.9048 INFO Execution finished for GetDepartmentDetails
+2013-12-29 14:42:23.9048 INFO Execution started of DepartmentService.GetDepartmentDetails (deptid = 4, )
+2013-12-29 14:42:23.9048 INFO Execution started of DepartmentFacade.GetDepartmentDetail (deptid = 4, )
+2013-12-29 14:42:23.9248 INFO Execution finished for GetDepartmentDetail
+2013-12-29 14:42:23.9248 INFO Execution finished for GetDepartmentDetails
+2013-12-29 14:42:23.9248 INFO Execution started of DepartmentService.GetDepartmentDetails (deptid = 11, )
+2013-12-29 14:42:23.9248 INFO Execution started of DepartmentFacade.GetDepartmentDetail (deptid = 11, )
+2013-12-29 14:42:23.9248 INFO Execution finished for GetDepartmentDetail
+2013-12-29 14:42:23.9248 INFO Execution finished for GetDepartmentDetails
+2013-12-29 14:42:23.9248 INFO Execution finished for Index
+2013-12-29 14:42:24.7208 INFO Execution started of MvcApplication.Application_Error (sender = ASP.global_asax, e = System.EventArgs, )
+2013-12-29 14:42:24.7208 INFO Application_Error: System.Web.HttpException (0x80004005): File does not exist.
+   at System.Web.StaticFileHandler.ProcessRequestForNonMapPathBasedVirtualFile(HttpRequest request, HttpResponse response, String overrideVirtualPath)
+   at System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context, String overrideVirtualPath)
+   at System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2013-12-29 14:42:24.7208 INFO Execution started of ErrorController.DetailedError ()
+2013-12-29 14:42:24.7378 INFO Execution finished for DetailedError
+2013-12-29 14:42:24.7548 INFO Execution finished for Application_Error
+2013-12-29 14:42:24.7658 INFO Execution started of MvcApplication.Application_Error (sender = ASP.global_asax, e = System.EventArgs, )
+2013-12-29 14:42:24.7658 INFO Application_Error: System.Web.HttpException (0x80004005): File does not exist.
+   at System.Web.StaticFileHandler.ProcessRequestForNonMapPathBasedVirtualFile(HttpRequest request, HttpResponse response, String overrideVirtualPath)
+   at System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context, String overrideVirtualPath)
+   at System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2013-12-29 14:42:24.7658 INFO Execution started of ErrorController.DetailedError ()
+2013-12-29 14:42:24.7658 INFO Execution finished for DetailedError
+2013-12-29 14:42:24.7658 INFO Execution finished for Application_Error
+2013-12-29 14:42:26.1969 INFO Execution started of DocumentLibraryController.CheckPublishPermission ()
+2013-12-29 14:42:26.1969 INFO Execution finished for CheckPublishPermission
+2013-12-29 14:42:26.7699 INFO Execution started of DocumentLibraryController.BuildDocumentList (dept = 1, subdept = 0, )
+2013-12-29 14:42:26.7769 INFO Execution started of DocumentFacade.GetDocumentDetailsList (orgID = 1, userId = 7, deptID = 1, subDeptID = 0, userEmail = nsinha@hotmail.com, )
+2013-12-29 14:42:31.3112 INFO Execution started of DocumentFacade.GetDocumentList (orgID = 1, )
+2013-12-29 14:42:31.3362 INFO Execution finished for GetDocumentList
+2013-12-29 14:42:55.4156 INFO Execution started of DocumentFacade.GetDocumentDetails (DocID = 22, )
+2013-12-29 14:42:55.4176 INFO Execution finished for GetDocumentDetails
+2013-12-29 14:43:00.4098 INFO Execution started of DocumentFacade.ValidateDocumentPermission (userid = 7, docid = 22, )
+2013-12-29 14:43:00.4438 INFO Execution finished for ValidateDocumentPermission
+2013-12-29 14:43:08.7713 ERROR Exception in :[System.Collections.Generic.List`1[Confluence.Blueprint.Models.Document] GetDocumentDetailsList(Int32, Int32, Int32, Int32, System.String)], Message:[Collection was modified; enumeration operation may not execute.]
+2013-12-29 14:43:08.7713 INFO Execution finished for GetDocumentDetailsList
+2013-12-29 14:43:26.3553 INFO Execution started of DocumentFacade.GetDocumentDetailsList (orgID = 1, userId = 7, deptID = 1, subDeptID = 0, userEmail = nsinha@hotmail.com, )
+2013-12-29 14:43:28.8535 INFO Execution started of DocumentFacade.GetDocumentList (orgID = 1, )
+2013-12-29 14:43:28.8735 INFO Execution finished for GetDocumentList
+2013-12-29 14:43:32.9857 INFO Execution started of DocumentFacade.GetDocumentDetails (DocID = 22, )
+2013-12-29 14:43:33.0007 INFO Execution finished for GetDocumentDetails
+2013-12-29 14:43:33.8938 INFO Execution started of DocumentFacade.ValidateDocumentPermission (userid = 7, docid = 22, )
+2013-12-29 14:43:33.9048 INFO Execution finished for ValidateDocumentPermission
+2013-12-29 14:43:39.3761 ERROR Exception in :[System.Collections.Generic.List`1[Confluence.Blueprint.Models.Document] GetDocumentDetailsList(Int32, Int32, Int32, Int32, System.String)], Message:[Collection was modified; enumeration operation may not execute.]
+2013-12-29 14:43:39.3901 INFO Execution finished for GetDocumentDetailsList
+2013-12-29 14:43:50.6227 INFO Execution started of DocumentFacade.GetDocumentDetailsList (orgID = 1, userId = 7, deptID = 1, subDeptID = 0, userEmail = nsinha@hotmail.com, )
+2013-12-29 14:43:51.9498 INFO Execution started of DocumentFacade.GetDocumentList (orgID = 1, )
+2013-12-29 14:43:51.9958 INFO Execution finished for GetDocumentList
+2013-12-29 14:44:12.9940 INFO Execution started of DocumentFacade.GetDocumentDetails (DocID = 22, )
+2013-12-29 14:44:13.0000 INFO Execution finished for GetDocumentDetails
+2013-12-29 14:44:16.8382 INFO Execution started of DocumentFacade.ValidateDocumentPermission (userid = 7, docid = 22, )
+2013-12-29 14:44:16.8502 INFO Execution finished for ValidateDocumentPermission
+2013-12-29 14:44:28.3699 ERROR Exception in :[System.Collections.Generic.List`1[Confluence.Blueprint.Models.Document] GetDocumentDetailsList(Int32, Int32, Int32, Int32, System.String)], Message:[Collection was modified; enumeration operation may not execute.]
+2013-12-29 14:44:28.3699 INFO Execution finished for GetDocumentDetailsList
+2013-12-29 14:44:28.3699 INFO Execution finished for BuildDocumentList
+2013-12-29 14:45:24.9361 INFO Execution started of MvcApplication.Application_Start ()
+2013-12-29 14:45:25.1791 INFO Execution started of AdminAreaRegistration.get_AreaName ()
+2013-12-29 14:45:25.1791 INFO Execution finished for get_AreaName
+2013-12-29 14:45:25.1791 INFO Execution started of AdminAreaRegistration.RegisterArea (context = System.Web.Mvc.AreaRegistrationContext, )
+2013-12-29 14:45:25.1791 INFO Execution finished for RegisterArea
+2013-12-29 14:45:25.1791 INFO Execution finished for Application_Start
+2013-12-29 14:45:25.2031 INFO Execution started of MiniProfilerStartupModule.Init (context = ASP.global_asax, )
+2013-12-29 14:45:25.2031 INFO Execution finished for Init
+2013-12-29 14:45:25.3141 INFO Execution started of HomeController.Index ()
+2013-12-29 14:45:25.3141 INFO Execution finished for Index
+2013-12-29 14:45:25.8982 INFO Execution started of MiniProfilerStartupModule.Init (context = ASP.global_asax, )
+2013-12-29 14:45:25.8982 INFO Execution started of MiniProfilerStartupModule.Init (context = ASP.global_asax, )
+2013-12-29 14:45:25.8982 INFO Execution finished for Init
+2013-12-29 14:45:25.8982 INFO Execution finished for Init
+2013-12-29 14:45:28.5593 INFO Execution started of AccountController.LogOn (returnUrl = /Home/Default, )
+2013-12-29 14:45:28.5763 INFO Execution finished for LogOn
+2013-12-29 14:45:40.0080 INFO Execution started of AccountController.LogOn (model = Confluence.Blueprint.Models.LogOnModel, )
+2013-12-29 14:45:40.0180 INFO Execution started of OrganizationService.GetOrganizationByUserEmail (userEmail = nsinha@hotmail.com, )
+2013-12-29 14:45:40.0180 INFO Execution started of OrganizationFacade.GetOrganization (userEmail = nsinha@hotmail.com, )
+2013-12-29 14:45:40.0850 INFO Execution finished for GetOrganization
+2013-12-29 14:45:40.0850 INFO Execution finished for GetOrganizationByUserEmail
+2013-12-29 14:45:40.0850 INFO Execution started of AccountService.GetUserDetails (email = nsinha@hotmail.com, )
+2013-12-29 14:45:40.0850 INFO Execution started of UserFacade.GetUserDetails (email = nsinha@hotmail.com, )
+2013-12-29 14:45:40.0970 INFO Execution finished for GetUserDetails
+2013-12-29 14:45:40.0970 INFO Execution finished for GetUserDetails
+2013-12-29 14:45:40.0970 INFO Execution started of BaseController.GetTerminology (id = 3, )
+2013-12-29 14:45:40.0970 INFO Execution finished for GetTerminology
+2013-12-29 14:45:40.0970 INFO Execution started of BaseController.Redirect (url = /Home/Default, )
+2013-12-29 14:45:40.0970 INFO Execution finished for Redirect
+2013-12-29 14:45:40.0970 INFO Execution finished for LogOn
+2013-12-29 14:45:40.0970 INFO Execution started of AjaxAwareRedirectResult.ExecuteResult (context = System.Web.Mvc.ControllerContext, )
+2013-12-29 14:45:40.1100 INFO Execution finished for ExecuteResult
+2013-12-29 14:45:40.1360 INFO Execution started of HomeController.Default ()
+2013-12-29 14:45:40.1360 INFO Execution finished for Default
+2013-12-29 14:45:41.8821 INFO Execution started of MvcApplication.Application_Error (sender = ASP.global_asax, e = System.EventArgs, )
+2013-12-29 14:45:41.8921 INFO Application_Error: System.Web.HttpException (0x80004005): File does not exist.
+   at System.Web.StaticFileHandler.ProcessRequestForNonMapPathBasedVirtualFile(HttpRequest request, HttpResponse response, String overrideVirtualPath)
+   at System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context, String overrideVirtualPath)
+   at System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2013-12-29 14:45:41.8921 INFO Execution started of ErrorController.DetailedError ()
+2013-12-29 14:45:41.8921 INFO Execution finished for DetailedError
+2013-12-29 14:45:42.4001 INFO Execution finished for Application_Error
+2013-12-29 14:45:42.7661 INFO Execution started of MiniProfilerStartupModule.Init (context = ASP.global_asax, )
+2013-12-29 14:45:42.7661 INFO Execution finished for Init
+2013-12-29 14:45:43.5542 INFO Execution started of CommonService.GetUserDashboard (UserID = 7, )
+2013-12-29 14:45:43.5552 INFO Execution started of CommonFacade.GetDashboardData (UserID = 7, )
+2013-12-29 14:45:43.5552 INFO Execution finished for GetDashboardData
+2013-12-29 14:45:43.5552 INFO Execution finished for GetUserDashboard
+2013-12-29 14:45:45.6393 INFO Execution started of DocumentLibraryController.Index ()
+2013-12-29 14:45:45.6393 INFO Execution started of OrganizationService.GetOrganizationByID (orgid = 1, )
+2013-12-29 14:45:45.6453 INFO Execution started of OrganizationFacade.GetOrganization (orgid = 1, )
+2013-12-29 14:45:45.6453 INFO Execution finished for GetOrganization
+2013-12-29 14:45:45.6453 INFO Execution finished for GetOrganizationByID
+2013-12-29 14:45:45.6453 INFO Execution started of DepartmentService.GetDepartmentDetails (deptid = 1, )
+2013-12-29 14:45:45.6623 INFO Execution started of DepartmentFacade.GetDepartmentDetail (deptid = 1, )
+2013-12-29 14:45:45.6623 INFO Execution finished for GetDepartmentDetail
+2013-12-29 14:45:45.6623 INFO Execution finished for GetDepartmentDetails
+2013-12-29 14:45:45.6623 INFO Execution started of DepartmentService.GetDepartmentDetails (deptid = 2, )
+2013-12-29 14:45:45.6623 INFO Execution started of DepartmentFacade.GetDepartmentDetail (deptid = 2, )
+2013-12-29 14:45:45.6623 INFO Execution finished for GetDepartmentDetail
+2013-12-29 14:45:45.6623 INFO Execution finished for GetDepartmentDetails
+2013-12-29 14:45:45.6763 INFO Execution started of DepartmentService.GetDepartmentDetails (deptid = 3, )
+2013-12-29 14:45:45.6763 INFO Execution started of DepartmentFacade.GetDepartmentDetail (deptid = 3, )
+2013-12-29 14:45:45.6763 INFO Execution finished for GetDepartmentDetail
+2013-12-29 14:45:45.6763 INFO Execution finished for GetDepartmentDetails
+2013-12-29 14:45:45.6763 INFO Execution started of DepartmentService.GetDepartmentDetails (deptid = 4, )
+2013-12-29 14:45:45.6763 INFO Execution started of DepartmentFacade.GetDepartmentDetail (deptid = 4, )
+2013-12-29 14:45:45.6763 INFO Execution finished for GetDepartmentDetail
+2013-12-29 14:45:45.6763 INFO Execution finished for GetDepartmentDetails
+2013-12-29 14:45:45.6763 INFO Execution started of DepartmentService.GetDepartmentDetails (deptid = 11, )
+2013-12-29 14:45:45.6763 INFO Execution started of DepartmentFacade.GetDepartmentDetail (deptid = 11, )
+2013-12-29 14:45:45.6953 INFO Execution finished for GetDepartmentDetail
+2013-12-29 14:45:45.6953 INFO Execution finished for GetDepartmentDetails
+2013-12-29 14:45:45.6953 INFO Execution finished for Index
+2013-12-29 14:45:46.4953 INFO Execution started of MvcApplication.Application_Error (sender = ASP.global_asax, e = System.EventArgs, )
+2013-12-29 14:45:46.4953 INFO Application_Error: System.Web.HttpException (0x80004005): File does not exist.
+   at System.Web.StaticFileHandler.ProcessRequestForNonMapPathBasedVirtualFile(HttpRequest request, HttpResponse response, String overrideVirtualPath)
+   at System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context, String overrideVirtualPath)
+   at System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2013-12-29 14:45:46.4953 INFO Execution started of ErrorController.DetailedError ()
+2013-12-29 14:45:46.4953 INFO Execution finished for DetailedError
+2013-12-29 14:45:46.5033 INFO Execution finished for Application_Error
+2013-12-29 14:45:46.5504 INFO Execution started of MvcApplication.Application_Error (sender = ASP.global_asax, e = System.EventArgs, )
+2013-12-29 14:45:46.5504 INFO Application_Error: System.Web.HttpException (0x80004005): File does not exist.
+   at System.Web.StaticFileHandler.ProcessRequestForNonMapPathBasedVirtualFile(HttpRequest request, HttpResponse response, String overrideVirtualPath)
+   at System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context, String overrideVirtualPath)
+   at System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2013-12-29 14:45:46.5504 INFO Execution started of ErrorController.DetailedError ()
+2013-12-29 14:45:46.5504 INFO Execution finished for DetailedError
+2013-12-29 14:45:46.5504 INFO Execution finished for Application_Error
+2013-12-29 14:45:47.9734 INFO Execution started of DocumentLibraryController.CheckPublishPermission ()
+2013-12-29 14:45:47.9734 INFO Execution finished for CheckPublishPermission
+2013-12-29 14:45:48.3545 INFO Execution started of DocumentLibraryController.BuildDocumentList (dept = 1, subdept = 0, )
+2013-12-29 14:45:48.3595 INFO Execution started of DocumentFacade.GetDocumentDetailsList (orgID = 1, userId = 7, deptID = 1, subDeptID = 0, userEmail = nsinha@hotmail.com, )
+2013-12-29 14:45:50.3846 INFO Execution started of DocumentFacade.GetDocumentList (orgID = 1, )
+2013-12-29 14:45:50.4056 INFO Execution finished for GetDocumentList
+2013-12-29 14:45:56.8669 INFO Execution started of DocumentFacade.GetDocumentDetails (DocID = 22, )
+2013-12-29 14:45:56.8929 INFO Execution finished for GetDocumentDetails
+2013-12-29 14:45:57.5880 INFO Execution started of DocumentFacade.ValidateDocumentPermission (userid = 7, docid = 22, )
+2013-12-29 14:45:57.5980 INFO Execution finished for ValidateDocumentPermission
+2013-12-29 14:46:01.8842 INFO Execution started of DocumentFacade.GetDocumentDetails (DocID = 29, )
+2013-12-29 14:46:01.9032 INFO Execution finished for GetDocumentDetails
+2013-12-29 14:46:03.7613 INFO Execution started of DocumentFacade.ValidateDocumentPermission (userid = 7, docid = 29, )
+2013-12-29 14:46:03.7763 INFO Execution finished for ValidateDocumentPermission
+2013-12-29 14:46:03.7763 INFO Execution started of DocumentFacade.GetDocumentDetails (DocID = 48, )
+2013-12-29 14:46:03.7963 INFO Execution finished for GetDocumentDetails
+2013-12-29 14:46:03.7963 INFO Execution started of DocumentFacade.ValidateDocumentPermission (userid = 7, docid = 48, )
+2013-12-29 14:46:03.8033 INFO Execution finished for ValidateDocumentPermission
+2013-12-29 14:46:03.8033 INFO Execution started of DocumentFacade.GetDocumentDetails (DocID = 54, )
+2013-12-29 14:46:03.8033 INFO Execution finished for GetDocumentDetails
+2013-12-29 14:46:03.8033 INFO Execution started of DocumentFacade.ValidateDocumentPermission (userid = 7, docid = 54, )
+2013-12-29 14:46:03.8033 INFO Execution finished for ValidateDocumentPermission
+2013-12-29 14:46:03.8033 INFO Execution started of DocumentFacade.GetDocumentDetails (DocID = 56, )
+2013-12-29 14:46:03.8223 INFO Execution finished for GetDocumentDetails
+2013-12-29 14:46:03.8223 INFO Execution started of DocumentFacade.ValidateDocumentPermission (userid = 7, docid = 56, )
+2013-12-29 14:46:03.8223 INFO Execution finished for ValidateDocumentPermission
+2013-12-29 14:46:03.8223 INFO Execution started of DocumentFacade.GetDocumentDetails (DocID = 58, )
+2013-12-29 14:46:03.8223 INFO Execution finished for GetDocumentDetails
+2013-12-29 14:46:03.8223 INFO Execution started of DocumentFacade.ValidateDocumentPermission (userid = 7, docid = 58, )
+2013-12-29 14:46:03.8393 INFO Execution finished for ValidateDocumentPermission
+2013-12-29 14:46:03.8393 INFO Execution started of DocumentFacade.GetDocumentDetails (DocID = 64, )
+2013-12-29 14:46:03.8393 INFO Execution finished for GetDocumentDetails
+2013-12-29 14:46:03.8393 INFO Execution started of DocumentFacade.ValidateDocumentPermission (userid = 7, docid = 64, )
+2013-12-29 14:46:03.8513 INFO Execution finished for ValidateDocumentPermission
+2013-12-29 14:46:03.8513 INFO Execution started of DocumentFacade.GetDocumentDetails (DocID = 67, )
+2013-12-29 14:46:03.8513 INFO Execution finished for GetDocumentDetails
+2013-12-29 14:46:03.8513 INFO Execution started of DocumentFacade.ValidateDocumentPermission (userid = 7, docid = 67, )
+2013-12-29 14:46:03.8513 INFO Execution finished for ValidateDocumentPermission
+2013-12-29 14:46:03.8513 INFO Execution finished for GetDocumentDetailsList
+2013-12-29 14:46:03.8513 INFO Execution finished for BuildDocumentList
+2013-12-29 14:47:02.0827 INFO Execution started of DocumentLibraryController.BuildDocumentList (dept = 1, subdept = 0, )
+2013-12-29 14:47:02.0827 INFO Execution started of DocumentFacade.GetDocumentDetailsList (orgID = 1, userId = 7, deptID = 1, subDeptID = 0, userEmail = nsinha@hotmail.com, )
+2013-12-29 14:47:04.9108 INFO Execution started of DocumentFacade.GetDocumentList (orgID = 1, )
+2013-12-29 14:47:04.9358 INFO Execution finished for GetDocumentList
+2013-12-29 14:47:07.2780 INFO Execution started of DocumentFacade.GetDocumentDetails (DocID = 22, )
+2013-12-29 14:47:07.2890 INFO Execution finished for GetDocumentDetails
+2013-12-29 14:48:37.9042 INFO Execution started of DocumentFacade.ValidateDocumentPermission (userid = 7, docid = 22, )
+2013-12-29 14:48:37.9342 INFO Execution finished for ValidateDocumentPermission
+2013-12-29 14:48:41.4854 INFO Execution started of DocumentFacade.GetDocumentDetails (DocID = 29, )
+2013-12-29 14:48:41.5034 INFO Execution finished for GetDocumentDetails
+2013-12-29 14:49:33.6983 INFO Execution started of DocumentFacade.ValidateDocumentPermission (userid = 7, docid = 29, )
+2013-12-29 14:49:33.7213 INFO Execution finished for ValidateDocumentPermission
+2013-12-29 14:49:43.7819 INFO Execution started of DocumentFacade.ValidateDocumentPermission (userid = 7, docid = 29, )
+2013-12-29 14:50:42.8743 INFO Execution finished for ValidateDocumentPermission
+2013-12-29 14:50:42.8743 INFO Execution started of DocumentFacade.GetDocumentDetails (DocID = 48, )
+2013-12-29 14:50:42.8743 INFO Execution finished for GetDocumentDetails
+2013-12-29 14:50:42.8743 INFO Execution started of DocumentFacade.ValidateDocumentPermission (userid = 7, docid = 48, )
+2013-12-29 14:50:42.8913 INFO Execution finished for ValidateDocumentPermission
+2013-12-29 14:50:42.8913 INFO Execution started of DocumentFacade.GetDocumentDetails (DocID = 54, )
+2013-12-29 14:50:42.8913 INFO Execution finished for GetDocumentDetails
+2013-12-29 14:50:42.8913 INFO Execution started of DocumentFacade.ValidateDocumentPermission (userid = 7, docid = 54, )
+2013-12-29 14:50:42.9083 INFO Execution finished for ValidateDocumentPermission
+2013-12-29 14:50:42.9083 INFO Execution started of DocumentFacade.GetDocumentDetails (DocID = 56, )
+2013-12-29 14:50:42.9083 INFO Execution finished for GetDocumentDetails
+2013-12-29 14:50:42.9203 INFO Execution started of DocumentFacade.ValidateDocumentPermission (userid = 7, docid = 56, )
+2013-12-29 14:50:42.9203 INFO Execution finished for ValidateDocumentPermission
+2013-12-29 14:50:42.9203 INFO Execution started of DocumentFacade.GetDocumentDetails (DocID = 58, )
+2013-12-29 14:50:42.9203 INFO Execution finished for GetDocumentDetails
+2013-12-29 14:50:42.9203 INFO Execution started of DocumentFacade.ValidateDocumentPermission (userid = 7, docid = 58, )
+2013-12-29 14:50:42.9383 INFO Execution finished for ValidateDocumentPermission
+2013-12-29 14:50:42.9383 INFO Execution started of DocumentFacade.GetDocumentDetails (DocID = 64, )
+2013-12-29 14:50:42.9383 INFO Execution finished for GetDocumentDetails
+2013-12-29 14:50:42.9383 INFO Execution started of DocumentFacade.ValidateDocumentPermission (userid = 7, docid = 64, )
+2013-12-29 14:50:42.9383 INFO Execution finished for ValidateDocumentPermission
+2013-12-29 14:50:42.9383 INFO Execution started of DocumentFacade.GetDocumentDetails (DocID = 67, )
+2013-12-29 14:50:42.9383 INFO Execution finished for GetDocumentDetails
+2013-12-29 14:50:42.9523 INFO Execution started of DocumentFacade.ValidateDocumentPermission (userid = 7, docid = 67, )
+2013-12-29 14:50:42.9523 INFO Execution finished for ValidateDocumentPermission
+2013-12-29 14:50:42.9523 INFO Execution finished for GetDocumentDetailsList
+2013-12-29 14:50:42.9683 INFO Execution finished for BuildDocumentList
+2013-12-29 14:52:03.8849 INFO Execution started of MvcApplication.Application_Start ()
+2013-12-29 14:52:04.1349 INFO Execution started of AdminAreaRegistration.get_AreaName ()
+2013-12-29 14:52:04.1349 INFO Execution finished for get_AreaName
+2013-12-29 14:52:04.1349 INFO Execution started of AdminAreaRegistration.RegisterArea (context = System.Web.Mvc.AreaRegistrationContext, )
+2013-12-29 14:52:04.1349 INFO Execution finished for RegisterArea
+2013-12-29 14:52:04.1349 INFO Execution finished for Application_Start
+2013-12-29 14:52:04.1559 INFO Execution started of MiniProfilerStartupModule.Init (context = ASP.global_asax, )
+2013-12-29 14:52:04.1559 INFO Execution finished for Init
+2013-12-29 14:52:04.2680 INFO Execution started of HomeController.Index ()
+2013-12-29 14:52:04.2680 INFO Execution finished for Index
+2013-12-29 14:52:04.8760 INFO Execution started of MiniProfilerStartupModule.Init (context = ASP.global_asax, )
+2013-12-29 14:52:04.8760 INFO Execution started of MiniProfilerStartupModule.Init (context = ASP.global_asax, )
+2013-12-29 14:52:04.8760 INFO Execution finished for Init
+2013-12-29 14:52:04.8760 INFO Execution finished for Init
+2013-12-29 14:52:07.2891 INFO Execution started of AccountController.LogOn (returnUrl = /Home/Default, )
+2013-12-29 14:52:07.3051 INFO Execution finished for LogOn
+2013-12-29 14:52:24.4781 INFO Execution started of AccountController.LogOn (model = Confluence.Blueprint.Models.LogOnModel, )
+2013-12-29 14:52:24.4781 INFO Execution started of OrganizationService.GetOrganizationByUserEmail (userEmail = nsinha@hotmail.com, )
+2013-12-29 14:52:24.4931 INFO Execution started of OrganizationFacade.GetOrganization (userEmail = nsinha@hotmail.com, )
+2013-12-29 14:52:24.5501 INFO Execution finished for GetOrganization
+2013-12-29 14:52:24.5501 INFO Execution finished for GetOrganizationByUserEmail
+2013-12-29 14:52:24.5501 INFO Execution started of AccountService.GetUserDetails (email = nsinha@hotmail.com, )
+2013-12-29 14:52:24.5561 INFO Execution started of UserFacade.GetUserDetails (email = nsinha@hotmail.com, )
+2013-12-29 14:52:24.5561 INFO Execution finished for GetUserDetails
+2013-12-29 14:52:24.5561 INFO Execution finished for GetUserDetails
+2013-12-29 14:52:24.5561 INFO Execution started of BaseController.GetTerminology (id = 3, )
+2013-12-29 14:52:24.5561 INFO Execution finished for GetTerminology
+2013-12-29 14:52:24.5731 INFO Execution started of BaseController.Redirect (url = /Home/Default, )
+2013-12-29 14:52:24.5731 INFO Execution finished for Redirect
+2013-12-29 14:52:24.5731 INFO Execution finished for LogOn
+2013-12-29 14:52:24.5731 INFO Execution started of AjaxAwareRedirectResult.ExecuteResult (context = System.Web.Mvc.ControllerContext, )
+2013-12-29 14:52:24.5731 INFO Execution finished for ExecuteResult
+2013-12-29 14:52:24.6101 INFO Execution started of HomeController.Default ()
+2013-12-29 14:52:24.6101 INFO Execution finished for Default
+2013-12-29 14:52:26.3572 INFO Execution started of MvcApplication.Application_Error (sender = ASP.global_asax, e = System.EventArgs, )
+2013-12-29 14:52:26.3652 INFO Application_Error: System.Web.HttpException (0x80004005): File does not exist.
+   at System.Web.StaticFileHandler.ProcessRequestForNonMapPathBasedVirtualFile(HttpRequest request, HttpResponse response, String overrideVirtualPath)
+   at System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context, String overrideVirtualPath)
+   at System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2013-12-29 14:52:26.3652 INFO Execution started of ErrorController.DetailedError ()
+2013-12-29 14:52:26.3652 INFO Execution finished for DetailedError
+2013-12-29 14:52:26.8642 INFO Execution finished for Application_Error
+2013-12-29 14:52:27.1663 INFO Execution started of MiniProfilerStartupModule.Init (context = ASP.global_asax, )
+2013-12-29 14:52:27.1663 INFO Execution finished for Init
+2013-12-29 14:52:28.0353 INFO Execution started of CommonService.GetUserDashboard (UserID = 7, )
+2013-12-29 14:52:28.0353 INFO Execution started of CommonFacade.GetDashboardData (UserID = 7, )
+2013-12-29 14:52:28.0353 INFO Execution finished for GetDashboardData
+2013-12-29 14:52:28.0353 INFO Execution finished for GetUserDashboard
+2013-12-29 14:52:29.5174 INFO Execution started of DocumentLibraryController.Index ()
+2013-12-29 14:52:29.5174 INFO Execution started of OrganizationService.GetOrganizationByID (orgid = 1, )
+2013-12-29 14:52:29.5174 INFO Execution started of OrganizationFacade.GetOrganization (orgid = 1, )
+2013-12-29 14:52:29.5404 INFO Execution finished for GetOrganization
+2013-12-29 14:52:29.5404 INFO Execution finished for GetOrganizationByID
+2013-12-29 14:52:29.5404 INFO Execution started of DepartmentService.GetDepartmentDetails (deptid = 1, )
+2013-12-29 14:52:29.5404 INFO Execution started of DepartmentFacade.GetDepartmentDetail (deptid = 1, )
+2013-12-29 14:52:29.5514 INFO Execution finished for GetDepartmentDetail
+2013-12-29 14:52:29.5514 INFO Execution finished for GetDepartmentDetails
+2013-12-29 14:52:29.5514 INFO Execution started of DepartmentService.GetDepartmentDetails (deptid = 2, )
+2013-12-29 14:52:29.5514 INFO Execution started of DepartmentFacade.GetDepartmentDetail (deptid = 2, )
+2013-12-29 14:52:29.5514 INFO Execution finished for GetDepartmentDetail
+2013-12-29 14:52:29.5514 INFO Execution finished for GetDepartmentDetails
+2013-12-29 14:52:29.5514 INFO Execution started of DepartmentService.GetDepartmentDetails (deptid = 3, )
+2013-12-29 14:52:29.5514 INFO Execution started of DepartmentFacade.GetDepartmentDetail (deptid = 3, )
+2013-12-29 14:52:29.5654 INFO Execution finished for GetDepartmentDetail
+2013-12-29 14:52:29.5654 INFO Execution finished for GetDepartmentDetails
+2013-12-29 14:52:29.5654 INFO Execution started of DepartmentService.GetDepartmentDetails (deptid = 4, )
+2013-12-29 14:52:29.5654 INFO Execution started of DepartmentFacade.GetDepartmentDetail (deptid = 4, )
+2013-12-29 14:52:29.5654 INFO Execution finished for GetDepartmentDetail
+2013-12-29 14:52:29.5654 INFO Execution finished for GetDepartmentDetails
+2013-12-29 14:52:29.5654 INFO Execution started of DepartmentService.GetDepartmentDetails (deptid = 11, )
+2013-12-29 14:52:29.5654 INFO Execution started of DepartmentFacade.GetDepartmentDetail (deptid = 11, )
+2013-12-29 14:52:29.5784 INFO Execution finished for GetDepartmentDetail
+2013-12-29 14:52:29.5784 INFO Execution finished for GetDepartmentDetails
+2013-12-29 14:52:29.5784 INFO Execution finished for Index
+2013-12-29 14:52:30.3694 INFO Execution started of MvcApplication.Application_Error (sender = ASP.global_asax, e = System.EventArgs, )
+2013-12-29 14:52:30.3694 INFO Application_Error: System.Web.HttpException (0x80004005): File does not exist.
+   at System.Web.StaticFileHandler.ProcessRequestForNonMapPathBasedVirtualFile(HttpRequest request, HttpResponse response, String overrideVirtualPath)
+   at System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context, String overrideVirtualPath)
+   at System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2013-12-29 14:52:30.3694 INFO Execution started of ErrorController.DetailedError ()
+2013-12-29 14:52:30.3694 INFO Execution finished for DetailedError
+2013-12-29 14:52:30.3774 INFO Execution finished for Application_Error
+2013-12-29 14:52:30.4505 INFO Execution started of MvcApplication.Application_Error (sender = ASP.global_asax, e = System.EventArgs, )
+2013-12-29 14:52:30.4525 INFO Application_Error: System.Web.HttpException (0x80004005): File does not exist.
+   at System.Web.StaticFileHandler.ProcessRequestForNonMapPathBasedVirtualFile(HttpRequest request, HttpResponse response, String overrideVirtualPath)
+   at System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context, String overrideVirtualPath)
+   at System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2013-12-29 14:52:30.4525 INFO Execution started of ErrorController.DetailedError ()
+2013-12-29 14:52:30.4525 INFO Execution finished for DetailedError
+2013-12-29 14:52:30.4835 INFO Execution finished for Application_Error
+2013-12-29 14:52:31.8765 INFO Execution started of DocumentLibraryController.CheckPublishPermission ()
+2013-12-29 14:52:31.8765 INFO Execution finished for CheckPublishPermission
+2013-12-29 14:52:32.3726 INFO Execution started of DocumentLibraryController.BuildDocumentList (dept = 1, subdept = 0, )
+2013-12-29 14:52:32.3726 INFO Execution started of DocumentFacade.GetDocumentDetailsList (orgID = 1, userId = 7, deptID = 1, subDeptID = 0, userEmail = nsinha@hotmail.com, )
+2013-12-29 14:52:34.1767 INFO Execution started of DocumentFacade.GetDocumentList (orgID = 1, )
+2013-12-29 14:52:34.2197 INFO Execution finished for GetDocumentList
+2013-12-29 14:52:34.2197 INFO Execution started of DocumentFacade.GetDocumentDetails (DocID = 22, )
+2013-12-29 14:52:34.2307 INFO Execution finished for GetDocumentDetails
+2013-12-29 14:52:34.2307 INFO Execution started of DocumentFacade.ValidateDocumentPermission (userid = 7, docid = 22, )
+2013-12-29 14:52:34.2307 INFO Execution finished for ValidateDocumentPermission
+2013-12-29 14:52:34.2307 INFO Execution started of DocumentFacade.GetDocumentDetails (DocID = 29, )
+2013-12-29 14:52:34.2427 INFO Execution finished for GetDocumentDetails
+2013-12-29 14:52:34.2427 INFO Execution started of DocumentFacade.ValidateDocumentPermission (userid = 7, docid = 29, )
+2013-12-29 14:52:34.2427 INFO Execution finished for ValidateDocumentPermission
+2013-12-29 14:52:34.2427 INFO Execution started of DocumentFacade.GetDocumentDetails (DocID = 48, )
+2013-12-29 14:52:34.2607 INFO Execution finished for GetDocumentDetails
+2013-12-29 14:52:34.2607 INFO Execution started of DocumentFacade.ValidateDocumentPermission (userid = 7, docid = 48, )
+2013-12-29 14:52:34.2607 INFO Execution finished for ValidateDocumentPermission
+2013-12-29 14:52:34.2607 INFO Execution started of DocumentFacade.GetDocumentDetails (DocID = 54, )
+2013-12-29 14:52:34.2607 INFO Execution finished for GetDocumentDetails
+2013-12-29 14:52:34.2607 INFO Execution started of DocumentFacade.ValidateDocumentPermission (userid = 7, docid = 54, )
+2013-12-29 14:52:34.2787 INFO Execution finished for ValidateDocumentPermission
+2013-12-29 14:52:34.2787 INFO Execution started of DocumentFacade.GetDocumentDetails (DocID = 56, )
+2013-12-29 14:52:34.2787 INFO Execution finished for GetDocumentDetails
+2013-12-29 14:52:34.2787 INFO Execution started of DocumentFacade.ValidateDocumentPermission (userid = 7, docid = 56, )
+2013-12-29 14:52:34.2897 INFO Execution finished for ValidateDocumentPermission
+2013-12-29 14:52:34.2897 INFO Execution started of DocumentFacade.GetDocumentDetails (DocID = 58, )
+2013-12-29 14:52:34.2897 INFO Execution finished for GetDocumentDetails
+2013-12-29 14:52:34.2897 INFO Execution started of DocumentFacade.ValidateDocumentPermission (userid = 7, docid = 58, )
+2013-12-29 14:52:34.2897 INFO Execution finished for ValidateDocumentPermission
+2013-12-29 14:52:34.2897 INFO Execution started of DocumentFacade.GetDocumentDetails (DocID = 64, )
+2013-12-29 14:52:34.3077 INFO Execution finished for GetDocumentDetails
+2013-12-29 14:52:34.3077 INFO Execution started of DocumentFacade.ValidateDocumentPermission (userid = 7, docid = 64, )
+2013-12-29 14:52:34.3077 INFO Execution finished for ValidateDocumentPermission
+2013-12-29 14:52:34.3077 INFO Execution started of DocumentFacade.GetDocumentDetails (DocID = 67, )
+2013-12-29 14:52:34.3077 INFO Execution finished for GetDocumentDetails
+2013-12-29 14:52:34.3077 INFO Execution started of DocumentFacade.ValidateDocumentPermission (userid = 7, docid = 67, )
+2013-12-29 14:52:34.3207 INFO Execution finished for ValidateDocumentPermission
+2013-12-29 14:52:34.3207 INFO Execution finished for GetDocumentDetailsList
+2013-12-29 14:52:34.3207 INFO Execution finished for BuildDocumentList
+2013-12-29 14:52:47.7864 INFO Execution started of DocumentLibraryController.BuildDocumentList (dept = 3, subdept = 4, )
+2013-12-29 14:52:47.7864 INFO Execution started of DocumentFacade.GetDocumentDetailsList (orgID = 1, userId = 7, deptID = 3, subDeptID = 4, userEmail = nsinha@hotmail.com, )
+2013-12-29 14:52:49.3685 INFO Execution started of DocumentFacade.GetDocumentList (orgID = 1, )
+2013-12-29 14:52:49.3925 INFO Execution finished for GetDocumentList
+2013-12-29 14:52:49.3925 INFO Execution started of DocumentFacade.GetDocumentDetails (DocID = 42, )
+2013-12-29 14:52:49.3925 INFO Execution finished for GetDocumentDetails
+2013-12-29 14:52:49.3925 INFO Execution started of DocumentFacade.ValidateDocumentPermission (userid = 7, docid = 42, )
+2013-12-29 14:52:49.4085 INFO Execution finished for ValidateDocumentPermission
+2013-12-29 14:52:49.4085 INFO Execution started of DocumentFacade.GetDocumentDetails (DocID = 44, )
+2013-12-29 14:52:49.4085 INFO Execution finished for GetDocumentDetails
+2013-12-29 14:52:49.4085 INFO Execution started of DocumentFacade.ValidateDocumentPermission (userid = 7, docid = 44, )
+2013-12-29 14:52:49.4215 INFO Execution finished for ValidateDocumentPermission
+2013-12-29 14:52:49.4215 INFO Execution finished for GetDocumentDetailsList
+2013-12-29 14:52:49.4215 INFO Execution finished for BuildDocumentList
+2013-12-29 14:52:53.6388 INFO Execution started of DocumentLibraryController.BuildDocumentList (dept = 3, subdept = 6, )
+2013-12-29 14:52:53.6388 INFO Execution started of DocumentFacade.GetDocumentDetailsList (orgID = 1, userId = 7, deptID = 3, subDeptID = 6, userEmail = nsinha@hotmail.com, )
+2013-12-29 14:52:55.5429 INFO Execution started of DocumentFacade.GetDocumentList (orgID = 1, )
+2013-12-29 14:52:55.5649 INFO Execution finished for GetDocumentList
+2013-12-29 14:52:55.5649 INFO Execution started of DocumentFacade.GetDocumentDetails (DocID = 45, )
+2013-12-29 14:52:55.5729 INFO Execution finished for GetDocumentDetails
+2013-12-29 14:52:55.5729 INFO Execution started of DocumentFacade.ValidateDocumentPermission (userid = 7, docid = 45, )
+2013-12-29 14:52:55.5729 INFO Execution finished for ValidateDocumentPermission
+2013-12-29 14:52:55.5729 INFO Execution started of DocumentFacade.GetDocumentDetails (DocID = 49, )
+2013-12-29 14:52:55.5879 INFO Execution finished for GetDocumentDetails
+2013-12-29 14:52:55.5879 INFO Execution started of DocumentFacade.ValidateDocumentPermission (userid = 7, docid = 49, )
+2013-12-29 14:52:55.5879 INFO Execution finished for ValidateDocumentPermission
+2013-12-29 14:52:55.5879 INFO Execution started of DocumentFacade.GetDocumentDetails (DocID = 59, )
+2013-12-29 14:52:55.5999 INFO Execution finished for GetDocumentDetails
+2013-12-29 14:52:55.5999 INFO Execution started of DocumentFacade.ValidateDocumentPermission (userid = 7, docid = 59, )
+2013-12-29 14:52:55.5999 INFO Execution finished for ValidateDocumentPermission
+2013-12-29 14:52:55.5999 INFO Execution finished for GetDocumentDetailsList
+2013-12-29 14:52:55.5999 INFO Execution finished for BuildDocumentList
+2013-12-29 14:53:05.8525 INFO Execution started of DocumentLibraryController.BuildDocumentList (dept = 11, subdept = 11, )
+2013-12-29 14:53:05.8525 INFO Execution started of DocumentFacade.GetDocumentDetailsList (orgID = 1, userId = 7, deptID = 11, subDeptID = 11, userEmail = nsinha@hotmail.com, )
+2013-12-29 14:53:09.5277 INFO Execution started of DocumentFacade.GetDocumentList (orgID = 1, )
+2013-12-29 14:53:09.5627 INFO Execution finished for GetDocumentList
+2013-12-29 14:53:09.5627 INFO Execution finished for GetDocumentDetailsList
+2013-12-29 14:53:09.5627 INFO Execution finished for BuildDocumentList
+2013-12-29 14:53:52.6912 INFO Execution started of DocumentLibraryController.BuildDocumentList (dept = 1, subdept = 0, )
+2013-12-29 14:53:52.6912 INFO Execution started of DocumentFacade.GetDocumentDetailsList (orgID = 1, userId = 7, deptID = 1, subDeptID = 0, userEmail = nsinha@hotmail.com, )
+2013-12-29 14:53:52.6912 INFO Execution started of DocumentFacade.GetDocumentList (orgID = 1, )
+2013-12-29 14:53:52.7022 INFO Execution finished for GetDocumentList
+2013-12-29 14:53:52.7022 INFO Execution started of DocumentFacade.GetDocumentDetails (DocID = 22, )
+2013-12-29 14:53:52.7132 INFO Execution finished for GetDocumentDetails
+2013-12-29 14:53:52.7132 INFO Execution started of DocumentFacade.ValidateDocumentPermission (userid = 7, docid = 22, )
+2013-12-29 14:53:52.7132 INFO Execution finished for ValidateDocumentPermission
+2013-12-29 14:53:52.7132 INFO Execution started of DocumentFacade.GetDocumentDetails (DocID = 29, )
+2013-12-29 14:53:52.7282 INFO Execution finished for GetDocumentDetails
+2013-12-29 14:53:52.7282 INFO Execution started of DocumentFacade.ValidateDocumentPermission (userid = 7, docid = 29, )
+2013-12-29 14:53:52.7282 INFO Execution finished for ValidateDocumentPermission
+2013-12-29 14:53:52.7282 INFO Execution started of DocumentFacade.GetDocumentDetails (DocID = 48, )
+2013-12-29 14:53:52.7472 INFO Execution finished for GetDocumentDetails
+2013-12-29 14:53:52.7472 INFO Execution started of DocumentFacade.ValidateDocumentPermission (userid = 7, docid = 48, )
+2013-12-29 14:53:52.7472 INFO Execution finished for ValidateDocumentPermission
+2013-12-29 14:53:52.7592 INFO Execution started of DocumentFacade.GetDocumentDetails (DocID = 54, )
+2013-12-29 14:53:52.7592 INFO Execution finished for GetDocumentDetails
+2013-12-29 14:53:52.7592 INFO Execution started of DocumentFacade.ValidateDocumentPermission (userid = 7, docid = 54, )
+2013-12-29 14:53:52.7742 INFO Execution finished for ValidateDocumentPermission
+2013-12-29 14:53:52.7742 INFO Execution started of DocumentFacade.GetDocumentDetails (DocID = 56, )
+2013-12-29 14:53:52.7742 INFO Execution finished for GetDocumentDetails
+2013-12-29 14:53:52.7742 INFO Execution started of DocumentFacade.ValidateDocumentPermission (userid = 7, docid = 56, )
+2013-12-29 14:53:52.7912 INFO Execution finished for ValidateDocumentPermission
+2013-12-29 14:53:52.7912 INFO Execution started of DocumentFacade.GetDocumentDetails (DocID = 58, )
+2013-12-29 14:53:52.7912 INFO Execution finished for GetDocumentDetails
+2013-12-29 14:53:52.7912 INFO Execution started of DocumentFacade.ValidateDocumentPermission (userid = 7, docid = 58, )
+2013-12-29 14:53:52.8072 INFO Execution finished for ValidateDocumentPermission
+2013-12-29 14:53:52.8072 INFO Execution started of DocumentFacade.GetDocumentDetails (DocID = 64, )
+2013-12-29 14:53:52.8072 INFO Execution finished for GetDocumentDetails
+2013-12-29 14:53:52.8072 INFO Execution started of DocumentFacade.ValidateDocumentPermission (userid = 7, docid = 64, )
+2013-12-29 14:53:52.8252 INFO Execution finished for ValidateDocumentPermission
+2013-12-29 14:53:52.8252 INFO Execution started of DocumentFacade.GetDocumentDetails (DocID = 67, )
+2013-12-29 14:53:52.8252 INFO Execution finished for GetDocumentDetails
+2013-12-29 14:53:52.8252 INFO Execution started of DocumentFacade.ValidateDocumentPermission (userid = 7, docid = 67, )
+2013-12-29 14:53:52.8392 INFO Execution finished for ValidateDocumentPermission
+2013-12-29 14:53:52.8392 INFO Execution finished for GetDocumentDetailsList
+2013-12-29 14:53:52.8392 INFO Execution finished for BuildDocumentList
+2013-12-29 14:54:00.3396 INFO Execution started of DocumentLibraryController.ChangeRequest (id = 54, )
+2013-12-29 14:54:00.3396 INFO Execution started of DocumentLibraryController.CheckDocumentLevelPermissions (docid = 54, role = Raise Change Request, )
+2013-12-29 14:54:00.3396 INFO Execution started of DocumentFacade.GetDocumentDetails (DocID = 54, )
+2013-12-29 14:54:00.3586 INFO Execution finished for GetDocumentDetails
+2013-12-29 14:54:00.3786 INFO Execution finished for CheckDocumentLevelPermissions
+2013-12-29 14:54:00.3786 INFO Execution started of DocumentFacade.GetDocumentChangeRequest (docid = 54, )
+2013-12-29 14:54:00.3936 INFO Execution finished for GetDocumentChangeRequest
+2013-12-29 14:54:00.4046 INFO Execution started of DocumentFacade.GetDocumentDetails (DocID = 54, )
+2013-12-29 14:54:00.4046 INFO Execution finished for GetDocumentDetails
+2013-12-29 14:54:00.4046 INFO Execution finished for ChangeRequest
+2013-12-29 14:54:00.5706 INFO Execution started of MvcApplication.Application_Error (sender = ASP.global_asax, e = System.EventArgs, )
+2013-12-29 14:54:00.5706 INFO Application_Error: System.Web.HttpException (0x80004005): File does not exist.
+   at System.Web.StaticFileHandler.ProcessRequestForNonMapPathBasedVirtualFile(HttpRequest request, HttpResponse response, String overrideVirtualPath)
+   at System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context, String overrideVirtualPath)
+   at System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2013-12-29 14:54:00.5736 INFO Execution started of ErrorController.DetailedError ()
+2013-12-29 14:54:00.5736 INFO Execution finished for DetailedError
+2013-12-29 14:54:00.5736 INFO Execution finished for Application_Error

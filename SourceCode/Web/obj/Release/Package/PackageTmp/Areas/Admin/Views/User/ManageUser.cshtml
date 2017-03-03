@@ -1,0 +1,490 @@
+﻿@model Confluence.Blueprint.Models.UserModel
+@{
+    ViewBag.Title = "Manage Users";
+}
+
+@section MenuGroup{
+
+            <li><a href="#" onclick="location.href='@Url.Content("~/Admin/User/Register")'" ><img class="place-left" src="@Url.Content("~/images/expand32.png")" style="height: 20px"/> New</a></li>
+            <li><a href="#" data-bind="event: { click: resetpassword }" > Reset Password</a></li>
+            <li><a href="#" data-bind="event: { click: remove }" > Delete</a></li>
+            <li><a href="#" id="cancel" > Cancel</a></li>
+           
+   
+}
+@section PageHeader{Manage Users}
+@section PageScripts{
+<script src="@Url.Content("~/js/assets/knockout-2.2.1.js")" type="text/javascript"></script>
+<script src="@Url.Content("~/js/assets/jquery.xml2json.js")" type="text/javascript"></script>
+<script src="@Url.Content("~/js/modern/dialog.js")" type="text/javascript" ></script>
+<script src="@Url.Content("~/js/assets/jquery.validate.min.js")" type="text/javascript"></script>
+<script src="@Url.Content("~/js/custom/jquery.smartWizard.extend.js")" type="text/javascript"></script>
+<script src="@Url.Content("~/js/assets/chosen.jquery.min.js")" type="text/javascript"></script>
+<script src="@Url.Content("~/js/assets/jquery.form.min.js")" type="text/javascript" ></script>
+}
+@section PageStyles{
+<link rel="stylesheet" type="text/css" href="@Url.Content("~/css/chosen.min.css")" />
+<link rel="stylesheet" type="text/css" href="@Url.Content("~/css/smart_wizard.css")" />
+<style>
+    #progress { position:relative; width:400px; border: 1px solid #ddd; padding: 1px; border-radius: 3px; }
+    #bar { background-color: #B4F5B4; width:0%; height:20px; border-radius: 3px; }
+    #percent { position:absolute; display:inline-block; top:3px; left:48%; }
+    .ui-datepicker table tbody tr td { padding:1px; }
+</style>
+}
+<div class="page" >
+            <h2>Search</h2>
+            <div class="input-control text" style="width:980px">
+                <input type="text" data-bind="value:searchtext, valueUpdate: 'keyup', event: { keyup: search }" autocomplete = "off"/>
+                <button class="btn-search"></button>
+            </div>
+            <table id="search-results" class="striped border" data-bind="foreach: users, visible: users().length > 0">
+                <tr class="user-row">
+                    <td data-bind="text: Item1"></td>
+                    <td data-bind="text: Item2"></td>
+                    
+                </tr>
+           
+        </table>
+
+        </div>
+        
+
+@using (Html.BeginForm(null, null, FormMethod.Post, new { id = "myForm", name = "myForm" }))
+{
+  	@Html.ValidationSummary()
+    
+    <div id="wizard" class="swMain">
+  		<ul>
+  			<li>
+                <a href="#step-1">
+                <label class="stepNumber">1</label>
+                <span class="stepDesc">
+                    Step 1<br />
+                    <small>User Profile</small>
+                </span>
+                </a>
+            </li>
+            <li>
+                <a href="#step-2">
+                <label class="stepNumber">2</label>
+                <span class="stepDesc">
+                    Step 2<br />
+                    <small>Skills Certifications</small>
+                </span>                   
+                </a>
+            </li>
+  			<li>
+                <a href="#step-3">
+                <label class="stepNumber">3</label>
+                <span class="stepDesc">
+                    Step 3<br />
+                    <small>Role Mapping</small>
+                </span>                   
+                </a>
+            </li>
+  				
+  		</ul>
+  		<div id="step-1">	
+            <h2 class="StepTitle">Enter user's demographic details</h2>	
+            <br />
+            <table>
+                        <tbody>
+                           <tr>
+                            <td style="width:200px">
+                                <div class="editor-label">
+                                    @Html.LabelFor(m => m.Name)
+                                    @Html.HiddenFor(m => m.UserID)
+                                    @Html.HiddenFor(m => m.Name)
+                                </div>
+                            </td>
+                            <td>
+                                <label class="uppercase">@Model.Name</label>
+                            </td>
+                        </tr>
+                                <tr>
+                            <td >
+                                <div class="editor-label">
+                                        @Html.LabelFor(m => m.UserEmail)*
+                                </div>
+                            </td>
+                            <td >
+                                <div class="input-control text" style="width:380px">   
+                                @Html.TextBoxFor(m => m.UserEmail, new { placeholder = "Enter email id",  @readonly = "readonly", @class = "required email", minlength = "6", id = "email" })
+                                    </div>
+                            </td>
+                        </tr>
+                                <tr>
+                            <td >
+                                <div class="editor-label">
+                                        @Html.LabelFor(m => m.Phone)
+                                </div>
+                            </td>
+                            <td >
+                                <div class="input-control text" style="width:380px">   
+                                @Html.TextBoxFor(m => m.Phone, new { placeholder = "Enter phone number", @class = "digits", minlength = "11", maxlength = "11" })
+                                    </div>
+                            </td>
+                        </tr>
+                                <tr>
+                            <td >
+                                <div class="editor-label">
+                                        @Html.LabelFor(m => m.Mobile)
+                                </div>
+                            </td>
+                            <td >
+                                <div class="input-control text" style="width:380px">   
+                                @Html.TextBoxFor(m => m.Mobile, new { placeholder = "Enter mobile number", @class = "digits", minlength = "10", maxlength = "10" })
+                                    </div>
+                            </td>
+                        </tr>
+                            
+                        </tbody>
+                    </table>
+                        
+               
+        </div>
+        <div id="step-2">	
+            <h2 class="StepTitle">Audit skills and certifications</h2>	
+            <br />
+            <table>
+                        <tbody>
+                            <tr><td colspan="2"><p>Select certificatations and skills from list</p></td></tr>    
+                                <tr>
+                            <td style="width:200px">
+                                <div class="editor-label">
+                                    <label>Skills & Certifications</label>
+                                </div>
+                            </td>
+                            <td>
+                                @Html.HiddenFor(m => m.Certifications, new { id = "hidCert" })
+                                <select multiple class="chosen-select" style="width:380px" tabindex="2">
+                                <option value=""></option>
+                                @foreach (string text in ViewBag.CertificationsList)
+                                {
+                                    bool selected = false;
+                                    if (Model.AuditCertifications != null)
+                                    {
+                                        for (int i = 0; i < Model.AuditCertifications.Count; i++)
+                                        {
+                                            if (text.Equals(Model.AuditCertifications[i]))
+                                            {
+                                                selected = true;
+                                                break;
+                                            }
+                                        }
+                                    }
+                                    if (selected)
+                                    {
+                                         <option value="@text" selected="selected">@text</option>
+                                    }
+                                    else
+                                    {
+                                        <option value="@text">@text</option>
+                                    }
+                                }   
+                              </select>
+                            
+                            </td>
+                        </tr>
+                            <tr>
+                            <td >
+                                <div class="editor-label">
+                                        <label>Training Date:</label>
+                                </div>
+                            </td>
+                            <td >
+                                 <div class="editor-label"> 
+                                @Html.TextBoxFor(m => m.TrainingDate, new { placeholder = "Enter internal training date", id = "train_date" })
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td >
+                                <div class="editor-label">
+                                        <label>Upload Certificates:</label>
+                                </div>
+                            </td>
+                            <td >
+                                 <input type="file" id="file_upload" name="uploadFile" style="width:380px;height:32px;" >
+                                 <input type="button" id="submit_file_upload" value="Upload Certificate">
+                                 
+                                 <div id="progress">
+                                        <div id="bar"></div>
+                                        <div id="percent">0%</div >
+                                </div> 
+                            </td>
+                        </tr>
+                        </tbody>
+                    </table>
+                        
+               
+        </div>
+  		<div id="step-3">
+        <h2 class="StepTitle">Grant required roles for selected Departments/Sub Departments</h2>
+        <br />	
+        <table>
+            <tbody>
+                        
+                        @if (Model.Departments != null && Model.Departments.Count > 0)
+                        {
+                            var roleCount = (Model.Departments[0].DepartmentRoleGroups ?? Model.Departments[0].SubDepartments[0].SubDepartmentRoleGroups).Count + 1;
+                            for (int i = 0; i < Model.Departments.Count; i++)
+                            {
+                                @Html.HiddenFor(m => m.Departments[i].DepartmentID)
+                                @Html.HiddenFor(m => m.Departments[i].DepartmentName)
+                                if (Model.Departments[i].SubDepartments != null && Model.Departments[i].SubDepartments.Count > 0)
+                                { 
+                                    <tr><td colspan="@roleCount">
+                                        <strong>@Model.Departments[i].DepartmentName</strong>
+                                    </td></tr>
+                                    for (int j = 0; j < Model.Departments[i].SubDepartments.Count; j++)
+                                    {
+                                        
+                                        @Html.HiddenFor(m => m.Departments[i].SubDepartments[j].SubDepartmentID)
+                                        @Html.HiddenFor(m => m.Departments[i].SubDepartments[j].SubDepartmentName)
+                                        <tr>
+                                        <td style="padding-left:50px">@Model.Departments[i].SubDepartments[j].SubDepartmentName</td>
+                                        @for (int k = 0; k < Model.Departments[i].SubDepartments[j].SubDepartmentRoleGroups.Count; k++)
+                                        {
+                                            @Html.HiddenFor(m => m.Departments[i].SubDepartments[j].SubDepartmentRoleGroups[k].RoleGroupID)
+                                            @Html.HiddenFor(m => m.Departments[i].SubDepartments[j].SubDepartmentRoleGroups[k].RoleGroupName)
+                                            <td>
+                                            <label class="input-control checkbox">
+                                               @Html.CheckBoxFor(m => m.Departments[i].SubDepartments[j].SubDepartmentRoleGroups[k].IsGranted)
+                                               <span class="helper">@Model.Departments[i].SubDepartments[j].SubDepartmentRoleGroups[k].RoleGroupName</span>
+                                            </label>
+                                            </td>
+                                        }
+                                        </tr>
+                                    }
+                                }
+                                else
+                                { 
+                                    <tr class="info">
+                                        <td>
+                                        @Model.Departments[i].DepartmentName
+                                        @Html.HiddenFor(m => m.Departments[i].DepartmentID)
+                                        @Html.HiddenFor(m => m.Departments[i].DepartmentName)
+                                        </td>
+                                        @for (int l = 0; l < Model.Departments[i].DepartmentRoleGroups.Count; l++)
+                                        {
+                                            <td>
+                                            @Html.HiddenFor(m => m.Departments[i].DepartmentRoleGroups[l].RoleGroupID)
+                                            @Html.HiddenFor(m => m.Departments[i].DepartmentRoleGroups[l].RoleGroupName)
+                                            <label class="input-control checkbox">
+                                               @Html.CheckBoxFor(m => m.Departments[i].DepartmentRoleGroups[l].IsGranted)
+                                               <span class="helper">@Model.Departments[i].DepartmentRoleGroups[l].RoleGroupName</span>
+                                            </label>
+                                            </td>
+                                        }
+                                    </tr>
+                                }
+                            }
+                        }
+                        
+                       
+                    
+
+            </tbody>
+        </table>                				          
+    </div>
+  		
+  	</div>
+}
+@section PageFooterScripts{
+  <script type="text/javascript">
+
+      var userSearchModel;
+      function searchModel() {
+          var self = this;
+          self.users = ko.observableArray([]);
+          self.searchtext = ko.observable('');
+          self.search = function () {
+              $.ajax({
+                  url: "/Admin/User/SearchUser",
+                  data: { UserName: self.searchtext },
+                  type: "POST",
+                  success: function (response) {
+                      //bind data
+                      self.users(response.Items);
+                  },
+                  error: function (XMLHttpRequest, textStatus, errorThrown) {
+                      alert("responseText=" + XMLHttpRequest.responseText + "\n textStatus=" + textStatus + "\n errorThrown=" + errorThrown);
+                      
+                  }
+              });
+
+          };
+          self.remove = function () {
+              var emailid = $('#email').val();
+              $.ajax({
+                  url: "/Admin/User/Delete",
+                  data: { email: emailid },
+                  type: "POST",
+                  success: function (response) {
+                      var jsonObj = '';
+                      if (response.hasOwnProperty("d")) jsonObj = $.parseJSON(response.d);
+                      else jsonObj = $.parseJSON(response);
+                      if (jsonObj != '' && jsonObj.Error && jsonObj.Error != '') {
+                          $.alert(jsonObj.Error, "Error", "Error");
+
+                      }
+                      else if (jsonObj != '' && jsonObj.Success == 'True') {
+                          // Display  confirmation dialog
+                          $.redirect('@Url.Content("~/Admin")', "Success", "User " + self.username + " successfully deleted");
+                      }
+                  },
+                  error: function (XMLHttpRequest, textStatus, errorThrown) {
+                      $.alert("responseText=" + XMLHttpRequest.responseText + "\n textStatus=" + textStatus + "\n errorThrown=" + errorThrown, "Error", "Error");
+                  }
+              });
+
+          };
+          self.resetpassword = function () {
+              var emailid = $('#email').val();
+              $.ajax({
+                  url: "/Admin/User/ResetPassword",
+                  data: { email: emailid },
+                  type: "POST",
+                  success: function (response) {
+                      var jsonObj = '';
+                      if (response.hasOwnProperty("d")) jsonObj = $.parseJSON(response.d);
+                      else jsonObj = $.parseJSON(response);
+                      if (jsonObj != '' && jsonObj.Error && jsonObj.Error != '') {
+                          $.alert(jsonObj.Error, "Error", "Error");
+                          
+                      }
+                      else if (jsonObj != '' && jsonObj.Success == 'True') {
+                          // Display  confirmation dialog
+                          $.redirect('@Url.Content("~/Admin")', "Success", "Password reset successfully and email sent to " + self.username);
+                          
+                      }
+                  },
+                  error: function (XMLHttpRequest, textStatus, errorThrown) {
+                      $.alert("responseText=" + XMLHttpRequest.responseText + "\n textStatus=" + textStatus + "\n errorThrown=" + errorThrown, "Error", "Error");
+                  }
+              });
+
+          }
+      }
+
+      $(document).ready(function () {
+          var options = {
+              url: '/Admin/User/UploadCertificates',
+              type: 'POST',
+              beforeSend: validate,
+              uploadProgress: function (event, position, total, percentComplete) {
+                  $("#bar").width(percentComplete + '%');
+                  $("#percent").html(percentComplete + '%');
+              },
+              success: function () {
+                  $("#bar").width('100%');
+                  $("#percent").html('100%');
+              },
+              complete: function (response) {},
+              error: function () {}
+
+          };
+          function validate(formData, jqForm, options) {
+              $("#progress").show();
+              //clear everything
+              $("#bar").width('0%');
+              $("#message").html("");
+              $("#percent").html("0%");
+              if ($('#file_upload').val() == '') {
+                  alert('Please select the certificates to upload.');
+                  return false;
+              }
+              else {
+                  var ext = $('#file_upload').val().split('.').pop().toLowerCase();
+                  if ($.inArray(ext, ['jpg', 'jpe', 'png', 'gif','pdf','bmp','doc','docx']) == -1) {
+                      alert('Only jpg, png and gif is allowed.');
+                      return false;
+                  }
+              }
+              //for (var i = 0; i < formData.length; i++) {
+              //    if (!formData[i].value) {
+              //        alert('Please enter a value for both Username and Password');
+              //        return false;
+              //    }
+              //}
+              return true;
+          }
+          $("#submit_file_upload").click(function () {
+              $("#myForm").ajaxSubmit(options);
+          });
+                    
+          $(".chosen-select").chosen();
+          $("#train_date").datepicker({ maxDate: new Date });
+          $(".chosen-drop").css("margin-left", "25px");
+          $(".chosen-select").chosen().change(function () {
+              $('#hidCert').val($(this).val());
+          });
+
+          $('#wizard').smartWizard({
+              onLeaveStep: leaveStepCallback,
+              onFinish: onFinishCallback,
+              onCancel: onCancelCallback
+          });
+
+
+          $('#cancel').click(function (e) {
+              $.redirect('@Url.Content("~/Admin")', "Warning", "User operations cancelled");
+          });
+
+          //initializing viewmodel
+          userSearchModel = new searchModel();
+          //binding for ko
+          ko.applyBindings(userSearchModel);
+          $(document).on("click", "#search-results tr", function (e) {
+              var emailid = $(this).find("td:last").html();
+              // call service to get data 
+              $.ajax({
+                  url: "/ApplicationServices/AccountService.asmx/GetUserDetails",
+                  data: { email: emailid },
+                  type: "POST",
+                  success: function (response) {
+                      //bind data
+                      if (response != '') {
+                          var json = $.xml2json(response);
+                          if (json != '') {
+                              userSearchModel.searchtext = "";
+                              userSearchModel.users = ko.observableArray([]);
+                              ko.applyBindings(userSearchModel);
+                              location.href = '@Url.Content("~/Admin/User/ManageUserDetail/")' + json.UserID;
+
+                          }
+                      }
+                  },
+                  error: function (XMLHttpRequest, textStatus, errorThrown) {
+                      $.alert("responseText=" + XMLHttpRequest.responseText + "\n textStatus=" + textStatus + "\n errorThrown=" + errorThrown, "Error", "Error");
+                  }
+              });
+
+          });
+
+      });
+      function onFinishCallback() {
+          if ($("#myForm").valid()) {
+              $("#myForm").submit();
+              
+          }
+
+      }
+      function leaveStepCallback(obj, context) {
+          if (context.fromStep == 2) {
+              return true;
+          }
+          return $("#myForm").valid();
+      }
+      function onCancelCallback() {
+          $.redirect('@Url.Content("~/Admin")', "Warning", "User creation cancelled");
+      } 
+      
+    </script>
+
+}
+
+
+ 

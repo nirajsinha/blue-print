@@ -1,0 +1,39 @@
+
+2013-11-12 21:45:42.7905 ERROR Executing AccountController.Execute (requestContext=System.Web.Routing.RequestContext,) Exception caught:    at Confluence.Blueprint.Web.Controllers.Account.AccountController.LogOn(LogOnModel model) in C:\My Folder\Projects\eqms\SourceCode\Web\Controllers\Account\AccountController.cs:line 45
+   at lambda_method(Closure , ControllerBase , Object[] )
+   at System.Web.Mvc.ActionMethodDispatcher.Execute(ControllerBase controller, Object[] parameters)
+   at System.Web.Mvc.ReflectedActionDescriptor.Execute(ControllerContext controllerContext, IDictionary`2 parameters)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionMethod(ControllerContext controllerContext, ActionDescriptor actionDescriptor, IDictionary`2 parameters)
+   at System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass15.<InvokeActionMethodWithFilters>b__12()
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionMethodFilter(IActionFilter filter, ActionExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass15.<>c__DisplayClass17.<InvokeActionMethodWithFilters>b__14()
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionMethodWithFilters(ControllerContext controllerContext, IList`1 filters, ActionDescriptor actionDescriptor, IDictionary`2 parameters)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeAction(ControllerContext controllerContext, String actionName)
+   at System.Web.Mvc.Controller.ExecuteCore()
+   at System.Web.Mvc.ControllerBase.Execute(RequestContext requestContext)
+   at (Object , Object[] )
+   at Ninject.Extensions.Interception.Injection.Dynamic.DynamicMethodInjector.Invoke(Object target, Object[] arguments) in c:\Projects\Ninject\ninject.extensions.interception\src\Ninject.Extensions.Interception\Injection\Dynamic\DynamicMethodInjector.cs:line 54
+   at Ninject.Extensions.Interception.Invocation.Invocation.CallTargetMethod() in c:\Projects\Ninject\ninject.extensions.interception\src\Ninject.Extensions.Interception\Invocation\Invocation.cs:line 55
+   at Ninject.Extensions.Interception.Invocation.InvocationBase.Proceed() in c:\Projects\Ninject\ninject.extensions.interception\src\Ninject.Extensions.Interception\Invocation\InvocationBase.cs:line 79
+   at Confluence.Blueprint.Web.Infrastructure.Logging.ExceptionInterceptor.Intercept(IInvocation invocation) in C:\My Folder\Projects\eqms\SourceCode\Web\Infrastructure\Logging\ExceptionInterceptor.cs:line 27)
+2013-11-12 21:45:44.7966 ERROR Executing AccountController.Execute (requestContext=System.Web.Routing.RequestContext,) Exception caught:    at Confluence.Blueprint.Web.Controllers.Account.AccountController.LogOn(LogOnModel model) in C:\My Folder\Projects\eqms\SourceCode\Web\Controllers\Account\AccountController.cs:line 45
+   at lambda_method(Closure , ControllerBase , Object[] )
+   at System.Web.Mvc.ActionMethodDispatcher.Execute(ControllerBase controller, Object[] parameters)
+   at System.Web.Mvc.ReflectedActionDescriptor.Execute(ControllerContext controllerContext, IDictionary`2 parameters)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionMethod(ControllerContext controllerContext, ActionDescriptor actionDescriptor, IDictionary`2 parameters)
+   at System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass15.<InvokeActionMethodWithFilters>b__12()
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionMethodFilter(IActionFilter filter, ActionExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass15.<>c__DisplayClass17.<InvokeActionMethodWithFilters>b__14()
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionMethodWithFilters(ControllerContext controllerContext, IList`1 filters, ActionDescriptor actionDescriptor, IDictionary`2 parameters)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeAction(ControllerContext controllerContext, String actionName)
+   at System.Web.Mvc.Controller.ExecuteCore()
+   at System.Web.Mvc.ControllerBase.Execute(RequestContext requestContext)
+   at (Object , Object[] )
+   at Ninject.Extensions.Interception.Injection.Dynamic.DynamicMethodInjector.Invoke(Object target, Object[] arguments) in c:\Projects\Ninject\ninject.extensions.interception\src\Ninject.Extensions.Interception\Injection\Dynamic\DynamicMethodInjector.cs:line 54
+   at Ninject.Extensions.Interception.Invocation.Invocation.CallTargetMethod() in c:\Projects\Ninject\ninject.extensions.interception\src\Ninject.Extensions.Interception\Invocation\Invocation.cs:line 55
+   at Ninject.Extensions.Interception.Invocation.InvocationBase.Proceed() in c:\Projects\Ninject\ninject.extensions.interception\src\Ninject.Extensions.Interception\Invocation\InvocationBase.cs:line 79
+   at Confluence.Blueprint.Web.Infrastructure.Logging.ExceptionInterceptor.Intercept(IInvocation invocation) in C:\My Folder\Projects\eqms\SourceCode\Web\Infrastructure\Logging\ExceptionInterceptor.cs:line 41
+   at Ninject.Extensions.Interception.Invocation.InvocationBase.Proceed() in c:\Projects\Ninject\ninject.extensions.interception\src\Ninject.Extensions.Interception\Invocation\InvocationBase.cs:line 75
+   at Confluence.Blueprint.Web.Infrastructure.Logging.ExceptionInterceptor.Intercept(IInvocation invocation) in C:\My Folder\Projects\eqms\SourceCode\Web\Infrastructure\Logging\ExceptionInterceptor.cs:line 27)
+2013-11-12 21:59:43.9526 INFO Application started.
+2013-11-12 22:04:00.9393 INFO Application started.

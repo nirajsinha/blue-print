@@ -1,0 +1,91 @@
+﻿@model Confluence.Blueprint.Models.DocumentChangeRequest  
+@using Confluence.Blueprint.Models          
+@{
+    ViewBag.Title = "Document Change Request";
+}
+
+
+@section MenuGroup{
+        
+}
+@section PageScripts{
+    <script type="text/javascript" src="@Url.Content("~/js/assets/moment.min.js")" ></script>
+    <script type="text/javascript" src="@Url.Content("~/js/assets/jquery.tmpl.min.js")" ></script>
+}   
+@section PageHeader{
+Document Change Request
+}
+@section PageStyles{
+<style>
+    .ui-datepicker table tbody tr td { padding:1px; }
+    #dcr td { vertical-align:top;   }
+    body { counter-reset: Serial;           /* Set the Serial counter to 0 */ }
+    #dataTable { border-collapse: separate; }
+
+    #dataTable tr td:first-child:before
+    {
+      counter-increment: Serial;      /* Increment the Serial counter */
+      content: counter(Serial); /* Display the counter */
+    }
+</style>
+}
+ 
+    <div id="dcr">
+        <fieldset>
+            <legend>Change Request Information</legend>
+            <div class="input-control text">
+                <input type="text" autocomplete = "off" id="search"/>
+                <button class="btn-search"></button>
+            </div>        
+            <table class="hovered" id="dataTable">
+                        <thead><tr><th>S.No</th><th>DCR Number</th><th>Document Number</th><th>Details</th><th>Reason</th><th>Status</th></tr></thead>
+                        <tbody>
+                        @foreach(DocumentChangeRequest dcr in ViewBag.DCRs)
+                        {
+                            <tr>
+                                <td></td>
+                                <td>@dcr.RequestNumber</td>
+                                <td>@dcr.DocumentNumber</td>
+                                <td>@dcr.Detail</td>
+                                <td>@dcr.Reason</td>
+                                <td>@dcr.WorkflowStatusName</td>
+                                <td style="display:none">@dcr.DocumentChangeRequestID</td>
+                            </tr>
+                        }
+                        </tbody>
+                        <tfoot></tfoot>
+                    </table>
+   
+        </fieldset>
+    </div>
+
+ @section PageFooterScripts{
+  <script type="text/javascript">
+      
+      $(document).ready(function () {
+          var $rows = $('#dataTable tbody tr');
+          $('#search').keyup(function () {
+              filterResults();
+          });
+
+          $('.btn-search').on('click', function () {
+              filterResults();
+          });
+
+          var filterResults = function () {
+              var val = $.trim($('#search').val()).replace(/ +/g, ' ').toLowerCase();
+
+              $rows.show().filter(function () {
+                  var text = $(this).find('td:nth-child(4)').text().replace(/\s+/g, ' ').toLowerCase();
+                  return !~text.indexOf(val);
+              }).hide();
+          }
+         
+          $('#dataTable tbody tr').on('click', function () {
+              var docid = $(this).find('td:nth-child(7)').text();
+              location.href = '/DocumentLibrary/ChangeRequest/0?dcr=' + docid;
+          });
+      });
+      
+    </script>
+}    

@@ -1,0 +1,312 @@
+body {
+    background-color: #fff;
+}
+.metrouicss .page {
+    width: 100% ;
+    margin: auto;
+    background-color: #fff;
+}
+.browsers-icons img {
+    float: left;
+    margin-right: 20px;
+}
+
+
+.github-info {
+}
+
+
+#brand-name {
+    line-height: 24px;
+    margin-top: 2px;
+}
+
+
+hr {
+    border: 0;
+    border-bottom: 1px #ddd dotted;
+    color: #ddd;
+    background-color: #ddd;
+}
+
+#social{
+    margin-bottom: 90px;
+}
+#shareme .box{
+    margin:5% 8% 0 8%;
+    width:100%;
+    clear: both;
+}
+#shareme .box a{
+    color:#404040;
+    text-shadow: 0 1px 1px rgba(167,167,167,.4);
+}
+#shareme .box a:hover{
+    text-decoration:none;
+}
+#shareme .count {
+    font-weight:bold;
+    font-size:50px;
+    float:left;
+    border-right:2px solid #57b8d1;
+    line-height:40px;
+    padding-right:10px
+}
+#shareme .share {
+    float:left;
+    margin-left:10px;
+    font-size:20px;
+    width:82px;
+}
+#shareme .buttons {
+    position: absolute;
+    width:294px;
+    background-color:#fff;
+    border: 1px solid rgba(0,0,0,.2);
+    padding:10px;
+    -webkit-box-shadow: 0 1px 2px rgba(0,0,0,.1);
+    -moz-box-shadow: 0 1px 2px rgba(0,0,0,.1);
+    box-shadow: 0 1px 2px rgba(0,0,0,.1);
+    height: 100px;
+}
+#shareme .button {
+    float:left;
+    max-width:50px;
+    min-width:10px;
+    margin:0 15px 0 0;
+    background-color: transparent;
+}
+#shareme .facebook {
+    margin:0 4px 0 0;
+}
+
+#carousel1 {
+    height: 242px;
+}
+
+#sponsorBlock {
+    height: 300px;
+}
+
+#page-index .carousel .control {
+    top: auto;
+    left: auto;
+    bottom: -40px;
+}
+#page-index .carousel .control.left {
+    right: 100px;
+}
+#page-index .carousel .control.right {
+    right: 30px;
+}
+
+.metrouicss .charms,
+.metrouicss .app-bar,
+.metrouicss .message-dialog,
+.metrouicss .error-bar,
+.metrouicss .warning-bar,
+.metrouicss .info-bar {
+    position: absolute;
+}
+
+@media (min-width: 768px) and (max-width: 979px) {
+    .metrouicss .page {
+        width: 724px;
+    }
+    .metrouicss .hero-unit > img {
+        zoom: .6;
+    }
+    .metrouicss .browsers-icons img {
+        zoom: .8;
+    }
+
+}
+
+@media (max-width: 767px) {
+    .metrouicss .page {
+        width: 100%;
+    }
+
+    .metrouicss .hero-unit > img {
+        zoom: .6;
+    }
+
+    .metrouicss .modern-ui-logo {
+        width: 24px;
+        height: 24px;
+    }
+    .metrouicss .github-info {
+        margin-top: 5px;
+    }
+
+    .metrouicss a, .metrouicss .link {
+        font-size: 9pt;
+    }
+
+    .metrouicss h3 {
+        line-height: 11px;
+    }
+
+    .metrouicss .no-mobile {
+        display: none;
+    }
+
+    .metrouicss #carousel1 {
+        height: 300px !important;
+    }
+}
+
+@media (max-width: 480px) {
+    .metrouicss .hero-unit img {
+        display: none;
+    }
+
+    .metrouicss #jetbrains {
+        display: none;
+    }
+    .metrouicss #brand-name {
+        display: none;
+    }
+}
+
+
+.field-validation-error
+{
+    color: #e80c4d;
+}
+.error
+{
+    color: #e80c4d;
+}
+.field-validation-valid
+{
+    display: none;
+}
+
+input.input-validation-error
+{
+    border: 1px solid #e80c4d;
+}
+
+input[type="checkbox"].input-validation-error
+{
+    border: 0 none;
+}
+
+.validation-summary-errors
+{
+    color: #e80c4d;
+    font-weight: bold;
+    font-size: 1.1em;
+}
+
+.validation-summary-valid
+{
+    display: none;
+}
+
+/* Notification styles
+-----------------------------------------------------------*/
+#messagewrapper {
+  position: fixed;
+  z-index: 999999;
+  top: 12px;
+  right: 12px;
+  /*overrides*/
+
+}
+#messagewrapper * {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+#messagewrapper > div {
+  margin: 0 0 6px;
+  padding: 15px 15px 15px 50px;
+  width: 400px;
+  -moz-border-radius: 3px 3px 3px 3px;
+  -webkit-border-radius: 3px 3px 3px 3px;
+  border-radius: 3px 3px 3px 3px;
+  background-position: 15px center;
+  background-repeat: no-repeat;
+  -moz-box-shadow: 0 0 12px #999999;
+  -webkit-box-shadow: 0 0 12px #999999;
+  box-shadow: 0 0 12px #999999;
+  color: #ffffff;
+  opacity: 0.8;
+  -ms-filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=80);
+  filter: alpha(opacity=80);
+}
+/*
+#messagewrapper
+{
+	  margin: 0 0 6px;
+  padding: 15px 15px 15px 50px;
+  width: 400px;
+  -moz-border-radius: 3px 3px 3px 3px;
+  -webkit-border-radius: 3px 3px 3px 3px;
+  border-radius: 3px 3px 3px 3px;
+  background-position: 15px center;
+  background-repeat: no-repeat;
+  -moz-box-shadow: 0 0 12px #999999;
+  -webkit-box-shadow: 0 0 12px #999999;
+  box-shadow: 0 0 12px #999999;
+  color: #ffffff;
+  opacity: 0.8;
+  -ms-filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=80);
+  filter: alpha(opacity=80);
+	
+	
+	position: fixed;
+	top: 0px;
+	right: 10px;
+	z-index: 999999;
+	margin: 5px auto;
+	width: 500px;
+
+}
+
+#messagewrapper .messagebox
+{
+	padding: 12px 10px 10px 30px;
+	box-shadow: 5px 5px 10px #000;
+}
+*/
+#messagewrapper .success
+{
+	background-color: #51a351;
+	color: #ffffff;
+	background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAADsSURBVEhLY2AYBfQMgf///3P8+/evAIgvA/FsIF+BavYDDWMBGroaSMMBiE8VC7AZDrIFaMFnii3AZTjUgsUUWUDA8OdAH6iQbQEhw4HyGsPEcKBXBIC4ARhex4G4BsjmweU1soIFaGg/WtoFZRIZdEvIMhxkCCjXIVsATV6gFGACs4Rsw0EGgIIH3QJYJgHSARQZDrWAB+jawzgs+Q2UO49D7jnRSRGoEFRILcdmEMWGI0cm0JJ2QpYA1RDvcmzJEWhABhD/pqrL0S0CWuABKgnRki9lLseS7g2AlqwHWQSKH4oKLrILpRGhEQCw2LiRUIa4lwAAAABJRU5ErkJggg==") !important;
+	/*background: #cfc url(Images/ok.gif) no-repeat 8px 12px;*/
+}
+
+#messagewrapper .warning
+{
+	background-color: #f89406;
+	color: #ffffff;
+	background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAGYSURBVEhL5ZSvTsNQFMbXZGICMYGYmJhAQIJAICYQPAACiSDB8AiICQQJT4CqQEwgJvYASAQCiZiYmJhAIBATCARJy+9rTsldd8sKu1M0+dLb057v6/lbq/2rK0mS/TRNj9cWNAKPYIJII7gIxCcQ51cvqID+GIEX8ASG4B1bK5gIZFeQfoJdEXOfgX4QAQg7kH2A65yQ87lyxb27sggkAzAuFhbbg1K2kgCkB1bVwyIR9m2L7PRPIhDUIXgGtyKw575yz3lTNs6X4JXnjV+LKM/m3MydnTbtOKIjtz6VhCBq4vSm3ncdrD2lk0VgUXSVKjVDJXJzijW1RQdsU7F77He8u68koNZTz8Oz5yGa6J3H3lZ0xYgXBK2QymlWWA+RWnYhskLBv2vmE+hBMCtbA7KX5drWyRT/2JsqZ2IvfB9Y4bWDNMFbJRFmC9E74SoS0CqulwjkC0+5bpcV1CZ8NMej4pjy0U+doDQsGyo1hzVJttIjhQ7GnBtRFN1UarUlH8F3xict+HY07rEzoUGPlWcjRFRr4/gChZgc3ZL2d8oAAAAASUVORK5CYII=") !important;
+	/*background: #ffc url(Images/warn.gif) no-repeat 8px 12px;*/
+}
+
+#messagewrapper .error
+{
+	background-color: #bd362f;
+	color: #ffffff;
+	background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAHOSURBVEhLrZa/SgNBEMZzh0WKCClSCKaIYOED+AAKeQQLG8HWztLCImBrYadgIdY+gIKNYkBFSwu7CAoqCgkkoGBI/E28PdbLZmeDLgzZzcx83/zZ2SSXC1j9fr+I1Hq93g2yxH4iwM1vkoBWAdxCmpzTxfkN2RcyZNaHFIkSo10+8kgxkXIURV5HGxTmFuc75B2RfQkpxHG8aAgaAFa0tAHqYFfQ7Iwe2yhODk8+J4C7yAoRTWI3w/4klGRgR4lO7Rpn9+gvMyWp+uxFh8+H+ARlgN1nJuJuQAYvNkEnwGFck18Er4q3egEc/oO+mhLdKgRyhdNFiacC0rlOCbhNVz4H9FnAYgDBvU3QIioZlJFLJtsoHYRDfiZoUyIxqCtRpVlANq0EU4dApjrtgezPFad5S19Wgjkc0hNVnuF4HjVA6C7QrSIbylB+oZe3aHgBsqlNqKYH48jXyJKMuAbiyVJ8KzaB3eRc0pg9VwQ4niFryI68qiOi3AbjwdsfnAtk0bCjTLJKr6mrD9g8iq/S/B81hguOMlQTnVyG40wAcjnmgsCNESDrjme7wfftP4P7SP4N3CJZdvzoNyGq2c/HWOXJGsvVg+RA/k2MC/wN6I2YA2Pt8GkAAAAASUVORK5CYII=") !important;
+	/*background: #fcc url(Images/fail.gif) no-repeat 8px 12px;*/
+}
+.uppercase {
+  text-transform: uppercase;
+}
+
+.ui-jqgrid tr.jqgrow td.ext_doc { background: url(../images/icons/doc.png) left no-repeat; padding-left:25px;}
+.ui-jqgrid tr.jqgrow td.ext_docx { background: url(../images/icons/doc.png) left  no-repeat;  padding-left:25px;}
+.ui-jqgrid tr.jqgrow td.ext_xls { background: url(../images/icons/xls.png) left  no-repeat; padding-left:25px; }
+.ui-jqgrid tr.jqgrow td.ext_xlsx { background: url(../images/icons/xls.png) left  no-repeat; padding-left:25px; }
+.ui-jqgrid tr.jqgrow td.ext_ppt { background: url(../images/icons/ppt.png) left  no-repeat; padding-left:25px; }
+.ui-jqgrid tr.jqgrow td.ext_pptx { background: url(../images/icons/ppt.png) left  no-repeat; padding-left:25px; }
+.ui-jqgrid tr.jqgrow td.ext_pdf { background: url(../images/icons/pdf.png) left  no-repeat; padding-left:25px; }
+.ui-jqgrid tr.jqgrow td.ext_zip { background: url(../images/icons/zip.png) left  no-repeat; padding-left:25px; }
+.ui-jqgrid tr.jqgrow td.ext_ { background: url(../images/icons/file.png) left  no-repeat; padding-left:25px; }
+
+

@@ -1,0 +1,114 @@
+2013-11-19 18:31:04.5483 INFO Executing MvcApplication.Application_Start ()
+2013-11-19 18:31:05.4303 INFO Executing AdminAreaRegistration.get_AreaName ()
+2013-11-19 18:31:05.4303 INFO Executed get_AreaName
+2013-11-19 18:31:05.4303 INFO Executing AdminAreaRegistration.RegisterArea (context=,)
+2013-11-19 18:31:05.4303 INFO Executed RegisterArea
+2013-11-19 18:31:05.4403 INFO Executed Application_Start
+2013-11-19 18:31:05.7463 INFO Executing HomeController.Index ()
+2013-11-19 18:31:05.7463 INFO Executed Index
+2013-11-19 18:31:08.9523 INFO Executing AccountController.LogOn (returnUrl=,)
+2013-11-19 18:31:08.9673 INFO Executed LogOn
+2013-11-19 18:31:24.1523 INFO Executing AccountController.LogOn (model=,)
+2013-11-19 18:31:24.1523 INFO Executing AccountService.GetUserDetails (email=,)
+2013-11-19 18:31:24.1523 INFO Executing UserFacade.GetUserDetails (email=,)
+2013-11-19 18:31:24.2283 INFO Executed GetUserDetails
+2013-11-19 18:31:24.2283 INFO Executed GetUserDetails
+2013-11-19 18:31:24.2283 INFO Executing BaseController.Redirect (url=,)
+2013-11-19 18:31:24.2283 INFO Executed Redirect
+2013-11-19 18:31:24.2373 INFO Executed LogOn
+2013-11-19 18:31:24.2373 INFO Executing AjaxAwareRedirectResult.ExecuteResult (context=,)
+2013-11-19 18:31:24.2373 INFO Executed ExecuteResult
+2013-11-19 18:31:24.2563 INFO Executing HomeController.Default ()
+2013-11-19 18:31:24.2563 INFO Executed Default
+2013-11-19 18:31:27.5553 INFO Executing CommonService.GetUserDashboard (UserID=,)
+2013-11-19 18:31:27.5553 INFO Executing CommonFacade.GetDashboardData (UserID=,)
+2013-11-19 18:31:27.5663 INFO Executed GetDashboardData
+2013-11-19 18:31:27.5663 INFO Executed GetUserDashboard
+2013-11-19 18:34:38.3023 INFO Executing MvcApplication.Application_Start ()
+2013-11-19 18:34:39.0033 INFO Executing AdminAreaRegistration.get_AreaName ()
+2013-11-19 18:34:39.0033 INFO Executed get_AreaName
+2013-11-19 18:34:54.6513 INFO Executing AdminAreaRegistration.RegisterArea (context=,)
+2013-11-19 18:34:54.6563 INFO Executed RegisterArea
+2013-11-19 18:34:54.6563 INFO Executed Application_Start
+2013-11-19 18:34:54.9013 INFO Executing HomeController.Index ()
+2013-11-19 18:34:54.9043 INFO Executed Index
+2013-11-19 18:35:29.4503 INFO Executing AccountController.LogOn (returnUrl=,)
+2013-11-19 18:35:29.4913 INFO Executed LogOn
+2013-11-19 18:35:53.8483 INFO Executing AccountController.LogOn (model=,)
+2013-11-19 18:37:58.8743 INFO Executing AccountService.GetUserDetails (email=,)
+2013-11-19 18:37:58.8823 INFO Executing UserFacade.GetUserDetails (email=,)
+2013-11-19 18:37:58.9613 INFO Executed GetUserDetails
+2013-11-19 18:37:58.9613 INFO Executed GetUserDetails
+2013-11-19 18:37:58.9613 INFO Executing BaseController.Redirect (url=,)
+2013-11-19 18:37:58.9613 INFO Executed Redirect
+2013-11-19 18:37:58.9613 INFO Executed LogOn
+2013-11-19 18:37:58.9613 INFO Executing AjaxAwareRedirectResult.ExecuteResult (context=,)
+2013-11-19 18:37:58.9793 INFO Executed ExecuteResult
+2013-11-19 21:07:22.0848 INFO Execution started of MvcApplication.Application_Start ()
+2013-11-19 21:07:23.4399 INFO Execution started of AdminAreaRegistration.get_AreaName ()
+2013-11-19 21:07:23.4399 INFO Execution finished for get_AreaName
+2013-11-19 21:07:23.4399 INFO Execution started of AdminAreaRegistration.RegisterArea (context = System.Web.Mvc.AreaRegistrationContext, )
+2013-11-19 21:07:23.4469 INFO Execution finished for RegisterArea
+2013-11-19 21:07:23.4469 INFO Execution finished for Application_Start
+2013-11-19 21:07:23.7279 INFO Execution started of HomeController.Index ()
+2013-11-19 21:07:23.7279 INFO Execution finished for Index
+2013-11-19 21:07:29.4623 INFO Execution started of AccountController.LogOn (returnUrl = /Home/Default, )
+2013-11-19 21:07:29.4963 INFO Execution finished for LogOn
+2013-11-19 21:07:42.5190 INFO Execution started of AccountController.LogOn (model = Confluence.Blueprint.Models.LogOnModel, )
+2013-11-19 21:07:42.5190 INFO Execution started of AccountService.GetUserDetails (email = admin@emqs.com, )
+2013-11-19 21:07:42.5190 INFO Execution started of UserFacade.GetUserDetails (email = admin@emqs.com, )
+2013-11-19 21:07:42.7740 INFO Execution finished for GetUserDetails
+2013-11-19 21:07:42.7740 INFO Execution finished for GetUserDetails
+2013-11-19 21:07:42.7750 INFO Execution finished for LogOn
+2013-11-19 21:07:52.9606 INFO Execution started of AccountController.LogOn (model = Confluence.Blueprint.Models.LogOnModel, )
+2013-11-19 21:07:52.9616 INFO Execution started of AccountService.GetUserDetails (email = admin@eqms.com, )
+2013-11-19 21:07:52.9616 INFO Execution started of UserFacade.GetUserDetails (email = admin@eqms.com, )
+2013-11-19 21:07:52.9616 INFO Execution finished for GetUserDetails
+2013-11-19 21:07:52.9616 INFO Execution finished for GetUserDetails
+2013-11-19 21:07:52.9796 INFO Execution started of BaseController.Redirect (url = /Home/Default, )
+2013-11-19 21:07:52.9796 INFO Execution finished for Redirect
+2013-11-19 21:07:52.9796 INFO Execution finished for LogOn
+2013-11-19 21:07:52.9796 INFO Execution started of AjaxAwareRedirectResult.ExecuteResult (context = System.Web.Mvc.ControllerContext, )
+2013-11-19 21:07:52.9946 INFO Execution finished for ExecuteResult
+2013-11-19 21:07:52.9946 INFO Execution started of HomeController.Default ()
+2013-11-19 21:07:52.9946 INFO Execution finished for Default
+2013-11-19 21:07:58.3749 INFO Execution started of CommonService.GetUserDashboard (UserID = 1, )
+2013-11-19 21:07:58.3749 INFO Execution started of CommonFacade.GetDashboardData (UserID = 1, )
+2013-11-19 21:07:58.3749 INFO Execution finished for GetDashboardData
+2013-11-19 21:07:58.3909 INFO Execution finished for GetUserDashboard
+2013-11-19 21:08:01.7101 INFO Execution started of RequiredRoleAttribute.AuthorizeCore (httpContext = System.Web.HttpContextWrapper, )
+2013-11-19 21:08:01.7131 INFO Execution finished for AuthorizeCore
+2013-11-19 21:08:01.7131 INFO Execution started of AdminController.Index ()
+2013-11-19 21:08:01.7131 INFO Execution finished for Index
+2013-11-19 21:08:04.8813 INFO Execution started of UserController.ManageUser ()
+2013-11-19 21:08:04.8813 INFO Execution started of UserController.ManageUserDetail (id = 0, )
+2013-11-19 21:08:04.8813 INFO Execution started of OrganizationFacade.GetOrganization (orgid = 1, )
+2013-11-19 21:08:04.9123 INFO Execution finished for GetOrganization
+2013-11-19 21:08:04.9393 INFO Execution started of UserFacade.GetUserDetails (id = 0, )
+2013-11-19 21:08:04.9503 INFO Execution finished for GetUserDetails
+2013-11-19 21:08:04.9963 INFO Execution finished for ManageUserDetail
+2013-11-19 21:08:04.9963 INFO Execution finished for ManageUser
+2013-11-19 21:08:10.9876 INFO Execution started of UserController.SearchUser (UserName = n, )
+2013-11-19 21:08:10.9876 INFO Execution started of UserController.GetUsersFilteredUserList (orgid = 1, username = n, )
+2013-11-19 21:08:11.0086 INFO Execution started of AccountService.GetUserDetailsByOrganizationID (orgid = 1, userName = n, )
+2013-11-19 21:08:11.0136 INFO Execution started of UserFacade.GetUserDetailsByOrganizationID (orgid = 1, userName = n, )
+2013-11-19 21:08:11.0926 INFO Execution finished for GetUserDetailsByOrganizationID
+2013-11-19 21:08:11.0926 INFO Execution finished for GetUserDetailsByOrganizationID
+2013-11-19 21:08:11.0926 INFO Execution finished for GetUsersFilteredUserList
+2013-11-19 21:08:11.0926 INFO Execution finished for SearchUser
+2013-11-19 21:08:13.4808 INFO Execution started of AccountService.GetUserDetails (email = umesh.naikwade@gmail.com, )
+2013-11-19 21:08:13.4808 INFO Execution started of UserFacade.GetUserDetails (email = umesh.naikwade@gmail.com, )
+2013-11-19 21:08:13.4938 INFO Execution finished for GetUserDetails
+2013-11-19 21:08:13.4938 INFO Execution finished for GetUserDetails
+2013-11-19 21:08:13.5838 INFO Execution started of RequiredRoleAttribute.AuthorizeCore (httpContext = System.Web.HttpContextWrapper, )
+2013-11-19 21:08:13.5838 INFO Execution finished for AuthorizeCore
+2013-11-19 21:08:13.5848 INFO Execution started of UserController.ManageUserDetail (id = 11, )
+2013-11-19 21:08:13.5848 INFO Execution started of OrganizationFacade.GetOrganization (orgid = 1, )
+2013-11-19 21:08:13.5848 INFO Execution finished for GetOrganization
+2013-11-19 21:08:13.6038 INFO Execution started of UserFacade.GetUserDetails (id = 11, )
+2013-11-19 21:08:13.6388 INFO Execution finished for GetUserDetails
+2013-11-19 21:08:13.6388 INFO Execution finished for ManageUserDetail
+2013-11-19 21:09:04.3087 INFO Execution started of AccountController.LogOff ()
+2013-11-19 21:09:04.3087 INFO Execution finished for LogOff
+2013-11-19 21:09:04.3827 INFO Execution started of HomeController.Index ()
+2013-11-19 21:09:04.3827 INFO Execution finished for Index

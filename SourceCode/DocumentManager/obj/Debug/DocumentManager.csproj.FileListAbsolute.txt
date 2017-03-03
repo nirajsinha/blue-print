@@ -1,0 +1,35 @@
+C:\My Folder\eQMS\SourceCode\DocumentServices\bin\Debug\DocumentManager.dll
+C:\My Folder\eQMS\SourceCode\DocumentServices\bin\Debug\DocumentManager.pdb
+C:\My Folder\eQMS\SourceCode\DocumentServices\obj\Debug\ResolveAssemblyReference.cache
+C:\My Folder\eQMS\SourceCode\DocumentServices\obj\Debug\DocumentManager.dll
+C:\My Folder\eQMS\SourceCode\DocumentServices\obj\Debug\DocumentManager.pdb
+C:\My Folder\eQMS\SourceCode\DocumentManager\bin\Debug\DocumentManager.dll
+C:\My Folder\eQMS\SourceCode\DocumentManager\bin\Debug\DocumentManager.pdb
+C:\My Folder\eQMS\SourceCode\DocumentManager\obj\Debug\ResolveAssemblyReference.cache
+C:\My Folder\eQMS\SourceCode\DocumentManager\obj\Debug\DocumentManager.dll
+C:\My Folder\eQMS\SourceCode\DocumentManager\obj\Debug\DocumentManager.pdb
+C:\My Folder\eQMS\eqms\SourceCode\DocumentManager\bin\Debug\DocumentManager.dll
+C:\My Folder\eQMS\eqms\SourceCode\DocumentManager\bin\Debug\DocumentManager.pdb
+C:\My Folder\eQMS\eqms\SourceCode\DocumentManager\obj\Debug\ResolveAssemblyReference.cache
+C:\My Folder\eQMS\eqms\SourceCode\DocumentManager\obj\Debug\DocumentManager.dll
+C:\My Folder\eQMS\eqms\SourceCode\DocumentManager\obj\Debug\DocumentManager.pdb
+C:\My Folder\Projects\eqms\SourceCode\DocumentManager\bin\Debug\DocumentManager.dll
+C:\My Folder\Projects\eqms\SourceCode\DocumentManager\bin\Debug\DocumentManager.pdb
+C:\My Folder\Projects\eqms\SourceCode\DocumentManager\obj\Debug\DocumentManager.dll
+C:\My Folder\Projects\eqms\SourceCode\DocumentManager\obj\Debug\DocumentManager.pdb
+C:\Niraj\Projects\Blueprint\SourceCode\DocumentManager\bin\Debug\Confluence.Blueprint.DocumentManager.dll
+C:\Niraj\Projects\Blueprint\SourceCode\DocumentManager\bin\Debug\Confluence.Blueprint.DocumentManager.pdb
+C:\Niraj\Projects\Blueprint\SourceCode\DocumentManager\bin\Debug\Framework.Logging.dll
+C:\Niraj\Projects\Blueprint\SourceCode\DocumentManager\bin\Debug\PostSharp.dll
+C:\Niraj\Projects\Blueprint\SourceCode\DocumentManager\bin\Debug\NLog.dll
+C:\Niraj\Projects\Blueprint\SourceCode\DocumentManager\bin\Debug\MiniProfiler.dll
+C:\Niraj\Projects\Blueprint\SourceCode\DocumentManager\bin\Debug\Framework.Logging.pdb
+C:\Niraj\Projects\Blueprint\SourceCode\DocumentManager\bin\Debug\PostSharp.xml
+C:\Niraj\Projects\Blueprint\SourceCode\DocumentManager\bin\Debug\NLog.xml
+C:\Niraj\Projects\Blueprint\SourceCode\DocumentManager\bin\Debug\MiniProfiler.pdb
+C:\Niraj\Projects\Blueprint\SourceCode\DocumentManager\bin\Debug\MiniProfiler.xml
+C:\Niraj\Projects\Blueprint\SourceCode\DocumentManager\obj\Debug\DocumentManager.csprojResolveAssemblyReference.cache
+C:\Niraj\Projects\Blueprint\SourceCode\DocumentManager\obj\Debug\Confluence.Blueprint.DocumentManager.dll
+C:\Niraj\Projects\Blueprint\SourceCode\DocumentManager\obj\Debug\Confluence.Blueprint.DocumentManager.pdb
+C:\Niraj\Projects\Blueprint\SourceCode\DocumentManager\bin\Debug\Confluence.Blueprint.DocumentManager.pssym
+C:\Niraj\Projects\Blueprint\SourceCode\DocumentManager\obj\Debug\Confluence.Blueprint.DocumentManager.dll.postsharp

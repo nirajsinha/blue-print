@@ -1,0 +1,1943 @@
+2013-12-06 14:40:39.9221 INFO Execution started of MvcApplication.Application_Start ()
+2013-12-06 14:40:41.7181 INFO Execution started of AdminAreaRegistration.get_AreaName ()
+2013-12-06 14:40:41.7181 INFO Execution finished for get_AreaName
+2013-12-06 14:40:41.7181 INFO Execution started of AdminAreaRegistration.RegisterArea (context = System.Web.Mvc.AreaRegistrationContext, )
+2013-12-06 14:40:41.7271 INFO Execution finished for RegisterArea
+2013-12-06 14:40:41.7271 INFO Execution finished for Application_Start
+2013-12-06 14:40:42.0711 INFO Execution started of MiniProfilerStartupModule.Init (context = ASP.global_asax, )
+2013-12-06 14:40:42.0711 INFO Execution finished for Init
+2013-12-06 14:40:42.2371 INFO Execution started of MvcApplication.Application_Error (sender = ASP.global_asax, e = System.EventArgs, )
+2013-12-06 14:40:42.2511 INFO Application_Error: System.Web.HttpException (0x80004005): Path '/Areas/Admin/Views/User/ManageUser.cshtml' was not found.
+   at System.Web.HttpNotFoundHandler.ProcessRequest(HttpContext context)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2013-12-06 14:40:42.2701 INFO Execution started of ErrorController.DetailedError ()
+2013-12-06 14:40:42.2701 INFO Execution finished for DetailedError
+2013-12-06 14:40:42.9961 INFO Execution finished for Application_Error
+2013-12-06 14:40:43.4341 INFO Execution started of MiniProfilerStartupModule.Init (context = ASP.global_asax, )
+2013-12-06 14:40:43.4341 INFO Execution finished for Init
+2013-12-06 14:41:13.5111 INFO Execution started of HomeController.Index ()
+2013-12-06 14:41:13.5111 INFO Execution finished for Index
+2013-12-06 14:41:16.1501 INFO Execution started of HomeController.Default ()
+2013-12-06 14:41:16.1501 INFO Execution finished for Default
+2013-12-06 14:41:17.9781 INFO Execution started of MiniProfilerStartupModule.Init (context = ASP.global_asax, )
+2013-12-06 14:41:17.9781 INFO Execution finished for Init
+2013-12-06 14:41:18.4521 INFO Execution started of MvcApplication.Application_Error (sender = ASP.global_asax, e = System.EventArgs, )
+2013-12-06 14:41:18.4781 INFO Application_Error: System.Web.HttpException (0x80004005): File does not exist.
+   at System.Web.StaticFileHandler.ProcessRequestForNonMapPathBasedVirtualFile(HttpRequest request, HttpResponse response, String overrideVirtualPath)
+   at System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context, String overrideVirtualPath)
+   at System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2013-12-06 14:41:18.4781 INFO Execution started of ErrorController.DetailedError ()
+2013-12-06 14:41:18.4781 INFO Execution finished for DetailedError
+2013-12-06 14:41:18.4781 INFO Execution finished for Application_Error
+2013-12-06 14:41:20.0591 INFO Execution started of CommonService.GetUserDashboard (UserID = 1, )
+2013-12-06 14:41:20.0591 INFO Execution started of CommonFacade.GetDashboardData (UserID = 1, )
+2013-12-06 14:41:20.3741 INFO Execution finished for GetDashboardData
+2013-12-06 14:41:20.3741 INFO Execution finished for GetUserDashboard
+2013-12-06 14:41:23.0931 INFO Execution started of RequiredRoleAttribute.AuthorizeCore (httpContext = System.Web.HttpContextWrapper, )
+2013-12-06 14:41:23.0951 INFO Execution finished for AuthorizeCore
+2013-12-06 14:41:23.0951 INFO Execution started of AdminController.Index ()
+2013-12-06 14:41:23.0951 INFO Execution finished for Index
+2013-12-06 14:41:23.7801 INFO Execution started of MvcApplication.Application_Error (sender = ASP.global_asax, e = System.EventArgs, )
+2013-12-06 14:41:23.7821 INFO Application_Error: System.Web.HttpException (0x80004005): File does not exist.
+   at System.Web.StaticFileHandler.ProcessRequestForNonMapPathBasedVirtualFile(HttpRequest request, HttpResponse response, String overrideVirtualPath)
+   at System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context, String overrideVirtualPath)
+   at System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2013-12-06 14:41:23.7821 INFO Execution started of ErrorController.DetailedError ()
+2013-12-06 14:41:23.7821 INFO Execution finished for DetailedError
+2013-12-06 14:41:23.8031 INFO Execution finished for Application_Error
+2013-12-06 14:41:25.4831 INFO Execution started of UserController.ManageUser ()
+2013-12-06 14:41:25.4831 INFO Execution started of UserController.ManageUserDetail (id = 0, )
+2013-12-06 14:41:25.4831 INFO Execution started of OrganizationFacade.GetOrganization (orgid = 1, )
+2013-12-06 14:41:25.6401 INFO Execution finished for GetOrganization
+2013-12-06 14:41:25.6931 INFO Execution started of UserFacade.GetUserDetails (id = 0, )
+2013-12-06 14:41:25.7351 INFO Execution finished for GetUserDetails
+2013-12-06 14:41:25.8121 INFO Execution finished for ManageUserDetail
+2013-12-06 14:41:25.8121 INFO Execution finished for ManageUser
+2013-12-06 14:41:27.1791 INFO Execution started of MvcApplication.Application_Error (sender = ASP.global_asax, e = System.EventArgs, )
+2013-12-06 14:41:27.1791 INFO Application_Error: System.Web.HttpException (0x80004005): File does not exist.
+   at System.Web.StaticFileHandler.ProcessRequestForNonMapPathBasedVirtualFile(HttpRequest request, HttpResponse response, String overrideVirtualPath)
+   at System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context, String overrideVirtualPath)
+   at System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2013-12-06 14:41:27.1821 INFO Execution started of ErrorController.DetailedError ()
+2013-12-06 14:41:27.1821 INFO Execution finished for DetailedError
+2013-12-06 14:41:27.2041 INFO Execution finished for Application_Error
+2013-12-06 14:41:28.2051 INFO Execution started of MvcApplication.Application_Error (sender = ASP.global_asax, e = System.EventArgs, )
+2013-12-06 14:41:28.2121 INFO Application_Error: System.Web.HttpException (0x80004005): The controller for path '/images/loader.gif' was not found or does not implement IController.
+   at System.Web.Mvc.DefaultControllerFactory.GetControllerInstance(RequestContext requestContext, Type controllerType)
+   at System.Web.Mvc.DefaultControllerFactory.CreateController(RequestContext requestContext, String controllerName)
+   at System.Web.Mvc.MvcHandler.ProcessRequestInit(HttpContextBase httpContext, IController& controller, IControllerFactory& factory)
+   at System.Web.Mvc.MvcHandler.<>c__DisplayClass6.<BeginProcessRequest>b__2()
+   at System.Web.Mvc.SecurityUtil.<>c__DisplayClassb`1.<ProcessInApplicationTrust>b__a()
+   at System.Web.Mvc.SecurityUtil.<GetCallInAppTrustThunk>b__0(Action f)
+   at System.Web.Mvc.SecurityUtil.ProcessInApplicationTrust(Action action)
+   at System.Web.Mvc.SecurityUtil.ProcessInApplicationTrust[TResult](Func`1 func)
+   at System.Web.Mvc.MvcHandler.BeginProcessRequest(HttpContextBase httpContext, AsyncCallback callback, Object state)
+   at System.Web.Mvc.MvcHandler.BeginProcessRequest(HttpContext httpContext, AsyncCallback callback, Object state)
+   at System.Web.Mvc.MvcHandler.System.Web.IHttpAsyncHandler.BeginProcessRequest(HttpContext context, AsyncCallback cb, Object extraData)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2013-12-06 14:41:28.2121 INFO Execution started of ErrorController.DetailedError ()
+2013-12-06 14:41:28.2121 INFO Execution finished for DetailedError
+2013-12-06 14:41:28.2121 INFO Execution finished for Application_Error
+2013-12-06 14:41:34.0111 INFO Execution started of RequiredRoleAttribute.AuthorizeCore (httpContext = System.Web.HttpContextWrapper, )
+2013-12-06 14:41:34.0111 INFO Execution finished for AuthorizeCore
+2013-12-06 14:41:34.0141 INFO Execution started of UserController.Register ()
+2013-12-06 14:41:34.0141 INFO Execution started of OrganizationFacade.GetOrganization (orgid = 1, )
+2013-12-06 14:41:34.0451 INFO Execution finished for GetOrganization
+2013-12-06 14:41:34.0791 INFO Execution finished for Register
+2013-12-06 14:41:34.3031 INFO Execution started of MvcApplication.Application_Error (sender = ASP.global_asax, e = System.EventArgs, )
+2013-12-06 14:41:34.3111 INFO Application_Error: System.Web.HttpException (0x80004005): File does not exist.
+   at System.Web.StaticFileHandler.ProcessRequestForNonMapPathBasedVirtualFile(HttpRequest request, HttpResponse response, String overrideVirtualPath)
+   at System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context, String overrideVirtualPath)
+   at System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2013-12-06 14:41:34.3111 INFO Execution started of ErrorController.DetailedError ()
+2013-12-06 14:41:34.3111 INFO Execution finished for DetailedError
+2013-12-06 14:41:34.3371 INFO Execution finished for Application_Error
+2013-12-06 14:41:34.9591 INFO Execution started of MvcApplication.Application_Error (sender = ASP.global_asax, e = System.EventArgs, )
+2013-12-06 14:41:34.9591 INFO Application_Error: System.Web.HttpException (0x80004005): The controller for path '/images/loader.gif' was not found or does not implement IController.
+   at System.Web.Mvc.DefaultControllerFactory.GetControllerInstance(RequestContext requestContext, Type controllerType)
+   at System.Web.Mvc.DefaultControllerFactory.CreateController(RequestContext requestContext, String controllerName)
+   at System.Web.Mvc.MvcHandler.ProcessRequestInit(HttpContextBase httpContext, IController& controller, IControllerFactory& factory)
+   at System.Web.Mvc.MvcHandler.<>c__DisplayClass6.<BeginProcessRequest>b__2()
+   at System.Web.Mvc.SecurityUtil.<>c__DisplayClassb`1.<ProcessInApplicationTrust>b__a()
+   at System.Web.Mvc.SecurityUtil.<GetCallInAppTrustThunk>b__0(Action f)
+   at System.Web.Mvc.SecurityUtil.ProcessInApplicationTrust(Action action)
+   at System.Web.Mvc.SecurityUtil.ProcessInApplicationTrust[TResult](Func`1 func)
+   at System.Web.Mvc.MvcHandler.BeginProcessRequest(HttpContextBase httpContext, AsyncCallback callback, Object state)
+   at System.Web.Mvc.MvcHandler.BeginProcessRequest(HttpContext httpContext, AsyncCallback callback, Object state)
+   at System.Web.Mvc.MvcHandler.System.Web.IHttpAsyncHandler.BeginProcessRequest(HttpContext context, AsyncCallback cb, Object extraData)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2013-12-06 14:41:34.9591 INFO Execution started of ErrorController.DetailedError ()
+2013-12-06 14:41:34.9661 INFO Execution finished for DetailedError
+2013-12-06 14:41:34.9661 INFO Execution finished for Application_Error
+2013-12-06 14:45:08.0647 INFO Execution started of MvcApplication.Application_Start ()
+2013-12-06 14:45:08.0997 INFO Execution started of AdminAreaRegistration.get_AreaName ()
+2013-12-06 14:45:08.0997 INFO Execution finished for get_AreaName
+2013-12-06 14:45:08.1017 INFO Execution started of AdminAreaRegistration.RegisterArea (context = System.Web.Mvc.AreaRegistrationContext, )
+2013-12-06 14:45:08.1017 INFO Execution finished for RegisterArea
+2013-12-06 14:45:08.1017 INFO Execution finished for Application_Start
+2013-12-06 14:45:08.1577 INFO Execution started of MiniProfilerStartupModule.Init (context = ASP.global_asax, )
+2013-12-06 14:45:08.1577 INFO Execution finished for Init
+2013-12-06 14:45:08.2337 INFO Execution started of MvcApplication.Application_Error (sender = ASP.global_asax, e = System.EventArgs, )
+2013-12-06 14:45:08.2337 INFO Application_Error: System.Web.HttpException (0x80004005): Path '/Views/Home/Index.cshtml' was not found.
+   at System.Web.HttpNotFoundHandler.ProcessRequest(HttpContext context)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2013-12-06 14:45:08.2567 INFO Execution started of ErrorController.DetailedError ()
+2013-12-06 14:45:08.2577 INFO Execution finished for DetailedError
+2013-12-06 14:45:08.4677 INFO Execution finished for Application_Error
+2013-12-06 14:45:11.2150 INFO Execution started of HomeController.Index ()
+2013-12-06 14:45:11.2150 INFO Execution finished for Index
+2013-12-06 14:45:12.2591 INFO Execution started of MiniProfilerStartupModule.Init (context = ASP.global_asax, )
+2013-12-06 14:45:12.2591 INFO Execution finished for Init
+2013-12-06 14:45:13.4782 INFO Execution started of HomeController.Default ()
+2013-12-06 14:45:13.4782 INFO Execution finished for Default
+2013-12-06 14:45:15.0094 INFO Execution started of MvcApplication.Application_Error (sender = ASP.global_asax, e = System.EventArgs, )
+2013-12-06 14:45:15.0094 INFO Application_Error: System.Web.HttpException (0x80004005): File does not exist.
+   at System.Web.StaticFileHandler.ProcessRequestForNonMapPathBasedVirtualFile(HttpRequest request, HttpResponse response, String overrideVirtualPath)
+   at System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context, String overrideVirtualPath)
+   at System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2013-12-06 14:45:15.0094 INFO Execution started of ErrorController.DetailedError ()
+2013-12-06 14:45:15.0094 INFO Execution finished for DetailedError
+2013-12-06 14:45:15.0124 INFO Execution finished for Application_Error
+2013-12-06 14:45:16.2445 INFO Execution started of CommonService.GetUserDashboard (UserID = 1, )
+2013-12-06 14:45:16.2455 INFO Execution started of CommonFacade.GetDashboardData (UserID = 1, )
+2013-12-06 14:45:16.3315 INFO Execution finished for GetDashboardData
+2013-12-06 14:45:16.3315 INFO Execution finished for GetUserDashboard
+2013-12-06 14:45:18.1157 INFO Execution started of RequiredRoleAttribute.AuthorizeCore (httpContext = System.Web.HttpContextWrapper, )
+2013-12-06 14:45:18.1167 INFO Execution finished for AuthorizeCore
+2013-12-06 14:45:18.1167 INFO Execution started of AdminController.Index ()
+2013-12-06 14:45:18.1167 INFO Execution finished for Index
+2013-12-06 14:45:18.2887 INFO Execution started of MvcApplication.Application_Error (sender = ASP.global_asax, e = System.EventArgs, )
+2013-12-06 14:45:18.2887 INFO Application_Error: System.Web.HttpException (0x80004005): File does not exist.
+   at System.Web.StaticFileHandler.ProcessRequestForNonMapPathBasedVirtualFile(HttpRequest request, HttpResponse response, String overrideVirtualPath)
+   at System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context, String overrideVirtualPath)
+   at System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2013-12-06 14:45:18.2887 INFO Execution started of ErrorController.DetailedError ()
+2013-12-06 14:45:18.2887 INFO Execution finished for DetailedError
+2013-12-06 14:45:18.2887 INFO Execution finished for Application_Error
+2013-12-06 14:45:19.7018 INFO Execution started of UserController.ManageUser ()
+2013-12-06 14:45:19.7098 INFO Execution started of UserController.ManageUserDetail (id = 0, )
+2013-12-06 14:45:19.7098 INFO Execution started of OrganizationFacade.GetOrganization (orgid = 1, )
+2013-12-06 14:45:19.7518 INFO Execution finished for GetOrganization
+2013-12-06 14:45:19.7608 INFO Execution started of UserFacade.GetUserDetails (id = 0, )
+2013-12-06 14:45:19.7608 INFO Execution finished for GetUserDetails
+2013-12-06 14:45:19.8098 INFO Execution finished for ManageUserDetail
+2013-12-06 14:45:19.8098 INFO Execution finished for ManageUser
+2013-12-06 14:45:20.2189 INFO Execution started of MvcApplication.Application_Error (sender = ASP.global_asax, e = System.EventArgs, )
+2013-12-06 14:45:20.2189 INFO Application_Error: System.Web.HttpException (0x80004005): File does not exist.
+   at System.Web.StaticFileHandler.ProcessRequestForNonMapPathBasedVirtualFile(HttpRequest request, HttpResponse response, String overrideVirtualPath)
+   at System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context, String overrideVirtualPath)
+   at System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2013-12-06 14:45:20.2189 INFO Execution started of ErrorController.DetailedError ()
+2013-12-06 14:45:20.2189 INFO Execution finished for DetailedError
+2013-12-06 14:45:20.2229 INFO Execution finished for Application_Error
+2013-12-06 14:45:21.0680 INFO Execution started of MvcApplication.Application_Error (sender = ASP.global_asax, e = System.EventArgs, )
+2013-12-06 14:45:21.0680 INFO Application_Error: System.Web.HttpException (0x80004005): The controller for path '/images/loader.gif' was not found or does not implement IController.
+   at System.Web.Mvc.DefaultControllerFactory.GetControllerInstance(RequestContext requestContext, Type controllerType)
+   at System.Web.Mvc.DefaultControllerFactory.CreateController(RequestContext requestContext, String controllerName)
+   at System.Web.Mvc.MvcHandler.ProcessRequestInit(HttpContextBase httpContext, IController& controller, IControllerFactory& factory)
+   at System.Web.Mvc.MvcHandler.<>c__DisplayClass6.<BeginProcessRequest>b__2()
+   at System.Web.Mvc.SecurityUtil.<>c__DisplayClassb`1.<ProcessInApplicationTrust>b__a()
+   at System.Web.Mvc.SecurityUtil.<GetCallInAppTrustThunk>b__0(Action f)
+   at System.Web.Mvc.SecurityUtil.ProcessInApplicationTrust(Action action)
+   at System.Web.Mvc.SecurityUtil.ProcessInApplicationTrust[TResult](Func`1 func)
+   at System.Web.Mvc.MvcHandler.BeginProcessRequest(HttpContextBase httpContext, AsyncCallback callback, Object state)
+   at System.Web.Mvc.MvcHandler.BeginProcessRequest(HttpContext httpContext, AsyncCallback callback, Object state)
+   at System.Web.Mvc.MvcHandler.System.Web.IHttpAsyncHandler.BeginProcessRequest(HttpContext context, AsyncCallback cb, Object extraData)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2013-12-06 14:45:21.0680 INFO Execution started of ErrorController.DetailedError ()
+2013-12-06 14:45:21.0680 INFO Execution finished for DetailedError
+2013-12-06 14:45:21.0680 INFO Execution finished for Application_Error
+2013-12-06 14:45:22.0831 INFO Execution started of RequiredRoleAttribute.AuthorizeCore (httpContext = System.Web.HttpContextWrapper, )
+2013-12-06 14:45:22.0831 INFO Execution finished for AuthorizeCore
+2013-12-06 14:45:22.0831 INFO Execution started of UserController.Register ()
+2013-12-06 14:45:22.0831 INFO Execution started of OrganizationFacade.GetOrganization (orgid = 1, )
+2013-12-06 14:45:22.1111 INFO Execution finished for GetOrganization
+2013-12-06 14:45:22.1461 INFO Execution finished for Register
+2013-12-06 14:45:22.3741 INFO Execution started of MvcApplication.Application_Error (sender = ASP.global_asax, e = System.EventArgs, )
+2013-12-06 14:45:22.3761 INFO Application_Error: System.Web.HttpException (0x80004005): File does not exist.
+   at System.Web.StaticFileHandler.ProcessRequestForNonMapPathBasedVirtualFile(HttpRequest request, HttpResponse response, String overrideVirtualPath)
+   at System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context, String overrideVirtualPath)
+   at System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2013-12-06 14:45:22.3761 INFO Execution started of ErrorController.DetailedError ()
+2013-12-06 14:45:22.3761 INFO Execution finished for DetailedError
+2013-12-06 14:45:22.3761 INFO Execution finished for Application_Error
+2013-12-06 14:45:23.1712 INFO Execution started of MvcApplication.Application_Error (sender = ASP.global_asax, e = System.EventArgs, )
+2013-12-06 14:45:23.1722 INFO Application_Error: System.Web.HttpException (0x80004005): The controller for path '/images/loader.gif' was not found or does not implement IController.
+   at System.Web.Mvc.DefaultControllerFactory.GetControllerInstance(RequestContext requestContext, Type controllerType)
+   at System.Web.Mvc.DefaultControllerFactory.CreateController(RequestContext requestContext, String controllerName)
+   at System.Web.Mvc.MvcHandler.ProcessRequestInit(HttpContextBase httpContext, IController& controller, IControllerFactory& factory)
+   at System.Web.Mvc.MvcHandler.<>c__DisplayClass6.<BeginProcessRequest>b__2()
+   at System.Web.Mvc.SecurityUtil.<>c__DisplayClassb`1.<ProcessInApplicationTrust>b__a()
+   at System.Web.Mvc.SecurityUtil.<GetCallInAppTrustThunk>b__0(Action f)
+   at System.Web.Mvc.SecurityUtil.ProcessInApplicationTrust(Action action)
+   at System.Web.Mvc.SecurityUtil.ProcessInApplicationTrust[TResult](Func`1 func)
+   at System.Web.Mvc.MvcHandler.BeginProcessRequest(HttpContextBase httpContext, AsyncCallback callback, Object state)
+   at System.Web.Mvc.MvcHandler.BeginProcessRequest(HttpContext httpContext, AsyncCallback callback, Object state)
+   at System.Web.Mvc.MvcHandler.System.Web.IHttpAsyncHandler.BeginProcessRequest(HttpContext context, AsyncCallback cb, Object extraData)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2013-12-06 14:45:23.1722 INFO Execution started of ErrorController.DetailedError ()
+2013-12-06 14:45:23.1722 INFO Execution finished for DetailedError
+2013-12-06 14:45:23.1722 INFO Execution finished for Application_Error
+2013-12-06 14:51:34.0973 INFO Execution started of UserController.ManageUser ()
+2013-12-06 14:51:34.0973 INFO Execution started of UserController.ManageUserDetail (id = 0, )
+2013-12-06 14:51:34.0973 INFO Execution started of OrganizationFacade.GetOrganization (orgid = 1, )
+2013-12-06 14:51:34.0973 INFO Execution finished for GetOrganization
+2013-12-06 14:51:34.1133 INFO Execution started of UserFacade.GetUserDetails (id = 0, )
+2013-12-06 14:51:34.1133 INFO Execution finished for GetUserDetails
+2013-12-06 14:51:34.1133 INFO Execution finished for ManageUserDetail
+2013-12-06 14:51:34.1133 INFO Execution finished for ManageUser
+2013-12-06 14:51:34.5153 INFO Execution started of MiniProfilerStartupModule.Init (context = ASP.global_asax, )
+2013-12-06 14:51:34.5183 INFO Execution finished for Init
+2013-12-06 14:51:34.6103 INFO Execution started of MvcApplication.Application_Error (sender = ASP.global_asax, e = System.EventArgs, )
+2013-12-06 14:51:34.6103 INFO Application_Error: System.Web.HttpException (0x80004005): File does not exist.
+   at System.Web.StaticFileHandler.ProcessRequestForNonMapPathBasedVirtualFile(HttpRequest request, HttpResponse response, String overrideVirtualPath)
+   at System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context, String overrideVirtualPath)
+   at System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2013-12-06 14:51:34.6103 INFO Execution started of ErrorController.DetailedError ()
+2013-12-06 14:51:34.6103 INFO Execution finished for DetailedError
+2013-12-06 14:51:34.6103 INFO Execution finished for Application_Error
+2013-12-06 14:51:35.2404 INFO Execution started of MvcApplication.Application_Error (sender = ASP.global_asax, e = System.EventArgs, )
+2013-12-06 14:51:35.2404 INFO Application_Error: System.Web.HttpException (0x80004005): The controller for path '/images/loader.gif' was not found or does not implement IController.
+   at System.Web.Mvc.DefaultControllerFactory.GetControllerInstance(RequestContext requestContext, Type controllerType)
+   at System.Web.Mvc.DefaultControllerFactory.CreateController(RequestContext requestContext, String controllerName)
+   at System.Web.Mvc.MvcHandler.ProcessRequestInit(HttpContextBase httpContext, IController& controller, IControllerFactory& factory)
+   at System.Web.Mvc.MvcHandler.<>c__DisplayClass6.<BeginProcessRequest>b__2()
+   at System.Web.Mvc.SecurityUtil.<>c__DisplayClassb`1.<ProcessInApplicationTrust>b__a()
+   at System.Web.Mvc.SecurityUtil.<GetCallInAppTrustThunk>b__0(Action f)
+   at System.Web.Mvc.SecurityUtil.ProcessInApplicationTrust(Action action)
+   at System.Web.Mvc.SecurityUtil.ProcessInApplicationTrust[TResult](Func`1 func)
+   at System.Web.Mvc.MvcHandler.BeginProcessRequest(HttpContextBase httpContext, AsyncCallback callback, Object state)
+   at System.Web.Mvc.MvcHandler.BeginProcessRequest(HttpContext httpContext, AsyncCallback callback, Object state)
+   at System.Web.Mvc.MvcHandler.System.Web.IHttpAsyncHandler.BeginProcessRequest(HttpContext context, AsyncCallback cb, Object extraData)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2013-12-06 14:51:35.2404 INFO Execution started of ErrorController.DetailedError ()
+2013-12-06 14:51:35.2404 INFO Execution finished for DetailedError
+2013-12-06 14:51:35.2404 INFO Execution finished for Application_Error
+2013-12-06 14:51:37.6706 INFO Execution started of UserController.SearchUser (UserName = n, )
+2013-12-06 14:51:37.6706 INFO Execution started of UserController.GetUsersFilteredUserList (orgid = 1, username = n, )
+2013-12-06 14:51:37.6706 INFO Execution started of AccountService.GetUserDetailsByOrganizationID (orgid = 1, userName = n, )
+2013-12-06 14:51:37.6706 INFO Execution started of UserFacade.GetUserDetailsByOrganizationID (orgid = 1, userName = n, )
+2013-12-06 14:51:37.7606 INFO Execution finished for GetUserDetailsByOrganizationID
+2013-12-06 14:51:37.7616 INFO Execution finished for GetUserDetailsByOrganizationID
+2013-12-06 14:51:37.7616 INFO Execution finished for GetUsersFilteredUserList
+2013-12-06 14:51:37.7616 INFO Execution finished for SearchUser
+2013-12-06 14:51:38.0006 INFO Execution started of UserController.SearchUser (UserName = nsi, )
+2013-12-06 14:51:38.0006 INFO Execution started of UserController.GetUsersFilteredUserList (orgid = 1, username = nsi, )
+2013-12-06 14:51:38.0006 INFO Execution started of AccountService.GetUserDetailsByOrganizationID (orgid = 1, userName = nsi, )
+2013-12-06 14:51:38.0006 INFO Execution started of UserFacade.GetUserDetailsByOrganizationID (orgid = 1, userName = nsi, )
+2013-12-06 14:51:38.0006 INFO Execution started of UserController.SearchUser (UserName = nsin, )
+2013-12-06 14:51:38.0006 INFO Execution started of UserController.GetUsersFilteredUserList (orgid = 1, username = nsin, )
+2013-12-06 14:51:38.0006 INFO Execution started of AccountService.GetUserDetailsByOrganizationID (orgid = 1, userName = nsin, )
+2013-12-06 14:51:38.0006 INFO Execution started of UserFacade.GetUserDetailsByOrganizationID (orgid = 1, userName = nsin, )
+2013-12-06 14:51:38.0006 INFO Execution finished for GetUserDetailsByOrganizationID
+2013-12-06 14:51:38.0167 INFO Execution finished for GetUserDetailsByOrganizationID
+2013-12-06 14:51:38.0167 INFO Execution finished for GetUsersFilteredUserList
+2013-12-06 14:51:38.0167 INFO Execution finished for SearchUser
+2013-12-06 14:51:38.0167 INFO Execution finished for GetUserDetailsByOrganizationID
+2013-12-06 14:51:38.0167 INFO Execution finished for GetUserDetailsByOrganizationID
+2013-12-06 14:51:38.0167 INFO Execution finished for GetUsersFilteredUserList
+2013-12-06 14:51:38.0167 INFO Execution finished for SearchUser
+2013-12-06 14:51:38.0167 INFO Execution started of MiniProfilerStartupModule.Init (context = ASP.global_asax, )
+2013-12-06 14:51:38.0287 INFO Execution finished for Init
+2013-12-06 14:51:38.0437 INFO Execution started of UserController.SearchUser (UserName = nsin, )
+2013-12-06 14:51:38.0437 INFO Execution started of UserController.GetUsersFilteredUserList (orgid = 1, username = nsin, )
+2013-12-06 14:51:38.0437 INFO Execution started of AccountService.GetUserDetailsByOrganizationID (orgid = 1, userName = nsin, )
+2013-12-06 14:51:38.0437 INFO Execution started of UserFacade.GetUserDetailsByOrganizationID (orgid = 1, userName = nsin, )
+2013-12-06 14:51:38.0587 INFO Execution finished for GetUserDetailsByOrganizationID
+2013-12-06 14:51:38.0587 INFO Execution finished for GetUserDetailsByOrganizationID
+2013-12-06 14:51:38.0587 INFO Execution finished for GetUsersFilteredUserList
+2013-12-06 14:51:38.0587 INFO Execution finished for SearchUser
+2013-12-06 14:51:41.6770 INFO Execution started of AccountService.GetUserDetails (email = nsinha@hotmail.com, )
+2013-12-06 14:51:41.6790 INFO Execution started of UserFacade.GetUserDetails (email = nsinha@hotmail.com, )
+2013-12-06 14:51:41.6790 INFO Execution finished for GetUserDetails
+2013-12-06 14:51:41.6790 INFO Execution finished for GetUserDetails
+2013-12-06 14:51:41.8520 INFO Execution started of RequiredRoleAttribute.AuthorizeCore (httpContext = System.Web.HttpContextWrapper, )
+2013-12-06 14:51:41.8520 INFO Execution finished for AuthorizeCore
+2013-12-06 14:51:41.8520 INFO Execution started of UserController.ManageUserDetail (id = 7, )
+2013-12-06 14:51:41.8520 INFO Execution started of OrganizationFacade.GetOrganization (orgid = 1, )
+2013-12-06 14:51:41.8670 INFO Execution finished for GetOrganization
+2013-12-06 14:51:41.8670 INFO Execution started of UserFacade.GetUserDetails (id = 7, )
+2013-12-06 14:51:41.9010 INFO Execution finished for GetUserDetails
+2013-12-06 14:51:41.9010 INFO Execution finished for ManageUserDetail
+2013-12-06 14:51:41.9770 INFO Execution started of MvcApplication.Application_Error (sender = ASP.global_asax, e = System.EventArgs, )
+2013-12-06 14:51:41.9770 INFO Application_Error: System.Web.HttpException (0x80004005): File does not exist.
+   at System.Web.StaticFileHandler.ProcessRequestForNonMapPathBasedVirtualFile(HttpRequest request, HttpResponse response, String overrideVirtualPath)
+   at System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context, String overrideVirtualPath)
+   at System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2013-12-06 14:51:41.9770 INFO Execution started of ErrorController.DetailedError ()
+2013-12-06 14:51:41.9770 INFO Execution finished for DetailedError
+2013-12-06 14:51:41.9770 INFO Execution finished for Application_Error
+2013-12-06 14:51:42.8941 INFO Execution started of MvcApplication.Application_Error (sender = ASP.global_asax, e = System.EventArgs, )
+2013-12-06 14:51:42.8941 INFO Application_Error: System.Web.HttpException (0x80004005): The controller for path '/images/loader.gif' was not found or does not implement IController.
+   at System.Web.Mvc.DefaultControllerFactory.GetControllerInstance(RequestContext requestContext, Type controllerType)
+   at System.Web.Mvc.DefaultControllerFactory.CreateController(RequestContext requestContext, String controllerName)
+   at System.Web.Mvc.MvcHandler.ProcessRequestInit(HttpContextBase httpContext, IController& controller, IControllerFactory& factory)
+   at System.Web.Mvc.MvcHandler.<>c__DisplayClass6.<BeginProcessRequest>b__2()
+   at System.Web.Mvc.SecurityUtil.<>c__DisplayClassb`1.<ProcessInApplicationTrust>b__a()
+   at System.Web.Mvc.SecurityUtil.<GetCallInAppTrustThunk>b__0(Action f)
+   at System.Web.Mvc.SecurityUtil.ProcessInApplicationTrust(Action action)
+   at System.Web.Mvc.SecurityUtil.ProcessInApplicationTrust[TResult](Func`1 func)
+   at System.Web.Mvc.MvcHandler.BeginProcessRequest(HttpContextBase httpContext, AsyncCallback callback, Object state)
+   at System.Web.Mvc.MvcHandler.BeginProcessRequest(HttpContext httpContext, AsyncCallback callback, Object state)
+   at System.Web.Mvc.MvcHandler.System.Web.IHttpAsyncHandler.BeginProcessRequest(HttpContext context, AsyncCallback cb, Object extraData)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2013-12-06 14:51:42.8941 INFO Execution started of ErrorController.DetailedError ()
+2013-12-06 14:51:42.8941 INFO Execution finished for DetailedError
+2013-12-06 14:51:42.8941 INFO Execution finished for Application_Error
+2013-12-06 15:05:45.4904 INFO Execution started of MvcApplication.Application_Start ()
+2013-12-06 15:05:45.5304 INFO Execution started of AdminAreaRegistration.get_AreaName ()
+2013-12-06 15:05:45.5304 INFO Execution finished for get_AreaName
+2013-12-06 15:05:45.5304 INFO Execution started of AdminAreaRegistration.RegisterArea (context = System.Web.Mvc.AreaRegistrationContext, )
+2013-12-06 15:05:45.5304 INFO Execution finished for RegisterArea
+2013-12-06 15:05:45.5384 INFO Execution finished for Application_Start
+2013-12-06 15:05:45.7754 INFO Execution started of MiniProfilerStartupModule.Init (context = ASP.global_asax, )
+2013-12-06 15:05:45.7754 INFO Execution finished for Init
+2013-12-06 15:05:45.9854 INFO Execution started of MvcApplication.Application_Error (sender = ASP.global_asax, e = System.EventArgs, )
+2013-12-06 15:05:46.0314 INFO Application_Error: System.Web.HttpException (0x80004005): Path '/Areas/Admin/Views/User/Register.cshtml' was not found.
+   at System.Web.HttpNotFoundHandler.ProcessRequest(HttpContext context)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2013-12-06 15:05:46.0454 INFO Execution started of ErrorController.DetailedError ()
+2013-12-06 15:05:46.0454 INFO Execution finished for DetailedError
+2013-12-06 15:05:46.3915 INFO Execution finished for Application_Error
+2013-12-06 15:05:49.3378 INFO Execution started of HomeController.Index ()
+2013-12-06 15:05:49.3378 INFO Execution finished for Index
+2013-12-06 15:05:49.5688 INFO Execution started of MiniProfilerStartupModule.Init (context = ASP.global_asax, )
+2013-12-06 15:05:49.5688 INFO Execution finished for Init
+2013-12-06 15:05:51.3840 INFO Execution started of HomeController.Default ()
+2013-12-06 15:05:51.3840 INFO Execution finished for Default
+2013-12-06 15:05:53.9332 INFO Execution started of MvcApplication.Application_Error (sender = ASP.global_asax, e = System.EventArgs, )
+2013-12-06 15:05:53.9332 INFO Application_Error: System.Web.HttpException (0x80004005): File does not exist.
+   at System.Web.StaticFileHandler.ProcessRequestForNonMapPathBasedVirtualFile(HttpRequest request, HttpResponse response, String overrideVirtualPath)
+   at System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context, String overrideVirtualPath)
+   at System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2013-12-06 15:05:53.9332 INFO Execution started of ErrorController.DetailedError ()
+2013-12-06 15:05:53.9332 INFO Execution finished for DetailedError
+2013-12-06 15:05:53.9332 INFO Execution finished for Application_Error
+2013-12-06 15:05:55.4314 INFO Execution started of CommonService.GetUserDashboard (UserID = 1, )
+2013-12-06 15:05:55.4314 INFO Execution started of CommonFacade.GetDashboardData (UserID = 1, )
+2013-12-06 15:05:55.6634 INFO Execution finished for GetDashboardData
+2013-12-06 15:05:55.6634 INFO Execution finished for GetUserDashboard
+2013-12-06 15:05:57.1566 INFO Execution started of RequiredRoleAttribute.AuthorizeCore (httpContext = System.Web.HttpContextWrapper, )
+2013-12-06 15:05:57.1566 INFO Execution finished for AuthorizeCore
+2013-12-06 15:05:57.1566 INFO Execution started of AdminController.Index ()
+2013-12-06 15:05:57.1616 INFO Execution finished for Index
+2013-12-06 15:05:57.3566 INFO Execution started of MvcApplication.Application_Error (sender = ASP.global_asax, e = System.EventArgs, )
+2013-12-06 15:05:57.3566 INFO Application_Error: System.Web.HttpException (0x80004005): File does not exist.
+   at System.Web.StaticFileHandler.ProcessRequestForNonMapPathBasedVirtualFile(HttpRequest request, HttpResponse response, String overrideVirtualPath)
+   at System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context, String overrideVirtualPath)
+   at System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2013-12-06 15:05:57.3626 INFO Execution started of ErrorController.DetailedError ()
+2013-12-06 15:05:57.3626 INFO Execution finished for DetailedError
+2013-12-06 15:05:57.3626 INFO Execution finished for Application_Error
+2013-12-06 15:05:58.9677 INFO Execution started of UserController.ManageUser ()
+2013-12-06 15:05:58.9717 INFO Execution started of UserController.ManageUserDetail (id = 0, )
+2013-12-06 15:05:58.9717 INFO Execution started of OrganizationFacade.GetOrganization (orgid = 1, )
+2013-12-06 15:05:59.0127 INFO Execution finished for GetOrganization
+2013-12-06 15:05:59.0207 INFO Execution started of UserFacade.GetUserDetails (id = 0, )
+2013-12-06 15:05:59.0207 INFO Execution finished for GetUserDetails
+2013-12-06 15:05:59.0597 INFO Execution finished for ManageUserDetail
+2013-12-06 15:05:59.0597 INFO Execution finished for ManageUser
+2013-12-06 15:05:59.5068 INFO Execution started of MvcApplication.Application_Error (sender = ASP.global_asax, e = System.EventArgs, )
+2013-12-06 15:05:59.5068 INFO Application_Error: System.Web.HttpException (0x80004005): File does not exist.
+   at System.Web.StaticFileHandler.ProcessRequestForNonMapPathBasedVirtualFile(HttpRequest request, HttpResponse response, String overrideVirtualPath)
+   at System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context, String overrideVirtualPath)
+   at System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2013-12-06 15:05:59.5068 INFO Execution started of ErrorController.DetailedError ()
+2013-12-06 15:05:59.5068 INFO Execution finished for DetailedError
+2013-12-06 15:05:59.5068 INFO Execution finished for Application_Error
+2013-12-06 15:06:00.4179 INFO Execution started of MvcApplication.Application_Error (sender = ASP.global_asax, e = System.EventArgs, )
+2013-12-06 15:06:00.4219 INFO Application_Error: System.Web.HttpException (0x80004005): The controller for path '/images/loader.gif' was not found or does not implement IController.
+   at System.Web.Mvc.DefaultControllerFactory.GetControllerInstance(RequestContext requestContext, Type controllerType)
+   at System.Web.Mvc.DefaultControllerFactory.CreateController(RequestContext requestContext, String controllerName)
+   at System.Web.Mvc.MvcHandler.ProcessRequestInit(HttpContextBase httpContext, IController& controller, IControllerFactory& factory)
+   at System.Web.Mvc.MvcHandler.<>c__DisplayClass6.<BeginProcessRequest>b__2()
+   at System.Web.Mvc.SecurityUtil.<>c__DisplayClassb`1.<ProcessInApplicationTrust>b__a()
+   at System.Web.Mvc.SecurityUtil.<GetCallInAppTrustThunk>b__0(Action f)
+   at System.Web.Mvc.SecurityUtil.ProcessInApplicationTrust(Action action)
+   at System.Web.Mvc.SecurityUtil.ProcessInApplicationTrust[TResult](Func`1 func)
+   at System.Web.Mvc.MvcHandler.BeginProcessRequest(HttpContextBase httpContext, AsyncCallback callback, Object state)
+   at System.Web.Mvc.MvcHandler.BeginProcessRequest(HttpContext httpContext, AsyncCallback callback, Object state)
+   at System.Web.Mvc.MvcHandler.System.Web.IHttpAsyncHandler.BeginProcessRequest(HttpContext context, AsyncCallback cb, Object extraData)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2013-12-06 15:06:00.4219 INFO Execution started of ErrorController.DetailedError ()
+2013-12-06 15:06:00.4219 INFO Execution finished for DetailedError
+2013-12-06 15:06:00.4219 INFO Execution finished for Application_Error
+2013-12-06 15:06:01.5030 INFO Execution started of RequiredRoleAttribute.AuthorizeCore (httpContext = System.Web.HttpContextWrapper, )
+2013-12-06 15:06:01.5030 INFO Execution finished for AuthorizeCore
+2013-12-06 15:06:01.5030 INFO Execution started of UserController.Register ()
+2013-12-06 15:06:01.5030 INFO Execution started of OrganizationFacade.GetOrganization (orgid = 1, )
+2013-12-06 15:06:01.5220 INFO Execution finished for GetOrganization
+2013-12-06 15:06:01.5620 INFO Execution finished for Register
+2013-12-06 15:06:01.7840 INFO Execution started of MvcApplication.Application_Error (sender = ASP.global_asax, e = System.EventArgs, )
+2013-12-06 15:06:01.7840 INFO Application_Error: System.Web.HttpException (0x80004005): File does not exist.
+   at System.Web.StaticFileHandler.ProcessRequestForNonMapPathBasedVirtualFile(HttpRequest request, HttpResponse response, String overrideVirtualPath)
+   at System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context, String overrideVirtualPath)
+   at System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2013-12-06 15:06:01.7840 INFO Execution started of ErrorController.DetailedError ()
+2013-12-06 15:06:01.7840 INFO Execution finished for DetailedError
+2013-12-06 15:06:01.7840 INFO Execution finished for Application_Error
+2013-12-06 15:06:02.6311 INFO Execution started of MvcApplication.Application_Error (sender = ASP.global_asax, e = System.EventArgs, )
+2013-12-06 15:06:02.6311 INFO Application_Error: System.Web.HttpException (0x80004005): The controller for path '/images/loader.gif' was not found or does not implement IController.
+   at System.Web.Mvc.DefaultControllerFactory.GetControllerInstance(RequestContext requestContext, Type controllerType)
+   at System.Web.Mvc.DefaultControllerFactory.CreateController(RequestContext requestContext, String controllerName)
+   at System.Web.Mvc.MvcHandler.ProcessRequestInit(HttpContextBase httpContext, IController& controller, IControllerFactory& factory)
+   at System.Web.Mvc.MvcHandler.<>c__DisplayClass6.<BeginProcessRequest>b__2()
+   at System.Web.Mvc.SecurityUtil.<>c__DisplayClassb`1.<ProcessInApplicationTrust>b__a()
+   at System.Web.Mvc.SecurityUtil.<GetCallInAppTrustThunk>b__0(Action f)
+   at System.Web.Mvc.SecurityUtil.ProcessInApplicationTrust(Action action)
+   at System.Web.Mvc.SecurityUtil.ProcessInApplicationTrust[TResult](Func`1 func)
+   at System.Web.Mvc.MvcHandler.BeginProcessRequest(HttpContextBase httpContext, AsyncCallback callback, Object state)
+   at System.Web.Mvc.MvcHandler.BeginProcessRequest(HttpContext httpContext, AsyncCallback callback, Object state)
+   at System.Web.Mvc.MvcHandler.System.Web.IHttpAsyncHandler.BeginProcessRequest(HttpContext context, AsyncCallback cb, Object extraData)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2013-12-06 15:06:02.6311 INFO Execution started of ErrorController.DetailedError ()
+2013-12-06 15:06:02.6311 INFO Execution finished for DetailedError
+2013-12-06 15:06:02.6361 INFO Execution finished for Application_Error
+2013-12-06 15:06:48.9627 INFO Execution started of MvcApplication.Application_Start ()
+2013-12-06 15:06:49.0037 INFO Execution started of AdminAreaRegistration.get_AreaName ()
+2013-12-06 15:06:49.0037 INFO Execution finished for get_AreaName
+2013-12-06 15:06:49.0037 INFO Execution started of AdminAreaRegistration.RegisterArea (context = System.Web.Mvc.AreaRegistrationContext, )
+2013-12-06 15:06:49.0037 INFO Execution finished for RegisterArea
+2013-12-06 15:06:49.0037 INFO Execution finished for Application_Start
+2013-12-06 15:06:49.0547 INFO Execution started of MiniProfilerStartupModule.Init (context = ASP.global_asax, )
+2013-12-06 15:06:49.0547 INFO Execution finished for Init
+2013-12-06 15:06:49.2018 INFO Execution started of HomeController.Index ()
+2013-12-06 15:06:49.2018 INFO Execution finished for Index
+2013-12-06 15:06:49.3128 INFO Execution started of MiniProfilerStartupModule.Init (context = ASP.global_asax, )
+2013-12-06 15:06:49.3128 INFO Execution started of MiniProfilerStartupModule.Init (context = ASP.global_asax, )
+2013-12-06 15:06:49.3158 INFO Execution finished for Init
+2013-12-06 15:06:49.3158 INFO Execution finished for Init
+2013-12-06 15:06:49.8978 INFO Execution started of MvcApplication.Application_Error (sender = ASP.global_asax, e = System.EventArgs, )
+2013-12-06 15:06:49.8978 INFO Application_Error: System.Web.HttpException (0x80004005): The controller for path '/favicon.ico' was not found or does not implement IController.
+   at System.Web.Mvc.DefaultControllerFactory.GetControllerInstance(RequestContext requestContext, Type controllerType)
+   at System.Web.Mvc.DefaultControllerFactory.CreateController(RequestContext requestContext, String controllerName)
+   at System.Web.Mvc.MvcHandler.ProcessRequestInit(HttpContextBase httpContext, IController& controller, IControllerFactory& factory)
+   at System.Web.Mvc.MvcHandler.<>c__DisplayClass6.<BeginProcessRequest>b__2()
+   at System.Web.Mvc.SecurityUtil.<>c__DisplayClassb`1.<ProcessInApplicationTrust>b__a()
+   at System.Web.Mvc.SecurityUtil.<GetCallInAppTrustThunk>b__0(Action f)
+   at System.Web.Mvc.SecurityUtil.ProcessInApplicationTrust(Action action)
+   at System.Web.Mvc.SecurityUtil.ProcessInApplicationTrust[TResult](Func`1 func)
+   at System.Web.Mvc.MvcHandler.BeginProcessRequest(HttpContextBase httpContext, AsyncCallback callback, Object state)
+   at System.Web.Mvc.MvcHandler.BeginProcessRequest(HttpContext httpContext, AsyncCallback callback, Object state)
+   at System.Web.Mvc.MvcHandler.System.Web.IHttpAsyncHandler.BeginProcessRequest(HttpContext context, AsyncCallback cb, Object extraData)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2013-12-06 15:06:49.9058 INFO Execution started of ErrorController.DetailedError ()
+2013-12-06 15:06:49.9058 INFO Execution finished for DetailedError
+2013-12-06 15:06:50.0668 INFO Execution finished for Application_Error
+2013-12-06 15:06:51.1610 INFO Execution started of AccountController.LogOn (returnUrl = /Home/Default, )
+2013-12-06 15:06:51.2070 INFO Execution finished for LogOn
+2013-12-06 15:06:52.5991 INFO Execution started of MiniProfilerStartupModule.Init (context = ASP.global_asax, )
+2013-12-06 15:06:52.6061 INFO Execution finished for Init
+2013-12-06 15:07:02.0050 INFO Execution started of AccountController.LogOn (model = Confluence.Blueprint.Models.LogOnModel, )
+2013-12-06 15:07:02.0050 INFO Execution started of AccountService.GetUserDetails (email = admin@eqms.com, )
+2013-12-06 15:07:02.0050 INFO Execution started of UserFacade.GetUserDetails (email = admin@eqms.com, )
+2013-12-06 15:07:02.1100 INFO Execution finished for GetUserDetails
+2013-12-06 15:07:02.1100 INFO Execution finished for GetUserDetails
+2013-12-06 15:07:02.1100 INFO Execution started of BaseController.Redirect (url = /Home/Default, )
+2013-12-06 15:07:02.1100 INFO Execution finished for Redirect
+2013-12-06 15:07:02.1100 INFO Execution finished for LogOn
+2013-12-06 15:07:02.1100 INFO Execution started of AjaxAwareRedirectResult.ExecuteResult (context = System.Web.Mvc.ControllerContext, )
+2013-12-06 15:07:02.1250 INFO Execution finished for ExecuteResult
+2013-12-06 15:07:02.1471 INFO Execution started of HomeController.Default ()
+2013-12-06 15:07:02.1471 INFO Execution finished for Default
+2013-12-06 15:07:02.9991 INFO Execution started of MvcApplication.Application_Error (sender = ASP.global_asax, e = System.EventArgs, )
+2013-12-06 15:07:02.9991 INFO Application_Error: System.Web.HttpException (0x80004005): File does not exist.
+   at System.Web.StaticFileHandler.ProcessRequestForNonMapPathBasedVirtualFile(HttpRequest request, HttpResponse response, String overrideVirtualPath)
+   at System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context, String overrideVirtualPath)
+   at System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2013-12-06 15:07:02.9991 INFO Execution started of ErrorController.DetailedError ()
+2013-12-06 15:07:02.9991 INFO Execution finished for DetailedError
+2013-12-06 15:07:02.9991 INFO Execution finished for Application_Error
+2013-12-06 15:07:04.1162 INFO Execution started of CommonService.GetUserDashboard (UserID = 1, )
+2013-12-06 15:07:04.1182 INFO Execution started of CommonFacade.GetDashboardData (UserID = 1, )
+2013-12-06 15:07:04.1362 INFO Execution finished for GetDashboardData
+2013-12-06 15:07:04.1362 INFO Execution finished for GetUserDashboard
+2013-12-06 15:07:05.3704 INFO Execution started of RequiredRoleAttribute.AuthorizeCore (httpContext = System.Web.HttpContextWrapper, )
+2013-12-06 15:07:05.3704 INFO Execution finished for AuthorizeCore
+2013-12-06 15:07:05.3704 INFO Execution started of AdminController.Index ()
+2013-12-06 15:07:05.3704 INFO Execution finished for Index
+2013-12-06 15:07:05.6794 INFO Execution started of MvcApplication.Application_Error (sender = ASP.global_asax, e = System.EventArgs, )
+2013-12-06 15:07:05.6794 INFO Application_Error: System.Web.HttpException (0x80004005): File does not exist.
+   at System.Web.StaticFileHandler.ProcessRequestForNonMapPathBasedVirtualFile(HttpRequest request, HttpResponse response, String overrideVirtualPath)
+   at System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context, String overrideVirtualPath)
+   at System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2013-12-06 15:07:05.6794 INFO Execution started of ErrorController.DetailedError ()
+2013-12-06 15:07:05.6954 INFO Execution finished for DetailedError
+2013-12-06 15:07:05.6954 INFO Execution finished for Application_Error
+2013-12-06 15:07:06.6585 INFO Execution started of UserController.ManageUser ()
+2013-12-06 15:07:06.6615 INFO Execution started of UserController.ManageUserDetail (id = 0, )
+2013-12-06 15:07:06.6615 INFO Execution started of OrganizationFacade.GetOrganization (orgid = 1, )
+2013-12-06 15:07:06.6965 INFO Execution finished for GetOrganization
+2013-12-06 15:07:06.6965 INFO Execution started of UserFacade.GetUserDetails (id = 0, )
+2013-12-06 15:07:06.7115 INFO Execution finished for GetUserDetails
+2013-12-06 15:07:06.7455 INFO Execution finished for ManageUserDetail
+2013-12-06 15:07:06.7455 INFO Execution finished for ManageUser
+2013-12-06 15:07:07.1195 INFO Execution started of MvcApplication.Application_Error (sender = ASP.global_asax, e = System.EventArgs, )
+2013-12-06 15:07:07.1195 INFO Application_Error: System.Web.HttpException (0x80004005): File does not exist.
+   at System.Web.StaticFileHandler.ProcessRequestForNonMapPathBasedVirtualFile(HttpRequest request, HttpResponse response, String overrideVirtualPath)
+   at System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context, String overrideVirtualPath)
+   at System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2013-12-06 15:07:07.1195 INFO Execution started of ErrorController.DetailedError ()
+2013-12-06 15:07:07.1195 INFO Execution finished for DetailedError
+2013-12-06 15:07:07.1305 INFO Execution finished for Application_Error
+2013-12-06 15:07:07.4996 INFO Execution started of MvcApplication.Application_Error (sender = ASP.global_asax, e = System.EventArgs, )
+2013-12-06 15:07:07.4996 INFO Application_Error: System.Web.HttpException (0x80004005): The controller for path '/images/loader.gif' was not found or does not implement IController.
+   at System.Web.Mvc.DefaultControllerFactory.GetControllerInstance(RequestContext requestContext, Type controllerType)
+   at System.Web.Mvc.DefaultControllerFactory.CreateController(RequestContext requestContext, String controllerName)
+   at System.Web.Mvc.MvcHandler.ProcessRequestInit(HttpContextBase httpContext, IController& controller, IControllerFactory& factory)
+   at System.Web.Mvc.MvcHandler.<>c__DisplayClass6.<BeginProcessRequest>b__2()
+   at System.Web.Mvc.SecurityUtil.<>c__DisplayClassb`1.<ProcessInApplicationTrust>b__a()
+   at System.Web.Mvc.SecurityUtil.<GetCallInAppTrustThunk>b__0(Action f)
+   at System.Web.Mvc.SecurityUtil.ProcessInApplicationTrust(Action action)
+   at System.Web.Mvc.SecurityUtil.ProcessInApplicationTrust[TResult](Func`1 func)
+   at System.Web.Mvc.MvcHandler.BeginProcessRequest(HttpContextBase httpContext, AsyncCallback callback, Object state)
+   at System.Web.Mvc.MvcHandler.BeginProcessRequest(HttpContext httpContext, AsyncCallback callback, Object state)
+   at System.Web.Mvc.MvcHandler.System.Web.IHttpAsyncHandler.BeginProcessRequest(HttpContext context, AsyncCallback cb, Object extraData)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2013-12-06 15:07:07.4996 INFO Execution started of ErrorController.DetailedError ()
+2013-12-06 15:07:07.5036 INFO Execution finished for DetailedError
+2013-12-06 15:07:07.5036 INFO Execution finished for Application_Error
+2013-12-06 15:07:08.7817 INFO Execution started of RequiredRoleAttribute.AuthorizeCore (httpContext = System.Web.HttpContextWrapper, )
+2013-12-06 15:07:08.7827 INFO Execution finished for AuthorizeCore
+2013-12-06 15:07:08.7827 INFO Execution started of UserController.Register ()
+2013-12-06 15:07:08.7827 INFO Execution started of OrganizationFacade.GetOrganization (orgid = 1, )
+2013-12-06 15:07:08.7987 INFO Execution finished for GetOrganization
+2013-12-06 15:07:08.8377 INFO Execution finished for Register
+2013-12-06 15:07:09.0987 INFO Execution started of MvcApplication.Application_Error (sender = ASP.global_asax, e = System.EventArgs, )
+2013-12-06 15:07:09.0987 INFO Application_Error: System.Web.HttpException (0x80004005): File does not exist.
+   at System.Web.StaticFileHandler.ProcessRequestForNonMapPathBasedVirtualFile(HttpRequest request, HttpResponse response, String overrideVirtualPath)
+   at System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context, String overrideVirtualPath)
+   at System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2013-12-06 15:07:09.0987 INFO Execution started of ErrorController.DetailedError ()
+2013-12-06 15:07:09.0987 INFO Execution finished for DetailedError
+2013-12-06 15:07:09.1167 INFO Execution finished for Application_Error
+2013-12-06 15:07:47.6206 INFO Execution started of UserController.Register (model = Confluence.Blueprint.Models.UserModel, )
+2013-12-06 15:07:47.6306 INFO Execution started of UserFacade.CreateOrModify (model = Confluence.Blueprint.Models.UserModel, )
+2013-12-06 15:07:47.8466 INFO Execution started of UserFacade.SaveUserRoleGroup (userrgId = 0, userId = 62, rolegroup = 1, dept = 1, subdept = 0, granted = True, )
+2013-12-06 15:07:47.8996 INFO Execution finished for SaveUserRoleGroup
+2013-12-06 15:07:47.8996 INFO Execution started of UserFacade.SaveUserRoleGroup (userrgId = 0, userId = 62, rolegroup = 2, dept = 1, subdept = 0, granted = False, )
+2013-12-06 15:07:47.9106 INFO Execution finished for SaveUserRoleGroup
+2013-12-06 15:07:47.9106 INFO Execution started of UserFacade.SaveUserRoleGroup (userrgId = 0, userId = 62, rolegroup = 3, dept = 1, subdept = 0, granted = False, )
+2013-12-06 15:07:47.9106 INFO Execution finished for SaveUserRoleGroup
+2013-12-06 15:07:47.9106 INFO Execution started of UserFacade.SaveUserRoleGroup (userrgId = 0, userId = 62, rolegroup = 4, dept = 1, subdept = 0, granted = False, )
+2013-12-06 15:07:47.9286 INFO Execution finished for SaveUserRoleGroup
+2013-12-06 15:07:47.9286 INFO Execution started of UserFacade.SaveUserRoleGroup (userrgId = 0, userId = 62, rolegroup = 1, dept = 2, subdept = 0, granted = False, )
+2013-12-06 15:07:47.9286 INFO Execution finished for SaveUserRoleGroup
+2013-12-06 15:07:47.9286 INFO Execution started of UserFacade.SaveUserRoleGroup (userrgId = 0, userId = 62, rolegroup = 2, dept = 2, subdept = 0, granted = False, )
+2013-12-06 15:07:47.9436 INFO Execution finished for SaveUserRoleGroup
+2013-12-06 15:07:47.9436 INFO Execution started of UserFacade.SaveUserRoleGroup (userrgId = 0, userId = 62, rolegroup = 3, dept = 2, subdept = 0, granted = False, )
+2013-12-06 15:07:47.9436 INFO Execution finished for SaveUserRoleGroup
+2013-12-06 15:07:47.9436 INFO Execution started of UserFacade.SaveUserRoleGroup (userrgId = 0, userId = 62, rolegroup = 4, dept = 2, subdept = 0, granted = False, )
+2013-12-06 15:07:47.9576 INFO Execution finished for SaveUserRoleGroup
+2013-12-06 15:07:47.9576 INFO Execution started of UserFacade.SaveUserRoleGroup (userrgId = 0, userId = 62, rolegroup = 1, dept = 3, subdept = 4, granted = False, )
+2013-12-06 15:07:47.9836 INFO Execution finished for SaveUserRoleGroup
+2013-12-06 15:07:47.9836 INFO Execution started of UserFacade.SaveUserRoleGroup (userrgId = 0, userId = 62, rolegroup = 2, dept = 3, subdept = 4, granted = True, )
+2013-12-06 15:07:47.9896 INFO Execution finished for SaveUserRoleGroup
+2013-12-06 15:07:47.9896 INFO Execution started of UserFacade.SaveUserRoleGroup (userrgId = 0, userId = 62, rolegroup = 3, dept = 3, subdept = 4, granted = False, )
+2013-12-06 15:07:47.9896 INFO Execution finished for SaveUserRoleGroup
+2013-12-06 15:07:47.9896 INFO Execution started of UserFacade.SaveUserRoleGroup (userrgId = 0, userId = 62, rolegroup = 4, dept = 3, subdept = 4, granted = False, )
+2013-12-06 15:07:48.0036 INFO Execution finished for SaveUserRoleGroup
+2013-12-06 15:07:48.0036 INFO Execution started of UserFacade.SaveUserRoleGroup (userrgId = 0, userId = 62, rolegroup = 1, dept = 3, subdept = 6, granted = False, )
+2013-12-06 15:07:48.0036 INFO Execution finished for SaveUserRoleGroup
+2013-12-06 15:07:48.0036 INFO Execution started of UserFacade.SaveUserRoleGroup (userrgId = 0, userId = 62, rolegroup = 2, dept = 3, subdept = 6, granted = False, )
+2013-12-06 15:07:48.0336 INFO Execution finished for SaveUserRoleGroup
+2013-12-06 15:07:48.0336 INFO Execution started of UserFacade.SaveUserRoleGroup (userrgId = 0, userId = 62, rolegroup = 3, dept = 3, subdept = 6, granted = True, )
+2013-12-06 15:07:48.0346 INFO Execution finished for SaveUserRoleGroup
+2013-12-06 15:07:48.0346 INFO Execution started of UserFacade.SaveUserRoleGroup (userrgId = 0, userId = 62, rolegroup = 4, dept = 3, subdept = 6, granted = False, )
+2013-12-06 15:07:48.0346 INFO Execution finished for SaveUserRoleGroup
+2013-12-06 15:07:48.0346 INFO Execution started of UserFacade.SaveUserRoleGroup (userrgId = 0, userId = 62, rolegroup = 1, dept = 4, subdept = 0, granted = False, )
+2013-12-06 15:07:48.0556 INFO Execution finished for SaveUserRoleGroup
+2013-12-06 15:07:48.0556 INFO Execution started of UserFacade.SaveUserRoleGroup (userrgId = 0, userId = 62, rolegroup = 2, dept = 4, subdept = 0, granted = False, )
+2013-12-06 15:07:48.0676 INFO Execution finished for SaveUserRoleGroup
+2013-12-06 15:07:48.0676 INFO Execution started of UserFacade.SaveUserRoleGroup (userrgId = 0, userId = 62, rolegroup = 3, dept = 4, subdept = 0, granted = False, )
+2013-12-06 15:07:48.0676 INFO Execution finished for SaveUserRoleGroup
+2013-12-06 15:07:48.0676 INFO Execution started of UserFacade.SaveUserRoleGroup (userrgId = 0, userId = 62, rolegroup = 4, dept = 4, subdept = 0, granted = False, )
+2013-12-06 15:07:48.0816 INFO Execution finished for SaveUserRoleGroup
+2013-12-06 15:07:48.0816 INFO Execution started of UserFacade.SaveUserRoleGroup (userrgId = 0, userId = 62, rolegroup = 1, dept = 11, subdept = 10, granted = False, )
+2013-12-06 15:07:48.1026 INFO Execution finished for SaveUserRoleGroup
+2013-12-06 15:07:48.1026 INFO Execution started of UserFacade.SaveUserRoleGroup (userrgId = 0, userId = 62, rolegroup = 2, dept = 11, subdept = 10, granted = False, )
+2013-12-06 15:07:48.1026 INFO Execution finished for SaveUserRoleGroup
+2013-12-06 15:07:48.1026 INFO Execution started of UserFacade.SaveUserRoleGroup (userrgId = 0, userId = 62, rolegroup = 3, dept = 11, subdept = 10, granted = False, )
+2013-12-06 15:07:48.1156 INFO Execution finished for SaveUserRoleGroup
+2013-12-06 15:07:48.1156 INFO Execution started of UserFacade.SaveUserRoleGroup (userrgId = 0, userId = 62, rolegroup = 4, dept = 11, subdept = 10, granted = True, )
+2013-12-06 15:07:48.1156 INFO Execution finished for SaveUserRoleGroup
+2013-12-06 15:07:48.1156 INFO Execution started of UserFacade.SaveUserRoleGroup (userrgId = 0, userId = 62, rolegroup = 1, dept = 11, subdept = 11, granted = False, )
+2013-12-06 15:07:48.1286 INFO Execution finished for SaveUserRoleGroup
+2013-12-06 15:07:48.1286 INFO Execution started of UserFacade.SaveUserRoleGroup (userrgId = 0, userId = 62, rolegroup = 2, dept = 11, subdept = 11, granted = False, )
+2013-12-06 15:07:48.1286 INFO Execution finished for SaveUserRoleGroup
+2013-12-06 15:07:48.1286 INFO Execution started of UserFacade.SaveUserRoleGroup (userrgId = 0, userId = 62, rolegroup = 3, dept = 11, subdept = 11, granted = False, )
+2013-12-06 15:07:48.1286 INFO Execution finished for SaveUserRoleGroup
+2013-12-06 15:07:48.1286 INFO Execution started of UserFacade.SaveUserRoleGroup (userrgId = 0, userId = 62, rolegroup = 4, dept = 11, subdept = 11, granted = True, )
+2013-12-06 15:07:48.1466 INFO Execution finished for SaveUserRoleGroup
+2013-12-06 15:07:48.1466 INFO Execution finished for CreateOrModify
+2013-12-06 15:07:48.1466 INFO Execution started of UserController.SaveCertificates (UserID = 62, )
+2013-12-06 15:07:48.1466 INFO Execution finished for SaveCertificates
+2013-12-06 15:07:48.1466 INFO Execution started of EmailMessage.set_To (value = niraj.sinha@ispace.com, )
+2013-12-06 15:07:48.1466 INFO Execution finished for set_To
+2013-12-06 15:07:48.1466 INFO Execution started of EmailMessage.set_Subject (value = Blueprint Registration Information, )
+2013-12-06 15:07:48.1466 INFO Execution finished for set_Subject
+2013-12-06 15:07:48.1987 INFO Execution finished for Register
+2013-12-06 15:07:48.2207 INFO Execution started of RequiredRoleAttribute.AuthorizeCore (httpContext = System.Web.HttpContextWrapper, )
+2013-12-06 15:07:48.2207 INFO Execution finished for AuthorizeCore
+2013-12-06 15:07:48.2217 INFO Execution started of AdminController.Index ()
+2013-12-06 15:07:48.2217 INFO Execution finished for Index
+2013-12-06 15:07:48.3517 INFO Execution started of MvcApplication.Application_Error (sender = ASP.global_asax, e = System.EventArgs, )
+2013-12-06 15:07:48.3517 INFO Application_Error: System.Web.HttpException (0x80004005): File does not exist.
+   at System.Web.StaticFileHandler.ProcessRequestForNonMapPathBasedVirtualFile(HttpRequest request, HttpResponse response, String overrideVirtualPath)
+   at System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context, String overrideVirtualPath)
+   at System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2013-12-06 15:07:48.3517 INFO Execution started of ErrorController.DetailedError ()
+2013-12-06 15:07:48.3517 INFO Execution finished for DetailedError
+2013-12-06 15:07:48.3517 INFO Execution finished for Application_Error
+2013-12-06 15:07:48.5867 INFO Execution started of MiniProfilerStartupModule.Init (context = ASP.global_asax, )
+2013-12-06 15:07:48.5867 INFO Execution finished for Init
+2013-12-06 15:07:48.5987 INFO Execution started of MiniProfilerStartupModule.Init (context = ASP.global_asax, )
+2013-12-06 15:07:48.6217 INFO Execution finished for Init
+2013-12-06 15:07:53.3072 INFO Execution started of UserController.ManageUser ()
+2013-12-06 15:07:53.3102 INFO Execution started of UserController.ManageUserDetail (id = 0, )
+2013-12-06 15:07:53.3102 INFO Execution started of OrganizationFacade.GetOrganization (orgid = 1, )
+2013-12-06 15:07:53.3252 INFO Execution finished for GetOrganization
+2013-12-06 15:07:53.3252 INFO Execution started of UserFacade.GetUserDetails (id = 0, )
+2013-12-06 15:07:53.3392 INFO Execution finished for GetUserDetails
+2013-12-06 15:07:53.3392 INFO Execution finished for ManageUserDetail
+2013-12-06 15:07:53.3392 INFO Execution finished for ManageUser
+2013-12-06 15:07:53.5212 INFO Execution started of MvcApplication.Application_Error (sender = ASP.global_asax, e = System.EventArgs, )
+2013-12-06 15:07:53.5212 INFO Application_Error: System.Web.HttpException (0x80004005): File does not exist.
+   at System.Web.StaticFileHandler.ProcessRequestForNonMapPathBasedVirtualFile(HttpRequest request, HttpResponse response, String overrideVirtualPath)
+   at System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context, String overrideVirtualPath)
+   at System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2013-12-06 15:07:53.5212 INFO Execution started of ErrorController.DetailedError ()
+2013-12-06 15:07:53.5212 INFO Execution finished for DetailedError
+2013-12-06 15:07:53.5262 INFO Execution finished for Application_Error
+2013-12-06 15:07:53.6412 INFO Execution started of MvcApplication.Application_Error (sender = ASP.global_asax, e = System.EventArgs, )
+2013-12-06 15:07:53.6412 INFO Application_Error: System.Web.HttpException (0x80004005): The controller for path '/images/loader.gif' was not found or does not implement IController.
+   at System.Web.Mvc.DefaultControllerFactory.GetControllerInstance(RequestContext requestContext, Type controllerType)
+   at System.Web.Mvc.DefaultControllerFactory.CreateController(RequestContext requestContext, String controllerName)
+   at System.Web.Mvc.MvcHandler.ProcessRequestInit(HttpContextBase httpContext, IController& controller, IControllerFactory& factory)
+   at System.Web.Mvc.MvcHandler.<>c__DisplayClass6.<BeginProcessRequest>b__2()
+   at System.Web.Mvc.SecurityUtil.<>c__DisplayClassb`1.<ProcessInApplicationTrust>b__a()
+   at System.Web.Mvc.SecurityUtil.<GetCallInAppTrustThunk>b__0(Action f)
+   at System.Web.Mvc.SecurityUtil.ProcessInApplicationTrust(Action action)
+   at System.Web.Mvc.SecurityUtil.ProcessInApplicationTrust[TResult](Func`1 func)
+   at System.Web.Mvc.MvcHandler.BeginProcessRequest(HttpContextBase httpContext, AsyncCallback callback, Object state)
+   at System.Web.Mvc.MvcHandler.BeginProcessRequest(HttpContext httpContext, AsyncCallback callback, Object state)
+   at System.Web.Mvc.MvcHandler.System.Web.IHttpAsyncHandler.BeginProcessRequest(HttpContext context, AsyncCallback cb, Object extraData)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2013-12-06 15:07:53.6412 INFO Execution started of ErrorController.DetailedError ()
+2013-12-06 15:07:53.6412 INFO Execution finished for DetailedError
+2013-12-06 15:07:53.6412 INFO Execution finished for Application_Error
+2013-12-06 15:07:53.9472 INFO Execution started of MiniProfilerStartupModule.Init (context = ASP.global_asax, )
+2013-12-06 15:07:53.9472 INFO Execution finished for Init
+2013-12-06 15:07:55.8534 INFO Execution started of UserController.SearchUser (UserName = t, )
+2013-12-06 15:07:55.8534 INFO Execution started of UserController.GetUsersFilteredUserList (orgid = 1, username = t, )
+2013-12-06 15:07:55.8534 INFO Execution started of AccountService.GetUserDetailsByOrganizationID (orgid = 1, userName = t, )
+2013-12-06 15:07:55.8534 INFO Execution started of UserFacade.GetUserDetailsByOrganizationID (orgid = 1, userName = t, )
+2013-12-06 15:07:55.8884 INFO Execution finished for GetUserDetailsByOrganizationID
+2013-12-06 15:07:55.8884 INFO Execution finished for GetUserDetailsByOrganizationID
+2013-12-06 15:07:55.8884 INFO Execution finished for GetUsersFilteredUserList
+2013-12-06 15:07:55.8884 INFO Execution finished for SearchUser
+2013-12-06 15:07:57.1776 INFO Execution started of UserController.SearchUser (UserName = te, )
+2013-12-06 15:07:57.1776 INFO Execution started of UserController.GetUsersFilteredUserList (orgid = 1, username = te, )
+2013-12-06 15:07:57.1776 INFO Execution started of AccountService.GetUserDetailsByOrganizationID (orgid = 1, userName = te, )
+2013-12-06 15:07:57.1776 INFO Execution started of UserFacade.GetUserDetailsByOrganizationID (orgid = 1, userName = te, )
+2013-12-06 15:07:57.1946 INFO Execution finished for GetUserDetailsByOrganizationID
+2013-12-06 15:07:57.1946 INFO Execution finished for GetUserDetailsByOrganizationID
+2013-12-06 15:07:57.1946 INFO Execution finished for GetUsersFilteredUserList
+2013-12-06 15:07:57.1946 INFO Execution finished for SearchUser
+2013-12-06 15:07:57.5876 INFO Execution started of UserController.SearchUser (UserName = tes, )
+2013-12-06 15:07:57.5876 INFO Execution started of UserController.GetUsersFilteredUserList (orgid = 1, username = tes, )
+2013-12-06 15:07:57.5876 INFO Execution started of AccountService.GetUserDetailsByOrganizationID (orgid = 1, userName = tes, )
+2013-12-06 15:07:57.5876 INFO Execution started of UserFacade.GetUserDetailsByOrganizationID (orgid = 1, userName = tes, )
+2013-12-06 15:07:57.5976 INFO Execution finished for GetUserDetailsByOrganizationID
+2013-12-06 15:07:57.5976 INFO Execution finished for GetUserDetailsByOrganizationID
+2013-12-06 15:07:57.5976 INFO Execution finished for GetUsersFilteredUserList
+2013-12-06 15:07:57.5976 INFO Execution finished for SearchUser
+2013-12-06 15:07:58.5097 INFO Execution started of UserController.SearchUser (UserName = te, )
+2013-12-06 15:07:58.5097 INFO Execution started of UserController.GetUsersFilteredUserList (orgid = 1, username = te, )
+2013-12-06 15:07:58.5097 INFO Execution started of AccountService.GetUserDetailsByOrganizationID (orgid = 1, userName = te, )
+2013-12-06 15:07:58.5097 INFO Execution started of UserFacade.GetUserDetailsByOrganizationID (orgid = 1, userName = te, )
+2013-12-06 15:07:58.5297 INFO Execution finished for GetUserDetailsByOrganizationID
+2013-12-06 15:07:58.5297 INFO Execution finished for GetUserDetailsByOrganizationID
+2013-12-06 15:07:58.5297 INFO Execution finished for GetUsersFilteredUserList
+2013-12-06 15:07:58.5297 INFO Execution finished for SearchUser
+2013-12-06 15:07:58.9497 INFO Execution started of UserController.SearchUser (UserName = t, )
+2013-12-06 15:07:58.9497 INFO Execution started of UserController.GetUsersFilteredUserList (orgid = 1, username = t, )
+2013-12-06 15:07:58.9497 INFO Execution started of AccountService.GetUserDetailsByOrganizationID (orgid = 1, userName = t, )
+2013-12-06 15:07:58.9497 INFO Execution started of UserFacade.GetUserDetailsByOrganizationID (orgid = 1, userName = t, )
+2013-12-06 15:07:58.9747 INFO Execution finished for GetUserDetailsByOrganizationID
+2013-12-06 15:07:58.9747 INFO Execution finished for GetUserDetailsByOrganizationID
+2013-12-06 15:07:58.9747 INFO Execution finished for GetUsersFilteredUserList
+2013-12-06 15:07:58.9747 INFO Execution finished for SearchUser
+2013-12-06 15:07:59.3328 INFO Execution started of UserController.SearchUser (UserName = , )
+2013-12-06 15:07:59.3328 INFO Execution started of UserController.GetUsersFilteredUserList (orgid = 1, username = , )
+2013-12-06 15:07:59.3328 INFO Execution started of AccountService.GetUserDetailsByOrganizationID (orgid = 1, userName = , )
+2013-12-06 15:07:59.3328 INFO Execution started of UserFacade.GetUserDetailsByOrganizationID (orgid = 1, userName = , )
+2013-12-06 15:07:59.3538 INFO Execution finished for GetUserDetailsByOrganizationID
+2013-12-06 15:07:59.3538 INFO Execution finished for GetUserDetailsByOrganizationID
+2013-12-06 15:07:59.3538 INFO Execution finished for GetUsersFilteredUserList
+2013-12-06 15:07:59.3618 INFO Execution finished for SearchUser
+2013-12-06 15:08:29.8348 INFO Execution started of RequiredRoleAttribute.AuthorizeCore (httpContext = System.Web.HttpContextWrapper, )
+2013-12-06 15:08:29.8348 INFO Execution finished for AuthorizeCore
+2013-12-06 15:08:29.8348 INFO Execution started of UserController.Register ()
+2013-12-06 15:08:29.8458 INFO Execution started of OrganizationFacade.GetOrganization (orgid = 1, )
+2013-12-06 15:08:29.8458 INFO Execution finished for GetOrganization
+2013-12-06 15:08:29.8628 INFO Execution finished for Register
+2013-12-06 15:08:30.0478 INFO Execution started of MvcApplication.Application_Error (sender = ASP.global_asax, e = System.EventArgs, )
+2013-12-06 15:08:30.0478 INFO Application_Error: System.Web.HttpException (0x80004005): File does not exist.
+   at System.Web.StaticFileHandler.ProcessRequestForNonMapPathBasedVirtualFile(HttpRequest request, HttpResponse response, String overrideVirtualPath)
+   at System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context, String overrideVirtualPath)
+   at System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2013-12-06 15:08:30.0478 INFO Execution started of ErrorController.DetailedError ()
+2013-12-06 15:08:30.0478 INFO Execution finished for DetailedError
+2013-12-06 15:08:30.0478 INFO Execution finished for Application_Error
+2013-12-06 15:09:02.9451 INFO Execution started of UserController.Register (model = Confluence.Blueprint.Models.UserModel, )
+2013-12-06 15:09:18.8887 INFO Execution started of UserFacade.CreateOrModify (model = Confluence.Blueprint.Models.UserModel, )
+2013-12-06 15:09:25.4714 INFO Execution started of UserFacade.SaveUserRoleGroup (userrgId = 0, userId = 63, rolegroup = 1, dept = 1, subdept = 0, granted = True, )
+2013-12-06 15:09:25.4844 INFO Execution finished for SaveUserRoleGroup
+2013-12-06 15:09:27.0445 INFO Execution started of UserFacade.SaveUserRoleGroup (userrgId = 0, userId = 63, rolegroup = 2, dept = 1, subdept = 0, granted = False, )
+2013-12-06 15:09:27.0625 INFO Execution finished for SaveUserRoleGroup
+2013-12-06 15:09:28.1807 INFO Execution started of UserFacade.SaveUserRoleGroup (userrgId = 0, userId = 63, rolegroup = 3, dept = 1, subdept = 0, granted = False, )
+2013-12-06 15:09:28.1947 INFO Execution finished for SaveUserRoleGroup
+2013-12-06 15:09:29.3138 INFO Execution started of UserFacade.SaveUserRoleGroup (userrgId = 0, userId = 63, rolegroup = 4, dept = 1, subdept = 0, granted = False, )
+2013-12-06 15:09:29.3148 INFO Execution finished for SaveUserRoleGroup
+2013-12-06 15:09:33.8612 INFO Execution started of UserFacade.SaveUserRoleGroup (userrgId = 0, userId = 63, rolegroup = 1, dept = 2, subdept = 0, granted = False, )
+2013-12-06 15:09:33.8742 INFO Execution finished for SaveUserRoleGroup
+2013-12-06 15:09:35.0173 INFO Execution started of UserFacade.SaveUserRoleGroup (userrgId = 0, userId = 63, rolegroup = 2, dept = 2, subdept = 0, granted = False, )
+2013-12-06 15:09:35.0313 INFO Execution finished for SaveUserRoleGroup
+2013-12-06 15:09:36.1214 INFO Execution started of UserFacade.SaveUserRoleGroup (userrgId = 0, userId = 63, rolegroup = 3, dept = 2, subdept = 0, granted = False, )
+2013-12-06 15:09:36.1394 INFO Execution finished for SaveUserRoleGroup
+2013-12-06 15:09:37.2046 INFO Execution started of UserFacade.SaveUserRoleGroup (userrgId = 0, userId = 63, rolegroup = 4, dept = 2, subdept = 0, granted = False, )
+2013-12-06 15:09:37.2166 INFO Execution finished for SaveUserRoleGroup
+2013-12-06 15:09:42.6921 INFO Execution started of UserFacade.SaveUserRoleGroup (userrgId = 0, userId = 63, rolegroup = 1, dept = 3, subdept = 4, granted = False, )
+2013-12-06 15:09:42.7161 INFO Execution finished for SaveUserRoleGroup
+2013-12-06 15:09:44.2913 INFO Execution started of UserFacade.SaveUserRoleGroup (userrgId = 0, userId = 63, rolegroup = 2, dept = 3, subdept = 4, granted = True, )
+2013-12-06 15:09:44.3083 INFO Execution finished for SaveUserRoleGroup
+2013-12-06 15:09:45.6324 INFO Execution started of UserFacade.SaveUserRoleGroup (userrgId = 0, userId = 63, rolegroup = 3, dept = 3, subdept = 4, granted = False, )
+2013-12-06 15:09:45.6344 INFO Execution finished for SaveUserRoleGroup
+2013-12-06 15:09:46.9495 INFO Execution started of UserFacade.SaveUserRoleGroup (userrgId = 0, userId = 63, rolegroup = 4, dept = 3, subdept = 4, granted = False, )
+2013-12-06 15:09:46.9495 INFO Execution finished for SaveUserRoleGroup
+2013-12-06 15:09:50.1398 INFO Execution started of UserFacade.SaveUserRoleGroup (userrgId = 0, userId = 63, rolegroup = 1, dept = 3, subdept = 6, granted = False, )
+2013-12-06 15:09:50.1418 INFO Execution finished for SaveUserRoleGroup
+2013-12-06 15:09:51.4850 INFO Execution started of UserFacade.SaveUserRoleGroup (userrgId = 0, userId = 63, rolegroup = 2, dept = 3, subdept = 6, granted = False, )
+2013-12-06 15:09:51.5020 INFO Execution finished for SaveUserRoleGroup
+2013-12-06 15:09:52.8351 INFO Execution started of UserFacade.SaveUserRoleGroup (userrgId = 0, userId = 63, rolegroup = 3, dept = 3, subdept = 6, granted = True, )
+2013-12-06 15:09:52.8571 INFO Execution finished for SaveUserRoleGroup
+2013-12-06 15:09:54.1202 INFO Execution started of UserFacade.SaveUserRoleGroup (userrgId = 0, userId = 63, rolegroup = 4, dept = 3, subdept = 6, granted = False, )
+2013-12-06 15:09:54.1362 INFO Execution finished for SaveUserRoleGroup
+2013-12-06 15:10:01.2320 INFO Execution started of UserFacade.SaveUserRoleGroup (userrgId = 0, userId = 63, rolegroup = 1, dept = 4, subdept = 0, granted = False, )
+2013-12-06 15:10:01.2400 INFO Execution finished for SaveUserRoleGroup
+2013-12-06 15:10:02.5431 INFO Execution started of UserFacade.SaveUserRoleGroup (userrgId = 0, userId = 63, rolegroup = 2, dept = 4, subdept = 0, granted = False, )
+2013-12-06 15:10:02.5841 INFO Execution finished for SaveUserRoleGroup
+2013-12-06 15:10:03.5332 INFO Execution started of UserFacade.SaveUserRoleGroup (userrgId = 0, userId = 63, rolegroup = 3, dept = 4, subdept = 0, granted = True, )
+2013-12-06 15:10:03.5332 INFO Execution finished for SaveUserRoleGroup
+2013-12-06 15:10:04.5153 INFO Execution started of UserFacade.SaveUserRoleGroup (userrgId = 0, userId = 63, rolegroup = 4, dept = 4, subdept = 0, granted = False, )
+2013-12-06 15:10:04.5263 INFO Execution finished for SaveUserRoleGroup
+2013-12-06 15:10:09.4168 INFO Execution started of UserFacade.SaveUserRoleGroup (userrgId = 0, userId = 63, rolegroup = 1, dept = 11, subdept = 10, granted = False, )
+2013-12-06 15:10:09.4288 INFO Execution finished for SaveUserRoleGroup
+2013-12-06 15:10:10.3119 INFO Execution started of UserFacade.SaveUserRoleGroup (userrgId = 0, userId = 63, rolegroup = 2, dept = 11, subdept = 10, granted = False, )
+2013-12-06 15:10:10.3189 INFO Execution finished for SaveUserRoleGroup
+2013-12-06 15:10:11.4210 INFO Execution started of UserFacade.SaveUserRoleGroup (userrgId = 0, userId = 63, rolegroup = 3, dept = 11, subdept = 10, granted = False, )
+2013-12-06 15:10:11.4710 INFO Execution finished for SaveUserRoleGroup
+2013-12-06 15:10:12.6491 INFO Execution started of UserFacade.SaveUserRoleGroup (userrgId = 0, userId = 63, rolegroup = 4, dept = 11, subdept = 10, granted = True, )
+2013-12-06 15:10:12.6601 INFO Execution finished for SaveUserRoleGroup
+2013-12-06 15:10:15.2164 INFO Execution started of UserFacade.SaveUserRoleGroup (userrgId = 0, userId = 63, rolegroup = 1, dept = 11, subdept = 11, granted = False, )
+2013-12-06 15:10:15.2164 INFO Execution finished for SaveUserRoleGroup
+2013-12-06 15:10:16.3485 INFO Execution started of UserFacade.SaveUserRoleGroup (userrgId = 0, userId = 63, rolegroup = 2, dept = 11, subdept = 11, granted = False, )
+2013-12-06 15:10:16.3635 INFO Execution finished for SaveUserRoleGroup
+2013-12-06 15:10:18.6087 INFO Execution started of UserFacade.SaveUserRoleGroup (userrgId = 0, userId = 63, rolegroup = 3, dept = 11, subdept = 11, granted = False, )
+2013-12-06 15:10:18.6207 INFO Execution finished for SaveUserRoleGroup
+2013-12-06 15:10:19.8048 INFO Execution started of UserFacade.SaveUserRoleGroup (userrgId = 0, userId = 63, rolegroup = 4, dept = 11, subdept = 11, granted = True, )
+2013-12-06 15:10:19.8238 INFO Execution finished for SaveUserRoleGroup
+2013-12-06 15:10:22.5991 INFO Execution finished for CreateOrModify
+2013-12-06 15:10:23.2742 INFO Execution started of UserController.SaveCertificates (UserID = 63, )
+2013-12-06 15:10:23.2742 INFO Execution finished for SaveCertificates
+2013-12-06 15:10:27.6676 INFO Execution started of EmailMessage.set_To (value = ds@ds.com, )
+2013-12-06 15:10:27.6676 INFO Execution finished for set_To
+2013-12-06 15:10:27.6676 INFO Execution started of EmailMessage.set_Subject (value = Blueprint Registration Information, )
+2013-12-06 15:10:27.6676 INFO Execution finished for set_Subject
+2013-12-06 15:10:27.7026 INFO Execution finished for Register
+2013-12-06 15:10:27.7246 INFO Execution started of RequiredRoleAttribute.AuthorizeCore (httpContext = System.Web.HttpContextWrapper, )
+2013-12-06 15:10:27.7246 INFO Execution finished for AuthorizeCore
+2013-12-06 15:10:27.7246 INFO Execution started of AdminController.Index ()
+2013-12-06 15:10:27.7246 INFO Execution finished for Index
+2013-12-06 15:10:27.9086 INFO Execution started of MiniProfilerStartupModule.Init (context = ASP.global_asax, )
+2013-12-06 15:10:27.9086 INFO Execution finished for Init
+2013-12-06 15:10:27.9756 INFO Execution started of MvcApplication.Application_Error (sender = ASP.global_asax, e = System.EventArgs, )
+2013-12-06 15:10:27.9756 INFO Application_Error: System.Web.HttpException (0x80004005): File does not exist.
+   at System.Web.StaticFileHandler.ProcessRequestForNonMapPathBasedVirtualFile(HttpRequest request, HttpResponse response, String overrideVirtualPath)
+   at System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context, String overrideVirtualPath)
+   at System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2013-12-06 15:10:27.9756 INFO Execution started of ErrorController.DetailedError ()
+2013-12-06 15:10:27.9756 INFO Execution finished for DetailedError
+2013-12-06 15:10:27.9896 INFO Execution finished for Application_Error
+2013-12-06 15:10:28.0066 INFO Execution started of MiniProfilerStartupModule.Init (context = ASP.global_asax, )
+2013-12-06 15:10:28.0066 INFO Execution finished for Init
+2013-12-06 15:10:28.0066 INFO Execution started of MiniProfilerStartupModule.Init (context = ASP.global_asax, )
+2013-12-06 15:10:28.0266 INFO Execution finished for Init
+2013-12-06 15:10:31.1900 INFO Execution started of UserController.ManageUser ()
+2013-12-06 15:10:31.1900 INFO Execution started of UserController.ManageUserDetail (id = 0, )
+2013-12-06 15:10:31.1900 INFO Execution started of OrganizationFacade.GetOrganization (orgid = 1, )
+2013-12-06 15:10:31.1900 INFO Execution finished for GetOrganization
+2013-12-06 15:10:31.2050 INFO Execution started of UserFacade.GetUserDetails (id = 0, )
+2013-12-06 15:10:31.2050 INFO Execution finished for GetUserDetails
+2013-12-06 15:10:31.2050 INFO Execution finished for ManageUserDetail
+2013-12-06 15:10:31.2050 INFO Execution finished for ManageUser
+2013-12-06 15:10:31.4170 INFO Execution started of MvcApplication.Application_Error (sender = ASP.global_asax, e = System.EventArgs, )
+2013-12-06 15:10:31.4220 INFO Application_Error: System.Web.HttpException (0x80004005): File does not exist.
+   at System.Web.StaticFileHandler.ProcessRequestForNonMapPathBasedVirtualFile(HttpRequest request, HttpResponse response, String overrideVirtualPath)
+   at System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context, String overrideVirtualPath)
+   at System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2013-12-06 15:10:31.4220 INFO Execution started of ErrorController.DetailedError ()
+2013-12-06 15:10:31.4220 INFO Execution finished for DetailedError
+2013-12-06 15:10:31.4220 INFO Execution finished for Application_Error
+2013-12-06 15:10:31.5880 INFO Execution started of MvcApplication.Application_Error (sender = ASP.global_asax, e = System.EventArgs, )
+2013-12-06 15:10:31.5880 INFO Application_Error: System.Web.HttpException (0x80004005): The controller for path '/images/loader.gif' was not found or does not implement IController.
+   at System.Web.Mvc.DefaultControllerFactory.GetControllerInstance(RequestContext requestContext, Type controllerType)
+   at System.Web.Mvc.DefaultControllerFactory.CreateController(RequestContext requestContext, String controllerName)
+   at System.Web.Mvc.MvcHandler.ProcessRequestInit(HttpContextBase httpContext, IController& controller, IControllerFactory& factory)
+   at System.Web.Mvc.MvcHandler.<>c__DisplayClass6.<BeginProcessRequest>b__2()
+   at System.Web.Mvc.SecurityUtil.<>c__DisplayClassb`1.<ProcessInApplicationTrust>b__a()
+   at System.Web.Mvc.SecurityUtil.<GetCallInAppTrustThunk>b__0(Action f)
+   at System.Web.Mvc.SecurityUtil.ProcessInApplicationTrust(Action action)
+   at System.Web.Mvc.SecurityUtil.ProcessInApplicationTrust[TResult](Func`1 func)
+   at System.Web.Mvc.MvcHandler.BeginProcessRequest(HttpContextBase httpContext, AsyncCallback callback, Object state)
+   at System.Web.Mvc.MvcHandler.BeginProcessRequest(HttpContext httpContext, AsyncCallback callback, Object state)
+   at System.Web.Mvc.MvcHandler.System.Web.IHttpAsyncHandler.BeginProcessRequest(HttpContext context, AsyncCallback cb, Object extraData)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2013-12-06 15:10:31.5880 INFO Execution started of ErrorController.DetailedError ()
+2013-12-06 15:10:31.5880 INFO Execution finished for DetailedError
+2013-12-06 15:10:31.5940 INFO Execution finished for Application_Error
+2013-12-06 15:10:34.6703 INFO Execution started of UserController.SearchUser (UserName = dt, )
+2013-12-06 15:10:34.6823 INFO Execution started of UserController.GetUsersFilteredUserList (orgid = 1, username = dt, )
+2013-12-06 15:10:34.6823 INFO Execution started of AccountService.GetUserDetailsByOrganizationID (orgid = 1, userName = dt, )
+2013-12-06 15:10:34.6823 INFO Execution started of UserFacade.GetUserDetailsByOrganizationID (orgid = 1, userName = dt, )
+2013-12-06 15:10:34.6823 INFO Execution finished for GetUserDetailsByOrganizationID
+2013-12-06 15:10:34.6823 INFO Execution finished for GetUserDetailsByOrganizationID
+2013-12-06 15:10:34.6823 INFO Execution finished for GetUsersFilteredUserList
+2013-12-06 15:10:34.6823 INFO Execution finished for SearchUser
+2013-12-06 15:10:34.8083 INFO Execution started of MiniProfilerStartupModule.Init (context = ASP.global_asax, )
+2013-12-06 15:10:34.8083 INFO Execution finished for Init
+2013-12-06 15:10:35.1984 INFO Execution started of UserController.SearchUser (UserName = dt, )
+2013-12-06 15:10:35.1984 INFO Execution started of UserController.GetUsersFilteredUserList (orgid = 1, username = dt, )
+2013-12-06 15:10:35.1984 INFO Execution started of AccountService.GetUserDetailsByOrganizationID (orgid = 1, userName = dt, )
+2013-12-06 15:10:35.1984 INFO Execution started of UserFacade.GetUserDetailsByOrganizationID (orgid = 1, userName = dt, )
+2013-12-06 15:10:35.2444 INFO Execution finished for GetUserDetailsByOrganizationID
+2013-12-06 15:10:35.2444 INFO Execution finished for GetUserDetailsByOrganizationID
+2013-12-06 15:10:35.2444 INFO Execution finished for GetUsersFilteredUserList
+2013-12-06 15:10:35.2444 INFO Execution finished for SearchUser
+2013-12-06 15:10:36.4375 INFO Execution started of UserController.SearchUser (UserName = d, )
+2013-12-06 15:10:36.4375 INFO Execution started of UserController.GetUsersFilteredUserList (orgid = 1, username = d, )
+2013-12-06 15:10:36.4375 INFO Execution started of AccountService.GetUserDetailsByOrganizationID (orgid = 1, userName = d, )
+2013-12-06 15:10:36.4375 INFO Execution started of UserFacade.GetUserDetailsByOrganizationID (orgid = 1, userName = d, )
+2013-12-06 15:10:36.4575 INFO Execution finished for GetUserDetailsByOrganizationID
+2013-12-06 15:10:36.4575 INFO Execution finished for GetUserDetailsByOrganizationID
+2013-12-06 15:10:36.4575 INFO Execution finished for GetUsersFilteredUserList
+2013-12-06 15:10:36.4575 INFO Execution finished for SearchUser
+2013-12-06 15:10:36.6485 INFO Execution started of UserController.SearchUser (UserName = , )
+2013-12-06 15:10:36.6485 INFO Execution started of UserController.GetUsersFilteredUserList (orgid = 1, username = , )
+2013-12-06 15:10:36.6485 INFO Execution started of AccountService.GetUserDetailsByOrganizationID (orgid = 1, userName = , )
+2013-12-06 15:10:36.6485 INFO Execution started of UserFacade.GetUserDetailsByOrganizationID (orgid = 1, userName = , )
+2013-12-06 15:10:36.6705 INFO Execution finished for GetUserDetailsByOrganizationID
+2013-12-06 15:10:36.6705 INFO Execution finished for GetUserDetailsByOrganizationID
+2013-12-06 15:10:36.6705 INFO Execution finished for GetUsersFilteredUserList
+2013-12-06 15:10:36.6705 INFO Execution finished for SearchUser
+2013-12-06 15:10:37.4176 INFO Execution started of UserController.SearchUser (UserName = h, )
+2013-12-06 15:10:37.4176 INFO Execution started of UserController.GetUsersFilteredUserList (orgid = 1, username = h, )
+2013-12-06 15:10:37.4176 INFO Execution started of AccountService.GetUserDetailsByOrganizationID (orgid = 1, userName = h, )
+2013-12-06 15:10:37.4176 INFO Execution started of UserFacade.GetUserDetailsByOrganizationID (orgid = 1, userName = h, )
+2013-12-06 15:10:37.4426 INFO Execution finished for GetUserDetailsByOrganizationID
+2013-12-06 15:10:37.4436 INFO Execution finished for GetUserDetailsByOrganizationID
+2013-12-06 15:10:37.4436 INFO Execution finished for GetUsersFilteredUserList
+2013-12-06 15:10:37.4436 INFO Execution finished for SearchUser
+2013-12-06 15:10:47.1115 INFO Execution started of UserController.SearchUser (UserName = hs, )
+2013-12-06 15:10:47.1115 INFO Execution started of UserController.GetUsersFilteredUserList (orgid = 1, username = hs, )
+2013-12-06 15:10:47.1155 INFO Execution started of AccountService.GetUserDetailsByOrganizationID (orgid = 1, userName = hs, )
+2013-12-06 15:10:47.1155 INFO Execution started of UserFacade.GetUserDetailsByOrganizationID (orgid = 1, userName = hs, )
+2013-12-06 15:10:47.1155 INFO Execution finished for GetUserDetailsByOrganizationID
+2013-12-06 15:10:47.1155 INFO Execution finished for GetUserDetailsByOrganizationID
+2013-12-06 15:10:47.1155 INFO Execution finished for GetUsersFilteredUserList
+2013-12-06 15:10:47.1315 INFO Execution finished for SearchUser
+2013-12-06 15:10:49.1387 INFO Execution started of AccountService.GetUserDetails (email = ds@ds.com, )
+2013-12-06 15:10:49.1387 INFO Execution started of UserFacade.GetUserDetails (email = ds@ds.com, )
+2013-12-06 15:10:49.1457 INFO Execution finished for GetUserDetails
+2013-12-06 15:10:49.1457 INFO Execution finished for GetUserDetails
+2013-12-06 15:10:49.2208 INFO Execution started of RequiredRoleAttribute.AuthorizeCore (httpContext = System.Web.HttpContextWrapper, )
+2013-12-06 15:10:49.2208 INFO Execution finished for AuthorizeCore
+2013-12-06 15:10:49.2218 INFO Execution started of UserController.ManageUserDetail (id = 63, )
+2013-12-06 15:10:49.2218 INFO Execution started of OrganizationFacade.GetOrganization (orgid = 1, )
+2013-12-06 15:10:49.2218 INFO Execution finished for GetOrganization
+2013-12-06 15:10:49.2388 INFO Execution started of UserFacade.GetUserDetails (id = 63, )
+2013-12-06 15:10:49.2388 INFO Execution finished for GetUserDetails
+2013-12-06 15:10:49.2388 INFO Execution finished for ManageUserDetail
+2013-12-06 15:10:49.3908 INFO Execution started of MvcApplication.Application_Error (sender = ASP.global_asax, e = System.EventArgs, )
+2013-12-06 15:10:49.3908 INFO Application_Error: System.Web.HttpException (0x80004005): File does not exist.
+   at System.Web.StaticFileHandler.ProcessRequestForNonMapPathBasedVirtualFile(HttpRequest request, HttpResponse response, String overrideVirtualPath)
+   at System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context, String overrideVirtualPath)
+   at System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2013-12-06 15:10:49.3938 INFO Execution started of ErrorController.DetailedError ()
+2013-12-06 15:10:49.3938 INFO Execution finished for DetailedError
+2013-12-06 15:10:49.3938 INFO Execution finished for Application_Error
+2013-12-06 15:12:25.0453 INFO Execution started of MvcApplication.Application_Start ()
+2013-12-06 15:12:25.0843 INFO Execution started of AdminAreaRegistration.get_AreaName ()
+2013-12-06 15:12:25.0843 INFO Execution finished for get_AreaName
+2013-12-06 15:12:25.0843 INFO Execution started of AdminAreaRegistration.RegisterArea (context = System.Web.Mvc.AreaRegistrationContext, )
+2013-12-06 15:12:25.0883 INFO Execution finished for RegisterArea
+2013-12-06 15:12:25.0883 INFO Execution finished for Application_Start
+2013-12-06 15:12:25.2044 INFO Execution started of MiniProfilerStartupModule.Init (context = ASP.global_asax, )
+2013-12-06 15:12:25.2044 INFO Execution finished for Init
+2013-12-06 15:12:25.3404 INFO Execution started of HomeController.Index ()
+2013-12-06 15:12:25.3404 INFO Execution finished for Index
+2013-12-06 15:12:25.4384 INFO Execution started of MiniProfilerStartupModule.Init (context = ASP.global_asax, )
+2013-12-06 15:12:25.4384 INFO Execution finished for Init
+2013-12-06 15:12:26.8955 INFO Execution started of HomeController.Default ()
+2013-12-06 15:12:26.8955 INFO Execution finished for Default
+2013-12-06 15:12:27.9486 INFO Execution started of MiniProfilerStartupModule.Init (context = ASP.global_asax, )
+2013-12-06 15:12:27.9486 INFO Execution finished for Init
+2013-12-06 15:12:27.9666 INFO Execution started of MiniProfilerStartupModule.Init (context = ASP.global_asax, )
+2013-12-06 15:12:27.9666 INFO Execution finished for Init
+2013-12-06 15:12:28.0236 INFO Execution started of MvcApplication.Application_Error (sender = ASP.global_asax, e = System.EventArgs, )
+2013-12-06 15:12:28.0236 INFO Application_Error: System.Web.HttpException (0x80004005): File does not exist.
+   at System.Web.StaticFileHandler.ProcessRequestForNonMapPathBasedVirtualFile(HttpRequest request, HttpResponse response, String overrideVirtualPath)
+   at System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context, String overrideVirtualPath)
+   at System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2013-12-06 15:12:28.0236 INFO Execution started of ErrorController.DetailedError ()
+2013-12-06 15:12:28.0376 INFO Execution finished for DetailedError
+2013-12-06 15:12:28.1686 INFO Execution finished for Application_Error
+2013-12-06 15:12:29.2508 INFO Execution started of CommonService.GetUserDashboard (UserID = 1, )
+2013-12-06 15:12:29.2508 INFO Execution started of CommonFacade.GetDashboardData (UserID = 1, )
+2013-12-06 15:12:29.3398 INFO Execution finished for GetDashboardData
+2013-12-06 15:12:29.3398 INFO Execution finished for GetUserDashboard
+2013-12-06 15:12:30.9449 INFO Execution started of RequiredRoleAttribute.AuthorizeCore (httpContext = System.Web.HttpContextWrapper, )
+2013-12-06 15:12:30.9449 INFO Execution finished for AuthorizeCore
+2013-12-06 15:12:30.9449 INFO Execution started of AdminController.Index ()
+2013-12-06 15:12:30.9449 INFO Execution finished for Index
+2013-12-06 15:12:31.1669 INFO Execution started of MvcApplication.Application_Error (sender = ASP.global_asax, e = System.EventArgs, )
+2013-12-06 15:12:31.1669 INFO Application_Error: System.Web.HttpException (0x80004005): File does not exist.
+   at System.Web.StaticFileHandler.ProcessRequestForNonMapPathBasedVirtualFile(HttpRequest request, HttpResponse response, String overrideVirtualPath)
+   at System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context, String overrideVirtualPath)
+   at System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2013-12-06 15:12:31.1669 INFO Execution started of ErrorController.DetailedError ()
+2013-12-06 15:12:31.1669 INFO Execution finished for DetailedError
+2013-12-06 15:12:31.1970 INFO Execution finished for Application_Error
+2013-12-06 15:12:31.2120 INFO Execution started of MiniProfilerStartupModule.Init (context = ASP.global_asax, )
+2013-12-06 15:12:31.2120 INFO Execution finished for Init
+2013-12-06 15:12:32.4831 INFO Execution started of UserController.ManageUser ()
+2013-12-06 15:12:32.4831 INFO Execution started of UserController.ManageUserDetail (id = 0, )
+2013-12-06 15:12:32.4831 INFO Execution started of OrganizationFacade.GetOrganization (orgid = 1, )
+2013-12-06 15:12:32.5301 INFO Execution finished for GetOrganization
+2013-12-06 15:12:32.5301 INFO Execution started of UserFacade.GetUserDetails (id = 0, )
+2013-12-06 15:12:32.5301 INFO Execution finished for GetUserDetails
+2013-12-06 15:12:32.5791 INFO Execution finished for ManageUserDetail
+2013-12-06 15:12:32.5791 INFO Execution finished for ManageUser
+2013-12-06 15:12:32.9781 INFO Execution started of MvcApplication.Application_Error (sender = ASP.global_asax, e = System.EventArgs, )
+2013-12-06 15:12:32.9781 INFO Application_Error: System.Web.HttpException (0x80004005): File does not exist.
+   at System.Web.StaticFileHandler.ProcessRequestForNonMapPathBasedVirtualFile(HttpRequest request, HttpResponse response, String overrideVirtualPath)
+   at System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context, String overrideVirtualPath)
+   at System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2013-12-06 15:12:32.9781 INFO Execution started of ErrorController.DetailedError ()
+2013-12-06 15:12:32.9781 INFO Execution finished for DetailedError
+2013-12-06 15:12:32.9841 INFO Execution finished for Application_Error
+2013-12-06 15:12:33.1021 INFO Execution started of MvcApplication.Application_Error (sender = ASP.global_asax, e = System.EventArgs, )
+2013-12-06 15:12:33.1021 INFO Application_Error: System.Web.HttpException (0x80004005): The controller for path '/images/loader.gif' was not found or does not implement IController.
+   at System.Web.Mvc.DefaultControllerFactory.GetControllerInstance(RequestContext requestContext, Type controllerType)
+   at System.Web.Mvc.DefaultControllerFactory.CreateController(RequestContext requestContext, String controllerName)
+   at System.Web.Mvc.MvcHandler.ProcessRequestInit(HttpContextBase httpContext, IController& controller, IControllerFactory& factory)
+   at System.Web.Mvc.MvcHandler.<>c__DisplayClass6.<BeginProcessRequest>b__2()
+   at System.Web.Mvc.SecurityUtil.<>c__DisplayClassb`1.<ProcessInApplicationTrust>b__a()
+   at System.Web.Mvc.SecurityUtil.<GetCallInAppTrustThunk>b__0(Action f)
+   at System.Web.Mvc.SecurityUtil.ProcessInApplicationTrust(Action action)
+   at System.Web.Mvc.SecurityUtil.ProcessInApplicationTrust[TResult](Func`1 func)
+   at System.Web.Mvc.MvcHandler.BeginProcessRequest(HttpContextBase httpContext, AsyncCallback callback, Object state)
+   at System.Web.Mvc.MvcHandler.BeginProcessRequest(HttpContext httpContext, AsyncCallback callback, Object state)
+   at System.Web.Mvc.MvcHandler.System.Web.IHttpAsyncHandler.BeginProcessRequest(HttpContext context, AsyncCallback cb, Object extraData)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2013-12-06 15:12:33.1071 INFO Execution started of ErrorController.DetailedError ()
+2013-12-06 15:12:33.1071 INFO Execution finished for DetailedError
+2013-12-06 15:12:33.1071 INFO Execution finished for Application_Error
+2013-12-06 15:12:47.0745 INFO Execution started of MvcApplication.Application_Error (sender = ASP.global_asax, e = System.EventArgs, )
+2013-12-06 15:12:47.0745 INFO Application_Error: System.Web.HttpException (0x80004005): The controller for path '/js/assets/toastr.min.js.map' was not found or does not implement IController.
+   at System.Web.Mvc.DefaultControllerFactory.GetControllerInstance(RequestContext requestContext, Type controllerType)
+   at System.Web.Mvc.DefaultControllerFactory.CreateController(RequestContext requestContext, String controllerName)
+   at System.Web.Mvc.MvcHandler.ProcessRequestInit(HttpContextBase httpContext, IController& controller, IControllerFactory& factory)
+   at System.Web.Mvc.MvcHandler.<>c__DisplayClass6.<BeginProcessRequest>b__2()
+   at System.Web.Mvc.SecurityUtil.<>c__DisplayClassb`1.<ProcessInApplicationTrust>b__a()
+   at System.Web.Mvc.SecurityUtil.<GetCallInAppTrustThunk>b__0(Action f)
+   at System.Web.Mvc.SecurityUtil.ProcessInApplicationTrust(Action action)
+   at System.Web.Mvc.SecurityUtil.ProcessInApplicationTrust[TResult](Func`1 func)
+   at System.Web.Mvc.MvcHandler.BeginProcessRequest(HttpContextBase httpContext, AsyncCallback callback, Object state)
+   at System.Web.Mvc.MvcHandler.BeginProcessRequest(HttpContext httpContext, AsyncCallback callback, Object state)
+   at System.Web.Mvc.MvcHandler.System.Web.IHttpAsyncHandler.BeginProcessRequest(HttpContext context, AsyncCallback cb, Object extraData)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2013-12-06 15:12:47.0745 INFO Execution started of ErrorController.DetailedError ()
+2013-12-06 15:12:47.0745 INFO Execution finished for DetailedError
+2013-12-06 15:12:47.0745 INFO Execution finished for Application_Error
+2013-12-06 15:32:43.5452 INFO Execution started of MvcApplication.Application_Start ()
+2013-12-06 15:32:43.7902 INFO Execution started of AdminAreaRegistration.get_AreaName ()
+2013-12-06 15:32:43.7902 INFO Execution finished for get_AreaName
+2013-12-06 15:32:43.7902 INFO Execution started of AdminAreaRegistration.RegisterArea (context = System.Web.Mvc.AreaRegistrationContext, )
+2013-12-06 15:32:43.7902 INFO Execution finished for RegisterArea
+2013-12-06 15:32:43.7902 INFO Execution finished for Application_Start
+2013-12-06 15:32:43.8152 INFO Execution started of MiniProfilerStartupModule.Init (context = ASP.global_asax, )
+2013-12-06 15:32:43.8152 INFO Execution finished for Init
+2013-12-06 15:32:43.9742 INFO Execution started of HomeController.Index ()
+2013-12-06 15:32:43.9742 INFO Execution finished for Index
+2013-12-06 15:32:44.5613 INFO Execution started of MiniProfilerStartupModule.Init (context = ASP.global_asax, )
+2013-12-06 15:32:44.5613 INFO Execution finished for Init
+2013-12-06 15:32:47.2845 INFO Execution started of HomeController.Default ()
+2013-12-06 15:32:47.2845 INFO Execution finished for Default
+2013-12-06 15:32:49.4318 INFO Execution started of MvcApplication.Application_Error (sender = ASP.global_asax, e = System.EventArgs, )
+2013-12-06 15:32:49.4388 INFO Application_Error: System.Web.HttpException (0x80004005): File does not exist.
+   at System.Web.StaticFileHandler.ProcessRequestForNonMapPathBasedVirtualFile(HttpRequest request, HttpResponse response, String overrideVirtualPath)
+   at System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context, String overrideVirtualPath)
+   at System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2013-12-06 15:32:49.4388 INFO Execution started of ErrorController.DetailedError ()
+2013-12-06 15:32:49.4388 INFO Execution finished for DetailedError
+2013-12-06 15:32:49.9448 INFO Execution finished for Application_Error
+2013-12-06 15:32:50.1808 INFO Execution started of MiniProfilerStartupModule.Init (context = ASP.global_asax, )
+2013-12-06 15:32:50.1808 INFO Execution started of MiniProfilerStartupModule.Init (context = ASP.global_asax, )
+2013-12-06 15:32:50.1868 INFO Execution finished for Init
+2013-12-06 15:32:50.1808 INFO Execution finished for Init
+2013-12-06 15:32:50.1808 INFO Execution started of MiniProfilerStartupModule.Init (context = ASP.global_asax, )
+2013-12-06 15:32:50.2028 INFO Execution finished for Init
+2013-12-06 15:32:51.0599 INFO Execution started of CommonService.GetUserDashboard (UserID = 1, )
+2013-12-06 15:32:51.0599 INFO Execution started of CommonFacade.GetDashboardData (UserID = 1, )
+2013-12-06 15:32:51.1399 INFO Execution finished for GetDashboardData
+2013-12-06 15:32:51.1399 INFO Execution finished for GetUserDashboard
+2013-12-06 15:32:55.3084 INFO Execution started of RequiredRoleAttribute.AuthorizeCore (httpContext = System.Web.HttpContextWrapper, )
+2013-12-06 15:32:55.3084 INFO Execution finished for AuthorizeCore
+2013-12-06 15:32:55.3084 INFO Execution started of AdminController.Index ()
+2013-12-06 15:32:55.3084 INFO Execution finished for Index
+2013-12-06 15:32:55.9294 INFO Execution started of MvcApplication.Application_Error (sender = ASP.global_asax, e = System.EventArgs, )
+2013-12-06 15:32:55.9294 INFO Application_Error: System.Web.HttpException (0x80004005): File does not exist.
+   at System.Web.StaticFileHandler.ProcessRequestForNonMapPathBasedVirtualFile(HttpRequest request, HttpResponse response, String overrideVirtualPath)
+   at System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context, String overrideVirtualPath)
+   at System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2013-12-06 15:32:55.9294 INFO Execution started of ErrorController.DetailedError ()
+2013-12-06 15:32:55.9294 INFO Execution finished for DetailedError
+2013-12-06 15:32:55.9294 INFO Execution finished for Application_Error
+2013-12-06 15:32:57.2475 INFO Execution started of UserController.ManageUser ()
+2013-12-06 15:32:57.2475 INFO Execution started of UserController.ManageUserDetail (id = 0, )
+2013-12-06 15:32:57.2545 INFO Execution started of OrganizationFacade.GetOrganization (orgid = 1, )
+2013-12-06 15:32:57.2895 INFO Execution finished for GetOrganization
+2013-12-06 15:32:57.2895 INFO Execution started of UserFacade.GetUserDetails (id = 0, )
+2013-12-06 15:32:57.3046 INFO Execution finished for GetUserDetails
+2013-12-06 15:32:57.3376 INFO Execution finished for ManageUserDetail
+2013-12-06 15:32:57.3376 INFO Execution finished for ManageUser
+2013-12-06 15:32:58.5577 INFO Execution started of MvcApplication.Application_Error (sender = ASP.global_asax, e = System.EventArgs, )
+2013-12-06 15:32:58.5577 INFO Application_Error: System.Web.HttpException (0x80004005): File does not exist.
+   at System.Web.StaticFileHandler.ProcessRequestForNonMapPathBasedVirtualFile(HttpRequest request, HttpResponse response, String overrideVirtualPath)
+   at System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context, String overrideVirtualPath)
+   at System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2013-12-06 15:32:58.5577 INFO Execution started of ErrorController.DetailedError ()
+2013-12-06 15:32:58.5577 INFO Execution finished for DetailedError
+2013-12-06 15:32:58.5657 INFO Execution finished for Application_Error
+2013-12-06 15:32:58.6967 INFO Execution started of MvcApplication.Application_Error (sender = ASP.global_asax, e = System.EventArgs, )
+2013-12-06 15:32:58.6967 INFO Application_Error: System.Web.HttpException (0x80004005): The controller for path '/images/loader.gif' was not found or does not implement IController.
+   at System.Web.Mvc.DefaultControllerFactory.GetControllerInstance(RequestContext requestContext, Type controllerType)
+   at System.Web.Mvc.DefaultControllerFactory.CreateController(RequestContext requestContext, String controllerName)
+   at System.Web.Mvc.MvcHandler.ProcessRequestInit(HttpContextBase httpContext, IController& controller, IControllerFactory& factory)
+   at System.Web.Mvc.MvcHandler.<>c__DisplayClass6.<BeginProcessRequest>b__2()
+   at System.Web.Mvc.SecurityUtil.<>c__DisplayClassb`1.<ProcessInApplicationTrust>b__a()
+   at System.Web.Mvc.SecurityUtil.<GetCallInAppTrustThunk>b__0(Action f)
+   at System.Web.Mvc.SecurityUtil.ProcessInApplicationTrust(Action action)
+   at System.Web.Mvc.SecurityUtil.ProcessInApplicationTrust[TResult](Func`1 func)
+   at System.Web.Mvc.MvcHandler.BeginProcessRequest(HttpContextBase httpContext, AsyncCallback callback, Object state)
+   at System.Web.Mvc.MvcHandler.BeginProcessRequest(HttpContext httpContext, AsyncCallback callback, Object state)
+   at System.Web.Mvc.MvcHandler.System.Web.IHttpAsyncHandler.BeginProcessRequest(HttpContext context, AsyncCallback cb, Object extraData)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2013-12-06 15:32:58.6967 INFO Execution started of ErrorController.DetailedError ()
+2013-12-06 15:32:58.6967 INFO Execution finished for DetailedError
+2013-12-06 15:32:58.7037 INFO Execution finished for Application_Error
+2013-12-06 15:32:58.9207 INFO Execution started of MiniProfilerStartupModule.Init (context = ASP.global_asax, )
+2013-12-06 15:32:58.9377 INFO Execution finished for Init
+2013-12-06 15:33:02.7671 INFO Execution started of RequiredRoleAttribute.AuthorizeCore (httpContext = System.Web.HttpContextWrapper, )
+2013-12-06 15:33:02.7671 INFO Execution finished for AuthorizeCore
+2013-12-06 15:33:02.7671 INFO Execution started of UserController.Register ()
+2013-12-06 15:33:02.7671 INFO Execution started of OrganizationFacade.GetOrganization (orgid = 1, )
+2013-12-06 15:33:02.7761 INFO Execution finished for GetOrganization
+2013-12-06 15:33:02.8281 INFO Execution finished for Register
+2013-12-06 15:33:03.0441 INFO Execution started of MvcApplication.Application_Error (sender = ASP.global_asax, e = System.EventArgs, )
+2013-12-06 15:33:03.0441 INFO Application_Error: System.Web.HttpException (0x80004005): File does not exist.
+   at System.Web.StaticFileHandler.ProcessRequestForNonMapPathBasedVirtualFile(HttpRequest request, HttpResponse response, String overrideVirtualPath)
+   at System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context, String overrideVirtualPath)
+   at System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2013-12-06 15:33:03.0441 INFO Execution started of ErrorController.DetailedError ()
+2013-12-06 15:33:03.0441 INFO Execution finished for DetailedError
+2013-12-06 15:33:03.0441 INFO Execution finished for Application_Error
+2013-12-06 15:33:31.1429 INFO Execution started of UserController.Register (model = Confluence.Blueprint.Models.UserModel, )
+2013-12-06 15:33:31.1429 INFO Execution started of UserFacade.CreateOrModify (model = Confluence.Blueprint.Models.UserModel, )
+2013-12-06 15:33:31.1549 INFO Execution started of UserFacade.SaveUserRoleGroup (userrgId = 0, userId = 64, rolegroup = 1, dept = 1, subdept = 0, granted = True, )
+2013-12-06 15:33:31.1739 INFO Execution finished for SaveUserRoleGroup
+2013-12-06 15:33:31.1739 INFO Execution started of UserFacade.SaveUserRoleGroup (userrgId = 0, userId = 64, rolegroup = 2, dept = 1, subdept = 0, granted = False, )
+2013-12-06 15:33:31.2039 INFO Execution finished for SaveUserRoleGroup
+2013-12-06 15:33:31.2039 INFO Execution started of UserFacade.SaveUserRoleGroup (userrgId = 0, userId = 64, rolegroup = 3, dept = 1, subdept = 0, granted = False, )
+2013-12-06 15:33:31.2039 INFO Execution finished for SaveUserRoleGroup
+2013-12-06 15:33:31.2039 INFO Execution started of UserFacade.SaveUserRoleGroup (userrgId = 0, userId = 64, rolegroup = 4, dept = 1, subdept = 0, granted = False, )
+2013-12-06 15:33:31.2159 INFO Execution finished for SaveUserRoleGroup
+2013-12-06 15:33:31.2159 INFO Execution started of UserFacade.SaveUserRoleGroup (userrgId = 0, userId = 64, rolegroup = 1, dept = 2, subdept = 0, granted = False, )
+2013-12-06 15:33:31.2159 INFO Execution finished for SaveUserRoleGroup
+2013-12-06 15:33:31.2159 INFO Execution started of UserFacade.SaveUserRoleGroup (userrgId = 0, userId = 64, rolegroup = 2, dept = 2, subdept = 0, granted = True, )
+2013-12-06 15:33:31.2159 INFO Execution finished for SaveUserRoleGroup
+2013-12-06 15:33:31.2159 INFO Execution started of UserFacade.SaveUserRoleGroup (userrgId = 0, userId = 64, rolegroup = 3, dept = 2, subdept = 0, granted = False, )
+2013-12-06 15:33:31.2359 INFO Execution finished for SaveUserRoleGroup
+2013-12-06 15:33:31.2359 INFO Execution started of UserFacade.SaveUserRoleGroup (userrgId = 0, userId = 64, rolegroup = 4, dept = 2, subdept = 0, granted = False, )
+2013-12-06 15:33:31.2359 INFO Execution finished for SaveUserRoleGroup
+2013-12-06 15:33:31.2359 INFO Execution started of UserFacade.SaveUserRoleGroup (userrgId = 0, userId = 64, rolegroup = 1, dept = 3, subdept = 4, granted = False, )
+2013-12-06 15:33:31.2489 INFO Execution finished for SaveUserRoleGroup
+2013-12-06 15:33:31.2489 INFO Execution started of UserFacade.SaveUserRoleGroup (userrgId = 0, userId = 64, rolegroup = 2, dept = 3, subdept = 4, granted = False, )
+2013-12-06 15:33:31.2489 INFO Execution finished for SaveUserRoleGroup
+2013-12-06 15:33:31.2489 INFO Execution started of UserFacade.SaveUserRoleGroup (userrgId = 0, userId = 64, rolegroup = 3, dept = 3, subdept = 4, granted = True, )
+2013-12-06 15:33:31.2489 INFO Execution finished for SaveUserRoleGroup
+2013-12-06 15:33:31.2489 INFO Execution started of UserFacade.SaveUserRoleGroup (userrgId = 0, userId = 64, rolegroup = 4, dept = 3, subdept = 4, granted = False, )
+2013-12-06 15:33:31.2889 INFO Execution finished for SaveUserRoleGroup
+2013-12-06 15:33:31.2889 INFO Execution started of UserFacade.SaveUserRoleGroup (userrgId = 0, userId = 64, rolegroup = 1, dept = 3, subdept = 6, granted = False, )
+2013-12-06 15:33:31.2949 INFO Execution finished for SaveUserRoleGroup
+2013-12-06 15:33:31.2949 INFO Execution started of UserFacade.SaveUserRoleGroup (userrgId = 0, userId = 64, rolegroup = 2, dept = 3, subdept = 6, granted = False, )
+2013-12-06 15:33:31.2949 INFO Execution finished for SaveUserRoleGroup
+2013-12-06 15:33:31.2949 INFO Execution started of UserFacade.SaveUserRoleGroup (userrgId = 0, userId = 64, rolegroup = 3, dept = 3, subdept = 6, granted = False, )
+2013-12-06 15:33:31.2949 INFO Execution finished for SaveUserRoleGroup
+2013-12-06 15:33:31.3100 INFO Execution started of UserFacade.SaveUserRoleGroup (userrgId = 0, userId = 64, rolegroup = 4, dept = 3, subdept = 6, granted = False, )
+2013-12-06 15:33:31.3100 INFO Execution finished for SaveUserRoleGroup
+2013-12-06 15:33:31.3100 INFO Execution started of UserFacade.SaveUserRoleGroup (userrgId = 0, userId = 64, rolegroup = 1, dept = 4, subdept = 0, granted = False, )
+2013-12-06 15:33:31.3100 INFO Execution finished for SaveUserRoleGroup
+2013-12-06 15:33:31.3100 INFO Execution started of UserFacade.SaveUserRoleGroup (userrgId = 0, userId = 64, rolegroup = 2, dept = 4, subdept = 0, granted = False, )
+2013-12-06 15:33:31.3460 INFO Execution finished for SaveUserRoleGroup
+2013-12-06 15:33:31.3460 INFO Execution started of UserFacade.SaveUserRoleGroup (userrgId = 0, userId = 64, rolegroup = 3, dept = 4, subdept = 0, granted = False, )
+2013-12-06 15:33:31.3460 INFO Execution finished for SaveUserRoleGroup
+2013-12-06 15:33:31.3460 INFO Execution started of UserFacade.SaveUserRoleGroup (userrgId = 0, userId = 64, rolegroup = 4, dept = 4, subdept = 0, granted = False, )
+2013-12-06 15:33:31.3590 INFO Execution finished for SaveUserRoleGroup
+2013-12-06 15:33:31.3590 INFO Execution started of UserFacade.SaveUserRoleGroup (userrgId = 0, userId = 64, rolegroup = 1, dept = 11, subdept = 10, granted = False, )
+2013-12-06 15:33:31.3590 INFO Execution finished for SaveUserRoleGroup
+2013-12-06 15:33:31.3590 INFO Execution started of UserFacade.SaveUserRoleGroup (userrgId = 0, userId = 64, rolegroup = 2, dept = 11, subdept = 10, granted = False, )
+2013-12-06 15:33:31.3730 INFO Execution finished for SaveUserRoleGroup
+2013-12-06 15:33:31.3730 INFO Execution started of UserFacade.SaveUserRoleGroup (userrgId = 0, userId = 64, rolegroup = 3, dept = 11, subdept = 10, granted = True, )
+2013-12-06 15:33:31.3730 INFO Execution finished for SaveUserRoleGroup
+2013-12-06 15:33:31.3730 INFO Execution started of UserFacade.SaveUserRoleGroup (userrgId = 0, userId = 64, rolegroup = 4, dept = 11, subdept = 10, granted = False, )
+2013-12-06 15:33:31.4000 INFO Execution finished for SaveUserRoleGroup
+2013-12-06 15:33:31.4000 INFO Execution started of UserFacade.SaveUserRoleGroup (userrgId = 0, userId = 64, rolegroup = 1, dept = 11, subdept = 11, granted = False, )
+2013-12-06 15:33:31.4230 INFO Execution finished for SaveUserRoleGroup
+2013-12-06 15:33:31.4230 INFO Execution started of UserFacade.SaveUserRoleGroup (userrgId = 0, userId = 64, rolegroup = 2, dept = 11, subdept = 11, granted = False, )
+2013-12-06 15:33:31.4230 INFO Execution finished for SaveUserRoleGroup
+2013-12-06 15:33:31.4230 INFO Execution started of UserFacade.SaveUserRoleGroup (userrgId = 0, userId = 64, rolegroup = 3, dept = 11, subdept = 11, granted = False, )
+2013-12-06 15:33:31.4340 INFO Execution finished for SaveUserRoleGroup
+2013-12-06 15:33:31.4340 INFO Execution started of UserFacade.SaveUserRoleGroup (userrgId = 0, userId = 64, rolegroup = 4, dept = 11, subdept = 11, granted = True, )
+2013-12-06 15:33:31.4340 INFO Execution finished for SaveUserRoleGroup
+2013-12-06 15:33:31.4340 INFO Execution finished for CreateOrModify
+2013-12-06 15:33:31.4340 INFO Execution started of UserController.SaveCertificates (UserID = 64, )
+2013-12-06 15:33:31.4340 INFO Execution finished for SaveCertificates
+2013-12-06 15:33:31.4510 INFO Execution started of EmailMessage.set_To (value = sds@dd.com, )
+2013-12-06 15:33:31.4510 INFO Execution finished for set_To
+2013-12-06 15:33:31.4510 INFO Execution started of EmailMessage.set_Subject (value = Blueprint Registration Information, )
+2013-12-06 15:33:31.4510 INFO Execution finished for set_Subject
+2013-12-06 15:33:31.4770 INFO Execution finished for Register
+2013-12-06 15:33:31.4920 INFO Execution started of RequiredRoleAttribute.AuthorizeCore (httpContext = System.Web.HttpContextWrapper, )
+2013-12-06 15:33:31.4920 INFO Execution finished for AuthorizeCore
+2013-12-06 15:33:31.4920 INFO Execution started of AdminController.Index ()
+2013-12-06 15:33:31.4920 INFO Execution finished for Index
+2013-12-06 15:33:31.6000 INFO Execution started of MvcApplication.Application_Error (sender = ASP.global_asax, e = System.EventArgs, )
+2013-12-06 15:33:31.6000 INFO Application_Error: System.Web.HttpException (0x80004005): File does not exist.
+   at System.Web.StaticFileHandler.ProcessRequestForNonMapPathBasedVirtualFile(HttpRequest request, HttpResponse response, String overrideVirtualPath)
+   at System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context, String overrideVirtualPath)
+   at System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2013-12-06 15:33:31.6000 INFO Execution started of ErrorController.DetailedError ()
+2013-12-06 15:33:31.6000 INFO Execution finished for DetailedError
+2013-12-06 15:33:31.6070 INFO Execution finished for Application_Error
+2013-12-06 15:33:37.5966 INFO Execution started of UserController.ManageUser ()
+2013-12-06 15:33:37.5966 INFO Execution started of UserController.ManageUserDetail (id = 0, )
+2013-12-06 15:33:37.5966 INFO Execution started of OrganizationFacade.GetOrganization (orgid = 1, )
+2013-12-06 15:33:37.5966 INFO Execution finished for GetOrganization
+2013-12-06 15:33:37.6156 INFO Execution started of UserFacade.GetUserDetails (id = 0, )
+2013-12-06 15:33:37.6156 INFO Execution finished for GetUserDetails
+2013-12-06 15:33:37.6156 INFO Execution finished for ManageUserDetail
+2013-12-06 15:33:37.6156 INFO Execution finished for ManageUser
+2013-12-06 15:33:37.7536 INFO Execution started of MvcApplication.Application_Error (sender = ASP.global_asax, e = System.EventArgs, )
+2013-12-06 15:33:37.7536 INFO Application_Error: System.Web.HttpException (0x80004005): File does not exist.
+   at System.Web.StaticFileHandler.ProcessRequestForNonMapPathBasedVirtualFile(HttpRequest request, HttpResponse response, String overrideVirtualPath)
+   at System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context, String overrideVirtualPath)
+   at System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2013-12-06 15:33:37.7536 INFO Execution started of ErrorController.DetailedError ()
+2013-12-06 15:33:37.7536 INFO Execution finished for DetailedError
+2013-12-06 15:33:37.7536 INFO Execution finished for Application_Error
+2013-12-06 15:33:39.8918 INFO Execution started of UserController.SearchUser (UserName = h, )
+2013-12-06 15:33:39.8918 INFO Execution started of UserController.GetUsersFilteredUserList (orgid = 1, username = h, )
+2013-12-06 15:33:39.8918 INFO Execution started of AccountService.GetUserDetailsByOrganizationID (orgid = 1, userName = h, )
+2013-12-06 15:33:39.8918 INFO Execution started of UserFacade.GetUserDetailsByOrganizationID (orgid = 1, userName = h, )
+2013-12-06 15:33:39.9178 INFO Execution finished for GetUserDetailsByOrganizationID
+2013-12-06 15:33:39.9178 INFO Execution finished for GetUserDetailsByOrganizationID
+2013-12-06 15:33:39.9178 INFO Execution finished for GetUsersFilteredUserList
+2013-12-06 15:33:39.9178 INFO Execution finished for SearchUser
+2013-12-06 15:33:40.3059 INFO Execution started of UserController.SearchUser (UserName = hf, )
+2013-12-06 15:33:40.3059 INFO Execution started of UserController.GetUsersFilteredUserList (orgid = 1, username = hf, )
+2013-12-06 15:33:40.3059 INFO Execution started of AccountService.GetUserDetailsByOrganizationID (orgid = 1, userName = hf, )
+2013-12-06 15:33:40.3119 INFO Execution started of UserFacade.GetUserDetailsByOrganizationID (orgid = 1, userName = hf, )
+2013-12-06 15:33:40.3119 INFO Execution finished for GetUserDetailsByOrganizationID
+2013-12-06 15:33:40.3119 INFO Execution finished for GetUserDetailsByOrganizationID
+2013-12-06 15:33:40.3289 INFO Execution finished for GetUsersFilteredUserList
+2013-12-06 15:33:40.3289 INFO Execution finished for SearchUser
+2013-12-06 15:33:40.5059 INFO Execution started of UserController.SearchUser (UserName = hff, )
+2013-12-06 15:33:40.5059 INFO Execution started of UserController.GetUsersFilteredUserList (orgid = 1, username = hff, )
+2013-12-06 15:33:40.5059 INFO Execution started of AccountService.GetUserDetailsByOrganizationID (orgid = 1, userName = hff, )
+2013-12-06 15:33:40.5059 INFO Execution started of UserFacade.GetUserDetailsByOrganizationID (orgid = 1, userName = hff, )
+2013-12-06 15:33:40.5239 INFO Execution finished for GetUserDetailsByOrganizationID
+2013-12-06 15:33:40.5239 INFO Execution finished for GetUserDetailsByOrganizationID
+2013-12-06 15:33:40.5239 INFO Execution finished for GetUsersFilteredUserList
+2013-12-06 15:33:40.5239 INFO Execution finished for SearchUser
+2013-12-06 15:33:42.6911 INFO Execution started of AccountService.GetUserDetails (email = sds@dd.com, )
+2013-12-06 15:33:42.6911 INFO Execution started of UserFacade.GetUserDetails (email = sds@dd.com, )
+2013-12-06 15:33:42.7021 INFO Execution finished for GetUserDetails
+2013-12-06 15:33:42.7021 INFO Execution finished for GetUserDetails
+2013-12-06 15:33:42.7471 INFO Execution started of RequiredRoleAttribute.AuthorizeCore (httpContext = System.Web.HttpContextWrapper, )
+2013-12-06 15:33:42.7471 INFO Execution finished for AuthorizeCore
+2013-12-06 15:33:42.7471 INFO Execution started of UserController.ManageUserDetail (id = 64, )
+2013-12-06 15:33:42.7471 INFO Execution started of OrganizationFacade.GetOrganization (orgid = 1, )
+2013-12-06 15:33:42.7611 INFO Execution finished for GetOrganization
+2013-12-06 15:33:42.7611 INFO Execution started of UserFacade.GetUserDetails (id = 64, )
+2013-12-06 15:33:42.7761 INFO Execution finished for GetUserDetails
+2013-12-06 15:33:42.7761 INFO Execution finished for ManageUserDetail
+2013-12-06 15:33:42.8861 INFO Execution started of MvcApplication.Application_Error (sender = ASP.global_asax, e = System.EventArgs, )
+2013-12-06 15:33:42.8861 INFO Application_Error: System.Web.HttpException (0x80004005): File does not exist.
+   at System.Web.StaticFileHandler.ProcessRequestForNonMapPathBasedVirtualFile(HttpRequest request, HttpResponse response, String overrideVirtualPath)
+   at System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context, String overrideVirtualPath)
+   at System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2013-12-06 15:33:42.8861 INFO Execution started of ErrorController.DetailedError ()
+2013-12-06 15:33:42.8861 INFO Execution finished for DetailedError
+2013-12-06 15:33:42.8861 INFO Execution finished for Application_Error
+2013-12-06 15:38:35.3003 INFO Execution started of MvcApplication.Application_Start ()
+2013-12-06 15:38:36.0284 INFO Execution started of AdminAreaRegistration.get_AreaName ()
+2013-12-06 15:38:36.0284 INFO Execution finished for get_AreaName
+2013-12-06 15:38:36.0284 INFO Execution started of AdminAreaRegistration.RegisterArea (context = System.Web.Mvc.AreaRegistrationContext, )
+2013-12-06 15:38:36.0284 INFO Execution finished for RegisterArea
+2013-12-06 15:38:36.0284 INFO Execution finished for Application_Start
+2013-12-06 15:38:36.1114 INFO Execution started of MiniProfilerStartupModule.Init (context = ASP.global_asax, )
+2013-12-06 15:38:36.1114 INFO Execution finished for Init
+2013-12-06 15:38:36.2634 INFO Execution started of HomeController.Index ()
+2013-12-06 15:38:36.2634 INFO Execution finished for Index
+2013-12-06 15:38:37.4856 INFO Execution started of MiniProfilerStartupModule.Init (context = ASP.global_asax, )
+2013-12-06 15:38:37.4856 INFO Execution finished for Init
+2013-12-06 15:38:39.1777 INFO Execution started of HomeController.Default ()
+2013-12-06 15:38:39.1777 INFO Execution finished for Default
+2013-12-06 15:38:41.0459 INFO Execution started of MvcApplication.Application_Error (sender = ASP.global_asax, e = System.EventArgs, )
+2013-12-06 15:38:41.0529 INFO Application_Error: System.Web.HttpException (0x80004005): File does not exist.
+   at System.Web.StaticFileHandler.ProcessRequestForNonMapPathBasedVirtualFile(HttpRequest request, HttpResponse response, String overrideVirtualPath)
+   at System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context, String overrideVirtualPath)
+   at System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2013-12-06 15:38:41.0529 INFO Execution started of ErrorController.DetailedError ()
+2013-12-06 15:38:41.0529 INFO Execution finished for DetailedError
+2013-12-06 15:38:41.5860 INFO Execution finished for Application_Error
+2013-12-06 15:38:41.9860 INFO Execution started of MiniProfilerStartupModule.Init (context = ASP.global_asax, )
+2013-12-06 15:38:41.9860 INFO Execution finished for Init
+2013-12-06 15:38:42.7651 INFO Execution started of CommonService.GetUserDashboard (UserID = 1, )
+2013-12-06 15:38:42.7651 INFO Execution started of CommonFacade.GetDashboardData (UserID = 1, )
+2013-12-06 15:38:43.0321 INFO Execution finished for GetDashboardData
+2013-12-06 15:38:43.0321 INFO Execution finished for GetUserDashboard
+2013-12-06 15:39:00.2448 INFO Execution started of MvcApplication.Application_Start ()
+2013-12-06 15:39:00.2918 INFO Execution started of AdminAreaRegistration.get_AreaName ()
+2013-12-06 15:39:00.2918 INFO Execution finished for get_AreaName
+2013-12-06 15:39:00.2918 INFO Execution started of AdminAreaRegistration.RegisterArea (context = System.Web.Mvc.AreaRegistrationContext, )
+2013-12-06 15:39:00.2998 INFO Execution finished for RegisterArea
+2013-12-06 15:39:00.2998 INFO Execution finished for Application_Start
+2013-12-06 15:39:00.3399 INFO Execution started of MiniProfilerStartupModule.Init (context = ASP.global_asax, )
+2013-12-06 15:39:00.3399 INFO Execution finished for Init
+2013-12-06 15:39:00.5419 INFO Execution started of HomeController.Index ()
+2013-12-06 15:39:00.5419 INFO Execution finished for Index
+2013-12-06 15:39:00.8679 INFO Execution started of MiniProfilerStartupModule.Init (context = ASP.global_asax, )
+2013-12-06 15:39:00.8679 INFO Execution finished for Init
+2013-12-06 15:39:02.5651 INFO Execution started of HomeController.Default ()
+2013-12-06 15:39:02.5651 INFO Execution finished for Default
+2013-12-06 15:39:03.6662 INFO Execution started of MvcApplication.Application_Error (sender = ASP.global_asax, e = System.EventArgs, )
+2013-12-06 15:39:03.6752 INFO Application_Error: System.Web.HttpException (0x80004005): File does not exist.
+   at System.Web.StaticFileHandler.ProcessRequestForNonMapPathBasedVirtualFile(HttpRequest request, HttpResponse response, String overrideVirtualPath)
+   at System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context, String overrideVirtualPath)
+   at System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2013-12-06 15:39:03.6752 INFO Execution started of ErrorController.DetailedError ()
+2013-12-06 15:39:03.6752 INFO Execution finished for DetailedError
+2013-12-06 15:39:03.8222 INFO Execution finished for Application_Error
+2013-12-06 15:39:05.2063 INFO Execution started of CommonService.GetUserDashboard (UserID = 1, )
+2013-12-06 15:39:05.2063 INFO Execution started of CommonFacade.GetDashboardData (UserID = 1, )
+2013-12-06 15:39:05.2883 INFO Execution finished for GetDashboardData
+2013-12-06 15:39:05.2883 INFO Execution finished for GetUserDashboard
+2013-12-06 15:39:06.2084 INFO Execution started of RequiredRoleAttribute.AuthorizeCore (httpContext = System.Web.HttpContextWrapper, )
+2013-12-06 15:39:06.2084 INFO Execution finished for AuthorizeCore
+2013-12-06 15:39:06.2524 INFO Execution started of AdminController.Index ()
+2013-12-06 15:39:06.2524 INFO Execution finished for Index
+2013-12-06 15:39:06.9225 INFO Execution started of MvcApplication.Application_Error (sender = ASP.global_asax, e = System.EventArgs, )
+2013-12-06 15:39:06.9225 INFO Application_Error: System.Web.HttpException (0x80004005): File does not exist.
+   at System.Web.StaticFileHandler.ProcessRequestForNonMapPathBasedVirtualFile(HttpRequest request, HttpResponse response, String overrideVirtualPath)
+   at System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context, String overrideVirtualPath)
+   at System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2013-12-06 15:39:06.9225 INFO Execution started of ErrorController.DetailedError ()
+2013-12-06 15:39:06.9225 INFO Execution finished for DetailedError
+2013-12-06 15:39:06.9295 INFO Execution finished for Application_Error
+2013-12-06 15:39:08.3387 INFO Execution started of UserController.ManageUser ()
+2013-12-06 15:39:08.3387 INFO Execution started of UserController.ManageUserDetail (id = 0, )
+2013-12-06 15:39:08.3507 INFO Execution started of OrganizationFacade.GetOrganization (orgid = 1, )
+2013-12-06 15:39:08.3877 INFO Execution finished for GetOrganization
+2013-12-06 15:39:08.3957 INFO Execution started of UserFacade.GetUserDetails (id = 0, )
+2013-12-06 15:39:08.3957 INFO Execution finished for GetUserDetails
+2013-12-06 15:39:08.4367 INFO Execution finished for ManageUserDetail
+2013-12-06 15:39:08.4367 INFO Execution finished for ManageUser
+2013-12-06 15:39:09.6228 INFO Execution started of MvcApplication.Application_Error (sender = ASP.global_asax, e = System.EventArgs, )
+2013-12-06 15:39:09.6228 INFO Application_Error: System.Web.HttpException (0x80004005): File does not exist.
+   at System.Web.StaticFileHandler.ProcessRequestForNonMapPathBasedVirtualFile(HttpRequest request, HttpResponse response, String overrideVirtualPath)
+   at System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context, String overrideVirtualPath)
+   at System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2013-12-06 15:39:09.6228 INFO Execution started of ErrorController.DetailedError ()
+2013-12-06 15:39:09.6228 INFO Execution finished for DetailedError
+2013-12-06 15:39:09.6298 INFO Execution finished for Application_Error
+2013-12-06 15:39:10.6799 INFO Execution started of MvcApplication.Application_Error (sender = ASP.global_asax, e = System.EventArgs, )
+2013-12-06 15:39:10.6799 INFO Application_Error: System.Web.HttpException (0x80004005): The controller for path '/images/loader.gif' was not found or does not implement IController.
+   at System.Web.Mvc.DefaultControllerFactory.GetControllerInstance(RequestContext requestContext, Type controllerType)
+   at System.Web.Mvc.DefaultControllerFactory.CreateController(RequestContext requestContext, String controllerName)
+   at System.Web.Mvc.MvcHandler.ProcessRequestInit(HttpContextBase httpContext, IController& controller, IControllerFactory& factory)
+   at System.Web.Mvc.MvcHandler.<>c__DisplayClass6.<BeginProcessRequest>b__2()
+   at System.Web.Mvc.SecurityUtil.<>c__DisplayClassb`1.<ProcessInApplicationTrust>b__a()
+   at System.Web.Mvc.SecurityUtil.<GetCallInAppTrustThunk>b__0(Action f)
+   at System.Web.Mvc.SecurityUtil.ProcessInApplicationTrust(Action action)
+   at System.Web.Mvc.SecurityUtil.ProcessInApplicationTrust[TResult](Func`1 func)
+   at System.Web.Mvc.MvcHandler.BeginProcessRequest(HttpContextBase httpContext, AsyncCallback callback, Object state)
+   at System.Web.Mvc.MvcHandler.BeginProcessRequest(HttpContext httpContext, AsyncCallback callback, Object state)
+   at System.Web.Mvc.MvcHandler.System.Web.IHttpAsyncHandler.BeginProcessRequest(HttpContext context, AsyncCallback cb, Object extraData)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2013-12-06 15:39:10.6799 INFO Execution started of ErrorController.DetailedError ()
+2013-12-06 15:39:10.6799 INFO Execution finished for DetailedError
+2013-12-06 15:39:10.6799 INFO Execution finished for Application_Error
+2013-12-06 15:39:13.3472 INFO Execution started of UserController.SearchUser (UserName = h, )
+2013-12-06 15:39:13.3472 INFO Execution started of UserController.GetUsersFilteredUserList (orgid = 1, username = h, )
+2013-12-06 15:39:13.3472 INFO Execution started of AccountService.GetUserDetailsByOrganizationID (orgid = 1, userName = h, )
+2013-12-06 15:39:13.3572 INFO Execution started of UserFacade.GetUserDetailsByOrganizationID (orgid = 1, userName = h, )
+2013-12-06 15:39:13.3762 INFO Execution finished for GetUserDetailsByOrganizationID
+2013-12-06 15:39:13.3762 INFO Execution finished for GetUserDetailsByOrganizationID
+2013-12-06 15:39:13.3762 INFO Execution finished for GetUsersFilteredUserList
+2013-12-06 15:39:13.3762 INFO Execution finished for SearchUser
+2013-12-06 15:39:14.4043 INFO Execution started of UserController.SearchUser (UserName = hj, )
+2013-12-06 15:39:14.4043 INFO Execution started of UserController.GetUsersFilteredUserList (orgid = 1, username = hj, )
+2013-12-06 15:39:14.4043 INFO Execution started of AccountService.GetUserDetailsByOrganizationID (orgid = 1, userName = hj, )
+2013-12-06 15:39:14.4043 INFO Execution started of UserFacade.GetUserDetailsByOrganizationID (orgid = 1, userName = hj, )
+2013-12-06 15:39:14.4223 INFO Execution finished for GetUserDetailsByOrganizationID
+2013-12-06 15:39:14.4223 INFO Execution finished for GetUserDetailsByOrganizationID
+2013-12-06 15:39:14.4223 INFO Execution finished for GetUsersFilteredUserList
+2013-12-06 15:39:14.4223 INFO Execution finished for SearchUser
+2013-12-06 15:39:16.4205 INFO Execution started of AccountService.GetUserDetails (email = sds@dd.com, )
+2013-12-06 15:39:16.4205 INFO Execution started of UserFacade.GetUserDetails (email = sds@dd.com, )
+2013-12-06 15:39:16.4305 INFO Execution finished for GetUserDetails
+2013-12-06 15:39:16.4305 INFO Execution finished for GetUserDetails
+2013-12-06 15:39:16.5245 INFO Execution started of RequiredRoleAttribute.AuthorizeCore (httpContext = System.Web.HttpContextWrapper, )
+2013-12-06 15:39:16.5245 INFO Execution finished for AuthorizeCore
+2013-12-06 15:39:16.5245 INFO Execution started of UserController.ManageUserDetail (id = 64, )
+2013-12-06 15:39:16.5245 INFO Execution started of OrganizationFacade.GetOrganization (orgid = 1, )
+2013-12-06 15:39:16.5555 INFO Execution finished for GetOrganization
+2013-12-06 15:39:16.5555 INFO Execution started of UserFacade.GetUserDetails (id = 64, )
+2013-12-06 15:39:16.5745 INFO Execution finished for GetUserDetails
+2013-12-06 15:39:16.5745 INFO Execution finished for ManageUserDetail
+2013-12-06 15:39:16.6715 INFO Execution started of MvcApplication.Application_Error (sender = ASP.global_asax, e = System.EventArgs, )
+2013-12-06 15:39:16.6715 INFO Application_Error: System.Web.HttpException (0x80004005): File does not exist.
+   at System.Web.StaticFileHandler.ProcessRequestForNonMapPathBasedVirtualFile(HttpRequest request, HttpResponse response, String overrideVirtualPath)
+   at System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context, String overrideVirtualPath)
+   at System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2013-12-06 15:39:16.6715 INFO Execution started of ErrorController.DetailedError ()
+2013-12-06 15:39:16.6715 INFO Execution finished for DetailedError
+2013-12-06 15:39:16.6795 INFO Execution finished for Application_Error
+2013-12-06 15:39:17.6706 INFO Execution started of MvcApplication.Application_Error (sender = ASP.global_asax, e = System.EventArgs, )
+2013-12-06 15:39:17.6706 INFO Application_Error: System.Web.HttpException (0x80004005): The controller for path '/images/loader.gif' was not found or does not implement IController.
+   at System.Web.Mvc.DefaultControllerFactory.GetControllerInstance(RequestContext requestContext, Type controllerType)
+   at System.Web.Mvc.DefaultControllerFactory.CreateController(RequestContext requestContext, String controllerName)
+   at System.Web.Mvc.MvcHandler.ProcessRequestInit(HttpContextBase httpContext, IController& controller, IControllerFactory& factory)
+   at System.Web.Mvc.MvcHandler.<>c__DisplayClass6.<BeginProcessRequest>b__2()
+   at System.Web.Mvc.SecurityUtil.<>c__DisplayClassb`1.<ProcessInApplicationTrust>b__a()
+   at System.Web.Mvc.SecurityUtil.<GetCallInAppTrustThunk>b__0(Action f)
+   at System.Web.Mvc.SecurityUtil.ProcessInApplicationTrust(Action action)
+   at System.Web.Mvc.SecurityUtil.ProcessInApplicationTrust[TResult](Func`1 func)
+   at System.Web.Mvc.MvcHandler.BeginProcessRequest(HttpContextBase httpContext, AsyncCallback callback, Object state)
+   at System.Web.Mvc.MvcHandler.BeginProcessRequest(HttpContext httpContext, AsyncCallback callback, Object state)
+   at System.Web.Mvc.MvcHandler.System.Web.IHttpAsyncHandler.BeginProcessRequest(HttpContext context, AsyncCallback cb, Object extraData)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2013-12-06 15:39:17.6706 INFO Execution started of ErrorController.DetailedError ()
+2013-12-06 15:39:17.6706 INFO Execution finished for DetailedError
+2013-12-06 15:39:17.6706 INFO Execution finished for Application_Error
+2013-12-06 15:39:45.4504 INFO Execution started of MvcApplication.Application_Start ()
+2013-12-06 15:39:45.4974 INFO Execution started of AdminAreaRegistration.get_AreaName ()
+2013-12-06 15:39:45.4974 INFO Execution finished for get_AreaName
+2013-12-06 15:39:45.4974 INFO Execution started of AdminAreaRegistration.RegisterArea (context = System.Web.Mvc.AreaRegistrationContext, )
+2013-12-06 15:39:45.4974 INFO Execution finished for RegisterArea
+2013-12-06 15:39:45.4974 INFO Execution finished for Application_Start
+2013-12-06 15:39:45.5414 INFO Execution started of MiniProfilerStartupModule.Init (context = ASP.global_asax, )
+2013-12-06 15:39:45.5414 INFO Execution finished for Init
+2013-12-06 15:39:45.7304 INFO Execution started of HomeController.Index ()
+2013-12-06 15:39:45.7304 INFO Execution finished for Index
+2013-12-06 15:39:46.0394 INFO Execution started of MiniProfilerStartupModule.Init (context = ASP.global_asax, )
+2013-12-06 15:39:46.0394 INFO Execution finished for Init
+2013-12-06 15:39:47.9526 INFO Execution started of HomeController.Default ()
+2013-12-06 15:39:47.9526 INFO Execution finished for Default
+2013-12-06 15:39:49.6708 INFO Execution started of MvcApplication.Application_Error (sender = ASP.global_asax, e = System.EventArgs, )
+2013-12-06 15:39:49.6838 INFO Application_Error: System.Web.HttpException (0x80004005): File does not exist.
+   at System.Web.StaticFileHandler.ProcessRequestForNonMapPathBasedVirtualFile(HttpRequest request, HttpResponse response, String overrideVirtualPath)
+   at System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context, String overrideVirtualPath)
+   at System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2013-12-06 15:39:49.6838 INFO Execution started of ErrorController.DetailedError ()
+2013-12-06 15:39:49.6838 INFO Execution finished for DetailedError
+2013-12-06 15:39:49.8168 INFO Execution finished for Application_Error
+2013-12-06 15:39:51.1779 INFO Execution started of CommonService.GetUserDashboard (UserID = 1, )
+2013-12-06 15:39:51.1779 INFO Execution started of CommonFacade.GetDashboardData (UserID = 1, )
+2013-12-06 15:39:51.2679 INFO Execution finished for GetDashboardData
+2013-12-06 15:39:51.2679 INFO Execution finished for GetUserDashboard
+2013-12-06 15:39:53.2851 INFO Execution started of RequiredRoleAttribute.AuthorizeCore (httpContext = System.Web.HttpContextWrapper, )
+2013-12-06 15:39:53.2851 INFO Execution finished for AuthorizeCore
+2013-12-06 15:39:53.2851 INFO Execution started of AdminController.Index ()
+2013-12-06 15:39:53.2961 INFO Execution finished for Index
+2013-12-06 15:39:53.4602 INFO Execution started of MvcApplication.Application_Error (sender = ASP.global_asax, e = System.EventArgs, )
+2013-12-06 15:39:53.4602 INFO Application_Error: System.Web.HttpException (0x80004005): File does not exist.
+   at System.Web.StaticFileHandler.ProcessRequestForNonMapPathBasedVirtualFile(HttpRequest request, HttpResponse response, String overrideVirtualPath)
+   at System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context, String overrideVirtualPath)
+   at System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2013-12-06 15:39:53.4602 INFO Execution started of ErrorController.DetailedError ()
+2013-12-06 15:39:53.4602 INFO Execution finished for DetailedError
+2013-12-06 15:39:53.4672 INFO Execution finished for Application_Error
+2013-12-06 15:39:55.1883 INFO Execution started of UserController.ManageUser ()
+2013-12-06 15:39:55.1883 INFO Execution started of UserController.ManageUserDetail (id = 0, )
+2013-12-06 15:39:55.1993 INFO Execution started of OrganizationFacade.GetOrganization (orgid = 1, )
+2013-12-06 15:39:55.2353 INFO Execution finished for GetOrganization
+2013-12-06 15:39:55.2353 INFO Execution started of UserFacade.GetUserDetails (id = 0, )
+2013-12-06 15:39:55.2443 INFO Execution finished for GetUserDetails
+2013-12-06 15:39:55.2843 INFO Execution finished for ManageUserDetail
+2013-12-06 15:39:55.2843 INFO Execution finished for ManageUser
+2013-12-06 15:39:55.6534 INFO Execution started of MvcApplication.Application_Error (sender = ASP.global_asax, e = System.EventArgs, )
+2013-12-06 15:39:55.6534 INFO Application_Error: System.Web.HttpException (0x80004005): File does not exist.
+   at System.Web.StaticFileHandler.ProcessRequestForNonMapPathBasedVirtualFile(HttpRequest request, HttpResponse response, String overrideVirtualPath)
+   at System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context, String overrideVirtualPath)
+   at System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2013-12-06 15:39:55.6534 INFO Execution started of ErrorController.DetailedError ()
+2013-12-06 15:39:55.6534 INFO Execution finished for DetailedError
+2013-12-06 15:39:55.6534 INFO Execution finished for Application_Error
+2013-12-06 15:39:56.2784 INFO Execution started of MvcApplication.Application_Error (sender = ASP.global_asax, e = System.EventArgs, )
+2013-12-06 15:39:56.2784 INFO Application_Error: System.Web.HttpException (0x80004005): The controller for path '/images/loader.gif' was not found or does not implement IController.
+   at System.Web.Mvc.DefaultControllerFactory.GetControllerInstance(RequestContext requestContext, Type controllerType)
+   at System.Web.Mvc.DefaultControllerFactory.CreateController(RequestContext requestContext, String controllerName)
+   at System.Web.Mvc.MvcHandler.ProcessRequestInit(HttpContextBase httpContext, IController& controller, IControllerFactory& factory)
+   at System.Web.Mvc.MvcHandler.<>c__DisplayClass6.<BeginProcessRequest>b__2()
+   at System.Web.Mvc.SecurityUtil.<>c__DisplayClassb`1.<ProcessInApplicationTrust>b__a()
+   at System.Web.Mvc.SecurityUtil.<GetCallInAppTrustThunk>b__0(Action f)
+   at System.Web.Mvc.SecurityUtil.ProcessInApplicationTrust(Action action)
+   at System.Web.Mvc.SecurityUtil.ProcessInApplicationTrust[TResult](Func`1 func)
+   at System.Web.Mvc.MvcHandler.BeginProcessRequest(HttpContextBase httpContext, AsyncCallback callback, Object state)
+   at System.Web.Mvc.MvcHandler.BeginProcessRequest(HttpContext httpContext, AsyncCallback callback, Object state)
+   at System.Web.Mvc.MvcHandler.System.Web.IHttpAsyncHandler.BeginProcessRequest(HttpContext context, AsyncCallback cb, Object extraData)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2013-12-06 15:39:56.2784 INFO Execution started of ErrorController.DetailedError ()
+2013-12-06 15:39:56.2784 INFO Execution finished for DetailedError
+2013-12-06 15:39:56.2784 INFO Execution finished for Application_Error
+2013-12-06 17:48:23.7001 INFO Execution started of MvcApplication.Application_Start ()
+2013-12-06 17:48:24.3952 INFO Execution started of AdminAreaRegistration.get_AreaName ()
+2013-12-06 17:48:24.3952 INFO Execution finished for get_AreaName
+2013-12-06 17:48:24.3952 INFO Execution started of AdminAreaRegistration.RegisterArea (context = System.Web.Mvc.AreaRegistrationContext, )
+2013-12-06 17:48:24.3952 INFO Execution finished for RegisterArea
+2013-12-06 17:48:24.3952 INFO Execution finished for Application_Start
+2013-12-06 17:48:24.4712 INFO Execution started of MiniProfilerStartupModule.Init (context = ASP.global_asax, )
+2013-12-06 17:48:24.4712 INFO Execution finished for Init
+2013-12-06 17:48:24.5622 INFO Execution started of MvcApplication.Application_Error (sender = ASP.global_asax, e = System.EventArgs, )
+2013-12-06 17:48:24.5622 INFO Application_Error: System.Web.HttpException (0x80004005): Path '/Areas/Admin/Views/DocumentLevels/Index.cshtml' was not found.
+   at System.Web.HttpNotFoundHandler.ProcessRequest(HttpContext context)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2013-12-06 17:48:24.5792 INFO Execution started of ErrorController.DetailedError ()
+2013-12-06 17:48:24.5792 INFO Execution finished for DetailedError
+2013-12-06 17:48:25.1723 INFO Execution finished for Application_Error
+2013-12-06 17:48:33.5591 INFO Execution started of HomeController.Index ()
+2013-12-06 17:48:33.5601 INFO Execution finished for Index
+2013-12-06 17:48:34.1742 INFO Execution started of MiniProfilerStartupModule.Init (context = ASP.global_asax, )
+2013-12-06 17:48:34.1742 INFO Execution finished for Init
+2013-12-06 17:48:36.2024 INFO Execution started of HomeController.Default ()
+2013-12-06 17:48:36.2024 INFO Execution finished for Default
+2013-12-06 17:48:37.9526 INFO Execution started of MvcApplication.Application_Error (sender = ASP.global_asax, e = System.EventArgs, )
+2013-12-06 17:48:37.9526 INFO Application_Error: System.Web.HttpException (0x80004005): File does not exist.
+   at System.Web.StaticFileHandler.ProcessRequestForNonMapPathBasedVirtualFile(HttpRequest request, HttpResponse response, String overrideVirtualPath)
+   at System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context, String overrideVirtualPath)
+   at System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2013-12-06 17:48:37.9526 INFO Execution started of ErrorController.DetailedError ()
+2013-12-06 17:48:37.9526 INFO Execution finished for DetailedError
+2013-12-06 17:48:37.9596 INFO Execution finished for Application_Error
+2013-12-06 17:48:39.5357 INFO Execution started of CommonService.GetUserDashboard (UserID = 1, )
+2013-12-06 17:48:39.5357 INFO Execution started of CommonFacade.GetDashboardData (UserID = 1, )
+2013-12-06 17:48:39.7127 INFO Execution finished for GetDashboardData
+2013-12-06 17:48:39.7127 INFO Execution finished for GetUserDashboard
+2013-12-06 17:48:39.7847 INFO Execution started of MiniProfilerStartupModule.Init (context = ASP.global_asax, )
+2013-12-06 17:48:39.7847 INFO Execution finished for Init
+2013-12-06 17:48:41.9180 INFO Execution started of RequiredRoleAttribute.AuthorizeCore (httpContext = System.Web.HttpContextWrapper, )
+2013-12-06 17:48:41.9180 INFO Execution finished for AuthorizeCore
+2013-12-06 17:48:41.9180 INFO Execution started of AdminController.Index ()
+2013-12-06 17:48:41.9180 INFO Execution finished for Index
+2013-12-06 17:48:42.5260 INFO Execution started of MvcApplication.Application_Error (sender = ASP.global_asax, e = System.EventArgs, )
+2013-12-06 17:48:42.5260 INFO Application_Error: System.Web.HttpException (0x80004005): File does not exist.
+   at System.Web.StaticFileHandler.ProcessRequestForNonMapPathBasedVirtualFile(HttpRequest request, HttpResponse response, String overrideVirtualPath)
+   at System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context, String overrideVirtualPath)
+   at System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2013-12-06 17:48:42.5260 INFO Execution started of ErrorController.DetailedError ()
+2013-12-06 17:48:42.5260 INFO Execution finished for DetailedError
+2013-12-06 17:48:42.5300 INFO Execution finished for Application_Error
+2013-12-06 17:48:46.1474 INFO Execution started of RequiredRoleAttribute.AuthorizeCore (httpContext = System.Web.HttpContextWrapper, )
+2013-12-06 17:48:46.1594 INFO Execution finished for AuthorizeCore
+2013-12-06 17:48:46.1594 INFO Execution started of DocumentLevelsController.Index ()
+2013-12-06 17:48:46.1594 INFO Execution finished for Index
+2013-12-06 17:48:47.5125 INFO Execution started of MvcApplication.Application_Error (sender = ASP.global_asax, e = System.EventArgs, )
+2013-12-06 17:48:47.5125 INFO Application_Error: System.Web.HttpException (0x80004005): File does not exist.
+   at System.Web.StaticFileHandler.ProcessRequestForNonMapPathBasedVirtualFile(HttpRequest request, HttpResponse response, String overrideVirtualPath)
+   at System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context, String overrideVirtualPath)
+   at System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2013-12-06 17:48:47.5125 INFO Execution started of ErrorController.DetailedError ()
+2013-12-06 17:48:47.5125 INFO Execution finished for DetailedError
+2013-12-06 17:48:47.5125 INFO Execution finished for Application_Error
+2013-12-06 17:48:49.0437 INFO Execution started of DocumentLevelService.GetDocumentLevels (OrgID = 1, )
+2013-12-06 17:48:49.0437 INFO Execution started of DocumentLevelService.GetDocumentLevelList (OrgID = 1, )
+2013-12-06 17:48:49.0437 INFO Execution started of DocumentLevelsFacade.GetDocumentLevels (OrgID = 1, )
+2013-12-06 17:48:49.1267 INFO Execution finished for GetDocumentLevels
+2013-12-06 17:48:49.1307 INFO Execution finished for GetDocumentLevelList
+2013-12-06 17:48:49.1307 INFO Execution finished for GetDocumentLevels
+2013-12-06 17:54:15.0553 INFO Execution started of RequiredRoleAttribute.AuthorizeCore (httpContext = System.Web.HttpContextWrapper, )
+2013-12-06 17:54:15.0553 INFO Execution finished for AuthorizeCore
+2013-12-06 17:54:15.0553 INFO Execution started of DocumentLevelsController.Index ()
+2013-12-06 17:54:15.0553 INFO Execution finished for Index
+2013-12-06 17:54:16.2684 INFO Execution started of MiniProfilerStartupModule.Init (context = ASP.global_asax, )
+2013-12-06 17:54:16.2684 INFO Execution finished for Init
+2013-12-06 17:54:16.4084 INFO Execution started of MiniProfilerStartupModule.Init (context = ASP.global_asax, )
+2013-12-06 17:54:16.4084 INFO Execution finished for Init
+2013-12-06 17:54:16.5314 INFO Execution started of MvcApplication.Application_Error (sender = ASP.global_asax, e = System.EventArgs, )
+2013-12-06 17:54:16.5314 INFO Application_Error: System.Web.HttpException (0x80004005): File does not exist.
+   at System.Web.StaticFileHandler.ProcessRequestForNonMapPathBasedVirtualFile(HttpRequest request, HttpResponse response, String overrideVirtualPath)
+   at System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context, String overrideVirtualPath)
+   at System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2013-12-06 17:54:16.5314 INFO Execution started of ErrorController.DetailedError ()
+2013-12-06 17:54:16.5314 INFO Execution finished for DetailedError
+2013-12-06 17:54:16.5314 INFO Execution finished for Application_Error
+2013-12-06 17:54:17.9186 INFO Execution started of DocumentLevelService.GetDocumentLevels (OrgID = 1, )
+2013-12-06 17:54:17.9186 INFO Execution started of DocumentLevelService.GetDocumentLevelList (OrgID = 1, )
+2013-12-06 17:54:17.9186 INFO Execution started of DocumentLevelsFacade.GetDocumentLevels (OrgID = 1, )
+2013-12-06 17:54:17.9186 INFO Execution finished for GetDocumentLevels
+2013-12-06 17:54:17.9186 INFO Execution finished for GetDocumentLevelList
+2013-12-06 17:54:17.9316 INFO Execution finished for GetDocumentLevels
+2013-12-06 17:55:49.7977 INFO Execution started of DocumentLevelsController.Save (json = [
+  {
+    "LevelID": 1,
+    "OrganizationID": 1,
+    "sublevels": [
+      {
+        "LevelID": 1,
+        "SubLevelID": 1,
+        "Name": "12345678910-12345678910-12345678910-12345678910-12345678910-12345678910-12345678910-12345678910-1234",
+        "Abbreviate": "q",
+        "IsActive": true
+      }
+    ]
+  },
+  {
+    "LevelID": 2,
+    "OrganizationID": 1,
+    "sublevels": [
+      {
+        "LevelID": 2,
+        "SubLevelID": 1,
+        "Name": "ABCDEFGHIJKLMNOPQRSTUVWXYZ-ABCDEFGHIJKLMNOPQRSTUVWXYZ--ABCDEFGHIJKLMNOPQRSTUVWXYZ-ABCDEFGHIJKLMNOPQ1",
+        "Abbreviate": "aaaa",
+        "IsActive": true
+      },
+      {
+        "LevelID": 2,
+        "SubLevelID": 2,
+        "Name": "ABCDEFGHIJKLMNOPQRSTUVWXYZ-ABCDEFGHIJKLMNOPQRSTUVWXYZ--ABCDEFGHIJKLMNOPQRSTUVWXYZ-ABCDEFGHIJKLMNOPQ2",
+        "Abbreviate": "wsss",
+        "IsActive": true
+      },
+      {
+        "LevelID": 2,
+        "SubLevelID": 3,
+        "Name": "12345678910-12345678910-12345678910-12345678910-12345678910-12345678910-12345678910-12345678910-123a",
+        "Abbreviate": "asdf",
+        "IsActive": true
+      },
+      {
+        "LevelID": 2,
+        "SubLevelID": 4,
+        "Name": "12345678910-12345678910-12345678910-12345678910-12345678910-12345678910-12345678910-12345678910-123b",
+        "Abbreviate": "kkjk",
+        "IsActive": true
+      }
+    ]
+  },
+  {
+    "LevelID": 3,
+    "OrganizationID": 1,
+    "sublevels": [
+      {
+        "LevelID": 3,
+        "SubLevelID": 1,
+        "Name": "12345678910-12345678910-12345678910-12345678910-12345678910-12345678910-12345678910-12345678910-123c",
+        "Abbreviate": "SSSS",
+        "IsActive": true
+      },
+      {
+        "LevelID": 3,
+        "SubLevelID": 2,
+        "Name": "12345678910-12345678910-12345678910-12345678910-12345678910-12345678910-12345678910-12345678910-123m",
+        "Abbreviate": "bkds",
+        "IsActive": true
+      },
+      {
+        "LevelID": 3,
+        "SubLevelID": 3,
+        "Name": "www",
+        "Abbreviate": "SS",
+        "IsActive": true
+      },
+      {
+        "LevelID": 3,
+        "SubLevelID": 4,
+        "Name": "asdert",
+        "Abbreviate": "DDD",
+        "IsActive": true
+      },
+      {
+        "LevelID": 3,
+        "SubLevelID": 5,
+        "Name": "12345678910-12345678910-12345678910-12345678910-12345678910-12345678910-12345678910-12345678910-123x",
+        "Abbreviate": "kjwe",
+        "IsActive": true
+      }
+    ]
+  },
+  {
+    "LevelID": 4,
+    "OrganizationID": 1,
+    "sublevels": [
+      {
+        "LevelID": 4,
+        "SubLevelID": 1,
+        "Name": "12345678910-12345678910-12345678910-12345678910-12345678910-12345678910-12345678910-12345678910-123l",
+        "Abbreviate": "as1w",
+        "IsActive": true
+      },
+      {
+        "LevelID": 4,
+        "SubLevelID": 2,
+        "Name": "12345678910-12345678910-12345678910-12345678910-12345678910-12345678910-12345678910-12345678910-123p",
+        "Abbreviate": "qw23",
+        "IsActive": true
+      }
+    ]
+  }
+], )
+2013-12-06 17:55:49.8167 INFO Execution started of DocumentLevelsFacade.Save (levels = System.Collections.Generic.List`1[Confluence.Blueprint.Models.Level], )
+2013-12-06 17:55:49.9588 INFO Execution finished for Save
+2013-12-06 17:55:49.9598 INFO Execution finished for Save
+2013-12-06 17:55:49.9598 INFO Execution started of MiniProfilerStartupModule.Init (context = ASP.global_asax, )
+2013-12-06 17:55:49.9598 INFO Execution finished for Init
+2013-12-06 17:55:49.9878 INFO Execution started of RedirectController.Index (Url = /Admin, MessageType = Success, Message = Document levels and names configured successfully, )
+2013-12-06 17:55:49.9878 INFO Execution started of BaseController.Redirect (url = /Admin, )
+2013-12-06 17:55:49.9878 INFO Execution finished for Redirect
+2013-12-06 17:55:49.9908 INFO Execution finished for Index
+2013-12-06 17:55:49.9908 INFO Execution started of AjaxAwareRedirectResult.ExecuteResult (context = System.Web.Mvc.ControllerContext, )
+2013-12-06 17:55:49.9908 INFO Execution finished for ExecuteResult
+2013-12-06 17:55:50.0258 INFO Execution started of RequiredRoleAttribute.AuthorizeCore (httpContext = System.Web.HttpContextWrapper, )
+2013-12-06 17:55:50.0258 INFO Execution finished for AuthorizeCore
+2013-12-06 17:55:50.0258 INFO Execution started of AdminController.Index ()
+2013-12-06 17:55:50.0258 INFO Execution finished for Index
+2013-12-06 17:55:50.2318 INFO Execution started of MvcApplication.Application_Error (sender = ASP.global_asax, e = System.EventArgs, )
+2013-12-06 17:55:50.2318 INFO Application_Error: System.Web.HttpException (0x80004005): File does not exist.
+   at System.Web.StaticFileHandler.ProcessRequestForNonMapPathBasedVirtualFile(HttpRequest request, HttpResponse response, String overrideVirtualPath)
+   at System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context, String overrideVirtualPath)
+   at System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2013-12-06 17:55:50.2318 INFO Execution started of ErrorController.DetailedError ()
+2013-12-06 17:55:50.2318 INFO Execution finished for DetailedError
+2013-12-06 17:55:50.2568 INFO Execution finished for Application_Error
+2013-12-06 17:55:52.5180 INFO Execution started of RequiredRoleAttribute.AuthorizeCore (httpContext = System.Web.HttpContextWrapper, )
+2013-12-06 17:55:52.5190 INFO Execution finished for AuthorizeCore
+2013-12-06 17:55:52.5190 INFO Execution started of DocumentLevelsController.Index ()
+2013-12-06 17:55:52.5190 INFO Execution finished for Index
+2013-12-06 17:55:52.6180 INFO Execution started of MiniProfilerStartupModule.Init (context = ASP.global_asax, )
+2013-12-06 17:55:52.6180 INFO Execution finished for Init
+2013-12-06 17:55:52.6720 INFO Execution started of MvcApplication.Application_Error (sender = ASP.global_asax, e = System.EventArgs, )
+2013-12-06 17:55:52.6720 INFO Application_Error: System.Web.HttpException (0x80004005): File does not exist.
+   at System.Web.StaticFileHandler.ProcessRequestForNonMapPathBasedVirtualFile(HttpRequest request, HttpResponse response, String overrideVirtualPath)
+   at System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context, String overrideVirtualPath)
+   at System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2013-12-06 17:55:52.6720 INFO Execution started of ErrorController.DetailedError ()
+2013-12-06 17:55:52.6720 INFO Execution finished for DetailedError
+2013-12-06 17:55:52.6760 INFO Execution finished for Application_Error
+2013-12-06 17:55:54.1252 INFO Execution started of DocumentLevelService.GetDocumentLevels (OrgID = 1, )
+2013-12-06 17:55:54.1252 INFO Execution started of DocumentLevelService.GetDocumentLevelList (OrgID = 1, )
+2013-12-06 17:55:54.1252 INFO Execution started of DocumentLevelsFacade.GetDocumentLevels (OrgID = 1, )
+2013-12-06 17:55:54.1252 INFO Execution finished for GetDocumentLevels
+2013-12-06 17:55:54.1252 INFO Execution finished for GetDocumentLevelList
+2013-12-06 17:55:54.1252 INFO Execution finished for GetDocumentLevels
+2013-12-06 17:58:04.0272 INFO Execution started of RequiredRoleAttribute.AuthorizeCore (httpContext = System.Web.HttpContextWrapper, )
+2013-12-06 17:58:04.0272 INFO Execution finished for AuthorizeCore
+2013-12-06 17:58:04.0272 INFO Execution started of DocumentLevelsController.Index ()
+2013-12-06 17:58:04.0272 INFO Execution finished for Index
+2013-12-06 17:58:05.2913 INFO Execution started of MiniProfilerStartupModule.Init (context = ASP.global_asax, )
+2013-12-06 17:58:05.2913 INFO Execution finished for Init
+2013-12-06 17:58:05.3133 INFO Execution started of MiniProfilerStartupModule.Init (context = ASP.global_asax, )
+2013-12-06 17:58:05.3133 INFO Execution finished for Init
+2013-12-06 17:58:05.4133 INFO Execution started of MvcApplication.Application_Error (sender = ASP.global_asax, e = System.EventArgs, )
+2013-12-06 17:58:05.4133 INFO Application_Error: System.Web.HttpException (0x80004005): File does not exist.
+   at System.Web.StaticFileHandler.ProcessRequestForNonMapPathBasedVirtualFile(HttpRequest request, HttpResponse response, String overrideVirtualPath)
+   at System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context, String overrideVirtualPath)
+   at System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2013-12-06 17:58:05.4133 INFO Execution started of ErrorController.DetailedError ()
+2013-12-06 17:58:05.4133 INFO Execution finished for DetailedError
+2013-12-06 17:58:05.4323 INFO Execution finished for Application_Error
+2013-12-06 17:58:06.8935 INFO Execution started of DocumentLevelService.GetDocumentLevels (OrgID = 1, )
+2013-12-06 17:58:06.8935 INFO Execution started of DocumentLevelService.GetDocumentLevelList (OrgID = 1, )
+2013-12-06 17:58:06.8935 INFO Execution started of DocumentLevelsFacade.GetDocumentLevels (OrgID = 1, )
+2013-12-06 17:58:06.9135 INFO Execution finished for GetDocumentLevels
+2013-12-06 17:58:06.9135 INFO Execution finished for GetDocumentLevelList
+2013-12-06 17:58:06.9135 INFO Execution finished for GetDocumentLevels
+2013-12-06 18:02:49.0087 INFO Execution started of RequiredRoleAttribute.AuthorizeCore (httpContext = System.Web.HttpContextWrapper, )
+2013-12-06 18:02:49.0087 INFO Execution finished for AuthorizeCore
+2013-12-06 18:02:49.0087 INFO Execution started of DocumentLevelsController.Index ()
+2013-12-06 18:02:49.0087 INFO Execution finished for Index
+2013-12-06 18:02:50.1668 INFO Execution started of MiniProfilerStartupModule.Init (context = ASP.global_asax, )
+2013-12-06 18:02:50.1668 INFO Execution finished for Init
+2013-12-06 18:02:50.1828 INFO Execution started of MiniProfilerStartupModule.Init (context = ASP.global_asax, )
+2013-12-06 18:02:50.1828 INFO Execution finished for Init
+2013-12-06 18:02:50.3158 INFO Execution started of MvcApplication.Application_Error (sender = ASP.global_asax, e = System.EventArgs, )
+2013-12-06 18:02:50.3158 INFO Application_Error: System.Web.HttpException (0x80004005): File does not exist.
+   at System.Web.StaticFileHandler.ProcessRequestForNonMapPathBasedVirtualFile(HttpRequest request, HttpResponse response, String overrideVirtualPath)
+   at System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context, String overrideVirtualPath)
+   at System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2013-12-06 18:02:50.3158 INFO Execution started of ErrorController.DetailedError ()
+2013-12-06 18:02:50.3158 INFO Execution finished for DetailedError
+2013-12-06 18:02:50.3288 INFO Execution finished for Application_Error
+2013-12-06 18:02:51.7229 INFO Execution started of DocumentLevelService.GetDocumentLevels (OrgID = 1, )
+2013-12-06 18:02:51.7229 INFO Execution started of DocumentLevelService.GetDocumentLevelList (OrgID = 1, )
+2013-12-06 18:02:51.7229 INFO Execution started of DocumentLevelsFacade.GetDocumentLevels (OrgID = 1, )
+2013-12-06 18:02:51.7369 INFO Execution finished for GetDocumentLevels
+2013-12-06 18:02:51.7369 INFO Execution finished for GetDocumentLevelList
+2013-12-06 18:02:51.7369 INFO Execution finished for GetDocumentLevels
+2013-12-06 18:07:48.0056 INFO Execution started of MvcApplication.Application_Start ()
+2013-12-06 18:07:48.3086 INFO Execution started of AdminAreaRegistration.get_AreaName ()
+2013-12-06 18:07:48.3086 INFO Execution finished for get_AreaName
+2013-12-06 18:07:48.3126 INFO Execution started of AdminAreaRegistration.RegisterArea (context = System.Web.Mvc.AreaRegistrationContext, )
+2013-12-06 18:07:48.3126 INFO Execution finished for RegisterArea
+2013-12-06 18:07:48.3126 INFO Execution finished for Application_Start
+2013-12-06 18:07:48.3366 INFO Execution started of MiniProfilerStartupModule.Init (context = ASP.global_asax, )
+2013-12-06 18:07:48.3366 INFO Execution finished for Init
+2013-12-06 18:07:48.4326 INFO Execution started of MvcApplication.Application_Error (sender = ASP.global_asax, e = System.EventArgs, )
+2013-12-06 18:07:48.4386 INFO Application_Error: System.Web.HttpException (0x80004005): Path '/Areas/Admin/Views/DocumentLevels/Index.cshtml' was not found.
+   at System.Web.HttpNotFoundHandler.ProcessRequest(HttpContext context)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2013-12-06 18:07:48.4536 INFO Execution started of ErrorController.DetailedError ()
+2013-12-06 18:07:48.4536 INFO Execution finished for DetailedError
+2013-12-06 18:07:49.0307 INFO Execution finished for Application_Error
+2013-12-06 18:07:55.9834 INFO Execution started of HomeController.Index ()
+2013-12-06 18:07:55.9834 INFO Execution finished for Index
+2013-12-06 18:07:56.6174 INFO Execution started of MiniProfilerStartupModule.Init (context = ASP.global_asax, )
+2013-12-06 18:07:56.6174 INFO Execution finished for Init
+2013-12-06 18:07:58.2646 INFO Execution started of HomeController.Default ()
+2013-12-06 18:07:58.2686 INFO Execution finished for Default
+2013-12-06 18:08:00.0948 INFO Execution started of MvcApplication.Application_Error (sender = ASP.global_asax, e = System.EventArgs, )
+2013-12-06 18:08:00.0948 INFO Application_Error: System.Web.HttpException (0x80004005): File does not exist.
+   at System.Web.StaticFileHandler.ProcessRequestForNonMapPathBasedVirtualFile(HttpRequest request, HttpResponse response, String overrideVirtualPath)
+   at System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context, String overrideVirtualPath)
+   at System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2013-12-06 18:08:00.0948 INFO Execution started of ErrorController.DetailedError ()
+2013-12-06 18:08:00.0948 INFO Execution finished for DetailedError
+2013-12-06 18:08:00.0948 INFO Execution finished for Application_Error
+2013-12-06 18:08:01.6419 INFO Execution started of CommonService.GetUserDashboard (UserID = 1, )
+2013-12-06 18:08:01.6419 INFO Execution started of CommonFacade.GetDashboardData (UserID = 1, )
+2013-12-06 18:08:01.7219 INFO Execution finished for GetDashboardData
+2013-12-06 18:08:01.7219 INFO Execution finished for GetUserDashboard
+2013-12-06 18:08:02.8440 INFO Execution started of RequiredRoleAttribute.AuthorizeCore (httpContext = System.Web.HttpContextWrapper, )
+2013-12-06 18:08:02.8440 INFO Execution finished for AuthorizeCore
+2013-12-06 18:08:02.8440 INFO Execution started of AdminController.Index ()
+2013-12-06 18:08:02.8440 INFO Execution finished for Index
+2013-12-06 18:08:03.3831 INFO Execution started of MvcApplication.Application_Error (sender = ASP.global_asax, e = System.EventArgs, )
+2013-12-06 18:08:03.3831 INFO Application_Error: System.Web.HttpException (0x80004005): File does not exist.
+   at System.Web.StaticFileHandler.ProcessRequestForNonMapPathBasedVirtualFile(HttpRequest request, HttpResponse response, String overrideVirtualPath)
+   at System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context, String overrideVirtualPath)
+   at System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2013-12-06 18:08:03.3831 INFO Execution started of ErrorController.DetailedError ()
+2013-12-06 18:08:03.3831 INFO Execution finished for DetailedError
+2013-12-06 18:08:03.3831 INFO Execution finished for Application_Error
+2013-12-06 18:08:04.8832 INFO Execution started of RequiredRoleAttribute.AuthorizeCore (httpContext = System.Web.HttpContextWrapper, )
+2013-12-06 18:08:04.8832 INFO Execution finished for AuthorizeCore
+2013-12-06 18:08:04.8832 INFO Execution started of DocumentLevelsController.Index ()
+2013-12-06 18:08:04.8832 INFO Execution finished for Index
+2013-12-06 18:08:06.3404 INFO Execution started of MvcApplication.Application_Error (sender = ASP.global_asax, e = System.EventArgs, )
+2013-12-06 18:08:06.3404 INFO Application_Error: System.Web.HttpException (0x80004005): File does not exist.
+   at System.Web.StaticFileHandler.ProcessRequestForNonMapPathBasedVirtualFile(HttpRequest request, HttpResponse response, String overrideVirtualPath)
+   at System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context, String overrideVirtualPath)
+   at System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2013-12-06 18:08:06.3404 INFO Execution started of ErrorController.DetailedError ()
+2013-12-06 18:08:06.3404 INFO Execution finished for DetailedError
+2013-12-06 18:08:06.3474 INFO Execution finished for Application_Error
+2013-12-06 18:08:07.9055 INFO Execution started of DocumentLevelService.GetDocumentLevels (OrgID = 1, )
+2013-12-06 18:08:07.9085 INFO Execution started of DocumentLevelService.GetDocumentLevelList (OrgID = 1, )
+2013-12-06 18:08:07.9085 INFO Execution started of DocumentLevelsFacade.GetDocumentLevels (OrgID = 1, )
+2013-12-06 18:08:07.9335 INFO Execution finished for GetDocumentLevels
+2013-12-06 18:08:07.9335 INFO Execution finished for GetDocumentLevelList
+2013-12-06 18:08:07.9335 INFO Execution finished for GetDocumentLevels

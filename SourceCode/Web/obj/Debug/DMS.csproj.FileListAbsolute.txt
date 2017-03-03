@@ -1,0 +1,9 @@
+C:\RnD\DMS\DMS\bin\DMS.dll
+C:\RnD\DMS\DMS\bin\DMS.pdb
+C:\RnD\DMS\DMS\bin\EntityFramework.dll
+C:\RnD\DMS\DMS\bin\EntityFramework.xml
+C:\RnD\DMS\DMS\obj\Debug\ResolveAssemblyReference.cache
+C:\RnD\DMS\DMS\obj\Debug\DMS.dll
+C:\RnD\DMS\DMS\obj\Debug\DMS.pdb
+C:\RnD\DMS\DMS\bin\DocumentServices.dll
+C:\RnD\DMS\DMS\bin\DocumentServices.pdb

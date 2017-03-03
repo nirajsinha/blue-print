@@ -1,0 +1,17 @@
+2013-10-28 15:07:48.4672 INFO Application started.
+2013-10-28 15:10:35.4414 INFO    at System.Diagnostics.Process.StartWithShellExecuteEx(ProcessStartInfo startInfo)
+   at System.Diagnostics.Process.Start()
+   at System.Diagnostics.Process.Start(ProcessStartInfo startInfo)
+   at Confluence.Blueprint.DocumentManager.DocumentManager.ConvertToMht(String SourceFile, String FileType) in C:\My Folder\Projects\eqms\SourceCode\DocumentManager\DocumentManager.cs:line 60
+   at Confluence.Blueprint.Web.Helpers.DocumentHelper.ConvertToMht(String SourceFile, String FileType) in C:\My Folder\Projects\eqms\SourceCode\Web\Helpers\DocumentHelper.cs:line 27
+   at Confluence.Blueprint.Web.Controllers.DMS.DocumentLibraryController.Viewer(String SourceFile, String FileType, String DocNumber, String DocVer, String FileName) in C:\My Folder\Projects\eqms\SourceCode\Web\Controllers\DocumentLibrary\DocumentLibraryController.cs:line 176
+2013-10-28 15:12:19.2976 INFO Application started.
+2013-10-28 15:13:04.7590 INFO Application started.
+2013-10-28 17:06:17.2078 INFO Application started.
+2013-10-28 17:09:34.6442 INFO    at System.Diagnostics.Process.StartWithShellExecuteEx(ProcessStartInfo startInfo)
+   at System.Diagnostics.Process.Start()
+   at System.Diagnostics.Process.Start(ProcessStartInfo startInfo)
+   at Confluence.Blueprint.DocumentManager.DocumentManager.ConvertToMht(String SourceFile, String FileType) in C:\My Folder\Projects\eqms\SourceCode\DocumentManager\DocumentManager.cs:line 66
+   at Confluence.Blueprint.Web.Helpers.DocumentHelper.ConvertToMht(String SourceFile, String FileType) in C:\My Folder\Projects\eqms\SourceCode\Web\Helpers\DocumentHelper.cs:line 27
+   at Confluence.Blueprint.Web.Controllers.DMS.DocumentLibraryController.Viewer(String SourceFile, String FileType, String DocNumber, String DocVer, String FileName) in C:\My Folder\Projects\eqms\SourceCode\Web\Controllers\DocumentLibrary\DocumentLibraryController.cs:line 176
+2013-10-28 17:17:40.4945 INFO Application started.

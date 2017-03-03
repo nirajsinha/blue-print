@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-16"?>
+<Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <DocumentID>65</DocumentID>
+  <OrganizationID>0</OrganizationID>
+  <DepartmentID>2</DepartmentID>
+  <SubDepartmentID>0</SubDepartmentID>
+  <DocumentType>aaaa</DocumentType>
+  <WorkflowStatusName>Initial Draft</WorkflowStatusName>
+  <DocumentName>dddsdd</DocumentName>
+  <PhysicalPath>1\2\dddsdd\1.000\</PhysicalPath>
+  <MetaDataPath>1\2\</MetaDataPath>
+  <Version>1.000</Version>
+  <NextVersion>2.000</NextVersion>
+  <CheckInStatus>true</CheckInStatus>
+  <IsActive>true</IsActive>
+  <FileType>.doc</FileType>
+  <CreatedBy>admin@eqms.com</CreatedBy>
+  <CreatedOn>2013-12-02T18:13:13.713</CreatedOn>
+  <AssignedTo>0</AssignedTo>
+</Document>

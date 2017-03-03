@@ -1,0 +1,152 @@
+﻿@model Confluence.Blueprint.Models.LogOnModel
+
+@{
+    ViewBag.Title = "Logon";
+}
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="target-densitydpi=device-dpi, width=device-width, initial-scale=1.0, maximum-scale=1" />
+    <meta name="description" content="Confluence.Blueprint" />
+    <title>@ViewBag.Title</title>
+    
+    <script type="text/javascript" src="@Url.Content("~/js/assets/jquery.min.js")"></script>
+    <script type="text/javascript" src="@Url.Content("~/js/assets/modernizr.js")"></script>
+    <script type="text/javascript" src="@Url.Content("~/js/assets/jquery.validate.min.js")"></script>
+    <script type="text/javascript" src="@Url.Content("~/js/assets/jquery.mousewheel.min.js")"></script>
+    <script type="text/javascript" src="@Url.Content("~/js/assets/jquery.cookie.js")" ></script>
+    <script type="text/javascript" src="@Url.Content("~/js/modern/input-control.js")"></script>
+    <script type="text/javascript" src="@Url.Content("~/js/google-code-prettify/prettify.js")"></script>
+    <!--[if lt IE 9]>
+        <script type="text/javascript" src="@Url.Content("~/js/assets/html5shiv.js")"></script>
+        <script type="text/javascript" src="@Url.Content("~/js/assets/html5shiv-printshiv.js")"></script>
+        <script type="text/javascript" src="@Url.Content("~/js/assets/respond.min.js")"></script>
+     <![endif]-->
+    <link href="@Url.Content("~/css/modern.css")" rel="stylesheet" media="screen"/>
+    <link href="@Url.Content("~/css/modern-responsive.css")" rel="stylesheet" media="screen"/>
+    <link href="@Url.Content("~/css/site.css")" rel="stylesheet" type="text/css" media="screen"/>
+    <link href="@Url.Content("~/js/google-code-prettify/prettify.css")" rel="stylesheet" type="text/css" media="screen"/>
+    
+     
+</head>
+
+<body class="metrouicss" onload="prettyPrint()">
+<div class="page secondary" >
+    @*<div class="page-header">
+        <div class="page-header-content">
+            <h1>Logon</h1>
+        </div>
+    </div>*@
+    <div class="page-region">
+        <div class="page-region-content">
+        
+        @using (Html.BeginForm(null, null, FormMethod.Post, new { id = "myForm", name = "myForm" }))
+        {
+            @Html.HiddenFor(model => model.ReturnUrl)
+            @Html.HiddenFor(model => model.LicenseMessage)
+            <p style="color:Red">@Model.LicenseMessage</p>
+            <div>
+                
+                        <table>
+                        <tr>
+                        <td>
+                            <img src="@Url.Content("~/images/plandocheckact.jpg")"/>
+                        </td>
+                        <td>
+
+                        <table>
+                            <tr>
+                                <td class="bg-color-blue">
+                                    
+                                    <img style="width:50px;height:50px;vertical-align:middle" src="@Url.Content("~/images/logo32.png")"/>&nbsp;&nbsp;&nbsp;<span style="font-size: 20pt;color:White">Blueprint <font size="2pt">v1.0</font></span>
+                                    
+                                </td>
+                            </tr>
+                        </table>
+                        @Html.ValidationSummary()
+                        <fieldset>
+                    <legend>Blueprint credentials</legend>
+                        <table>
+                            <tbody>
+                            <tr>
+                                <td colspan="2">
+                                    <div class="editor-label">
+                                        @Html.LabelFor(m => m.Email)
+                                    </div>
+                                </td>
+                             </tr>
+                            <tr>
+                                <td>
+                                    <div class="input-control text" style="width:380px;">
+                                        @Html.TextBoxFor(m => m.Email, new { placeholder = "Enter email id", id = "uid", @class = "required email" })
+                                        
+                                       
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="editor-label">
+                                         @Html.ValidationMessageFor(m => m.Email)
+                                    </div>
+                                </td>
+                             </tr>
+
+                            <tr>
+                                <td colspan="2">
+                                    <div class="editor-label">
+                                        @Html.LabelFor(m => m.Password)
+                                    </div>
+                                </td>
+                             </tr>
+                            <tr>
+                                <td>
+                                   <div class="input-control password" style="width:380px;">
+                                        @Html.PasswordFor(m => m.Password, new { placeholder = "Enter password", id = "pwd", @class = "required" })
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="editor-label">
+                                         @Html.ValidationMessageFor(m => m.Password)
+                                    </div>
+                                </td>
+                             </tr>
+                            <tr>
+                                <td colspan="2">
+                                    <label class="input-control checkbox">
+                                        @Html.CheckBoxFor(m => m.RememberMe) 
+                                        <span class="helper">@Html.LabelFor(m => m.RememberMe)</span>
+                                    </label><br />
+                                    <div class="info">Select this option if you're the only person who uses this computer. Your server will allow a longer period of inactivity before signing you out.</div>
+                                </td>
+                             </tr>
+                             <tr>
+                                <td colspan="2">
+                                <br />
+                                    <input type="submit" value="Sign in" />
+                                </td>
+                             </tr>
+                            </tbody>
+                        </table>
+                        </fieldset>
+                        </td>
+                        </tr>
+                        </table>
+                                        
+                
+            </div>
+
+        }
+</div>
+    </div>
+
+</div>
+<script type="text/javascript">
+    $(document).ready(function () {
+        $('#myForm').on('submit', function () {
+            return $('#myForm').valid();
+        });
+    });
+        
+    </script>
+</body>
+</html>

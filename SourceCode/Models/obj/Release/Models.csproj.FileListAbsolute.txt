@@ -1,0 +1,15 @@
+C:\My Folder\Projects\eqms\SourceCode\Models\bin\Release\Confluence.Blueprint.Models.dll
+C:\My Folder\Projects\eqms\SourceCode\Models\bin\Release\Confluence.Blueprint.Models.pdb
+C:\My Folder\Projects\eqms\SourceCode\Models\obj\Release\Confluence.Blueprint.Models.dll
+C:\My Folder\Projects\eqms\SourceCode\Models\obj\Release\Confluence.Blueprint.Models.pdb
+C:\My Folder\Projects\eqms\SourceCode\Models\obj\Release\Models.csprojResolveAssemblyReference.cache
+C:\My Folder\Projects\Blueprint\SourceCode\Models\bin\Release\Confluence.Blueprint.Models.dll
+C:\My Folder\Projects\Blueprint\SourceCode\Models\bin\Release\Confluence.Blueprint.Models.pdb
+C:\My Folder\Projects\Blueprint\SourceCode\Models\obj\Release\Models.csprojResolveAssemblyReference.cache
+C:\My Folder\Projects\Blueprint\SourceCode\Models\obj\Release\Confluence.Blueprint.Models.dll
+C:\My Folder\Projects\Blueprint\SourceCode\Models\obj\Release\Confluence.Blueprint.Models.pdb
+C:\Niraj\Projects\Blueprint\SourceCode\Models\bin\Release\Confluence.Blueprint.Models.dll
+C:\Niraj\Projects\Blueprint\SourceCode\Models\bin\Release\Confluence.Blueprint.Models.pdb
+C:\Niraj\Projects\Blueprint\SourceCode\Models\obj\Release\Confluence.Blueprint.Models.dll
+C:\Niraj\Projects\Blueprint\SourceCode\Models\obj\Release\Confluence.Blueprint.Models.pdb
+C:\Niraj\Projects\Blueprint\SourceCode\Models\obj\Release\Models.csprojResolveAssemblyReference.cache

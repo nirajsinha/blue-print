@@ -1,0 +1,64 @@
+C:\My Folder\Projects\eqms\SourceCode\Web\bin\BusinessFacade.dll
+C:\My Folder\Projects\eqms\SourceCode\Web\bin\Confluence.Blueprint.Models.dll
+C:\My Folder\Projects\eqms\SourceCode\Web\bin\DocumentManager.dll
+C:\My Folder\Projects\eqms\SourceCode\Web\bin\Framework.Common.dll
+C:\My Folder\Projects\eqms\SourceCode\Web\bin\Framework.Security.dll
+C:\My Folder\Projects\eqms\SourceCode\Web\bin\MvcSiteMapProvider.dll
+C:\My Folder\Projects\eqms\SourceCode\Web\bin\Framework.Data.dll
+C:\My Folder\Projects\eqms\SourceCode\Web\bin\LicenseAccess.dll
+C:\My Folder\Projects\eqms\SourceCode\Web\bin\License.dll
+C:\My Folder\Projects\eqms\SourceCode\Web\bin\BusinessFacade.pdb
+C:\My Folder\Projects\eqms\SourceCode\Web\bin\DocumentManager.pdb
+C:\My Folder\Projects\eqms\SourceCode\Web\bin\Framework.Common.pdb
+C:\My Folder\Projects\eqms\SourceCode\Web\bin\Confluence.Blueprint.Models.pdb
+C:\My Folder\Projects\eqms\SourceCode\Web\bin\Framework.Security.pdb
+C:\My Folder\Projects\eqms\SourceCode\Web\bin\MvcSiteMapProvider.xml
+C:\My Folder\Projects\eqms\SourceCode\Web\bin\Framework.Data.pdb
+C:\My Folder\Projects\eqms\SourceCode\Web\bin\Confluence.Blueprint.Web.dll
+C:\My Folder\Projects\eqms\SourceCode\Web\bin\Confluence.Blueprint.Web.pdb
+C:\My Folder\Projects\eqms\SourceCode\Web\obj\Debug\Confluence.Blueprint.Web.dll
+C:\My Folder\Projects\eqms\SourceCode\Web\obj\Debug\Confluence.Blueprint.Web.pdb
+C:\My Folder\Projects\eqms\SourceCode\Web\obj\Debug\Web.csprojResolveAssemblyReference.cache
+C:\Niraj\Projects\Blueprint\SourceCode\Web\bin\Microsoft.Web.Infrastructure.dll
+C:\Niraj\Projects\Blueprint\SourceCode\Web\bin\Confluence.Blueprint.BusinessFacade.dll
+C:\Niraj\Projects\Blueprint\SourceCode\Web\bin\Confluence.Blueprint.DocumentManager.dll
+C:\Niraj\Projects\Blueprint\SourceCode\Web\bin\Confluence.Blueprint.Models.dll
+C:\Niraj\Projects\Blueprint\SourceCode\Web\bin\Framework.Common.dll
+C:\Niraj\Projects\Blueprint\SourceCode\Web\bin\Framework.Logging.dll
+C:\Niraj\Projects\Blueprint\SourceCode\Web\bin\Framework.Security.dll
+C:\Niraj\Projects\Blueprint\SourceCode\Web\bin\MiniProfiler.dll
+C:\Niraj\Projects\Blueprint\SourceCode\Web\bin\MvcSiteMapProvider.dll
+C:\Niraj\Projects\Blueprint\SourceCode\Web\bin\PostSharp.dll
+C:\Niraj\Projects\Blueprint\SourceCode\Web\bin\System.Web.Abstractions.dll
+C:\Niraj\Projects\Blueprint\SourceCode\Web\bin\System.Web.Helpers.dll
+C:\Niraj\Projects\Blueprint\SourceCode\Web\bin\System.Web.Mvc.dll
+C:\Niraj\Projects\Blueprint\SourceCode\Web\bin\System.Web.Routing.dll
+C:\Niraj\Projects\Blueprint\SourceCode\Web\bin\System.Web.WebPages.dll
+C:\Niraj\Projects\Blueprint\SourceCode\Web\bin\WebActivator.dll
+C:\Niraj\Projects\Blueprint\SourceCode\Web\bin\Framework.Data.dll
+C:\Niraj\Projects\Blueprint\SourceCode\Web\bin\NLog.dll
+C:\Niraj\Projects\Blueprint\SourceCode\Web\bin\LicenseAccess.dll
+C:\Niraj\Projects\Blueprint\SourceCode\Web\bin\License.dll
+C:\Niraj\Projects\Blueprint\SourceCode\Web\bin\Confluence.Blueprint.BusinessFacade.pdb
+C:\Niraj\Projects\Blueprint\SourceCode\Web\bin\Confluence.Blueprint.DocumentManager.pdb
+C:\Niraj\Projects\Blueprint\SourceCode\Web\bin\Framework.Common.pdb
+C:\Niraj\Projects\Blueprint\SourceCode\Web\bin\Framework.Logging.pdb
+C:\Niraj\Projects\Blueprint\SourceCode\Web\bin\Confluence.Blueprint.Models.pdb
+C:\Niraj\Projects\Blueprint\SourceCode\Web\bin\Framework.Security.pdb
+C:\Niraj\Projects\Blueprint\SourceCode\Web\bin\MiniProfiler.pdb
+C:\Niraj\Projects\Blueprint\SourceCode\Web\bin\MiniProfiler.xml
+C:\Niraj\Projects\Blueprint\SourceCode\Web\bin\MvcSiteMapProvider.xml
+C:\Niraj\Projects\Blueprint\SourceCode\Web\bin\PostSharp.xml
+C:\Niraj\Projects\Blueprint\SourceCode\Web\bin\System.Web.Mvc.xml
+C:\Niraj\Projects\Blueprint\SourceCode\Web\bin\System.Web.WebPages.xml
+C:\Niraj\Projects\Blueprint\SourceCode\Web\bin\System.Web.Helpers.xml
+C:\Niraj\Projects\Blueprint\SourceCode\Web\bin\Framework.Data.pdb
+C:\Niraj\Projects\Blueprint\SourceCode\Web\bin\NLog.xml
+C:\Niraj\Projects\Blueprint\SourceCode\Web\obj\Debug\Web.csprojResolveAssemblyReference.cache
+C:\Niraj\Projects\Blueprint\SourceCode\Web\obj\Debug\Confluence.Blueprint.Web.dll
+C:\Niraj\Projects\Blueprint\SourceCode\Web\obj\Debug\Confluence.Blueprint.Web.pdb
+C:\Niraj\Projects\Blueprint\SourceCode\Web\bin\NLog.config
+C:\Niraj\Projects\Blueprint\SourceCode\Web\bin\Confluence.Blueprint.Web.dll
+C:\Niraj\Projects\Blueprint\SourceCode\Web\bin\Confluence.Blueprint.Web.pdb
+C:\Niraj\Projects\Blueprint\SourceCode\Web\bin\Confluence.Blueprint.Web.pssym
+C:\Niraj\Projects\Blueprint\SourceCode\Web\obj\Debug\Confluence.Blueprint.Web.dll.postsharp

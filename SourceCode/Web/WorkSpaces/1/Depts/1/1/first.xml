@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-16"?>
+<Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <DocumentID>28</DocumentID>
+  <OrganizationID>0</OrganizationID>
+  <DepartmentID>1</DepartmentID>
+  <SubDepartmentID>1</SubDepartmentID>
+  <DocumentType>STANDARD OPERATING PROCEDURES</DocumentType>
+  <DocumentNumber>ABC/TORG/HR/REC/</DocumentNumber>
+  <WorkflowStatusName>Initial Draft</WorkflowStatusName>
+  <DocumentName>first</DocumentName>
+  <PhysicalPath>TORG\HR\REC\first\1.000\</PhysicalPath>
+  <MetaDataPath>TORG\HR\REC\</MetaDataPath>
+  <Version>1.000</Version>
+  <NextVersion>1.100</NextVersion>
+  <CheckInStatus>true</CheckInStatus>
+  <IsActive>true</IsActive>
+  <FileType>.doc</FileType>
+  <CreatedBy>nsinha@hotmail.com</CreatedBy>
+  <CreatedOn>2013-08-18T15:28:46.017</CreatedOn>
+</Document>

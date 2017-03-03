@@ -1,0 +1,9 @@
+C:\My Folder\eQMS\SourceCode\SecurityBase\bin\Debug\SecurityBase.dll
+C:\My Folder\eQMS\SourceCode\SecurityBase\bin\Debug\SecurityBase.pdb
+C:\My Folder\eQMS\SourceCode\SecurityBase\bin\Debug\eQMS.Models.dll
+C:\My Folder\eQMS\SourceCode\SecurityBase\bin\Debug\License.dll
+C:\My Folder\eQMS\SourceCode\SecurityBase\bin\Debug\LicenseAccess.dll
+C:\My Folder\eQMS\SourceCode\SecurityBase\bin\Debug\eQMS.Models.pdb
+C:\My Folder\eQMS\SourceCode\SecurityBase\obj\Debug\ResolveAssemblyReference.cache
+C:\My Folder\eQMS\SourceCode\SecurityBase\obj\Debug\SecurityBase.dll
+C:\My Folder\eQMS\SourceCode\SecurityBase\obj\Debug\SecurityBase.pdb

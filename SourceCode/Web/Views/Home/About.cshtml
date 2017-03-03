@@ -1,0 +1,106 @@
+﻿@model Confluence.Blueprint.Models.LicenseModel
+@{
+    ViewBag.Title = "About";
+}
+
+
+@section MenuGroup{
+        
+}
+
+@section PageHeader{About}
+
+                <div>
+                    <fieldset>
+                    <legend>License information.</legend>
+                    <table style="width:400px">
+                        <tbody>
+                            <tr>
+                                <td  colspan="2">
+                                    <div class="editor-label">
+                                        @Html.LabelFor(m => m.Organization) <strong>@Model.Organization</strong>
+                                    </div>
+                                </td>
+                               
+                            </tr>
+                            <tr>
+                                <td>
+                                    <div class="editor-label">
+                                        @Html.LabelFor(m => m.MaxUserCount)
+                                        : &nbsp;
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="editor-label">
+                                        @Model.MaxUserCount
+                                    </div>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td>
+                                    <div class="editor-label">
+                                        @Html.LabelFor(m => m.LicenseType)
+                                        : &nbsp;
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="editor-label">
+                                        @Model.LicenseType
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <div class="editor-label">
+                                        @Html.LabelFor(m => m.IsLicenseActivated)
+                                        : &nbsp;
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="editor-label">
+                                        @Model.IsLicenseActivated.ToString()
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <div class="editor-label">
+                                        @Html.LabelFor(m => m.IsLicenseValid)
+                                        : &nbsp;
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="editor-label">
+                                        @Model.IsLicenseValid.ToString()
+                                    </div>
+                                </td>
+                            </tr>
+                            @if (! string.IsNullOrWhiteSpace (Model.LicenseError))
+                            {
+                            <tr>
+                                <td>
+                                    <div class="editor-label">
+                                        @Html.LabelFor(m => m.LicenseError)
+                                        : &nbsp;
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="editor-label">
+                                        <p style="color:Red">@Model.LicenseError &nbsp; </p>
+                                        
+                                    </div>
+                                    
+                                </td>
+                            </tr>
+                            }
+                            </tbody>
+                    </table>
+                    
+                    </fieldset>
+                </div>
+
+
+
+
+

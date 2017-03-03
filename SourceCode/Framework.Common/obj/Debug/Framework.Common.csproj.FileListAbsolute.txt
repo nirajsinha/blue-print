@@ -1,0 +1,30 @@
+C:\My Folder\eQMS\SourceCode\Framework.Common\bin\Debug\Framework.Common.dll
+C:\My Folder\eQMS\SourceCode\Framework.Common\bin\Debug\Framework.Common.pdb
+C:\My Folder\eQMS\SourceCode\Framework.Common\obj\Debug\ResolveAssemblyReference.cache
+C:\My Folder\eQMS\SourceCode\Framework.Common\obj\Debug\Framework.Common.dll
+C:\My Folder\eQMS\SourceCode\Framework.Common\obj\Debug\Framework.Common.pdb
+C:\My Folder\eQMS\eqms\SourceCode\Framework.Common\bin\Debug\Framework.Common.dll
+C:\My Folder\eQMS\eqms\SourceCode\Framework.Common\bin\Debug\Framework.Common.pdb
+C:\My Folder\eQMS\eqms\SourceCode\Framework.Common\obj\Debug\ResolveAssemblyReference.cache
+C:\My Folder\eQMS\eqms\SourceCode\Framework.Common\obj\Debug\Framework.Common.dll
+C:\My Folder\eQMS\eqms\SourceCode\Framework.Common\obj\Debug\Framework.Common.pdb
+C:\My Folder\Projects\eqms\SourceCode\Framework.Common\bin\Debug\Framework.Common.dll
+C:\My Folder\Projects\eqms\SourceCode\Framework.Common\bin\Debug\Framework.Common.pdb
+C:\My Folder\Projects\eqms\SourceCode\Framework.Common\obj\Debug\Framework.Common.dll
+C:\My Folder\Projects\eqms\SourceCode\Framework.Common\obj\Debug\Framework.Common.pdb
+C:\Niraj\Projects\Blueprint\SourceCode\Framework.Common\bin\Debug\Framework.Common.dll
+C:\Niraj\Projects\Blueprint\SourceCode\Framework.Common\bin\Debug\Framework.Common.pdb
+C:\Niraj\Projects\Blueprint\SourceCode\Framework.Common\bin\Debug\Framework.Logging.dll
+C:\Niraj\Projects\Blueprint\SourceCode\Framework.Common\bin\Debug\PostSharp.dll
+C:\Niraj\Projects\Blueprint\SourceCode\Framework.Common\bin\Debug\NLog.dll
+C:\Niraj\Projects\Blueprint\SourceCode\Framework.Common\bin\Debug\MiniProfiler.dll
+C:\Niraj\Projects\Blueprint\SourceCode\Framework.Common\bin\Debug\Framework.Logging.pdb
+C:\Niraj\Projects\Blueprint\SourceCode\Framework.Common\bin\Debug\PostSharp.xml
+C:\Niraj\Projects\Blueprint\SourceCode\Framework.Common\bin\Debug\NLog.xml
+C:\Niraj\Projects\Blueprint\SourceCode\Framework.Common\bin\Debug\MiniProfiler.pdb
+C:\Niraj\Projects\Blueprint\SourceCode\Framework.Common\bin\Debug\MiniProfiler.xml
+C:\Niraj\Projects\Blueprint\SourceCode\Framework.Common\obj\Debug\Framework.Common.csprojResolveAssemblyReference.cache
+C:\Niraj\Projects\Blueprint\SourceCode\Framework.Common\obj\Debug\Framework.Common.dll
+C:\Niraj\Projects\Blueprint\SourceCode\Framework.Common\obj\Debug\Framework.Common.pdb
+C:\Niraj\Projects\Blueprint\SourceCode\Framework.Common\bin\Debug\Framework.Common.pssym
+C:\Niraj\Projects\Blueprint\SourceCode\Framework.Common\obj\Debug\Framework.Common.dll.postsharp

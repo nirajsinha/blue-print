@@ -1,0 +1,101 @@
+﻿@model Confluence.Blueprint.Models.DocumentLibraryModel
+@{
+    ViewBag.Title = "Document Library";
+}
+
+@section MenuGroup{
+        @*<li><a href="#" id="doc-preview"><img class="place-left" src="@Url.Content("~/images/view-32.png")" style="height: 20px"/>Preview</a></li>*@
+        <li><a href="#" id="checkout" val="true"><img class="place-left" src="@Url.Content("~/images/lock-open.png")" style="height: 20px"/>Revise</a></li>
+        <li><a href="#" id="undocheckout" val="false"><img class="place-left" src="@Url.Content("~/images/lock.png")" style="height: 20px"/>Unlock</a></li>
+        <li><a href="#" onclick="location.href='@Url.Content("~/DocumentLibrary/Upload")'"><img class="place-left" src="@Url.Content("~/images/stock-up.png")" style="height: 20px"/>Upload</a></li>
+	    <li><a href="#" id="workflow"><img class="place-left" src="@Url.Content("~/images/fork-32.png")" style="height: 20px"/>Process Workflow</a></li>
+        <li><a href="#" id="delete"><img class="place-left" src="@Url.Content("~/images/bage-error.png")" style="height: 20px"/>Delete</a></li>
+        <li><a href="#" id="history"><img class="place-left" src="@Url.Content("~/images/responsive.png")" style="height: 20px"/>History</a></li>
+	    @*<li><a href="#" onclick="location.href='@Url.Content("~/DocumentLibrary/ChangeRequest/0")'"><img class="place-left" src="@Url.Content("~/images/responsive.png")" style="height: 20px"/>Change Request</a></li>*@
+	    <li><a href="#" id="raise-dcr"><img class="place-left" src="@Url.Content("~/images/camera48.png")" style="height: 20px"/>Change Request</a></li>
+        <li style="display:none"><a href="#" id="publish"><img class="place-left" src="@Url.Content("~/images/stock-up.png")" style="height: 20px"/>Publish</a></li>
+        
+}
+@*<script type="text/javascript" src="@Url.Content("~/js/assets/jquery.filetree.js")"></script>
+<link href="@Url.Content("~/css/jquery.filetree.css")" rel="stylesheet" type="text/css" media="screen"/>*@
+@section PageScripts{
+    <script type="text/javascript" src="@Url.Content("~/js/modern/dialog.js")" ></script>
+    <script type="text/javascript" src="@Url.Content("~/js/assets/jquery.colorbox.min.js")"></script>
+    <script type="text/javascript" src="@Url.Content("~/js/assets/i18n/grid.locale-en.js")" ></script>
+    <script type="text/javascript" src="@Url.Content("~/js/assets/jquery.jqGrid.min.js")" ></script>
+    <script type="text/javascript" src="@Url.Content("~/js/custom/jquery.jqgrid.extend.js")" ></script>
+    <script type="text/javascript" src="@Url.Content("~/js/assets/jquery.contextmenu.js")" ></script>
+    <script type="text/javascript" src="@Url.Content("~/js/assets/jquery.tmpl.min.js")" ></script>
+    <script type="text/javascript" src="@Url.Content("~/js/assets/moment.min.js")" ></script>
+    <script type="text/javascript" src="@Url.Content("~/js/doc-library.js")" ></script>
+    <script type="text/javascript">
+        $.jgrid.no_legacy_api = true;
+        $.jgrid.useJSON = true;
+    </script>
+}
+
+@section PageStyles{
+    <link rel="stylesheet" type="text/css" href="@Url.Content("~/css/themes/redmond/jquery-ui.css")" />
+    <link rel="stylesheet" type="text/css" href="@Url.Content("~/css/themes/redmond/jquery-ui.theme.css")" />
+    <link rel="stylesheet" type="text/css" href="@Url.Content("~/css/ui.jqgrid.css")" />
+    <link rel="stylesheet" type="text/css" href="@Url.Content("~/css/colorbox.css")" />
+}
+
+@section PageHeader{Document Library}
+   
+   <div class="page with-sidebar">
+          <div class="page-sidebar" style="width:25%" >
+            <ul>
+                @foreach (Confluence.Blueprint.Models.DepartmentModel o in Model.Departments)
+                {
+                    <li class="sticker sticker-color-green">
+                    <a href="#" dept="@o.DepartmentID" subdept="0"><i class="icon-list"></i>@o.DepartmentName</a>
+                    <ul class="sub-menu light">
+                        @if (o.SubDepartments != null && o.SubDepartments.Count > 0)
+                        {
+                            foreach (Confluence.Blueprint.Models.SubDepartmentModel s in o.SubDepartments)
+                            {
+                                    <li><a href="#" dept="@o.DepartmentID" subdept="@s.SubDepartmentID">@s.SubDepartmentName</a></li>
+                            }
+                        }
+                    </ul>
+                   </li>
+                }
+            </ul>
+            @*<div id="fileTreeDemo_1" style="background: #FFF;overflow: scroll;padding: 5px;">
+                
+                </div>*@
+                
+          </div>
+              
+        <div class="page fill" style="width:74%" >
+            <table id="doc-list"><tr><td/></tr></table>
+            <div id="pager"></div> 
+            <iframe id='downloadFrame' style="display:none"></iframe>
+            
+            <div id="div-history-container" style="display:none">
+                <div id="div-history" class="snap10" width="850px">
+                <h2 id="doc_name" class="fg-color-blueDark"></h2><br />
+                    <table class="stripped bordered">
+                        <thead>
+                            <tr class="bg-color-lighten"><th  width="40"></th><th class="text-center" width="100">Version</th><th class="text-center" width="150">Workflow Status</th><th class="text-center" width="250">Modified Date</th><th class="text-center">Modified By</th></tr>
+                        </thead>
+                        <tbody id="doc-history-table">
+                            
+                        </tbody>
+                   </table>
+                </div>
+            </div>
+        </div>
+        </div>
+        
+
+<script id="historyTemplate" type="text/x-jquery-tmpl">
+    <tr>
+        <td width="40" class="text-center">
+        <a href="#"  onclick="DownloadDoc('/DocumentLibrary/Download/?FileName=${PhysicalPath.replace(/\/gi, "\\")}${DocumentName}${FileType}&FileType=${FileType}');"><img style="width:24px;height:24px;" src="@Url.Content("~/images/download.png")" title="Click here to download this version"/></a>
+        </td>
+        <td width="100" class="text-center">${VersionString}</td><td width="150" class="text-center">${WorkflowStatusName}</td><td width="250" class="text-center">${moment(CreatedOn).format('MMMM Do YYYY')}, ${moment(CreatedOn).fromNow()}</td><td class="text-center" width="300">${CreatedBy}</td>
+    </tr>
+</script>
+

@@ -1,0 +1,16 @@
+﻿@{
+    ViewBag.Title = "Error Page";
+}
+
+@section MenuGroup{
+
+}
+
+@section PageHeader{Security}
+           
+
+    <h1 class="fg-color-red">Access Denied! </h1>
+            
+    <p>You are not authorized to access this page. Please <a href="#" onclick="location.href='@Url.Content("~/Account/LogOn")'">login </a>with appropriate credential or contact site adminitrator to grant required permissions.</p>
+
+

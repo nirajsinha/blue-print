@@ -1,0 +1,82 @@
+﻿@model Confluence.Blueprint.Models.DocumentNumberingTypes 
+@using Confluence.Blueprint.Web.Helpers;
+
+@if (Model == Confluence.Blueprint.Models.DocumentNumberingTypes.DocumentType)
+{
+    <label class="input-control radio">
+        @Html.RadioButtonFor(x => x, (int) Confluence.Blueprint.Models.DocumentNumberingTypes.DocumentType, new { @checked = "checked" , @class="rdoc_type"})
+        <span class="helper">@Confluence.Blueprint.Models.DocumentNumberingTypes.DocumentType.RenderEnumDisplay() </span>
+    </label>
+}
+else
+{
+    <label class="input-control radio">
+        @Html.RadioButtonFor(x => x, (int)Confluence.Blueprint.Models.DocumentNumberingTypes.DocumentType, new { @class = "rdoc_type" })
+        <span class="helper">@Confluence.Blueprint.Models.DocumentNumberingTypes.DocumentType.RenderEnumDisplay()  </span>
+    </label>
+}
+<br />
+@if (Model == Confluence.Blueprint.Models.DocumentNumberingTypes.DepartmentName)
+{
+    <label class="input-control radio">
+        @Html.RadioButtonFor(x => x, (int)Confluence.Blueprint.Models.DocumentNumberingTypes.DepartmentName, new { @checked = "checked", @class = "rdept_name" })
+        <span class="helper">@Confluence.Blueprint.Models.DocumentNumberingTypes.DepartmentName.RenderEnumDisplay()</span>
+    </label>
+    
+}
+else
+{
+    <label class="input-control radio">
+        @Html.RadioButtonFor(x => x, (int)Confluence.Blueprint.Models.DocumentNumberingTypes.DepartmentName, new { @class = "rdept_name" })
+        <span class="helper">@Confluence.Blueprint.Models.DocumentNumberingTypes.DepartmentName.RenderEnumDisplay()</span>
+    </label>
+}
+<br />
+@if (Model == Confluence.Blueprint.Models.DocumentNumberingTypes.SubDepartmentName)
+{
+    <label class="input-control radio">
+        @Html.RadioButtonFor(x => x, (int)Confluence.Blueprint.Models.DocumentNumberingTypes.SubDepartmentName, new { @checked = "checked", @class = "rsub_dept_name" })
+        <span class="helper">@Confluence.Blueprint.Models.DocumentNumberingTypes.SubDepartmentName.RenderEnumDisplay() </span>
+    </label>
+    
+}
+else
+{
+    <label class="input-control radio">
+        @Html.RadioButtonFor(x => x, (int)Confluence.Blueprint.Models.DocumentNumberingTypes.SubDepartmentName, new { @class = "rsub_dept_name" })
+        <span class="helper">@Confluence.Blueprint.Models.DocumentNumberingTypes.SubDepartmentName.RenderEnumDisplay() </span>
+    </label>
+}
+<br />
+@if (Model == Confluence.Blueprint.Models.DocumentNumberingTypes.OrganizationName)
+{
+    <label class="input-control radio">
+        @Html.RadioButtonFor(x => x, (int)Confluence.Blueprint.Models.DocumentNumberingTypes.OrganizationName, new { @checked = "checked", @class = "rorg_name" })
+        <span class="helper">@Confluence.Blueprint.Models.DocumentNumberingTypes.OrganizationName.RenderEnumDisplay()</span>
+    </label>
+   
+}
+else
+{
+     <label class="input-control radio">
+        @Html.RadioButtonFor(x => x, (int)Confluence.Blueprint.Models.DocumentNumberingTypes.OrganizationName, new { @class = "rorg_name" })
+        <span class="helper">@Confluence.Blueprint.Models.DocumentNumberingTypes.OrganizationName.RenderEnumDisplay()</span>
+    </label>
+}
+<br />
+@if (Model == Confluence.Blueprint.Models.DocumentNumberingTypes.None)
+{
+    <label class="input-control radio">
+        @Html.RadioButtonFor(x => x, (int)Confluence.Blueprint.Models.DocumentNumberingTypes.None, new { @checked = "checked", @class = "r_none" })
+        <span class="helper">@Confluence.Blueprint.Models.DocumentNumberingTypes.None.RenderEnumDisplay()</span>
+    </label>
+   
+}
+else
+{
+     <label class="input-control radio">
+        @Html.RadioButtonFor(x => x, (int)Confluence.Blueprint.Models.DocumentNumberingTypes.None, new { @class = "r_none" })
+        <span class="helper">@Confluence.Blueprint.Models.DocumentNumberingTypes.None.RenderEnumDisplay()</span>
+    </label>
+}
+

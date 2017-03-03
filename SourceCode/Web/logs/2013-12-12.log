@@ -1,0 +1,1106 @@
+2013-12-12 14:54:37.9970 INFO Execution started of MvcApplication.Application_Start ()
+2013-12-12 14:54:41.1353 INFO Execution started of AdminAreaRegistration.get_AreaName ()
+2013-12-12 14:54:41.1353 INFO Execution finished for get_AreaName
+2013-12-12 14:54:41.1353 INFO Execution started of AdminAreaRegistration.RegisterArea (context = System.Web.Mvc.AreaRegistrationContext, )
+2013-12-12 14:54:41.1353 INFO Execution finished for RegisterArea
+2013-12-12 14:54:41.1413 INFO Execution finished for Application_Start
+2013-12-12 14:54:41.3734 INFO Execution started of MiniProfilerStartupModule.Init (context = ASP.global_asax, )
+2013-12-12 14:54:41.3734 INFO Execution finished for Init
+2013-12-12 14:54:41.7094 INFO Execution started of HomeController.Index ()
+2013-12-12 14:54:41.7094 INFO Execution finished for Index
+2013-12-12 14:54:43.5676 INFO Execution started of MiniProfilerStartupModule.Init (context = ASP.global_asax, )
+2013-12-12 14:54:43.5676 INFO Execution finished for Init
+2013-12-12 14:54:43.7366 INFO Execution started of MiniProfilerStartupModule.Init (context = ASP.global_asax, )
+2013-12-12 14:54:43.7366 INFO Execution finished for Init
+2013-12-12 14:54:47.1379 INFO Execution started of AccountController.LogOn (returnUrl = /Home/Default, )
+2013-12-12 14:54:47.3670 INFO Execution finished for LogOn
+2013-12-12 14:55:03.9316 INFO Execution started of AccountController.LogOn (model = Confluence.Blueprint.Models.LogOnModel, )
+2013-12-12 14:55:03.9346 INFO Execution started of OrganizationService.GetOrganizationByUserEmail (userEmail = admin@eqms.com, )
+2013-12-12 14:55:03.9846 INFO Execution started of OrganizationFacade.GetOrganization (userEmail = admin@eqms.com, )
+2013-12-12 14:55:06.3479 INFO Execution finished for GetOrganization
+2013-12-12 14:55:06.3479 INFO Execution finished for GetOrganizationByUserEmail
+2013-12-12 14:55:06.3539 INFO Execution started of AccountService.GetUserDetails (email = admin@eqms.com, )
+2013-12-12 14:55:06.3539 INFO Execution started of UserFacade.GetUserDetails (email = admin@eqms.com, )
+2013-12-12 14:55:06.4999 INFO Execution finished for GetUserDetails
+2013-12-12 14:55:06.4999 INFO Execution finished for GetUserDetails
+2013-12-12 14:55:06.4999 INFO Execution started of BaseController.GetTerminology (id = 2, )
+2013-12-12 14:55:06.5089 INFO Execution finished for GetTerminology
+2013-12-12 14:55:06.5089 INFO Execution started of BaseController.Redirect (url = /Home/Default, )
+2013-12-12 14:55:06.5089 INFO Execution finished for Redirect
+2013-12-12 14:55:06.5089 INFO Execution finished for LogOn
+2013-12-12 14:55:06.5249 INFO Execution started of AjaxAwareRedirectResult.ExecuteResult (context = System.Web.Mvc.ControllerContext, )
+2013-12-12 14:55:06.5249 INFO Execution finished for ExecuteResult
+2013-12-12 14:55:06.5639 INFO Execution started of HomeController.Default ()
+2013-12-12 14:55:06.5639 INFO Execution finished for Default
+2013-12-12 14:55:09.0421 INFO Execution started of MvcApplication.Application_Error (sender = ASP.global_asax, e = System.EventArgs, )
+2013-12-12 14:55:09.0651 INFO Application_Error: System.Web.HttpException (0x80004005): File does not exist.
+   at System.Web.StaticFileHandler.ProcessRequestForNonMapPathBasedVirtualFile(HttpRequest request, HttpResponse response, String overrideVirtualPath)
+   at System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context, String overrideVirtualPath)
+   at System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2013-12-12 14:55:09.0681 INFO Execution started of ErrorController.DetailedError ()
+2013-12-12 14:55:09.0681 INFO Execution finished for DetailedError
+2013-12-12 14:55:09.6172 INFO Execution finished for Application_Error
+2013-12-12 14:55:10.8353 INFO Execution started of CommonService.GetUserDashboard (UserID = 1, )
+2013-12-12 14:55:10.8353 INFO Execution started of CommonFacade.GetDashboardData (UserID = 1, )
+2013-12-12 14:55:11.0023 INFO Execution finished for GetDashboardData
+2013-12-12 14:55:11.0023 INFO Execution finished for GetUserDashboard
+2013-12-12 14:55:13.0405 INFO Execution started of RequiredRoleAttribute.AuthorizeCore (httpContext = System.Web.HttpContextWrapper, )
+2013-12-12 14:55:13.0405 INFO Execution finished for AuthorizeCore
+2013-12-12 14:55:13.0405 INFO Execution started of AdminController.Index ()
+2013-12-12 14:55:13.0405 INFO Execution finished for Index
+2013-12-12 14:55:13.9436 INFO Execution started of MvcApplication.Application_Error (sender = ASP.global_asax, e = System.EventArgs, )
+2013-12-12 14:55:13.9436 INFO Application_Error: System.Web.HttpException (0x80004005): File does not exist.
+   at System.Web.StaticFileHandler.ProcessRequestForNonMapPathBasedVirtualFile(HttpRequest request, HttpResponse response, String overrideVirtualPath)
+   at System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context, String overrideVirtualPath)
+   at System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2013-12-12 14:55:13.9436 INFO Execution started of ErrorController.DetailedError ()
+2013-12-12 14:55:13.9436 INFO Execution finished for DetailedError
+2013-12-12 14:55:13.9506 INFO Execution finished for Application_Error
+2013-12-12 14:55:15.9598 INFO Execution started of RequiredRoleAttribute.AuthorizeCore (httpContext = System.Web.HttpContextWrapper, )
+2013-12-12 14:55:15.9598 INFO Execution finished for AuthorizeCore
+2013-12-12 14:55:15.9648 INFO Execution started of SubDepartmentController.Index ()
+2013-12-12 14:55:15.9648 INFO Execution started of OrganizationService.GetOrganizationByID (orgid = 1, )
+2013-12-12 14:55:15.9878 INFO Execution started of OrganizationFacade.GetOrganization (orgid = 1, )
+2013-12-12 14:55:16.0058 INFO Execution finished for GetOrganization
+2013-12-12 14:55:16.0058 INFO Execution finished for GetOrganizationByID
+2013-12-12 14:55:16.0058 INFO Execution started of DepartmentService.GetDepartmentDetails (deptid = 1, )
+2013-12-12 14:55:16.0108 INFO Execution started of DepartmentFacade.GetDepartmentDetail (deptid = 1, )
+2013-12-12 14:55:16.0508 INFO Execution finished for GetDepartmentDetail
+2013-12-12 14:55:16.0508 INFO Execution finished for GetDepartmentDetails
+2013-12-12 14:55:16.0508 INFO Execution started of DepartmentService.GetDepartmentDetails (deptid = 2, )
+2013-12-12 14:55:16.0508 INFO Execution started of DepartmentFacade.GetDepartmentDetail (deptid = 2, )
+2013-12-12 14:55:16.0568 INFO Execution finished for GetDepartmentDetail
+2013-12-12 14:55:16.0568 INFO Execution finished for GetDepartmentDetails
+2013-12-12 14:55:16.0568 INFO Execution started of DepartmentService.GetDepartmentDetails (deptid = 3, )
+2013-12-12 14:55:16.0568 INFO Execution started of DepartmentFacade.GetDepartmentDetail (deptid = 3, )
+2013-12-12 14:55:16.0568 INFO Execution finished for GetDepartmentDetail
+2013-12-12 14:55:16.0568 INFO Execution finished for GetDepartmentDetails
+2013-12-12 14:55:16.0568 INFO Execution started of DepartmentService.GetDepartmentDetails (deptid = 4, )
+2013-12-12 14:55:16.0568 INFO Execution started of DepartmentFacade.GetDepartmentDetail (deptid = 4, )
+2013-12-12 14:55:16.0568 INFO Execution finished for GetDepartmentDetail
+2013-12-12 14:55:16.0568 INFO Execution finished for GetDepartmentDetails
+2013-12-12 14:55:16.0568 INFO Execution started of DepartmentService.GetDepartmentDetails (deptid = 11, )
+2013-12-12 14:55:16.0718 INFO Execution started of DepartmentFacade.GetDepartmentDetail (deptid = 11, )
+2013-12-12 14:55:16.0718 INFO Execution finished for GetDepartmentDetail
+2013-12-12 14:55:16.0718 INFO Execution finished for GetDepartmentDetails
+2013-12-12 14:55:16.0718 INFO Execution finished for Index
+2013-12-12 14:55:17.5030 INFO Execution started of MvcApplication.Application_Error (sender = ASP.global_asax, e = System.EventArgs, )
+2013-12-12 14:55:17.5030 INFO Application_Error: System.Web.HttpException (0x80004005): File does not exist.
+   at System.Web.StaticFileHandler.ProcessRequestForNonMapPathBasedVirtualFile(HttpRequest request, HttpResponse response, String overrideVirtualPath)
+   at System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context, String overrideVirtualPath)
+   at System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2013-12-12 14:55:17.5070 INFO Execution started of ErrorController.DetailedError ()
+2013-12-12 14:55:17.5070 INFO Execution finished for DetailedError
+2013-12-12 14:55:17.5070 INFO Execution finished for Application_Error
+2013-12-12 14:55:19.6422 INFO Execution started of RequiredRoleAttribute.AuthorizeCore (httpContext = System.Web.HttpContextWrapper, )
+2013-12-12 14:55:19.6442 INFO Execution finished for AuthorizeCore
+2013-12-12 14:55:19.6442 INFO Execution started of SubDepartmentController.Delete ()
+2013-12-12 14:55:19.6442 INFO Execution started of OrganizationService.GetOrganizationByID (orgid = 1, )
+2013-12-12 14:55:19.6442 INFO Execution started of OrganizationFacade.GetOrganization (orgid = 1, )
+2013-12-12 14:55:19.6672 INFO Execution finished for GetOrganization
+2013-12-12 14:55:19.6672 INFO Execution finished for GetOrganizationByID
+2013-12-12 14:55:19.6672 INFO Execution started of DepartmentService.GetDepartmentDetails (deptid = 1, )
+2013-12-12 14:55:19.6672 INFO Execution started of DepartmentFacade.GetDepartmentDetail (deptid = 1, )
+2013-12-12 14:55:19.6672 INFO Execution finished for GetDepartmentDetail
+2013-12-12 14:55:19.6752 INFO Execution finished for GetDepartmentDetails
+2013-12-12 14:55:19.6752 INFO Execution started of DepartmentService.GetDepartmentDetails (deptid = 2, )
+2013-12-12 14:55:19.6752 INFO Execution started of DepartmentFacade.GetDepartmentDetail (deptid = 2, )
+2013-12-12 14:55:19.7022 INFO Execution finished for GetDepartmentDetail
+2013-12-12 14:55:19.7022 INFO Execution finished for GetDepartmentDetails
+2013-12-12 14:55:19.7022 INFO Execution started of DepartmentService.GetDepartmentDetails (deptid = 3, )
+2013-12-12 14:55:19.7022 INFO Execution started of DepartmentFacade.GetDepartmentDetail (deptid = 3, )
+2013-12-12 14:55:19.7092 INFO Execution finished for GetDepartmentDetail
+2013-12-12 14:55:19.7092 INFO Execution finished for GetDepartmentDetails
+2013-12-12 14:55:19.7092 INFO Execution started of DepartmentService.GetDepartmentDetails (deptid = 4, )
+2013-12-12 14:55:19.7092 INFO Execution started of DepartmentFacade.GetDepartmentDetail (deptid = 4, )
+2013-12-12 14:55:19.7092 INFO Execution finished for GetDepartmentDetail
+2013-12-12 14:55:19.7092 INFO Execution finished for GetDepartmentDetails
+2013-12-12 14:55:19.7092 INFO Execution started of DepartmentService.GetDepartmentDetails (deptid = 11, )
+2013-12-12 14:55:19.7092 INFO Execution started of DepartmentFacade.GetDepartmentDetail (deptid = 11, )
+2013-12-12 14:55:19.7222 INFO Execution finished for GetDepartmentDetail
+2013-12-12 14:55:19.7222 INFO Execution finished for GetDepartmentDetails
+2013-12-12 14:55:19.7222 INFO Execution finished for Delete
+2013-12-12 14:55:19.8822 INFO Execution started of MvcApplication.Application_Error (sender = ASP.global_asax, e = System.EventArgs, )
+2013-12-12 14:55:19.8822 INFO Application_Error: System.Web.HttpException (0x80004005): File does not exist.
+   at System.Web.StaticFileHandler.ProcessRequestForNonMapPathBasedVirtualFile(HttpRequest request, HttpResponse response, String overrideVirtualPath)
+   at System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context, String overrideVirtualPath)
+   at System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2013-12-12 14:55:19.8822 INFO Execution started of ErrorController.DetailedError ()
+2013-12-12 14:55:19.8822 INFO Execution finished for DetailedError
+2013-12-12 14:55:19.8822 INFO Execution finished for Application_Error
+2013-12-12 14:55:55.6078 INFO Execution started of RequiredRoleAttribute.AuthorizeCore (httpContext = System.Web.HttpContextWrapper, )
+2013-12-12 14:55:55.6078 INFO Execution finished for AuthorizeCore
+2013-12-12 14:55:55.6078 INFO Execution started of SubDepartmentController.Delete ()
+2013-12-12 14:55:55.6488 INFO Execution started of OrganizationService.GetOrganizationByID (orgid = 1, )
+2013-12-12 14:55:55.6488 INFO Execution started of OrganizationFacade.GetOrganization (orgid = 1, )
+2013-12-12 14:55:55.6728 INFO Execution finished for GetOrganization
+2013-12-12 14:55:55.6728 INFO Execution finished for GetOrganizationByID
+2013-12-12 14:55:55.6728 INFO Execution started of DepartmentService.GetDepartmentDetails (deptid = 1, )
+2013-12-12 14:55:55.6728 INFO Execution started of DepartmentFacade.GetDepartmentDetail (deptid = 1, )
+2013-12-12 14:55:55.6908 INFO Execution finished for GetDepartmentDetail
+2013-12-12 14:55:55.6908 INFO Execution finished for GetDepartmentDetails
+2013-12-12 14:55:55.6978 INFO Execution started of DepartmentService.GetDepartmentDetails (deptid = 2, )
+2013-12-12 14:55:55.6978 INFO Execution started of DepartmentFacade.GetDepartmentDetail (deptid = 2, )
+2013-12-12 14:55:55.6978 INFO Execution finished for GetDepartmentDetail
+2013-12-12 14:55:55.6978 INFO Execution finished for GetDepartmentDetails
+2013-12-12 14:55:55.6978 INFO Execution started of DepartmentService.GetDepartmentDetails (deptid = 3, )
+2013-12-12 14:55:55.6978 INFO Execution started of DepartmentFacade.GetDepartmentDetail (deptid = 3, )
+2013-12-12 14:55:55.6978 INFO Execution finished for GetDepartmentDetail
+2013-12-12 14:55:55.6978 INFO Execution finished for GetDepartmentDetails
+2013-12-12 14:55:55.6978 INFO Execution started of DepartmentService.GetDepartmentDetails (deptid = 4, )
+2013-12-12 14:55:55.6978 INFO Execution started of DepartmentFacade.GetDepartmentDetail (deptid = 4, )
+2013-12-12 14:55:55.7138 INFO Execution finished for GetDepartmentDetail
+2013-12-12 14:55:55.7138 INFO Execution finished for GetDepartmentDetails
+2013-12-12 14:55:55.7138 INFO Execution started of DepartmentService.GetDepartmentDetails (deptid = 11, )
+2013-12-12 14:55:55.7138 INFO Execution started of DepartmentFacade.GetDepartmentDetail (deptid = 11, )
+2013-12-12 14:55:55.7138 INFO Execution finished for GetDepartmentDetail
+2013-12-12 14:55:55.7138 INFO Execution finished for GetDepartmentDetails
+2013-12-12 14:55:55.7138 INFO Execution finished for Delete
+2013-12-12 14:55:55.8758 INFO Execution started of MvcApplication.Application_Error (sender = ASP.global_asax, e = System.EventArgs, )
+2013-12-12 14:55:55.8758 INFO Application_Error: System.Web.HttpException (0x80004005): File does not exist.
+   at System.Web.StaticFileHandler.ProcessRequestForNonMapPathBasedVirtualFile(HttpRequest request, HttpResponse response, String overrideVirtualPath)
+   at System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context, String overrideVirtualPath)
+   at System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2013-12-12 14:55:55.8758 INFO Execution started of ErrorController.DetailedError ()
+2013-12-12 14:55:55.8758 INFO Execution finished for DetailedError
+2013-12-12 14:55:55.9128 INFO Execution finished for Application_Error
+2013-12-12 15:00:50.8433 INFO Execution started of RequiredRoleAttribute.AuthorizeCore (httpContext = System.Web.HttpContextWrapper, )
+2013-12-12 15:00:50.8433 INFO Execution finished for AuthorizeCore
+2013-12-12 15:00:50.8433 INFO Execution started of SubDepartmentController.Delete ()
+2013-12-12 15:00:50.8433 INFO Execution started of OrganizationService.GetOrganizationByID (orgid = 1, )
+2013-12-12 15:00:50.8433 INFO Execution started of OrganizationFacade.GetOrganization (orgid = 1, )
+2013-12-12 15:00:50.8643 INFO Execution finished for GetOrganization
+2013-12-12 15:00:50.8643 INFO Execution finished for GetOrganizationByID
+2013-12-12 15:00:50.8643 INFO Execution started of DepartmentService.GetDepartmentDetails (deptid = 1, )
+2013-12-12 15:00:50.8643 INFO Execution started of DepartmentFacade.GetDepartmentDetail (deptid = 1, )
+2013-12-12 15:00:50.8643 INFO Execution finished for GetDepartmentDetail
+2013-12-12 15:00:50.8643 INFO Execution finished for GetDepartmentDetails
+2013-12-12 15:00:50.8643 INFO Execution started of DepartmentService.GetDepartmentDetails (deptid = 2, )
+2013-12-12 15:00:50.8643 INFO Execution started of DepartmentFacade.GetDepartmentDetail (deptid = 2, )
+2013-12-12 15:00:50.8873 INFO Execution finished for GetDepartmentDetail
+2013-12-12 15:00:50.8873 INFO Execution finished for GetDepartmentDetails
+2013-12-12 15:00:50.8873 INFO Execution started of DepartmentService.GetDepartmentDetails (deptid = 3, )
+2013-12-12 15:00:50.8873 INFO Execution started of DepartmentFacade.GetDepartmentDetail (deptid = 3, )
+2013-12-12 15:00:50.8963 INFO Execution finished for GetDepartmentDetail
+2013-12-12 15:00:50.8963 INFO Execution finished for GetDepartmentDetails
+2013-12-12 15:00:50.8963 INFO Execution started of DepartmentService.GetDepartmentDetails (deptid = 4, )
+2013-12-12 15:00:50.8963 INFO Execution started of DepartmentFacade.GetDepartmentDetail (deptid = 4, )
+2013-12-12 15:00:50.8963 INFO Execution finished for GetDepartmentDetail
+2013-12-12 15:00:50.8963 INFO Execution finished for GetDepartmentDetails
+2013-12-12 15:00:50.8963 INFO Execution started of DepartmentService.GetDepartmentDetails (deptid = 11, )
+2013-12-12 15:00:50.8963 INFO Execution started of DepartmentFacade.GetDepartmentDetail (deptid = 11, )
+2013-12-12 15:00:50.9123 INFO Execution finished for GetDepartmentDetail
+2013-12-12 15:00:50.9123 INFO Execution finished for GetDepartmentDetails
+2013-12-12 15:00:50.9123 INFO Execution finished for Delete
+2013-12-12 15:00:52.6285 INFO Execution started of MiniProfilerStartupModule.Init (context = ASP.global_asax, )
+2013-12-12 15:00:52.6285 INFO Execution finished for Init
+2013-12-12 15:00:52.6835 INFO Execution started of MiniProfilerStartupModule.Init (context = ASP.global_asax, )
+2013-12-12 15:00:52.6835 INFO Execution finished for Init
+2013-12-12 15:00:52.7985 INFO Execution started of MvcApplication.Application_Error (sender = ASP.global_asax, e = System.EventArgs, )
+2013-12-12 15:00:52.7985 INFO Application_Error: System.Web.HttpException (0x80004005): File does not exist.
+   at System.Web.StaticFileHandler.ProcessRequestForNonMapPathBasedVirtualFile(HttpRequest request, HttpResponse response, String overrideVirtualPath)
+   at System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context, String overrideVirtualPath)
+   at System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2013-12-12 15:00:52.7985 INFO Execution started of ErrorController.DetailedError ()
+2013-12-12 15:00:52.7985 INFO Execution finished for DetailedError
+2013-12-12 15:00:52.8165 INFO Execution finished for Application_Error
+2013-12-12 15:03:03.6036 INFO Execution started of RequiredRoleAttribute.AuthorizeCore (httpContext = System.Web.HttpContextWrapper, )
+2013-12-12 15:03:03.6036 INFO Execution finished for AuthorizeCore
+2013-12-12 15:03:03.6036 INFO Execution started of SubDepartmentController.Delete ()
+2013-12-12 15:03:03.6036 INFO Execution started of OrganizationService.GetOrganizationByID (orgid = 1, )
+2013-12-12 15:03:03.6036 INFO Execution started of OrganizationFacade.GetOrganization (orgid = 1, )
+2013-12-12 15:03:03.6186 INFO Execution finished for GetOrganization
+2013-12-12 15:03:03.6186 INFO Execution finished for GetOrganizationByID
+2013-12-12 15:03:03.6186 INFO Execution started of DepartmentService.GetDepartmentDetails (deptid = 1, )
+2013-12-12 15:03:03.6186 INFO Execution started of DepartmentFacade.GetDepartmentDetail (deptid = 1, )
+2013-12-12 15:03:03.6346 INFO Execution finished for GetDepartmentDetail
+2013-12-12 15:03:03.6346 INFO Execution finished for GetDepartmentDetails
+2013-12-12 15:03:03.6346 INFO Execution started of DepartmentService.GetDepartmentDetails (deptid = 2, )
+2013-12-12 15:03:03.6346 INFO Execution started of DepartmentFacade.GetDepartmentDetail (deptid = 2, )
+2013-12-12 15:03:03.6346 INFO Execution finished for GetDepartmentDetail
+2013-12-12 15:03:03.6346 INFO Execution finished for GetDepartmentDetails
+2013-12-12 15:03:03.6346 INFO Execution started of DepartmentService.GetDepartmentDetails (deptid = 3, )
+2013-12-12 15:03:03.6426 INFO Execution started of DepartmentFacade.GetDepartmentDetail (deptid = 3, )
+2013-12-12 15:03:03.6426 INFO Execution finished for GetDepartmentDetail
+2013-12-12 15:03:03.6426 INFO Execution finished for GetDepartmentDetails
+2013-12-12 15:03:03.6426 INFO Execution started of DepartmentService.GetDepartmentDetails (deptid = 4, )
+2013-12-12 15:03:03.6426 INFO Execution started of DepartmentFacade.GetDepartmentDetail (deptid = 4, )
+2013-12-12 15:03:03.6676 INFO Execution finished for GetDepartmentDetail
+2013-12-12 15:03:03.6676 INFO Execution finished for GetDepartmentDetails
+2013-12-12 15:03:03.6676 INFO Execution started of DepartmentService.GetDepartmentDetails (deptid = 11, )
+2013-12-12 15:03:03.6676 INFO Execution started of DepartmentFacade.GetDepartmentDetail (deptid = 11, )
+2013-12-12 15:03:03.6756 INFO Execution finished for GetDepartmentDetail
+2013-12-12 15:03:03.6756 INFO Execution finished for GetDepartmentDetails
+2013-12-12 15:03:03.6756 INFO Execution finished for Delete
+2013-12-12 15:03:04.8567 INFO Execution started of MiniProfilerStartupModule.Init (context = ASP.global_asax, )
+2013-12-12 15:03:04.8567 INFO Execution finished for Init
+2013-12-12 15:03:04.8607 INFO Execution started of MiniProfilerStartupModule.Init (context = ASP.global_asax, )
+2013-12-12 15:03:04.8607 INFO Execution finished for Init
+2013-12-12 15:03:04.9457 INFO Execution started of MiniProfilerStartupModule.Init (context = ASP.global_asax, )
+2013-12-12 15:03:04.9457 INFO Execution finished for Init
+2013-12-12 15:03:05.0547 INFO Execution started of MvcApplication.Application_Error (sender = ASP.global_asax, e = System.EventArgs, )
+2013-12-12 15:03:05.0547 INFO Application_Error: System.Web.HttpException (0x80004005): File does not exist.
+   at System.Web.StaticFileHandler.ProcessRequestForNonMapPathBasedVirtualFile(HttpRequest request, HttpResponse response, String overrideVirtualPath)
+   at System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context, String overrideVirtualPath)
+   at System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2013-12-12 15:03:05.0547 INFO Execution started of ErrorController.DetailedError ()
+2013-12-12 15:03:05.0547 INFO Execution finished for DetailedError
+2013-12-12 15:03:05.0617 INFO Execution finished for Application_Error
+2013-12-12 15:10:59.8242 INFO Execution started of RequiredRoleAttribute.AuthorizeCore (httpContext = System.Web.HttpContextWrapper, )
+2013-12-12 15:10:59.8242 INFO Execution finished for AuthorizeCore
+2013-12-12 15:10:59.8242 INFO Execution started of SubDepartmentController.Delete ()
+2013-12-12 15:10:59.8242 INFO Execution started of OrganizationService.GetOrganizationByID (orgid = 1, )
+2013-12-12 15:10:59.8242 INFO Execution started of OrganizationFacade.GetOrganization (orgid = 1, )
+2013-12-12 15:10:59.8832 INFO Execution finished for GetOrganization
+2013-12-12 15:10:59.8832 INFO Execution finished for GetOrganizationByID
+2013-12-12 15:10:59.8832 INFO Execution started of DepartmentService.GetDepartmentDetails (deptid = 1, )
+2013-12-12 15:10:59.8832 INFO Execution started of DepartmentFacade.GetDepartmentDetail (deptid = 1, )
+2013-12-12 15:10:59.8922 INFO Execution finished for GetDepartmentDetail
+2013-12-12 15:10:59.8922 INFO Execution finished for GetDepartmentDetails
+2013-12-12 15:10:59.8922 INFO Execution started of DepartmentService.GetDepartmentDetails (deptid = 2, )
+2013-12-12 15:10:59.8922 INFO Execution started of DepartmentFacade.GetDepartmentDetail (deptid = 2, )
+2013-12-12 15:10:59.9092 INFO Execution finished for GetDepartmentDetail
+2013-12-12 15:10:59.9092 INFO Execution finished for GetDepartmentDetails
+2013-12-12 15:10:59.9092 INFO Execution started of DepartmentService.GetDepartmentDetails (deptid = 3, )
+2013-12-12 15:10:59.9092 INFO Execution started of DepartmentFacade.GetDepartmentDetail (deptid = 3, )
+2013-12-12 15:10:59.9092 INFO Execution finished for GetDepartmentDetail
+2013-12-12 15:10:59.9092 INFO Execution finished for GetDepartmentDetails
+2013-12-12 15:10:59.9092 INFO Execution started of DepartmentService.GetDepartmentDetails (deptid = 4, )
+2013-12-12 15:10:59.9182 INFO Execution started of DepartmentFacade.GetDepartmentDetail (deptid = 4, )
+2013-12-12 15:10:59.9182 INFO Execution finished for GetDepartmentDetail
+2013-12-12 15:10:59.9182 INFO Execution finished for GetDepartmentDetails
+2013-12-12 15:10:59.9182 INFO Execution started of DepartmentService.GetDepartmentDetails (deptid = 11, )
+2013-12-12 15:10:59.9182 INFO Execution started of DepartmentFacade.GetDepartmentDetail (deptid = 11, )
+2013-12-12 15:10:59.9182 INFO Execution finished for GetDepartmentDetail
+2013-12-12 15:10:59.9182 INFO Execution finished for GetDepartmentDetails
+2013-12-12 15:10:59.9352 INFO Execution finished for Delete
+2013-12-12 15:11:01.1643 INFO Execution started of MiniProfilerStartupModule.Init (context = ASP.global_asax, )
+2013-12-12 15:11:01.1643 INFO Execution finished for Init
+2013-12-12 15:11:01.2103 INFO Execution started of MiniProfilerStartupModule.Init (context = ASP.global_asax, )
+2013-12-12 15:11:01.2103 INFO Execution started of MiniProfilerStartupModule.Init (context = ASP.global_asax, )
+2013-12-12 15:11:01.2103 INFO Execution finished for Init
+2013-12-12 15:11:01.2103 INFO Execution finished for Init
+2013-12-12 15:11:01.3383 INFO Execution started of MvcApplication.Application_Error (sender = ASP.global_asax, e = System.EventArgs, )
+2013-12-12 15:11:01.3383 INFO Application_Error: System.Web.HttpException (0x80004005): File does not exist.
+   at System.Web.StaticFileHandler.ProcessRequestForNonMapPathBasedVirtualFile(HttpRequest request, HttpResponse response, String overrideVirtualPath)
+   at System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context, String overrideVirtualPath)
+   at System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2013-12-12 15:11:01.3383 INFO Execution started of ErrorController.DetailedError ()
+2013-12-12 15:11:01.3383 INFO Execution finished for DetailedError
+2013-12-12 15:11:01.3383 INFO Execution finished for Application_Error
+2013-12-12 15:12:32.3545 INFO Execution started of RequiredRoleAttribute.AuthorizeCore (httpContext = System.Web.HttpContextWrapper, )
+2013-12-12 15:12:32.3545 INFO Execution finished for AuthorizeCore
+2013-12-12 15:12:32.3545 INFO Execution started of SubDepartmentController.Delete ()
+2013-12-12 15:12:32.3545 INFO Execution started of OrganizationService.GetOrganizationByID (orgid = 1, )
+2013-12-12 15:12:32.3545 INFO Execution started of OrganizationFacade.GetOrganization (orgid = 1, )
+2013-12-12 15:12:32.3695 INFO Execution finished for GetOrganization
+2013-12-12 15:12:32.3695 INFO Execution finished for GetOrganizationByID
+2013-12-12 15:12:32.3695 INFO Execution started of DepartmentService.GetDepartmentDetails (deptid = 1, )
+2013-12-12 15:12:32.3695 INFO Execution started of DepartmentFacade.GetDepartmentDetail (deptid = 1, )
+2013-12-12 15:12:32.3695 INFO Execution finished for GetDepartmentDetail
+2013-12-12 15:12:32.3695 INFO Execution finished for GetDepartmentDetails
+2013-12-12 15:12:32.3905 INFO Execution started of DepartmentService.GetDepartmentDetails (deptid = 2, )
+2013-12-12 15:12:32.3905 INFO Execution started of DepartmentFacade.GetDepartmentDetail (deptid = 2, )
+2013-12-12 15:12:32.3905 INFO Execution finished for GetDepartmentDetail
+2013-12-12 15:12:32.4005 INFO Execution finished for GetDepartmentDetails
+2013-12-12 15:12:32.4005 INFO Execution started of DepartmentService.GetDepartmentDetails (deptid = 3, )
+2013-12-12 15:12:32.4005 INFO Execution started of DepartmentFacade.GetDepartmentDetail (deptid = 3, )
+2013-12-12 15:12:32.4005 INFO Execution finished for GetDepartmentDetail
+2013-12-12 15:12:32.4005 INFO Execution finished for GetDepartmentDetails
+2013-12-12 15:12:32.4005 INFO Execution started of DepartmentService.GetDepartmentDetails (deptid = 4, )
+2013-12-12 15:12:32.4005 INFO Execution started of DepartmentFacade.GetDepartmentDetail (deptid = 4, )
+2013-12-12 15:12:32.4235 INFO Execution finished for GetDepartmentDetail
+2013-12-12 15:12:32.4235 INFO Execution finished for GetDepartmentDetails
+2013-12-12 15:12:32.4235 INFO Execution started of DepartmentService.GetDepartmentDetails (deptid = 11, )
+2013-12-12 15:12:32.4235 INFO Execution started of DepartmentFacade.GetDepartmentDetail (deptid = 11, )
+2013-12-12 15:12:32.4315 INFO Execution finished for GetDepartmentDetail
+2013-12-12 15:12:32.4315 INFO Execution finished for GetDepartmentDetails
+2013-12-12 15:12:32.4315 INFO Execution finished for Delete
+2013-12-12 15:12:33.5956 INFO Execution started of MiniProfilerStartupModule.Init (context = ASP.global_asax, )
+2013-12-12 15:12:33.5956 INFO Execution finished for Init
+2013-12-12 15:12:33.6296 INFO Execution started of MvcApplication.Application_Error (sender = ASP.global_asax, e = System.EventArgs, )
+2013-12-12 15:12:33.6296 INFO Application_Error: System.Web.HttpException (0x80004005): File does not exist.
+   at System.Web.StaticFileHandler.ProcessRequestForNonMapPathBasedVirtualFile(HttpRequest request, HttpResponse response, String overrideVirtualPath)
+   at System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context, String overrideVirtualPath)
+   at System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2013-12-12 15:12:33.6296 INFO Execution started of ErrorController.DetailedError ()
+2013-12-12 15:12:33.6316 INFO Execution finished for DetailedError
+2013-12-12 15:12:33.6596 INFO Execution finished for Application_Error
+2013-12-12 15:16:46.5249 INFO Execution started of RequiredRoleAttribute.AuthorizeCore (httpContext = System.Web.HttpContextWrapper, )
+2013-12-12 15:16:46.5249 INFO Execution finished for AuthorizeCore
+2013-12-12 15:16:46.5249 INFO Execution started of SubDepartmentController.Delete ()
+2013-12-12 15:16:46.5249 INFO Execution started of OrganizationService.GetOrganizationByID (orgid = 1, )
+2013-12-12 15:16:46.5359 INFO Execution started of OrganizationFacade.GetOrganization (orgid = 1, )
+2013-12-12 15:16:46.5359 INFO Execution finished for GetOrganization
+2013-12-12 15:16:46.5359 INFO Execution finished for GetOrganizationByID
+2013-12-12 15:16:46.5359 INFO Execution started of DepartmentService.GetDepartmentDetails (deptid = 1, )
+2013-12-12 15:16:46.5359 INFO Execution started of DepartmentFacade.GetDepartmentDetail (deptid = 1, )
+2013-12-12 15:16:46.5519 INFO Execution finished for GetDepartmentDetail
+2013-12-12 15:16:46.5519 INFO Execution finished for GetDepartmentDetails
+2013-12-12 15:16:46.5519 INFO Execution started of DepartmentService.GetDepartmentDetails (deptid = 2, )
+2013-12-12 15:16:46.5519 INFO Execution started of DepartmentFacade.GetDepartmentDetail (deptid = 2, )
+2013-12-12 15:16:46.5729 INFO Execution finished for GetDepartmentDetail
+2013-12-12 15:16:46.5729 INFO Execution finished for GetDepartmentDetails
+2013-12-12 15:16:46.5729 INFO Execution started of DepartmentService.GetDepartmentDetails (deptid = 3, )
+2013-12-12 15:16:46.5729 INFO Execution started of DepartmentFacade.GetDepartmentDetail (deptid = 3, )
+2013-12-12 15:16:46.5729 INFO Execution finished for GetDepartmentDetail
+2013-12-12 15:16:46.5729 INFO Execution finished for GetDepartmentDetails
+2013-12-12 15:16:46.5729 INFO Execution started of DepartmentService.GetDepartmentDetails (deptid = 4, )
+2013-12-12 15:16:46.5729 INFO Execution started of DepartmentFacade.GetDepartmentDetail (deptid = 4, )
+2013-12-12 15:16:46.5889 INFO Execution finished for GetDepartmentDetail
+2013-12-12 15:16:46.5889 INFO Execution finished for GetDepartmentDetails
+2013-12-12 15:16:46.5889 INFO Execution started of DepartmentService.GetDepartmentDetails (deptid = 11, )
+2013-12-12 15:16:46.5889 INFO Execution started of DepartmentFacade.GetDepartmentDetail (deptid = 11, )
+2013-12-12 15:16:46.5889 INFO Execution finished for GetDepartmentDetail
+2013-12-12 15:16:46.5889 INFO Execution finished for GetDepartmentDetails
+2013-12-12 15:16:46.5989 INFO Execution finished for Delete
+2013-12-12 15:16:47.7920 INFO Execution started of MiniProfilerStartupModule.Init (context = ASP.global_asax, )
+2013-12-12 15:16:47.7920 INFO Execution finished for Init
+2013-12-12 15:16:47.8070 INFO Execution started of MiniProfilerStartupModule.Init (context = ASP.global_asax, )
+2013-12-12 15:16:47.8070 INFO Execution finished for Init
+2013-12-12 15:16:47.8530 INFO Execution started of MvcApplication.Application_Error (sender = ASP.global_asax, e = System.EventArgs, )
+2013-12-12 15:16:47.8530 INFO Application_Error: System.Web.HttpException (0x80004005): File does not exist.
+   at System.Web.StaticFileHandler.ProcessRequestForNonMapPathBasedVirtualFile(HttpRequest request, HttpResponse response, String overrideVirtualPath)
+   at System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context, String overrideVirtualPath)
+   at System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2013-12-12 15:16:47.8530 INFO Execution started of ErrorController.DetailedError ()
+2013-12-12 15:16:47.8530 INFO Execution finished for DetailedError
+2013-12-12 15:16:47.8630 INFO Execution finished for Application_Error
+2013-12-12 15:17:30.0882 INFO Execution started of RequiredRoleAttribute.AuthorizeCore (httpContext = System.Web.HttpContextWrapper, )
+2013-12-12 15:17:30.0882 INFO Execution finished for AuthorizeCore
+2013-12-12 15:17:30.0882 INFO Execution started of SubDepartmentController.Delete ()
+2013-12-12 15:17:30.0882 INFO Execution started of OrganizationService.GetOrganizationByID (orgid = 1, )
+2013-12-12 15:17:30.0972 INFO Execution started of OrganizationFacade.GetOrganization (orgid = 1, )
+2013-12-12 15:17:30.1172 INFO Execution finished for GetOrganization
+2013-12-12 15:17:30.1172 INFO Execution finished for GetOrganizationByID
+2013-12-12 15:17:30.1172 INFO Execution started of DepartmentService.GetDepartmentDetails (deptid = 1, )
+2013-12-12 15:17:30.1172 INFO Execution started of DepartmentFacade.GetDepartmentDetail (deptid = 1, )
+2013-12-12 15:17:30.1262 INFO Execution finished for GetDepartmentDetail
+2013-12-12 15:17:30.1262 INFO Execution finished for GetDepartmentDetails
+2013-12-12 15:17:30.1262 INFO Execution started of DepartmentService.GetDepartmentDetails (deptid = 2, )
+2013-12-12 15:17:30.1262 INFO Execution started of DepartmentFacade.GetDepartmentDetail (deptid = 2, )
+2013-12-12 15:17:30.1262 INFO Execution finished for GetDepartmentDetail
+2013-12-12 15:17:30.1262 INFO Execution finished for GetDepartmentDetails
+2013-12-12 15:17:30.1262 INFO Execution started of DepartmentService.GetDepartmentDetails (deptid = 3, )
+2013-12-12 15:17:30.1262 INFO Execution started of DepartmentFacade.GetDepartmentDetail (deptid = 3, )
+2013-12-12 15:17:30.1442 INFO Execution finished for GetDepartmentDetail
+2013-12-12 15:17:30.1442 INFO Execution finished for GetDepartmentDetails
+2013-12-12 15:17:30.1442 INFO Execution started of DepartmentService.GetDepartmentDetails (deptid = 4, )
+2013-12-12 15:17:30.1442 INFO Execution started of DepartmentFacade.GetDepartmentDetail (deptid = 4, )
+2013-12-12 15:17:30.1622 INFO Execution finished for GetDepartmentDetail
+2013-12-12 15:17:30.1622 INFO Execution finished for GetDepartmentDetails
+2013-12-12 15:17:30.1622 INFO Execution started of DepartmentService.GetDepartmentDetails (deptid = 11, )
+2013-12-12 15:17:30.1622 INFO Execution started of DepartmentFacade.GetDepartmentDetail (deptid = 11, )
+2013-12-12 15:17:30.1622 INFO Execution finished for GetDepartmentDetail
+2013-12-12 15:17:30.1622 INFO Execution finished for GetDepartmentDetails
+2013-12-12 15:17:30.1622 INFO Execution finished for Delete
+2013-12-12 15:17:31.3603 INFO Execution started of MvcApplication.Application_Error (sender = ASP.global_asax, e = System.EventArgs, )
+2013-12-12 15:17:31.3603 INFO Application_Error: System.Web.HttpException (0x80004005): File does not exist.
+   at System.Web.StaticFileHandler.ProcessRequestForNonMapPathBasedVirtualFile(HttpRequest request, HttpResponse response, String overrideVirtualPath)
+   at System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context, String overrideVirtualPath)
+   at System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2013-12-12 15:17:31.3603 INFO Execution started of ErrorController.DetailedError ()
+2013-12-12 15:17:31.3603 INFO Execution finished for DetailedError
+2013-12-12 15:17:31.3753 INFO Execution finished for Application_Error
+2013-12-12 15:17:31.4734 INFO Execution started of MiniProfilerStartupModule.Init (context = ASP.global_asax, )
+2013-12-12 15:17:31.4734 INFO Execution finished for Init
+2013-12-12 15:22:44.7507 INFO Execution started of RequiredRoleAttribute.AuthorizeCore (httpContext = System.Web.HttpContextWrapper, )
+2013-12-12 15:22:44.7507 INFO Execution finished for AuthorizeCore
+2013-12-12 15:22:44.7507 INFO Execution started of SubDepartmentController.Delete ()
+2013-12-12 15:22:44.7507 INFO Execution started of OrganizationService.GetOrganizationByID (orgid = 1, )
+2013-12-12 15:22:44.7507 INFO Execution started of OrganizationFacade.GetOrganization (orgid = 1, )
+2013-12-12 15:22:44.8287 INFO Execution finished for GetOrganization
+2013-12-12 15:22:44.8287 INFO Execution finished for GetOrganizationByID
+2013-12-12 15:22:44.8287 INFO Execution started of DepartmentService.GetDepartmentDetails (deptid = 1, )
+2013-12-12 15:22:44.8287 INFO Execution started of DepartmentFacade.GetDepartmentDetail (deptid = 1, )
+2013-12-12 15:22:44.8287 INFO Execution finished for GetDepartmentDetail
+2013-12-12 15:22:44.8387 INFO Execution finished for GetDepartmentDetails
+2013-12-12 15:22:44.8387 INFO Execution started of DepartmentService.GetDepartmentDetails (deptid = 2, )
+2013-12-12 15:22:44.8387 INFO Execution started of DepartmentFacade.GetDepartmentDetail (deptid = 2, )
+2013-12-12 15:22:44.8387 INFO Execution finished for GetDepartmentDetail
+2013-12-12 15:22:44.8387 INFO Execution finished for GetDepartmentDetails
+2013-12-12 15:22:44.8387 INFO Execution started of DepartmentService.GetDepartmentDetails (deptid = 3, )
+2013-12-12 15:22:44.8387 INFO Execution started of DepartmentFacade.GetDepartmentDetail (deptid = 3, )
+2013-12-12 15:22:44.8387 INFO Execution finished for GetDepartmentDetail
+2013-12-12 15:22:44.8387 INFO Execution finished for GetDepartmentDetails
+2013-12-12 15:22:44.8387 INFO Execution started of DepartmentService.GetDepartmentDetails (deptid = 4, )
+2013-12-12 15:22:44.8387 INFO Execution started of DepartmentFacade.GetDepartmentDetail (deptid = 4, )
+2013-12-12 15:22:44.8597 INFO Execution finished for GetDepartmentDetail
+2013-12-12 15:22:44.8597 INFO Execution finished for GetDepartmentDetails
+2013-12-12 15:22:44.8597 INFO Execution started of DepartmentService.GetDepartmentDetails (deptid = 11, )
+2013-12-12 15:22:44.8597 INFO Execution started of DepartmentFacade.GetDepartmentDetail (deptid = 11, )
+2013-12-12 15:22:44.8597 INFO Execution finished for GetDepartmentDetail
+2013-12-12 15:22:44.8597 INFO Execution finished for GetDepartmentDetails
+2013-12-12 15:22:44.8597 INFO Execution finished for Delete
+2013-12-12 15:22:46.0838 INFO Execution started of MiniProfilerStartupModule.Init (context = ASP.global_asax, )
+2013-12-12 15:22:46.0838 INFO Execution finished for Init
+2013-12-12 15:22:46.1528 INFO Execution started of MiniProfilerStartupModule.Init (context = ASP.global_asax, )
+2013-12-12 15:22:46.1528 INFO Execution finished for Init
+2013-12-12 15:22:46.2028 INFO Execution started of MiniProfilerStartupModule.Init (context = ASP.global_asax, )
+2013-12-12 15:22:46.2028 INFO Execution finished for Init
+2013-12-12 15:22:46.2318 INFO Execution started of MvcApplication.Application_Error (sender = ASP.global_asax, e = System.EventArgs, )
+2013-12-12 15:22:46.2318 INFO Application_Error: System.Web.HttpException (0x80004005): File does not exist.
+   at System.Web.StaticFileHandler.ProcessRequestForNonMapPathBasedVirtualFile(HttpRequest request, HttpResponse response, String overrideVirtualPath)
+   at System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context, String overrideVirtualPath)
+   at System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2013-12-12 15:22:46.2318 INFO Execution started of ErrorController.DetailedError ()
+2013-12-12 15:22:46.2318 INFO Execution finished for DetailedError
+2013-12-12 15:22:46.2438 INFO Execution finished for Application_Error
+2013-12-12 15:25:50.3902 INFO Execution started of RequiredRoleAttribute.AuthorizeCore (httpContext = System.Web.HttpContextWrapper, )
+2013-12-12 15:25:50.3902 INFO Execution finished for AuthorizeCore
+2013-12-12 15:25:50.3902 INFO Execution started of SubDepartmentController.Delete ()
+2013-12-12 15:25:50.3902 INFO Execution started of OrganizationService.GetOrganizationByID (orgid = 1, )
+2013-12-12 15:25:50.3902 INFO Execution started of OrganizationFacade.GetOrganization (orgid = 1, )
+2013-12-12 15:25:50.3942 INFO Execution finished for GetOrganization
+2013-12-12 15:25:50.4122 INFO Execution finished for GetOrganizationByID
+2013-12-12 15:25:50.4122 INFO Execution started of DepartmentService.GetDepartmentDetails (deptid = 1, )
+2013-12-12 15:25:50.4122 INFO Execution started of DepartmentFacade.GetDepartmentDetail (deptid = 1, )
+2013-12-12 15:25:50.4262 INFO Execution finished for GetDepartmentDetail
+2013-12-12 15:25:50.4262 INFO Execution finished for GetDepartmentDetails
+2013-12-12 15:25:50.4262 INFO Execution started of DepartmentService.GetDepartmentDetails (deptid = 2, )
+2013-12-12 15:25:50.4262 INFO Execution started of DepartmentFacade.GetDepartmentDetail (deptid = 2, )
+2013-12-12 15:25:50.4413 INFO Execution finished for GetDepartmentDetail
+2013-12-12 15:25:50.4413 INFO Execution finished for GetDepartmentDetails
+2013-12-12 15:25:50.4413 INFO Execution started of DepartmentService.GetDepartmentDetails (deptid = 3, )
+2013-12-12 15:25:50.4413 INFO Execution started of DepartmentFacade.GetDepartmentDetail (deptid = 3, )
+2013-12-12 15:25:50.4583 INFO Execution finished for GetDepartmentDetail
+2013-12-12 15:25:50.4583 INFO Execution finished for GetDepartmentDetails
+2013-12-12 15:25:50.4583 INFO Execution started of DepartmentService.GetDepartmentDetails (deptid = 4, )
+2013-12-12 15:25:50.4583 INFO Execution started of DepartmentFacade.GetDepartmentDetail (deptid = 4, )
+2013-12-12 15:25:50.4583 INFO Execution finished for GetDepartmentDetail
+2013-12-12 15:25:50.4583 INFO Execution finished for GetDepartmentDetails
+2013-12-12 15:25:50.4583 INFO Execution started of DepartmentService.GetDepartmentDetails (deptid = 11, )
+2013-12-12 15:25:50.4583 INFO Execution started of DepartmentFacade.GetDepartmentDetail (deptid = 11, )
+2013-12-12 15:25:50.4753 INFO Execution finished for GetDepartmentDetail
+2013-12-12 15:25:50.4753 INFO Execution finished for GetDepartmentDetails
+2013-12-12 15:25:50.4753 INFO Execution finished for Delete
+2013-12-12 15:25:51.6454 INFO Execution started of MiniProfilerStartupModule.Init (context = ASP.global_asax, )
+2013-12-12 15:25:51.6454 INFO Execution finished for Init
+2013-12-12 15:25:51.6754 INFO Execution started of MiniProfilerStartupModule.Init (context = ASP.global_asax, )
+2013-12-12 15:25:51.6754 INFO Execution finished for Init
+2013-12-12 15:25:51.7724 INFO Execution started of MvcApplication.Application_Error (sender = ASP.global_asax, e = System.EventArgs, )
+2013-12-12 15:25:51.7724 INFO Application_Error: System.Web.HttpException (0x80004005): File does not exist.
+   at System.Web.StaticFileHandler.ProcessRequestForNonMapPathBasedVirtualFile(HttpRequest request, HttpResponse response, String overrideVirtualPath)
+   at System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context, String overrideVirtualPath)
+   at System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2013-12-12 15:25:51.7724 INFO Execution started of ErrorController.DetailedError ()
+2013-12-12 15:25:51.7724 INFO Execution finished for DetailedError
+2013-12-12 15:25:51.7864 INFO Execution finished for Application_Error
+2013-12-12 15:30:15.3117 INFO Execution started of RequiredRoleAttribute.AuthorizeCore (httpContext = System.Web.HttpContextWrapper, )
+2013-12-12 15:30:15.3117 INFO Execution finished for AuthorizeCore
+2013-12-12 15:30:15.3117 INFO Execution started of SubDepartmentController.Delete ()
+2013-12-12 15:30:15.3117 INFO Execution started of OrganizationService.GetOrganizationByID (orgid = 1, )
+2013-12-12 15:30:15.3117 INFO Execution started of OrganizationFacade.GetOrganization (orgid = 1, )
+2013-12-12 15:30:15.3317 INFO Execution finished for GetOrganization
+2013-12-12 15:30:15.3317 INFO Execution finished for GetOrganizationByID
+2013-12-12 15:30:15.3317 INFO Execution started of DepartmentService.GetDepartmentDetails (deptid = 1, )
+2013-12-12 15:30:15.3317 INFO Execution started of DepartmentFacade.GetDepartmentDetail (deptid = 1, )
+2013-12-12 15:30:15.3507 INFO Execution finished for GetDepartmentDetail
+2013-12-12 15:30:15.3507 INFO Execution finished for GetDepartmentDetails
+2013-12-12 15:30:15.3507 INFO Execution started of DepartmentService.GetDepartmentDetails (deptid = 2, )
+2013-12-12 15:30:15.3507 INFO Execution started of DepartmentFacade.GetDepartmentDetail (deptid = 2, )
+2013-12-12 15:30:15.3597 INFO Execution finished for GetDepartmentDetail
+2013-12-12 15:30:15.3597 INFO Execution finished for GetDepartmentDetails
+2013-12-12 15:30:15.3597 INFO Execution started of DepartmentService.GetDepartmentDetails (deptid = 3, )
+2013-12-12 15:30:15.3597 INFO Execution started of DepartmentFacade.GetDepartmentDetail (deptid = 3, )
+2013-12-12 15:30:15.3597 INFO Execution finished for GetDepartmentDetail
+2013-12-12 15:30:15.3597 INFO Execution finished for GetDepartmentDetails
+2013-12-12 15:30:15.3597 INFO Execution started of DepartmentService.GetDepartmentDetails (deptid = 4, )
+2013-12-12 15:30:15.3597 INFO Execution started of DepartmentFacade.GetDepartmentDetail (deptid = 4, )
+2013-12-12 15:30:15.3787 INFO Execution finished for GetDepartmentDetail
+2013-12-12 15:30:15.3787 INFO Execution finished for GetDepartmentDetails
+2013-12-12 15:30:15.3787 INFO Execution started of DepartmentService.GetDepartmentDetails (deptid = 11, )
+2013-12-12 15:30:15.3787 INFO Execution started of DepartmentFacade.GetDepartmentDetail (deptid = 11, )
+2013-12-12 15:30:15.3787 INFO Execution finished for GetDepartmentDetail
+2013-12-12 15:30:15.3887 INFO Execution finished for GetDepartmentDetails
+2013-12-12 15:30:15.3887 INFO Execution finished for Delete
+2013-12-12 15:30:16.6149 INFO Execution started of MiniProfilerStartupModule.Init (context = ASP.global_asax, )
+2013-12-12 15:30:16.6149 INFO Execution finished for Init
+2013-12-12 15:30:16.7309 INFO Execution started of MvcApplication.Application_Error (sender = ASP.global_asax, e = System.EventArgs, )
+2013-12-12 15:30:16.7309 INFO Application_Error: System.Web.HttpException (0x80004005): File does not exist.
+   at System.Web.StaticFileHandler.ProcessRequestForNonMapPathBasedVirtualFile(HttpRequest request, HttpResponse response, String overrideVirtualPath)
+   at System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context, String overrideVirtualPath)
+   at System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2013-12-12 15:30:16.7309 INFO Execution started of ErrorController.DetailedError ()
+2013-12-12 15:30:16.7309 INFO Execution finished for DetailedError
+2013-12-12 15:30:16.7479 INFO Execution finished for Application_Error
+2013-12-12 15:31:13.8756 INFO Execution started of MvcApplication.Application_Start ()
+2013-12-12 15:31:15.0507 INFO Execution started of AdminAreaRegistration.get_AreaName ()
+2013-12-12 15:31:15.0507 INFO Execution finished for get_AreaName
+2013-12-12 15:31:15.0507 INFO Execution started of AdminAreaRegistration.RegisterArea (context = System.Web.Mvc.AreaRegistrationContext, )
+2013-12-12 15:31:15.0507 INFO Execution finished for RegisterArea
+2013-12-12 15:31:15.0507 INFO Execution finished for Application_Start
+2013-12-12 15:31:15.1377 INFO Execution started of MiniProfilerStartupModule.Init (context = ASP.global_asax, )
+2013-12-12 15:31:15.1377 INFO Execution finished for Init
+2013-12-12 15:31:15.2767 INFO Execution started of MvcApplication.Application_Error (sender = ASP.global_asax, e = System.EventArgs, )
+2013-12-12 15:31:15.2817 INFO Application_Error: System.Web.HttpException (0x80004005): Path '/Areas/Admin/Views/SubDepartment/Delete.cshtml' was not found.
+   at System.Web.HttpNotFoundHandler.ProcessRequest(HttpContext context)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2013-12-12 15:31:15.2997 INFO Execution started of ErrorController.DetailedError ()
+2013-12-12 15:31:15.2997 INFO Execution finished for DetailedError
+2013-12-12 15:31:15.9748 INFO Execution finished for Application_Error
+2013-12-12 15:31:16.1718 INFO Execution started of MiniProfilerStartupModule.Init (context = ASP.global_asax, )
+2013-12-12 15:31:16.1718 INFO Execution finished for Init
+2013-12-12 15:31:34.1346 INFO Execution started of HomeController.Index ()
+2013-12-12 15:31:34.1346 INFO Execution finished for Index
+2013-12-12 15:31:37.2959 INFO Execution started of AccountController.LogOn (returnUrl = /Home/Default, )
+2013-12-12 15:31:37.3119 INFO Execution finished for LogOn
+2013-12-12 15:31:47.9500 INFO Execution started of AccountController.LogOn (model = Confluence.Blueprint.Models.LogOnModel, )
+2013-12-12 15:31:47.9500 INFO Execution started of OrganizationService.GetOrganizationByUserEmail (userEmail = admin@eqms.com, )
+2013-12-12 15:31:47.9500 INFO Execution started of OrganizationFacade.GetOrganization (userEmail = admin@eqms.com, )
+2013-12-12 15:31:48.0450 INFO Execution finished for GetOrganization
+2013-12-12 15:31:48.0450 INFO Execution finished for GetOrganizationByUserEmail
+2013-12-12 15:31:48.0450 INFO Execution started of AccountService.GetUserDetails (email = admin@eqms.com, )
+2013-12-12 15:31:48.0450 INFO Execution started of UserFacade.GetUserDetails (email = admin@eqms.com, )
+2013-12-12 15:31:48.0610 INFO Execution finished for GetUserDetails
+2013-12-12 15:31:48.0610 INFO Execution finished for GetUserDetails
+2013-12-12 15:31:48.0610 INFO Execution started of BaseController.GetTerminology (id = 2, )
+2013-12-12 15:31:48.0610 INFO Execution finished for GetTerminology
+2013-12-12 15:31:48.0610 INFO Execution started of BaseController.Redirect (url = /Home/Default, )
+2013-12-12 15:31:48.0610 INFO Execution finished for Redirect
+2013-12-12 15:31:48.0610 INFO Execution finished for LogOn
+2013-12-12 15:31:48.0730 INFO Execution started of AjaxAwareRedirectResult.ExecuteResult (context = System.Web.Mvc.ControllerContext, )
+2013-12-12 15:31:48.0730 INFO Execution finished for ExecuteResult
+2013-12-12 15:31:48.0890 INFO Execution started of HomeController.Default ()
+2013-12-12 15:31:48.0890 INFO Execution finished for Default
+2013-12-12 15:31:49.9022 INFO Execution started of MvcApplication.Application_Error (sender = ASP.global_asax, e = System.EventArgs, )
+2013-12-12 15:31:49.9022 INFO Execution started of MvcApplication.Application_Error (sender = ASP.global_asax, e = System.EventArgs, )
+2013-12-12 15:31:49.9022 INFO Application_Error: System.Web.HttpException (0x80004005): File does not exist.
+   at System.Web.StaticFileHandler.ProcessRequestForNonMapPathBasedVirtualFile(HttpRequest request, HttpResponse response, String overrideVirtualPath)
+   at System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context, String overrideVirtualPath)
+   at System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2013-12-12 15:31:49.9022 INFO Application_Error: System.Web.HttpException (0x80004005): File does not exist.
+   at System.Web.StaticFileHandler.ProcessRequestForNonMapPathBasedVirtualFile(HttpRequest request, HttpResponse response, String overrideVirtualPath)
+   at System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context, String overrideVirtualPath)
+   at System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2013-12-12 15:31:49.9022 INFO Execution started of ErrorController.DetailedError ()
+2013-12-12 15:31:49.9022 INFO Execution finished for DetailedError
+2013-12-12 15:31:49.9022 INFO Execution started of ErrorController.DetailedError ()
+2013-12-12 15:31:49.9022 INFO Execution finished for DetailedError
+2013-12-12 15:31:49.9022 INFO Execution finished for Application_Error
+2013-12-12 15:31:49.9022 INFO Execution finished for Application_Error
+2013-12-12 15:31:51.4563 INFO Execution started of CommonService.GetUserDashboard (UserID = 1, )
+2013-12-12 15:31:51.4583 INFO Execution started of CommonFacade.GetDashboardData (UserID = 1, )
+2013-12-12 15:31:51.4583 INFO Execution finished for GetDashboardData
+2013-12-12 15:31:51.4583 INFO Execution finished for GetUserDashboard
+2013-12-12 15:31:51.5084 INFO Execution started of MiniProfilerStartupModule.Init (context = ASP.global_asax, )
+2013-12-12 15:31:51.5084 INFO Execution finished for Init
+2013-12-12 15:31:52.9895 INFO Execution started of RequiredRoleAttribute.AuthorizeCore (httpContext = System.Web.HttpContextWrapper, )
+2013-12-12 15:31:52.9895 INFO Execution finished for AuthorizeCore
+2013-12-12 15:31:52.9895 INFO Execution started of AdminController.Index ()
+2013-12-12 15:31:52.9895 INFO Execution finished for Index
+2013-12-12 15:31:53.5726 INFO Execution started of MvcApplication.Application_Error (sender = ASP.global_asax, e = System.EventArgs, )
+2013-12-12 15:31:53.5726 INFO Application_Error: System.Web.HttpException (0x80004005): File does not exist.
+   at System.Web.StaticFileHandler.ProcessRequestForNonMapPathBasedVirtualFile(HttpRequest request, HttpResponse response, String overrideVirtualPath)
+   at System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context, String overrideVirtualPath)
+   at System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2013-12-12 15:31:53.5726 INFO Execution started of ErrorController.DetailedError ()
+2013-12-12 15:31:53.5726 INFO Execution finished for DetailedError
+2013-12-12 15:31:53.5726 INFO Execution finished for Application_Error
+2013-12-12 15:31:55.1877 INFO Execution started of RequiredRoleAttribute.AuthorizeCore (httpContext = System.Web.HttpContextWrapper, )
+2013-12-12 15:31:55.1877 INFO Execution finished for AuthorizeCore
+2013-12-12 15:31:55.1877 INFO Execution started of SubDepartmentController.Index ()
+2013-12-12 15:31:55.1877 INFO Execution started of OrganizationService.GetOrganizationByID (orgid = 1, )
+2013-12-12 15:31:55.2027 INFO Execution started of OrganizationFacade.GetOrganization (orgid = 1, )
+2013-12-12 15:31:55.2187 INFO Execution finished for GetOrganization
+2013-12-12 15:31:55.2187 INFO Execution finished for GetOrganizationByID
+2013-12-12 15:31:55.2187 INFO Execution started of DepartmentService.GetDepartmentDetails (deptid = 1, )
+2013-12-12 15:31:55.2187 INFO Execution started of DepartmentFacade.GetDepartmentDetail (deptid = 1, )
+2013-12-12 15:31:55.2187 INFO Execution finished for GetDepartmentDetail
+2013-12-12 15:31:55.2337 INFO Execution finished for GetDepartmentDetails
+2013-12-12 15:31:55.2337 INFO Execution started of DepartmentService.GetDepartmentDetails (deptid = 2, )
+2013-12-12 15:31:55.2337 INFO Execution started of DepartmentFacade.GetDepartmentDetail (deptid = 2, )
+2013-12-12 15:31:55.2337 INFO Execution finished for GetDepartmentDetail
+2013-12-12 15:31:55.2337 INFO Execution finished for GetDepartmentDetails
+2013-12-12 15:31:55.2337 INFO Execution started of DepartmentService.GetDepartmentDetails (deptid = 3, )
+2013-12-12 15:31:55.2337 INFO Execution started of DepartmentFacade.GetDepartmentDetail (deptid = 3, )
+2013-12-12 15:31:55.2337 INFO Execution finished for GetDepartmentDetail
+2013-12-12 15:31:55.2337 INFO Execution finished for GetDepartmentDetails
+2013-12-12 15:31:55.2337 INFO Execution started of DepartmentService.GetDepartmentDetails (deptid = 4, )
+2013-12-12 15:31:55.2337 INFO Execution started of DepartmentFacade.GetDepartmentDetail (deptid = 4, )
+2013-12-12 15:31:55.2527 INFO Execution finished for GetDepartmentDetail
+2013-12-12 15:31:55.2527 INFO Execution finished for GetDepartmentDetails
+2013-12-12 15:31:55.2527 INFO Execution started of DepartmentService.GetDepartmentDetails (deptid = 11, )
+2013-12-12 15:31:55.2527 INFO Execution started of DepartmentFacade.GetDepartmentDetail (deptid = 11, )
+2013-12-12 15:31:55.2527 INFO Execution finished for GetDepartmentDetail
+2013-12-12 15:31:55.2527 INFO Execution finished for GetDepartmentDetails
+2013-12-12 15:31:55.2527 INFO Execution finished for Index
+2013-12-12 15:31:56.3678 INFO Execution started of MvcApplication.Application_Error (sender = ASP.global_asax, e = System.EventArgs, )
+2013-12-12 15:31:56.3678 INFO Application_Error: System.Web.HttpException (0x80004005): File does not exist.
+   at System.Web.StaticFileHandler.ProcessRequestForNonMapPathBasedVirtualFile(HttpRequest request, HttpResponse response, String overrideVirtualPath)
+   at System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context, String overrideVirtualPath)
+   at System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2013-12-12 15:31:56.3678 INFO Execution started of ErrorController.DetailedError ()
+2013-12-12 15:31:56.3678 INFO Execution finished for DetailedError
+2013-12-12 15:31:56.3728 INFO Execution finished for Application_Error
+2013-12-12 15:32:03.4505 INFO Execution started of RequiredRoleAttribute.AuthorizeCore (httpContext = System.Web.HttpContextWrapper, )
+2013-12-12 15:32:03.4505 INFO Execution finished for AuthorizeCore
+2013-12-12 15:32:03.4505 INFO Execution started of SubDepartmentController.Delete ()
+2013-12-12 15:32:03.4645 INFO Execution started of OrganizationService.GetOrganizationByID (orgid = 1, )
+2013-12-12 15:32:03.4645 INFO Execution started of OrganizationFacade.GetOrganization (orgid = 1, )
+2013-12-12 15:32:03.4796 INFO Execution finished for GetOrganization
+2013-12-12 15:32:03.4796 INFO Execution finished for GetOrganizationByID
+2013-12-12 15:32:03.4796 INFO Execution started of DepartmentService.GetDepartmentDetails (deptid = 1, )
+2013-12-12 15:32:03.4796 INFO Execution started of DepartmentFacade.GetDepartmentDetail (deptid = 1, )
+2013-12-12 15:32:03.4876 INFO Execution finished for GetDepartmentDetail
+2013-12-12 15:32:03.4876 INFO Execution finished for GetDepartmentDetails
+2013-12-12 15:32:03.4876 INFO Execution started of DepartmentService.GetDepartmentDetails (deptid = 2, )
+2013-12-12 15:32:03.4876 INFO Execution started of DepartmentFacade.GetDepartmentDetail (deptid = 2, )
+2013-12-12 15:32:03.4876 INFO Execution finished for GetDepartmentDetail
+2013-12-12 15:32:03.4876 INFO Execution finished for GetDepartmentDetails
+2013-12-12 15:32:03.4876 INFO Execution started of DepartmentService.GetDepartmentDetails (deptid = 3, )
+2013-12-12 15:32:03.4876 INFO Execution started of DepartmentFacade.GetDepartmentDetail (deptid = 3, )
+2013-12-12 15:32:03.5036 INFO Execution finished for GetDepartmentDetail
+2013-12-12 15:32:03.5036 INFO Execution finished for GetDepartmentDetails
+2013-12-12 15:32:03.5036 INFO Execution started of DepartmentService.GetDepartmentDetails (deptid = 4, )
+2013-12-12 15:32:03.5036 INFO Execution started of DepartmentFacade.GetDepartmentDetail (deptid = 4, )
+2013-12-12 15:32:03.5036 INFO Execution finished for GetDepartmentDetail
+2013-12-12 15:32:03.5036 INFO Execution finished for GetDepartmentDetails
+2013-12-12 15:32:03.5036 INFO Execution started of DepartmentService.GetDepartmentDetails (deptid = 11, )
+2013-12-12 15:32:03.5036 INFO Execution started of DepartmentFacade.GetDepartmentDetail (deptid = 11, )
+2013-12-12 15:32:03.5226 INFO Execution finished for GetDepartmentDetail
+2013-12-12 15:32:03.5226 INFO Execution finished for GetDepartmentDetails
+2013-12-12 15:32:03.5226 INFO Execution finished for Delete
+2013-12-12 15:32:03.6556 INFO Execution started of MvcApplication.Application_Error (sender = ASP.global_asax, e = System.EventArgs, )
+2013-12-12 15:32:03.6556 INFO Application_Error: System.Web.HttpException (0x80004005): File does not exist.
+   at System.Web.StaticFileHandler.ProcessRequestForNonMapPathBasedVirtualFile(HttpRequest request, HttpResponse response, String overrideVirtualPath)
+   at System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context, String overrideVirtualPath)
+   at System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2013-12-12 15:32:03.6556 INFO Execution started of ErrorController.DetailedError ()
+2013-12-12 15:32:03.6556 INFO Execution finished for DetailedError
+2013-12-12 15:32:03.6596 INFO Execution finished for Application_Error
+2013-12-12 15:32:25.7708 INFO Execution started of RequiredRoleAttribute.AuthorizeCore (httpContext = System.Web.HttpContextWrapper, )
+2013-12-12 15:32:25.7708 INFO Execution finished for AuthorizeCore
+2013-12-12 15:32:25.7708 INFO Execution started of SubDepartmentController.Delete ()
+2013-12-12 15:32:25.7708 INFO Execution started of OrganizationService.GetOrganizationByID (orgid = 1, )
+2013-12-12 15:32:25.7708 INFO Execution started of OrganizationFacade.GetOrganization (orgid = 1, )
+2013-12-12 15:32:25.7968 INFO Execution finished for GetOrganization
+2013-12-12 15:32:25.7968 INFO Execution finished for GetOrganizationByID
+2013-12-12 15:32:25.7968 INFO Execution started of DepartmentService.GetDepartmentDetails (deptid = 1, )
+2013-12-12 15:32:25.7968 INFO Execution started of DepartmentFacade.GetDepartmentDetail (deptid = 1, )
+2013-12-12 15:32:25.7968 INFO Execution finished for GetDepartmentDetail
+2013-12-12 15:32:25.7968 INFO Execution finished for GetDepartmentDetails
+2013-12-12 15:32:25.8118 INFO Execution started of DepartmentService.GetDepartmentDetails (deptid = 2, )
+2013-12-12 15:32:25.8118 INFO Execution started of DepartmentFacade.GetDepartmentDetail (deptid = 2, )
+2013-12-12 15:32:25.8118 INFO Execution finished for GetDepartmentDetail
+2013-12-12 15:32:25.8118 INFO Execution finished for GetDepartmentDetails
+2013-12-12 15:32:25.8268 INFO Execution started of DepartmentService.GetDepartmentDetails (deptid = 3, )
+2013-12-12 15:32:25.8268 INFO Execution started of DepartmentFacade.GetDepartmentDetail (deptid = 3, )
+2013-12-12 15:32:25.8268 INFO Execution finished for GetDepartmentDetail
+2013-12-12 15:32:25.8428 INFO Execution finished for GetDepartmentDetails
+2013-12-12 15:32:25.8428 INFO Execution started of DepartmentService.GetDepartmentDetails (deptid = 4, )
+2013-12-12 15:32:25.8428 INFO Execution started of DepartmentFacade.GetDepartmentDetail (deptid = 4, )
+2013-12-12 15:32:25.8428 INFO Execution finished for GetDepartmentDetail
+2013-12-12 15:32:25.8428 INFO Execution finished for GetDepartmentDetails
+2013-12-12 15:32:25.8428 INFO Execution started of DepartmentService.GetDepartmentDetails (deptid = 11, )
+2013-12-12 15:32:25.8428 INFO Execution started of DepartmentFacade.GetDepartmentDetail (deptid = 11, )
+2013-12-12 15:32:25.8648 INFO Execution finished for GetDepartmentDetail
+2013-12-12 15:32:25.8648 INFO Execution finished for GetDepartmentDetails
+2013-12-12 15:32:25.8648 INFO Execution finished for Delete
+2013-12-12 15:32:27.1599 INFO Execution started of MvcApplication.Application_Error (sender = ASP.global_asax, e = System.EventArgs, )
+2013-12-12 15:32:27.1599 INFO Application_Error: System.Web.HttpException (0x80004005): File does not exist.
+   at System.Web.StaticFileHandler.ProcessRequestForNonMapPathBasedVirtualFile(HttpRequest request, HttpResponse response, String overrideVirtualPath)
+   at System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context, String overrideVirtualPath)
+   at System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2013-12-12 15:32:27.1599 INFO Execution started of ErrorController.DetailedError ()
+2013-12-12 15:32:27.1599 INFO Execution finished for DetailedError
+2013-12-12 15:32:27.1699 INFO Execution finished for Application_Error
+2013-12-12 16:33:10.9863 INFO Execution started of MvcApplication.Application_Start ()
+2013-12-12 16:33:11.0583 INFO Execution started of AdminAreaRegistration.get_AreaName ()
+2013-12-12 16:33:11.0583 INFO Execution finished for get_AreaName
+2013-12-12 16:33:11.0603 INFO Execution started of AdminAreaRegistration.RegisterArea (context = System.Web.Mvc.AreaRegistrationContext, )
+2013-12-12 16:33:11.0603 INFO Execution finished for RegisterArea
+2013-12-12 16:33:11.0603 INFO Execution finished for Application_Start
+2013-12-12 16:33:11.2983 INFO Execution started of MiniProfilerStartupModule.Init (context = ASP.global_asax, )
+2013-12-12 16:33:11.2983 INFO Execution finished for Init
+2013-12-12 16:33:11.5093 INFO Execution started of MvcApplication.Application_Error (sender = ASP.global_asax, e = System.EventArgs, )
+2013-12-12 16:33:11.5553 INFO Application_Error: System.Web.HttpException (0x80004005): Path '/Areas/Admin/Views/SubDepartment/Delete.cshtml' was not found.
+   at System.Web.HttpNotFoundHandler.ProcessRequest(HttpContext context)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2013-12-12 16:33:11.6143 INFO Execution started of ErrorController.DetailedError ()
+2013-12-12 16:33:11.6143 INFO Execution finished for DetailedError
+2013-12-12 16:33:11.9124 INFO Execution finished for Application_Error
+2013-12-12 16:33:12.1124 INFO Execution started of MiniProfilerStartupModule.Init (context = ASP.global_asax, )
+2013-12-12 16:33:12.1124 INFO Execution finished for Init
+2013-12-12 16:33:12.4104 INFO Execution started of MiniProfilerStartupModule.Init (context = ASP.global_asax, )
+2013-12-12 16:33:12.4104 INFO Execution finished for Init
+2013-12-12 16:33:18.2530 INFO Execution started of HomeController.Index ()
+2013-12-12 16:33:18.2530 INFO Execution finished for Index
+2013-12-12 16:33:29.0271 INFO Execution started of AccountController.LogOn (returnUrl = /Home/Default, )
+2013-12-12 16:33:29.0481 INFO Execution finished for LogOn
+2013-12-12 16:33:41.3033 INFO Execution started of AccountController.LogOn (model = Confluence.Blueprint.Models.LogOnModel, )
+2013-12-12 16:33:41.3033 INFO Execution started of OrganizationService.GetOrganizationByUserEmail (userEmail = admin@eqms.com, )
+2013-12-12 16:33:41.3123 INFO Execution started of OrganizationFacade.GetOrganization (userEmail = admin@eqms.com, )
+2013-12-12 16:33:41.7834 INFO Execution finished for GetOrganization
+2013-12-12 16:33:41.7834 INFO Execution finished for GetOrganizationByUserEmail
+2013-12-12 16:33:41.7834 INFO Execution started of AccountService.GetUserDetails (email = admin@eqms.com, )
+2013-12-12 16:33:41.7834 INFO Execution started of UserFacade.GetUserDetails (email = admin@eqms.com, )
+2013-12-12 16:33:41.7984 INFO Execution finished for GetUserDetails
+2013-12-12 16:33:41.7984 INFO Execution finished for GetUserDetails
+2013-12-12 16:33:41.7984 INFO Execution started of BaseController.GetTerminology (id = 2, )
+2013-12-12 16:33:41.7984 INFO Execution finished for GetTerminology
+2013-12-12 16:33:41.7984 INFO Execution started of BaseController.Redirect (url = /Home/Default, )
+2013-12-12 16:33:41.7984 INFO Execution finished for Redirect
+2013-12-12 16:33:41.8114 INFO Execution finished for LogOn
+2013-12-12 16:33:41.8114 INFO Execution started of AjaxAwareRedirectResult.ExecuteResult (context = System.Web.Mvc.ControllerContext, )
+2013-12-12 16:33:41.8114 INFO Execution finished for ExecuteResult
+2013-12-12 16:33:41.8324 INFO Execution started of HomeController.Default ()
+2013-12-12 16:33:41.8324 INFO Execution finished for Default
+2013-12-12 16:33:44.1876 INFO Execution started of MvcApplication.Application_Error (sender = ASP.global_asax, e = System.EventArgs, )
+2013-12-12 16:33:44.1876 INFO Application_Error: System.Web.HttpException (0x80004005): File does not exist.
+   at System.Web.StaticFileHandler.ProcessRequestForNonMapPathBasedVirtualFile(HttpRequest request, HttpResponse response, String overrideVirtualPath)
+   at System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context, String overrideVirtualPath)
+   at System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2013-12-12 16:33:44.1876 INFO Execution started of ErrorController.DetailedError ()
+2013-12-12 16:33:44.1876 INFO Execution finished for DetailedError
+2013-12-12 16:33:44.1876 INFO Execution finished for Application_Error
+2013-12-12 16:33:45.6848 INFO Execution started of CommonService.GetUserDashboard (UserID = 1, )
+2013-12-12 16:33:45.6848 INFO Execution started of CommonFacade.GetDashboardData (UserID = 1, )
+2013-12-12 16:33:45.6968 INFO Execution finished for GetDashboardData
+2013-12-12 16:33:45.6968 INFO Execution finished for GetUserDashboard
+2013-12-12 16:33:47.9520 INFO Execution started of RequiredRoleAttribute.AuthorizeCore (httpContext = System.Web.HttpContextWrapper, )
+2013-12-12 16:33:47.9520 INFO Execution finished for AuthorizeCore
+2013-12-12 16:33:47.9520 INFO Execution started of AdminController.Index ()
+2013-12-12 16:33:47.9560 INFO Execution finished for Index
+2013-12-12 16:33:48.2090 INFO Execution started of MvcApplication.Application_Error (sender = ASP.global_asax, e = System.EventArgs, )
+2013-12-12 16:33:48.2090 INFO Application_Error: System.Web.HttpException (0x80004005): File does not exist.
+   at System.Web.StaticFileHandler.ProcessRequestForNonMapPathBasedVirtualFile(HttpRequest request, HttpResponse response, String overrideVirtualPath)
+   at System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context, String overrideVirtualPath)
+   at System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2013-12-12 16:33:48.2090 INFO Execution started of ErrorController.DetailedError ()
+2013-12-12 16:33:48.2090 INFO Execution finished for DetailedError
+2013-12-12 16:33:48.2090 INFO Execution finished for Application_Error
+2013-12-12 16:33:50.1432 INFO Execution started of RequiredRoleAttribute.AuthorizeCore (httpContext = System.Web.HttpContextWrapper, )
+2013-12-12 16:33:50.1432 INFO Execution finished for AuthorizeCore
+2013-12-12 16:33:50.1622 INFO Execution started of DocumentLevelsController.Index ()
+2013-12-12 16:33:50.1622 INFO Execution finished for Index
+2013-12-12 16:33:51.6754 INFO Execution started of MvcApplication.Application_Error (sender = ASP.global_asax, e = System.EventArgs, )
+2013-12-12 16:33:51.6754 INFO Application_Error: System.Web.HttpException (0x80004005): File does not exist.
+   at System.Web.StaticFileHandler.ProcessRequestForNonMapPathBasedVirtualFile(HttpRequest request, HttpResponse response, String overrideVirtualPath)
+   at System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context, String overrideVirtualPath)
+   at System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2013-12-12 16:33:51.6754 INFO Execution started of ErrorController.DetailedError ()
+2013-12-12 16:33:51.6754 INFO Execution finished for DetailedError
+2013-12-12 16:33:51.6754 INFO Execution finished for Application_Error
+2013-12-12 16:33:52.9405 INFO Execution started of DocumentLevelService.GetDocumentLevels (OrgID = 1, )
+2013-12-12 16:33:52.9405 INFO Execution started of DocumentLevelService.GetDocumentLevelList (OrgID = 1, )
+2013-12-12 16:33:52.9405 INFO Execution started of DocumentLevelsFacade.GetDocumentLevels (OrgID = 1, )
+2013-12-12 16:33:53.0935 INFO Execution finished for GetDocumentLevels
+2013-12-12 16:33:53.0935 INFO Execution finished for GetDocumentLevelList
+2013-12-12 16:33:53.0935 INFO Execution finished for GetDocumentLevels
+2013-12-12 16:34:29.6551 INFO Execution started of DocumentLevelService.CheckAssociatedDocuments (OrgID = 1, DocType = ABCDEFGHIJKLMNOPQRSTUVWXYZ-ABCDEFGHIJKLMNOPQRSTUVWXYZ--ABCDEFGHIJKLMNOPQRSTUVWXYZ-ABCDEFGHIJKLMNOPQ1, )
+2013-12-12 16:34:29.6571 INFO Execution started of DocumentLevelsFacade.CheckAssociatedDocuments (OrgID = 1, DocType = ABCDEFGHIJKLMNOPQRSTUVWXYZ-ABCDEFGHIJKLMNOPQRSTUVWXYZ--ABCDEFGHIJKLMNOPQRSTUVWXYZ-ABCDEFGHIJKLMNOPQ1, )
+2013-12-12 16:34:29.7922 INFO Execution finished for CheckAssociatedDocuments
+2013-12-12 16:34:29.7922 INFO Execution finished for CheckAssociatedDocuments
+2013-12-12 16:35:53.1255 INFO Execution started of RequiredRoleAttribute.AuthorizeCore (httpContext = System.Web.HttpContextWrapper, )
+2013-12-12 16:35:53.1255 INFO Execution finished for AuthorizeCore
+2013-12-12 16:35:53.1255 INFO Execution started of DocumentLevelsController.Index ()
+2013-12-12 16:35:53.1255 INFO Execution finished for Index
+2013-12-12 16:35:54.2436 INFO Execution started of MiniProfilerStartupModule.Init (context = ASP.global_asax, )
+2013-12-12 16:35:54.2456 INFO Execution finished for Init
+2013-12-12 16:35:54.2456 INFO Execution started of MiniProfilerStartupModule.Init (context = ASP.global_asax, )
+2013-12-12 16:35:54.2456 INFO Execution finished for Init
+2013-12-12 16:35:54.4256 INFO Execution started of MvcApplication.Application_Error (sender = ASP.global_asax, e = System.EventArgs, )
+2013-12-12 16:35:54.4256 INFO Application_Error: System.Web.HttpException (0x80004005): File does not exist.
+   at System.Web.StaticFileHandler.ProcessRequestForNonMapPathBasedVirtualFile(HttpRequest request, HttpResponse response, String overrideVirtualPath)
+   at System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context, String overrideVirtualPath)
+   at System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2013-12-12 16:35:54.4256 INFO Execution started of ErrorController.DetailedError ()
+2013-12-12 16:35:54.4256 INFO Execution finished for DetailedError
+2013-12-12 16:35:54.4256 INFO Execution finished for Application_Error
+2013-12-12 16:35:55.8148 INFO Execution started of DocumentLevelService.GetDocumentLevels (OrgID = 1, )
+2013-12-12 16:35:55.8148 INFO Execution started of DocumentLevelService.GetDocumentLevelList (OrgID = 1, )
+2013-12-12 16:35:55.8148 INFO Execution started of DocumentLevelsFacade.GetDocumentLevels (OrgID = 1, )
+2013-12-12 16:35:55.8438 INFO Execution finished for GetDocumentLevels
+2013-12-12 16:35:55.8438 INFO Execution finished for GetDocumentLevelList
+2013-12-12 16:35:55.8438 INFO Execution finished for GetDocumentLevels
+2013-12-12 16:41:37.9500 INFO Execution started of RequiredRoleAttribute.AuthorizeCore (httpContext = System.Web.HttpContextWrapper, )
+2013-12-12 16:41:37.9500 INFO Execution finished for AuthorizeCore
+2013-12-12 16:41:37.9500 INFO Execution started of DocumentLevelsController.Index ()
+2013-12-12 16:41:37.9500 INFO Execution finished for Index
+2013-12-12 16:41:39.1581 INFO Execution started of MiniProfilerStartupModule.Init (context = ASP.global_asax, )
+2013-12-12 16:41:39.1581 INFO Execution finished for Init
+2013-12-12 16:41:39.1791 INFO Execution started of MiniProfilerStartupModule.Init (context = ASP.global_asax, )
+2013-12-12 16:41:39.1791 INFO Execution finished for Init
+2013-12-12 16:41:39.3221 INFO Execution started of MvcApplication.Application_Error (sender = ASP.global_asax, e = System.EventArgs, )
+2013-12-12 16:41:39.3221 INFO Application_Error: System.Web.HttpException (0x80004005): File does not exist.
+   at System.Web.StaticFileHandler.ProcessRequestForNonMapPathBasedVirtualFile(HttpRequest request, HttpResponse response, String overrideVirtualPath)
+   at System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context, String overrideVirtualPath)
+   at System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2013-12-12 16:41:39.3221 INFO Execution started of ErrorController.DetailedError ()
+2013-12-12 16:41:39.3221 INFO Execution finished for DetailedError
+2013-12-12 16:41:39.3221 INFO Execution finished for Application_Error
+2013-12-12 16:41:40.7163 INFO Execution started of DocumentLevelService.GetDocumentLevels (OrgID = 1, )
+2013-12-12 16:41:40.7163 INFO Execution started of DocumentLevelService.GetDocumentLevelList (OrgID = 1, )
+2013-12-12 16:41:40.7163 INFO Execution started of DocumentLevelsFacade.GetDocumentLevels (OrgID = 1, )
+2013-12-12 16:41:40.7903 INFO Execution finished for GetDocumentLevels
+2013-12-12 16:41:40.7903 INFO Execution finished for GetDocumentLevelList
+2013-12-12 16:41:40.7903 INFO Execution finished for GetDocumentLevels
+2013-12-12 16:52:29.2078 INFO Execution started of RequiredRoleAttribute.AuthorizeCore (httpContext = System.Web.HttpContextWrapper, )
+2013-12-12 16:52:29.2078 INFO Execution finished for AuthorizeCore
+2013-12-12 16:52:29.2078 INFO Execution started of DocumentLevelsController.Index ()
+2013-12-12 16:52:29.2078 INFO Execution finished for Index
+2013-12-12 16:52:30.4197 INFO Execution started of MiniProfilerStartupModule.Init (context = ASP.global_asax, )
+2013-12-12 16:52:30.4197 INFO Execution finished for Init
+2013-12-12 16:52:30.4497 INFO Execution started of MiniProfilerStartupModule.Init (context = ASP.global_asax, )
+2013-12-12 16:52:30.4497 INFO Execution finished for Init
+2013-12-12 16:52:30.5727 INFO Execution started of MiniProfilerStartupModule.Init (context = ASP.global_asax, )
+2013-12-12 16:52:30.5727 INFO Execution finished for Init
+2013-12-12 16:52:30.7057 INFO Execution started of MvcApplication.Application_Error (sender = ASP.global_asax, e = System.EventArgs, )
+2013-12-12 16:52:30.7057 INFO Application_Error: System.Web.HttpException (0x80004005): File does not exist.
+   at System.Web.StaticFileHandler.ProcessRequestForNonMapPathBasedVirtualFile(HttpRequest request, HttpResponse response, String overrideVirtualPath)
+   at System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context, String overrideVirtualPath)
+   at System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2013-12-12 16:52:30.7057 INFO Execution started of ErrorController.DetailedError ()
+2013-12-12 16:52:30.7057 INFO Execution finished for DetailedError
+2013-12-12 16:52:30.7177 INFO Execution finished for Application_Error
+2013-12-12 16:52:31.9796 INFO Execution started of DocumentLevelService.GetDocumentLevels (OrgID = 1, )
+2013-12-12 16:52:31.9796 INFO Execution started of DocumentLevelService.GetDocumentLevelList (OrgID = 1, )
+2013-12-12 16:52:31.9796 INFO Execution started of DocumentLevelsFacade.GetDocumentLevels (OrgID = 1, )
+2013-12-12 16:52:31.9956 INFO Execution finished for GetDocumentLevels
+2013-12-12 16:52:31.9956 INFO Execution finished for GetDocumentLevelList
+2013-12-12 16:52:31.9956 INFO Execution finished for GetDocumentLevels
+2013-12-12 16:52:53.9014 INFO Execution started of RequiredRoleAttribute.AuthorizeCore (httpContext = System.Web.HttpContextWrapper, )
+2013-12-12 16:52:53.9014 INFO Execution finished for AuthorizeCore
+2013-12-12 16:52:53.9014 INFO Execution started of DocumentLevelsController.Index ()
+2013-12-12 16:52:53.9014 INFO Execution finished for Index
+2013-12-12 16:52:54.1414 INFO Execution started of MvcApplication.Application_Error (sender = ASP.global_asax, e = System.EventArgs, )
+2013-12-12 16:52:54.1414 INFO Application_Error: System.Web.HttpException (0x80004005): File does not exist.
+   at System.Web.StaticFileHandler.ProcessRequestForNonMapPathBasedVirtualFile(HttpRequest request, HttpResponse response, String overrideVirtualPath)
+   at System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context, String overrideVirtualPath)
+   at System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2013-12-12 16:52:54.1414 INFO Execution started of ErrorController.DetailedError ()
+2013-12-12 16:52:54.1414 INFO Execution finished for DetailedError
+2013-12-12 16:52:54.1564 INFO Execution finished for Application_Error
+2013-12-12 16:52:55.8152 INFO Execution started of DocumentLevelService.GetDocumentLevels (OrgID = 1, )
+2013-12-12 16:52:55.8152 INFO Execution started of DocumentLevelService.GetDocumentLevelList (OrgID = 1, )
+2013-12-12 16:52:55.8152 INFO Execution started of DocumentLevelsFacade.GetDocumentLevels (OrgID = 1, )
+2013-12-12 16:52:55.8242 INFO Execution finished for GetDocumentLevels
+2013-12-12 16:52:55.8242 INFO Execution finished for GetDocumentLevelList
+2013-12-12 16:52:55.8242 INFO Execution finished for GetDocumentLevels
+2013-12-12 16:54:43.6374 INFO Execution started of RequiredRoleAttribute.AuthorizeCore (httpContext = System.Web.HttpContextWrapper, )
+2013-12-12 16:54:43.6374 INFO Execution finished for AuthorizeCore
+2013-12-12 16:54:43.6374 INFO Execution started of DocumentLevelsController.Index ()
+2013-12-12 16:54:43.6374 INFO Execution finished for Index
+2013-12-12 16:54:43.7244 INFO Execution started of MiniProfilerStartupModule.Init (context = ASP.global_asax, )
+2013-12-12 16:54:43.7244 INFO Execution finished for Init
+2013-12-12 16:54:43.8754 INFO Execution started of MiniProfilerStartupModule.Init (context = ASP.global_asax, )
+2013-12-12 16:54:43.8754 INFO Execution finished for Init
+2013-12-12 16:54:43.9004 INFO Execution started of MvcApplication.Application_Error (sender = ASP.global_asax, e = System.EventArgs, )
+2013-12-12 16:54:43.9004 INFO Application_Error: System.Web.HttpException (0x80004005): File does not exist.
+   at System.Web.StaticFileHandler.ProcessRequestForNonMapPathBasedVirtualFile(HttpRequest request, HttpResponse response, String overrideVirtualPath)
+   at System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context, String overrideVirtualPath)
+   at System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2013-12-12 16:54:43.9004 INFO Execution started of ErrorController.DetailedError ()
+2013-12-12 16:54:43.9004 INFO Execution finished for DetailedError
+2013-12-12 16:54:43.9004 INFO Execution finished for Application_Error
+2013-12-12 16:54:45.2982 INFO Execution started of DocumentLevelService.GetDocumentLevels (OrgID = 1, )
+2013-12-12 16:54:45.2982 INFO Execution started of DocumentLevelService.GetDocumentLevelList (OrgID = 1, )
+2013-12-12 16:54:45.2982 INFO Execution started of DocumentLevelsFacade.GetDocumentLevels (OrgID = 1, )
+2013-12-12 16:54:45.3102 INFO Execution finished for GetDocumentLevels
+2013-12-12 16:54:45.3102 INFO Execution finished for GetDocumentLevelList
+2013-12-12 16:54:45.3102 INFO Execution finished for GetDocumentLevels
+2013-12-12 16:56:13.9695 INFO Execution started of MvcApplication.Application_Start ()
+2013-12-12 16:56:14.0095 INFO Execution started of AdminAreaRegistration.get_AreaName ()
+2013-12-12 16:56:14.0095 INFO Execution finished for get_AreaName
+2013-12-12 16:56:14.0095 INFO Execution started of AdminAreaRegistration.RegisterArea (context = System.Web.Mvc.AreaRegistrationContext, )
+2013-12-12 16:56:14.0095 INFO Execution finished for RegisterArea
+2013-12-12 16:56:14.0165 INFO Execution finished for Application_Start
+2013-12-12 16:56:14.0555 INFO Execution started of MiniProfilerStartupModule.Init (context = ASP.global_asax, )
+2013-12-12 16:56:14.0555 INFO Execution finished for Init
+2013-12-12 16:56:14.1685 INFO Execution started of HomeController.Index ()
+2013-12-12 16:56:14.1685 INFO Execution finished for Index
+2013-12-12 16:56:14.5345 INFO Execution started of MiniProfilerStartupModule.Init (context = ASP.global_asax, )
+2013-12-12 16:56:14.5345 INFO Execution finished for Init
+2013-12-12 16:56:18.2895 INFO Execution started of AccountController.LogOn (returnUrl = /Home/Default, )
+2013-12-12 16:56:18.3065 INFO Execution finished for LogOn
+2013-12-12 16:56:29.5245 INFO Execution started of AccountController.LogOn (model = Confluence.Blueprint.Models.LogOnModel, )
+2013-12-12 16:56:29.5245 INFO Execution started of OrganizationService.GetOrganizationByUserEmail (userEmail = admin@eqms.com, )
+2013-12-12 16:56:29.5245 INFO Execution started of OrganizationFacade.GetOrganization (userEmail = admin@eqms.com, )
+2013-12-12 16:56:29.6265 INFO Execution finished for GetOrganization
+2013-12-12 16:56:29.6265 INFO Execution finished for GetOrganizationByUserEmail
+2013-12-12 16:56:29.6265 INFO Execution started of AccountService.GetUserDetails (email = admin@eqms.com, )
+2013-12-12 16:56:29.6315 INFO Execution started of UserFacade.GetUserDetails (email = admin@eqms.com, )
+2013-12-12 16:56:29.6315 INFO Execution finished for GetUserDetails
+2013-12-12 16:56:29.6315 INFO Execution finished for GetUserDetails
+2013-12-12 16:56:29.6315 INFO Execution started of BaseController.GetTerminology (id = 2, )
+2013-12-12 16:56:29.6315 INFO Execution finished for GetTerminology
+2013-12-12 16:56:29.6515 INFO Execution started of BaseController.Redirect (url = /Home/Default, )
+2013-12-12 16:56:29.6515 INFO Execution finished for Redirect
+2013-12-12 16:56:29.6515 INFO Execution finished for LogOn
+2013-12-12 16:56:29.6515 INFO Execution started of AjaxAwareRedirectResult.ExecuteResult (context = System.Web.Mvc.ControllerContext, )
+2013-12-12 16:56:29.6645 INFO Execution finished for ExecuteResult
+2013-12-12 16:56:29.6645 INFO Execution started of HomeController.Default ()
+2013-12-12 16:56:29.6645 INFO Execution finished for Default
+2013-12-12 16:56:30.6565 INFO Execution started of MvcApplication.Application_Error (sender = ASP.global_asax, e = System.EventArgs, )
+2013-12-12 16:56:30.6565 INFO Execution started of MvcApplication.Application_Error (sender = ASP.global_asax, e = System.EventArgs, )
+2013-12-12 16:56:30.6635 INFO Application_Error: System.Web.HttpException (0x80004005): File does not exist.
+   at System.Web.StaticFileHandler.ProcessRequestForNonMapPathBasedVirtualFile(HttpRequest request, HttpResponse response, String overrideVirtualPath)
+   at System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context, String overrideVirtualPath)
+   at System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2013-12-12 16:56:30.6635 INFO Application_Error: System.Web.HttpException (0x80004005): File does not exist.
+   at System.Web.StaticFileHandler.ProcessRequestForNonMapPathBasedVirtualFile(HttpRequest request, HttpResponse response, String overrideVirtualPath)
+   at System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context, String overrideVirtualPath)
+   at System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2013-12-12 16:56:30.6635 INFO Execution started of ErrorController.DetailedError ()
+2013-12-12 16:56:30.6635 INFO Execution finished for DetailedError
+2013-12-12 16:56:30.6635 INFO Execution started of ErrorController.DetailedError ()
+2013-12-12 16:56:30.6635 INFO Execution finished for DetailedError
+2013-12-12 16:56:30.9775 INFO Execution finished for Application_Error
+2013-12-12 16:56:30.9775 INFO Execution finished for Application_Error
+2013-12-12 16:56:32.1645 INFO Execution started of CommonService.GetUserDashboard (UserID = 1, )
+2013-12-12 16:56:32.1645 INFO Execution started of CommonFacade.GetDashboardData (UserID = 1, )
+2013-12-12 16:56:32.1845 INFO Execution finished for GetDashboardData
+2013-12-12 16:56:32.1845 INFO Execution finished for GetUserDashboard
+2013-12-12 16:56:34.1785 INFO Execution started of RequiredRoleAttribute.AuthorizeCore (httpContext = System.Web.HttpContextWrapper, )
+2013-12-12 16:56:34.1785 INFO Execution finished for AuthorizeCore
+2013-12-12 16:56:34.1785 INFO Execution started of AdminController.Index ()
+2013-12-12 16:56:34.1855 INFO Execution finished for Index
+2013-12-12 16:56:34.3915 INFO Execution started of MvcApplication.Application_Error (sender = ASP.global_asax, e = System.EventArgs, )
+2013-12-12 16:56:34.3915 INFO Application_Error: System.Web.HttpException (0x80004005): File does not exist.
+   at System.Web.StaticFileHandler.ProcessRequestForNonMapPathBasedVirtualFile(HttpRequest request, HttpResponse response, String overrideVirtualPath)
+   at System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context, String overrideVirtualPath)
+   at System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2013-12-12 16:56:34.3915 INFO Execution started of ErrorController.DetailedError ()
+2013-12-12 16:56:34.3915 INFO Execution finished for DetailedError
+2013-12-12 16:56:34.3915 INFO Execution finished for Application_Error
+2013-12-12 16:56:36.5555 INFO Execution started of RequiredRoleAttribute.AuthorizeCore (httpContext = System.Web.HttpContextWrapper, )
+2013-12-12 16:56:36.5565 INFO Execution finished for AuthorizeCore
+2013-12-12 16:56:36.5565 INFO Execution started of SubDepartmentController.Index ()
+2013-12-12 16:56:36.5565 INFO Execution started of OrganizationService.GetOrganizationByID (orgid = 1, )
+2013-12-12 16:56:36.5565 INFO Execution started of OrganizationFacade.GetOrganization (orgid = 1, )
+2013-12-12 16:56:36.6095 INFO Execution finished for GetOrganization
+2013-12-12 16:56:36.6095 INFO Execution finished for GetOrganizationByID
+2013-12-12 16:56:36.6095 INFO Execution started of DepartmentService.GetDepartmentDetails (deptid = 1, )
+2013-12-12 16:56:36.6095 INFO Execution started of DepartmentFacade.GetDepartmentDetail (deptid = 1, )
+2013-12-12 16:56:36.6285 INFO Execution finished for GetDepartmentDetail
+2013-12-12 16:56:36.6285 INFO Execution finished for GetDepartmentDetails
+2013-12-12 16:56:36.6285 INFO Execution started of DepartmentService.GetDepartmentDetails (deptid = 2, )
+2013-12-12 16:56:36.6285 INFO Execution started of DepartmentFacade.GetDepartmentDetail (deptid = 2, )
+2013-12-12 16:56:36.6375 INFO Execution finished for GetDepartmentDetail
+2013-12-12 16:56:36.6375 INFO Execution finished for GetDepartmentDetails
+2013-12-12 16:56:36.6375 INFO Execution started of DepartmentService.GetDepartmentDetails (deptid = 3, )
+2013-12-12 16:56:36.6375 INFO Execution started of DepartmentFacade.GetDepartmentDetail (deptid = 3, )
+2013-12-12 16:56:36.6375 INFO Execution finished for GetDepartmentDetail
+2013-12-12 16:56:36.6375 INFO Execution finished for GetDepartmentDetails
+2013-12-12 16:56:36.6375 INFO Execution started of DepartmentService.GetDepartmentDetails (deptid = 4, )
+2013-12-12 16:56:36.6375 INFO Execution started of DepartmentFacade.GetDepartmentDetail (deptid = 4, )
+2013-12-12 16:56:36.6535 INFO Execution finished for GetDepartmentDetail
+2013-12-12 16:56:36.6535 INFO Execution finished for GetDepartmentDetails
+2013-12-12 16:56:36.6535 INFO Execution started of DepartmentService.GetDepartmentDetails (deptid = 11, )
+2013-12-12 16:56:36.6535 INFO Execution started of DepartmentFacade.GetDepartmentDetail (deptid = 11, )
+2013-12-12 16:56:36.6535 INFO Execution finished for GetDepartmentDetail
+2013-12-12 16:56:36.6535 INFO Execution finished for GetDepartmentDetails
+2013-12-12 16:56:36.6535 INFO Execution finished for Index
+2013-12-12 16:56:36.9265 INFO Execution started of MvcApplication.Application_Error (sender = ASP.global_asax, e = System.EventArgs, )
+2013-12-12 16:56:36.9265 INFO Application_Error: System.Web.HttpException (0x80004005): File does not exist.
+   at System.Web.StaticFileHandler.ProcessRequestForNonMapPathBasedVirtualFile(HttpRequest request, HttpResponse response, String overrideVirtualPath)
+   at System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context, String overrideVirtualPath)
+   at System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2013-12-12 16:56:36.9265 INFO Execution started of ErrorController.DetailedError ()
+2013-12-12 16:56:36.9265 INFO Execution finished for DetailedError
+2013-12-12 16:56:36.9325 INFO Execution finished for Application_Error
+2013-12-12 16:56:43.3655 INFO Execution started of RequiredRoleAttribute.AuthorizeCore (httpContext = System.Web.HttpContextWrapper, )
+2013-12-12 16:56:43.3655 INFO Execution finished for AuthorizeCore
+2013-12-12 16:56:43.3655 INFO Execution started of SubDepartmentController.Delete ()
+2013-12-12 16:56:43.3655 INFO Execution started of OrganizationService.GetOrganizationByID (orgid = 1, )
+2013-12-12 16:56:43.3735 INFO Execution started of OrganizationFacade.GetOrganization (orgid = 1, )
+2013-12-12 16:56:43.3735 INFO Execution finished for GetOrganization
+2013-12-12 16:56:43.3735 INFO Execution finished for GetOrganizationByID
+2013-12-12 16:56:43.3735 INFO Execution started of DepartmentService.GetDepartmentDetails (deptid = 1, )
+2013-12-12 16:56:43.3735 INFO Execution started of DepartmentFacade.GetDepartmentDetail (deptid = 1, )
+2013-12-12 16:56:43.3955 INFO Execution finished for GetDepartmentDetail
+2013-12-12 16:56:43.3955 INFO Execution finished for GetDepartmentDetails
+2013-12-12 16:56:43.3955 INFO Execution started of DepartmentService.GetDepartmentDetails (deptid = 2, )
+2013-12-12 16:56:43.3955 INFO Execution started of DepartmentFacade.GetDepartmentDetail (deptid = 2, )
+2013-12-12 16:56:43.4105 INFO Execution finished for GetDepartmentDetail
+2013-12-12 16:56:43.4105 INFO Execution finished for GetDepartmentDetails
+2013-12-12 16:56:43.4105 INFO Execution started of DepartmentService.GetDepartmentDetails (deptid = 3, )
+2013-12-12 16:56:43.4105 INFO Execution started of DepartmentFacade.GetDepartmentDetail (deptid = 3, )
+2013-12-12 16:56:43.4225 INFO Execution finished for GetDepartmentDetail
+2013-12-12 16:56:43.4225 INFO Execution finished for GetDepartmentDetails
+2013-12-12 16:56:43.4225 INFO Execution started of DepartmentService.GetDepartmentDetails (deptid = 4, )
+2013-12-12 16:56:43.4225 INFO Execution started of DepartmentFacade.GetDepartmentDetail (deptid = 4, )
+2013-12-12 16:56:43.4225 INFO Execution finished for GetDepartmentDetail
+2013-12-12 16:56:43.4225 INFO Execution finished for GetDepartmentDetails
+2013-12-12 16:56:43.4225 INFO Execution started of DepartmentService.GetDepartmentDetails (deptid = 11, )
+2013-12-12 16:56:43.4375 INFO Execution started of DepartmentFacade.GetDepartmentDetail (deptid = 11, )
+2013-12-12 16:56:43.4375 INFO Execution finished for GetDepartmentDetail
+2013-12-12 16:56:43.4375 INFO Execution finished for GetDepartmentDetails
+2013-12-12 16:56:43.4375 INFO Execution finished for Delete
+2013-12-12 16:56:44.6145 INFO Execution started of MvcApplication.Application_Error (sender = ASP.global_asax, e = System.EventArgs, )
+2013-12-12 16:56:44.6145 INFO Application_Error: System.Web.HttpException (0x80004005): File does not exist.
+   at System.Web.StaticFileHandler.ProcessRequestForNonMapPathBasedVirtualFile(HttpRequest request, HttpResponse response, String overrideVirtualPath)
+   at System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context, String overrideVirtualPath)
+   at System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2013-12-12 16:56:44.6145 INFO Execution started of ErrorController.DetailedError ()
+2013-12-12 16:56:44.6145 INFO Execution finished for DetailedError
+2013-12-12 16:56:44.6215 INFO Execution finished for Application_Error

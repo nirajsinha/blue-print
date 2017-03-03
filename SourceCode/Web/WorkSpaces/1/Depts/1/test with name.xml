@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-16"?>
+<Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <DocumentID>27</DocumentID>
+  <DepartmentID>1</DepartmentID>
+  <SubDepartmentID>0</SubDepartmentID>
+  <DocumentType>QUALITY CHECK</DocumentType>
+  <DocumentName>test with name</DocumentName>
+  <Version>1.000</Version>
+  <FileType>.docx</FileType>
+  <CheckInStatus>true</CheckInStatus>
+  <CreatedBy>admin@eqms.com</CreatedBy>
+  <CreatedOn>2013-07-18T17:04:58.623</CreatedOn>
+  <NextVersion>1.100</NextVersion>
+  <PhysicalPath>TORG\HR\test with name\1.000\</PhysicalPath>
+  <MetaDataPath>TORG\HR\</MetaDataPath>
+  <IsActive>true</IsActive>
+  <OrganizationID>0</OrganizationID>
+  <DocumentNumber>ABC/TORG/HR/REC/</DocumentNumber>
+</Document>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-16"?>
+<Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <DocumentID>25</DocumentID>
+  <OrganizationID>0</OrganizationID>
+  <DepartmentID>2</DepartmentID>
+  <SubDepartmentID>3</SubDepartmentID>
+  <DocumentType>QM/PM2/L33/</DocumentType>
+  <DocumentName>Process Maps for Accounts</DocumentName>
+  <PhysicalPath>TORG\FIN\ACT\Process Maps for Accounts\1.200\</PhysicalPath>
+  <MetaDataPath>TORG\FIN\ACT\</MetaDataPath>
+  <Version>1.200</Version>
+  <NextVersion>1.300</NextVersion>
+  <CheckInStatus>true</CheckInStatus>
+  <IsActive>true</IsActive>
+  <FileType>.docx</FileType>
+  <CreatedBy>admin@eqms.com</CreatedBy>
+  <CreatedOn>2013-07-14T11:49:06.23</CreatedOn>
+</Document>

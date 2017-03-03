@@ -1,0 +1,112 @@
+﻿@model Confluence.Blueprint.Models.OrganizationModel
+
+@{
+    ViewBag.Title = "Sub Department";
+}
+
+@section MenuGroup{
+            <li><a href="#" onclick="location.href='@Url.Content("~/Admin/SubDepartment/Create")'" ><img class="place-left" src="@Url.Content("~/images/expand32.png")" style="height: 20px"/> New</a></li>
+            <li><a href="#" onclick="location.href='@Url.Content("~/Admin/SubDepartment/Delete")'" ><img class="place-left" src="@Url.Content("~/images/bage-error.png")" style="height: 20px"/> Delete</a></li>
+            
+}
+@section PageScripts{
+<script type="text/javascript" src="@Url.Content("~/js/assets/jquery.validate.min.js")" ></script>
+<script type="text/javascript" src="@Url.Content("~/js/modern/dialog.js")"></script>
+<script type="text/javascript" src="@Url.Content("~/js/modern/accordion.js")"></script>
+}
+@section PageHeader{
+<script type="text/javascript">
+    PrintTerminology(true, false, false)
+</script>
+}
+            
+        <p>Select <script>PrintTerminology(true, true, false)</script> and click on Edit to modify.</p>
+        @using (Html.BeginForm(null, null, FormMethod.Get, new { id = "myForm", name = "myForm" }))
+        {
+            if (Model.Departments != null && Model.Departments.Count > 0)
+            {
+                <div>
+                        <fieldset>
+                            <legend>List of <script>PrintTerminology(false, true, true)</script></legend>
+                            <table>
+                            <tbody>
+                            <tr>
+                                <td style="width:200px">
+                                    <div class="editor-label">
+                                       <ul class="accordion span8" data-role="accordion">
+                                           
+                                           @foreach (Confluence.Blueprint.Models.DepartmentModel o in Model.Departments)
+                                           {
+                                               <li class="active">
+                                                    <a href="#"> @o.DepartmentName </a>
+                                                    <div> 
+                                                        <h3><script>PrintTerminology(true, false, true)</script></h3>
+                                                        @if (o.SubDepartments != null && o.SubDepartments.Count > 0)
+                                                        {
+                                                            foreach (Confluence.Blueprint.Models.SubDepartmentModel s in o.SubDepartments)
+                                                            {
+                                                                var optionValue = @s.SubDepartmentID;
+                                                                <label class="input-control radio"> 
+                                                                    <input type="radio" id="@optionValue" name="SubDepts" value="@optionValue"/>
+                                                                    <span class="helper">@s.SubDepartmentName</span>
+                                                                </label>
+                                                                
+                                                                <br/>
+                                                            }
+                                                        }
+                                                        else
+                                                        {
+                                                            <p class="fg-color-red">
+                                                                No <script>PrintTerminology(true, true, true)</script> found.
+                                                            </p>
+                                                        }
+                                                    </div>
+                                                </li>
+                                          
+                                           }
+                                       </ul>
+                                     </div>
+                                    </td>
+                                 </tr>
+                                <tr>
+                                    <td >
+                                        <input type="button" class="command-button default" value="Edit" id="edit" />
+                                        <input type="button" value="Cancel" onclick="location.href='@Url.Content("~/Admin")'"/>
+                                   
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                       
+                    
+                        </fieldset>
+                    </div>
+
+            }
+            else
+            {
+                <p class="fg-color-red">
+                    No departments/sub-departments found. Please click on "New" button to create sub department.
+                </p>
+            }
+        }
+@section PageFooterScripts{
+<script type="text/javascript">
+    $(document).ready(function () {
+        $('#edit').click(function (e) {
+            var selected = $('input[name="SubDepts"]:checked');
+            if (selected.length > 0) {
+                location.href = "@Url.Content("~/Admin/SubDepartment/Details/")" + selected.val();
+            }
+            else {
+                // Display error message 
+                $.alert("Please select any sub department to modify.", "Esclaimation", "Error");
+                
+            }
+
+        });
+    });
+        
+    </script>
+}
+ 

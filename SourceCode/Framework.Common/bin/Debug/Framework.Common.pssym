@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Symbols xmlns="http://schemas.postsharp.org/2.0/symbols">
+  <Class Class="#1=T:[Framework.Logging]Framework.Logging.MethodTraceAspect">
+    <Instance Declaration="#2=A:Framework.Common" Id="40716ef4db94f6e">
+      <Target Target="#3=M:[Framework.Common]Framework.Common.Email::Send([Framework.Common]Framework.Common.EmailMessage)">
+        <JoinPoint Advising="#1" Description="#4=Wrapped by advice(s) OnEntry, OnSuccess, OnException, OnExit" />
+      </Target>
+      <Target Target="#5=M:[Framework.Common]Framework.Common.EmailMessage::get_To()">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#6=M:[Framework.Common]Framework.Common.EmailMessage::set_To(System.String)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#7=M:[Framework.Common]Framework.Common.EmailMessage::get_Cc()">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#8=M:[Framework.Common]Framework.Common.EmailMessage::set_Cc(System.String)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#9=M:[Framework.Common]Framework.Common.EmailMessage::get_Subject()">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#10=M:[Framework.Common]Framework.Common.EmailMessage::set_Subject(System.String)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#11=M:[Framework.Common]Framework.Common.EmailMessage::get_Body()">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#12=M:[Framework.Common]Framework.Common.EmailMessage::set_Body(System.String)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#13=M:[Framework.Common]Framework.Common.EmailSettings::get_Host()">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#14=M:[Framework.Common]Framework.Common.EmailSettings::get_Port()">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#15=M:[Framework.Common]Framework.Common.EmailSettings::get_EnableSsl()">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#16=M:[Framework.Common]Framework.Common.EmailSettings::get_From()">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#17=M:[Framework.Common]Framework.Common.EmailSettings::get_Password()">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+    </Instance>
+  </Class>
+</Symbols>

@@ -1,0 +1,76 @@
+2013-11-30 20:56:54.4072 INFO Execution started of MvcApplication.Application_Start ()
+2013-11-30 20:56:59.5075 INFO Execution started of AdminAreaRegistration.get_AreaName ()
+2013-11-30 20:56:59.5075 INFO Execution finished for get_AreaName
+2013-11-30 20:56:59.5075 INFO Execution started of AdminAreaRegistration.RegisterArea (context = System.Web.Mvc.AreaRegistrationContext, )
+2013-11-30 20:56:59.5075 INFO Execution finished for RegisterArea
+2013-11-30 20:56:59.5165 INFO Execution finished for Application_Start
+2013-11-30 20:56:59.9246 INFO Execution started of MiniProfilerStartupModule.Init (context = ASP.global_asax, )
+2013-11-30 20:56:59.9246 INFO Execution finished for Init
+2013-11-30 20:57:00.1876 INFO Execution started of HomeController.Index ()
+2013-11-30 20:57:00.1876 INFO Execution finished for Index
+2013-11-30 20:57:01.6807 INFO Execution started of MiniProfilerStartupModule.Init (context = ASP.global_asax, )
+2013-11-30 20:57:01.6807 INFO Execution finished for Init
+2013-11-30 20:57:02.3077 INFO Execution started of MiniProfilerStartupModule.Init (context = ASP.global_asax, )
+2013-11-30 20:57:02.3077 INFO Execution finished for Init
+2013-11-30 21:01:44.0138 INFO Execution started of MvcApplication.Application_Start ()
+2013-11-30 21:01:44.2898 INFO Execution started of AdminAreaRegistration.get_AreaName ()
+2013-11-30 21:01:44.2898 INFO Execution finished for get_AreaName
+2013-11-30 21:01:44.2898 INFO Execution started of AdminAreaRegistration.RegisterArea (context = System.Web.Mvc.AreaRegistrationContext, )
+2013-11-30 21:01:44.2898 INFO Execution finished for RegisterArea
+2013-11-30 21:01:44.2978 INFO Execution finished for Application_Start
+2013-11-30 21:01:44.3138 INFO Execution started of MiniProfilerStartupModule.Init (context = ASP.global_asax, )
+2013-11-30 21:01:44.3138 INFO Execution finished for Init
+2013-11-30 21:01:44.4888 INFO Execution started of HomeController.Index ()
+2013-11-30 21:01:44.4888 INFO Execution finished for Index
+2013-11-30 21:01:45.2419 INFO Execution started of MiniProfilerStartupModule.Init (context = ASP.global_asax, )
+2013-11-30 21:01:45.2419 INFO Execution started of MiniProfilerStartupModule.Init (context = ASP.global_asax, )
+2013-11-30 21:01:45.2489 INFO Execution finished for Init
+2013-11-30 21:01:45.2419 INFO Execution finished for Init
+2013-11-30 21:02:16.6777 INFO Execution started of MvcApplication.Application_Start ()
+2013-11-30 21:02:16.7157 INFO Execution started of AdminAreaRegistration.get_AreaName ()
+2013-11-30 21:02:16.7157 INFO Execution finished for get_AreaName
+2013-11-30 21:02:16.7157 INFO Execution started of AdminAreaRegistration.RegisterArea (context = System.Web.Mvc.AreaRegistrationContext, )
+2013-11-30 21:02:16.7157 INFO Execution finished for RegisterArea
+2013-11-30 21:02:16.7157 INFO Execution finished for Application_Start
+2013-11-30 21:02:16.8307 INFO Execution started of MiniProfilerStartupModule.Init (context = ASP.global_asax, )
+2013-11-30 21:02:16.8307 INFO Execution finished for Init
+2013-11-30 21:02:16.9417 INFO Execution started of HomeController.Index ()
+2013-11-30 21:02:16.9417 INFO Execution finished for Index
+2013-11-30 21:02:17.0947 INFO Execution started of MiniProfilerStartupModule.Init (context = ASP.global_asax, )
+2013-11-30 21:02:17.0947 INFO Execution started of MiniProfilerStartupModule.Init (context = ASP.global_asax, )
+2013-11-30 21:02:17.0947 INFO Execution finished for Init
+2013-11-30 21:02:17.0947 INFO Execution finished for Init
+2013-11-30 21:02:20.9179 INFO Execution started of HomeController.Index ()
+2013-11-30 21:02:20.9179 INFO Execution finished for Index
+2013-11-30 21:02:22.7820 INFO Execution started of HomeController.Index ()
+2013-11-30 21:02:22.7820 INFO Execution finished for Index
+2013-11-30 21:02:22.8320 INFO Execution started of MiniProfilerStartupModule.Init (context = ASP.global_asax, )
+2013-11-30 21:02:22.8320 INFO Execution finished for Init
+2013-11-30 21:02:23.3301 INFO Execution started of HomeController.Index ()
+2013-11-30 21:02:23.3301 INFO Execution finished for Index
+2013-11-30 21:02:23.5341 INFO Execution started of HomeController.Index ()
+2013-11-30 21:02:23.5341 INFO Execution finished for Index
+2013-11-30 21:02:23.7811 INFO Execution started of HomeController.Index ()
+2013-11-30 21:02:23.7811 INFO Execution finished for Index
+2013-11-30 21:02:24.0561 INFO Execution started of HomeController.Index ()
+2013-11-30 21:02:24.0561 INFO Execution finished for Index
+2013-11-30 21:02:25.0962 INFO Execution started of HomeController.Index ()
+2013-11-30 21:02:25.0962 INFO Execution finished for Index
+2013-11-30 21:02:31.0535 INFO Execution started of HomeController.Index ()
+2013-11-30 21:02:31.0535 INFO Execution finished for Index
+2013-11-30 21:02:32.3596 INFO Execution started of HomeController.Index ()
+2013-11-30 21:02:32.3636 INFO Execution finished for Index
+2013-11-30 21:05:40.1143 INFO Execution started of MvcApplication.Application_Start ()
+2013-11-30 21:05:40.3573 INFO Execution started of AdminAreaRegistration.get_AreaName ()
+2013-11-30 21:05:40.3573 INFO Execution finished for get_AreaName
+2013-11-30 21:05:40.3573 INFO Execution started of AdminAreaRegistration.RegisterArea (context = System.Web.Mvc.AreaRegistrationContext, )
+2013-11-30 21:05:40.3573 INFO Execution finished for RegisterArea
+2013-11-30 21:05:40.3573 INFO Execution finished for Application_Start
+2013-11-30 21:05:40.3823 INFO Execution started of MiniProfilerStartupModule.Init (context = ASP.global_asax, )
+2013-11-30 21:05:40.3823 INFO Execution finished for Init
+2013-11-30 21:05:40.5343 INFO Execution started of HomeController.Index ()
+2013-11-30 21:05:40.5343 INFO Execution finished for Index
+2013-11-30 21:05:41.1464 INFO Execution started of MiniProfilerStartupModule.Init (context = ASP.global_asax, )
+2013-11-30 21:05:41.1464 INFO Execution finished for Init
+2013-11-30 21:05:41.1714 INFO Execution started of MiniProfilerStartupModule.Init (context = ASP.global_asax, )
+2013-11-30 21:05:41.1714 INFO Execution finished for Init

@@ -1,0 +1,21 @@
+2013-10-02 13:24:14.8762 INFO Application started.
+2013-10-02 13:24:33.0763 INFO admin@eqms.com login successful.
+2013-10-02 14:17:42.1947 INFO admin@eqms.com login successful.
+2013-10-02 14:19:50.0830 INFO Application started.
+2013-10-02 16:06:56.3083 INFO Application started.
+2013-10-02 16:07:20.3287 INFO Application started.
+2013-10-02 16:08:58.3733 INFO    at Microsoft.Office.Interop.Word.Documents.Open(Object& FileName, Object& ConfirmConversions, Object& ReadOnly, Object& AddToRecentFiles, Object& PasswordDocument, Object& PasswordTemplate, Object& Revert, Object& WritePasswordDocument, Object& WritePasswordTemplate, Object& Format, Object& Encoding, Object& Visible, Object& OpenAndRepair, Object& DocumentDirection, Object& NoEncodingDialog, Object& XMLTransform)
+   at DocumentManager.DocConverter.WordDocConverter.Convert() in C:\My Folder\Projects\eqms\SourceCode\DocumentManager\DocConverter\WordDocConverter.cs:line 52
+   at DocumentManager.DocumentManager.ConvertToMht(String SourceFile, String FileType) in C:\My Folder\Projects\eqms\SourceCode\DocumentManager\DocumentManager.cs:line 52
+   at Confluence.Blueprint.Web.Helpers.DocumentHelper.ConvertToMht(String SourceFile, String FileType) in C:\My Folder\Projects\eqms\SourceCode\Web\Helpers\DocumentHelper.cs:line 27
+   at Confluence.Blueprint.Web.Controllers.DMS.DocumentLibraryController.Viewer(String SourceFile, String FileType, String DocNumber, String DocVer, String FileName) in C:\My Folder\Projects\eqms\SourceCode\Web\Controllers\DocumentLibrary\DocumentLibraryController.cs:line 176
+2013-10-02 16:13:03.4573 INFO    at Microsoft.Office.Interop.Word.Documents.Open(Object& FileName, Object& ConfirmConversions, Object& ReadOnly, Object& AddToRecentFiles, Object& PasswordDocument, Object& PasswordTemplate, Object& Revert, Object& WritePasswordDocument, Object& WritePasswordTemplate, Object& Format, Object& Encoding, Object& Visible, Object& OpenAndRepair, Object& DocumentDirection, Object& NoEncodingDialog, Object& XMLTransform)
+   at DocumentManager.DocConverter.WordDocConverter.Convert() in C:\My Folder\Projects\eqms\SourceCode\DocumentManager\DocConverter\WordDocConverter.cs:line 52
+   at DocumentManager.DocumentManager.ConvertToMht(String SourceFile, String FileType) in C:\My Folder\Projects\eqms\SourceCode\DocumentManager\DocumentManager.cs:line 52
+   at Confluence.Blueprint.Web.Helpers.DocumentHelper.ConvertToMht(String SourceFile, String FileType) in C:\My Folder\Projects\eqms\SourceCode\Web\Helpers\DocumentHelper.cs:line 27
+   at Confluence.Blueprint.Web.Controllers.DMS.DocumentLibraryController.Viewer(String SourceFile, String FileType, String DocNumber, String DocVer, String FileName) in C:\My Folder\Projects\eqms\SourceCode\Web\Controllers\DocumentLibrary\DocumentLibraryController.cs:line 176
+2013-10-02 16:15:04.9183 INFO    at Microsoft.Office.Interop.Word.Documents.Open(Object& FileName, Object& ConfirmConversions, Object& ReadOnly, Object& AddToRecentFiles, Object& PasswordDocument, Object& PasswordTemplate, Object& Revert, Object& WritePasswordDocument, Object& WritePasswordTemplate, Object& Format, Object& Encoding, Object& Visible, Object& OpenAndRepair, Object& DocumentDirection, Object& NoEncodingDialog, Object& XMLTransform)
+   at DocumentManager.DocConverter.WordDocConverter.Convert() in C:\My Folder\Projects\eqms\SourceCode\DocumentManager\DocConverter\WordDocConverter.cs:line 52
+   at DocumentManager.DocumentManager.ConvertToMht(String SourceFile, String FileType) in C:\My Folder\Projects\eqms\SourceCode\DocumentManager\DocumentManager.cs:line 52
+   at Confluence.Blueprint.Web.Helpers.DocumentHelper.ConvertToMht(String SourceFile, String FileType) in C:\My Folder\Projects\eqms\SourceCode\Web\Helpers\DocumentHelper.cs:line 27
+   at Confluence.Blueprint.Web.Controllers.DMS.DocumentLibraryController.Viewer(String SourceFile, String FileType, String DocNumber, String DocVer, String FileName) in C:\My Folder\Projects\eqms\SourceCode\Web\Controllers\DocumentLibrary\DocumentLibraryController.cs:line 176

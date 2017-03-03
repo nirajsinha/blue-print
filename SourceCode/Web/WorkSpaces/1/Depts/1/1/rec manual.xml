@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-16"?>
+<Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <DocumentID>21</DocumentID>
+  <OrganizationID>0</OrganizationID>
+  <DepartmentID>1</DepartmentID>
+  <SubDepartmentID>1</SubDepartmentID>
+  <DocumentType>q</DocumentType>
+  <DocumentName>rec manual</DocumentName>
+  <PhysicalPath>TORG\HR\REC\rec manual\1.200\</PhysicalPath>
+  <MetaDataPath>TORG\HR\REC\</MetaDataPath>
+  <Version>1.200</Version>
+  <NextVersion>1.300</NextVersion>
+  <CheckInStatus>true</CheckInStatus>
+  <IsActive>true</IsActive>
+  <FileType>.pdf</FileType>
+  <CreatedBy>admin@eqms.com</CreatedBy>
+  <CreatedOn>2013-07-12T18:42:08.893</CreatedOn>
+</Document>

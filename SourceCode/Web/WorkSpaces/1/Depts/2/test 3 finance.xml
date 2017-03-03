@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-16"?>
+<Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <DocumentID>18</DocumentID>
+  <OrganizationID>0</OrganizationID>
+  <DepartmentID>2</DepartmentID>
+  <SubDepartmentID>0</SubDepartmentID>
+  <DocumentType>QM/SOP2/L3/</DocumentType>
+  <DocumentName>test 3 finance</DocumentName>
+  <PhysicalPath>TORG\FIN\test 3 finance\1.000\</PhysicalPath>
+  <MetaDataPath>TORG\FIN\</MetaDataPath>
+  <Version>1.000</Version>
+  <NextVersion>1.100</NextVersion>
+  <CheckInStatus>true</CheckInStatus>
+  <IsActive>true</IsActive>
+  <FileType>.xlsx</FileType>
+  <CreatedBy>admin@eqms.com</CreatedBy>
+  <CreatedOn>2013-07-03T18:22:08.397</CreatedOn>
+</Document>

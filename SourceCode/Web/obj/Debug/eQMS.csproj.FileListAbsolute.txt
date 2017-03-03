@@ -1,0 +1,96 @@
+C:\RnD\DMS\DMS\bin\DMS.dll
+C:\RnD\DMS\DMS\bin\DMS.pdb
+C:\RnD\DMS\DMS\bin\DocumentServices.dll
+C:\RnD\DMS\DMS\bin\EntityFramework.dll
+C:\RnD\DMS\DMS\bin\DocumentServices.pdb
+C:\RnD\DMS\DMS\bin\EntityFramework.xml
+C:\RnD\DMS\DMS\obj\Debug\ResolveAssemblyReference.cache
+C:\RnD\DMS\DMS\obj\Debug\DMS.dll
+C:\RnD\DMS\DMS\obj\Debug\DMS.pdb
+C:\RnD\DMS\eQMS\bin\eQMS.dll
+C:\RnD\DMS\eQMS\bin\eQMS.pdb
+C:\RnD\DMS\eQMS\bin\DocumentServices.dll
+C:\RnD\DMS\eQMS\bin\EntityFramework.dll
+C:\RnD\DMS\eQMS\bin\DocumentServices.pdb
+C:\RnD\DMS\eQMS\bin\EntityFramework.xml
+C:\RnD\DMS\eQMS\obj\Debug\ResolveAssemblyReference.cache
+C:\RnD\DMS\eQMS\obj\Debug\eQMS.dll
+C:\RnD\DMS\eQMS\obj\Debug\eQMS.pdb
+C:\RnD\eQMS\eQMS\bin\eQMS.dll
+C:\RnD\eQMS\eQMS\bin\eQMS.pdb
+C:\RnD\eQMS\eQMS\bin\DocumentServices.dll
+C:\RnD\eQMS\eQMS\bin\EntityFramework.dll
+C:\RnD\eQMS\eQMS\bin\DocumentServices.pdb
+C:\RnD\eQMS\eQMS\bin\EntityFramework.xml
+C:\RnD\eQMS\eQMS\obj\Debug\ResolveAssemblyReference.cache
+C:\RnD\eQMS\eQMS\obj\Debug\eQMS.dll
+C:\RnD\eQMS\eQMS\obj\Debug\eQMS.pdb
+C:\My Folder\eQMS\SourceCode\eQMS\bin\eQMS.dll
+C:\My Folder\eQMS\SourceCode\eQMS\bin\eQMS.pdb
+C:\My Folder\eQMS\SourceCode\eQMS\bin\BusinessFacade.dll
+C:\My Folder\eQMS\SourceCode\eQMS\bin\DocumentManager.dll
+C:\My Folder\eQMS\SourceCode\eQMS\bin\EntityFramework.dll
+C:\My Folder\eQMS\SourceCode\eQMS\bin\eQMS.Models.dll
+C:\My Folder\eQMS\SourceCode\eQMS\bin\Framework.Common.dll
+C:\My Folder\eQMS\SourceCode\eQMS\bin\Framework.Security.dll
+C:\My Folder\eQMS\SourceCode\eQMS\bin\MvcSiteMapProvider.dll
+C:\My Folder\eQMS\SourceCode\eQMS\bin\Framework.Data.dll
+C:\My Folder\eQMS\SourceCode\eQMS\bin\LicenseAccess.dll
+C:\My Folder\eQMS\SourceCode\eQMS\bin\License.dll
+C:\My Folder\eQMS\SourceCode\eQMS\bin\BusinessFacade.pdb
+C:\My Folder\eQMS\SourceCode\eQMS\bin\DocumentManager.pdb
+C:\My Folder\eQMS\SourceCode\eQMS\bin\Framework.Common.pdb
+C:\My Folder\eQMS\SourceCode\eQMS\bin\eQMS.Models.pdb
+C:\My Folder\eQMS\SourceCode\eQMS\bin\Framework.Security.pdb
+C:\My Folder\eQMS\SourceCode\eQMS\bin\EntityFramework.xml
+C:\My Folder\eQMS\SourceCode\eQMS\bin\MvcSiteMapProvider.xml
+C:\My Folder\eQMS\SourceCode\eQMS\bin\Framework.Data.pdb
+C:\My Folder\eQMS\SourceCode\eQMS\obj\Debug\ResolveAssemblyReference.cache
+C:\My Folder\eQMS\SourceCode\eQMS\obj\Debug\eQMS.dll
+C:\My Folder\eQMS\SourceCode\eQMS\obj\Debug\eQMS.pdb
+C:\My Folder\eQMS\eqms\SourceCode\eQMS\bin\eQMS.dll
+C:\My Folder\eQMS\eqms\SourceCode\eQMS\bin\eQMS.pdb
+C:\My Folder\eQMS\eqms\SourceCode\eQMS\bin\BusinessFacade.dll
+C:\My Folder\eQMS\eqms\SourceCode\eQMS\bin\DocumentManager.dll
+C:\My Folder\eQMS\eqms\SourceCode\eQMS\bin\EntityFramework.dll
+C:\My Folder\eQMS\eqms\SourceCode\eQMS\bin\eQMS.Models.dll
+C:\My Folder\eQMS\eqms\SourceCode\eQMS\bin\Framework.Common.dll
+C:\My Folder\eQMS\eqms\SourceCode\eQMS\bin\Framework.Security.dll
+C:\My Folder\eQMS\eqms\SourceCode\eQMS\bin\MvcSiteMapProvider.dll
+C:\My Folder\eQMS\eqms\SourceCode\eQMS\bin\Framework.Data.dll
+C:\My Folder\eQMS\eqms\SourceCode\eQMS\bin\LicenseAccess.dll
+C:\My Folder\eQMS\eqms\SourceCode\eQMS\bin\License.dll
+C:\My Folder\eQMS\eqms\SourceCode\eQMS\bin\BusinessFacade.pdb
+C:\My Folder\eQMS\eqms\SourceCode\eQMS\bin\DocumentManager.pdb
+C:\My Folder\eQMS\eqms\SourceCode\eQMS\bin\Framework.Common.pdb
+C:\My Folder\eQMS\eqms\SourceCode\eQMS\bin\eQMS.Models.pdb
+C:\My Folder\eQMS\eqms\SourceCode\eQMS\bin\Framework.Security.pdb
+C:\My Folder\eQMS\eqms\SourceCode\eQMS\bin\EntityFramework.xml
+C:\My Folder\eQMS\eqms\SourceCode\eQMS\bin\MvcSiteMapProvider.xml
+C:\My Folder\eQMS\eqms\SourceCode\eQMS\bin\Framework.Data.pdb
+C:\My Folder\eQMS\eqms\SourceCode\eQMS\obj\Debug\ResolveAssemblyReference.cache
+C:\My Folder\eQMS\eqms\SourceCode\eQMS\obj\Debug\eQMS.dll
+C:\My Folder\eQMS\eqms\SourceCode\eQMS\obj\Debug\eQMS.pdb
+C:\My Folder\Projects\eqms\SourceCode\eQMS\bin\eQMS.dll
+C:\My Folder\Projects\eqms\SourceCode\eQMS\bin\eQMS.pdb
+C:\My Folder\Projects\eqms\SourceCode\eQMS\bin\BusinessFacade.dll
+C:\My Folder\Projects\eqms\SourceCode\eQMS\bin\DocumentManager.dll
+C:\My Folder\Projects\eqms\SourceCode\eQMS\bin\EntityFramework.dll
+C:\My Folder\Projects\eqms\SourceCode\eQMS\bin\eQMS.Models.dll
+C:\My Folder\Projects\eqms\SourceCode\eQMS\bin\Framework.Common.dll
+C:\My Folder\Projects\eqms\SourceCode\eQMS\bin\Framework.Security.dll
+C:\My Folder\Projects\eqms\SourceCode\eQMS\bin\MvcSiteMapProvider.dll
+C:\My Folder\Projects\eqms\SourceCode\eQMS\bin\Framework.Data.dll
+C:\My Folder\Projects\eqms\SourceCode\eQMS\bin\LicenseAccess.dll
+C:\My Folder\Projects\eqms\SourceCode\eQMS\bin\License.dll
+C:\My Folder\Projects\eqms\SourceCode\eQMS\bin\BusinessFacade.pdb
+C:\My Folder\Projects\eqms\SourceCode\eQMS\bin\DocumentManager.pdb
+C:\My Folder\Projects\eqms\SourceCode\eQMS\bin\Framework.Common.pdb
+C:\My Folder\Projects\eqms\SourceCode\eQMS\bin\eQMS.Models.pdb
+C:\My Folder\Projects\eqms\SourceCode\eQMS\bin\Framework.Security.pdb
+C:\My Folder\Projects\eqms\SourceCode\eQMS\bin\EntityFramework.xml
+C:\My Folder\Projects\eqms\SourceCode\eQMS\bin\MvcSiteMapProvider.xml
+C:\My Folder\Projects\eqms\SourceCode\eQMS\bin\Framework.Data.pdb
+C:\My Folder\Projects\eqms\SourceCode\eQMS\obj\Debug\ResolveAssemblyReference.cache
+C:\My Folder\Projects\eqms\SourceCode\eQMS\obj\Debug\eQMS.dll
+C:\My Folder\Projects\eqms\SourceCode\eQMS\obj\Debug\eQMS.pdb

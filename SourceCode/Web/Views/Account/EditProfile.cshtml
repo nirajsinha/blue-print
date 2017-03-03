@@ -1,0 +1,151 @@
+﻿@model Confluence.Blueprint.Models.UserModel
+
+@{
+    ViewBag.Title = "Edit Profile";
+}
+
+
+@section MenuGroup{
+        
+}
+@section PageScripts{
+<script src="@Url.Content("~/js/assets/jquery.validate.min.js")" type="text/javascript"></script>
+<script src="@Url.Content("~/js/modern/dialog.js")" type="text/javascript"></script>
+<script src="@Url.Content("~/js/assets/knockout-2.2.1.js")" type="text/javascript"></script>
+}   
+@section PageHeader{
+Edit Profile
+}
+<form id="myForm" name="myForm">
+        
+                <div>
+                    <fieldset>
+                        <legend>Account Information</legend>
+                          <table>
+                            <tbody>
+                              
+                             <tr>
+                                <td style="width:200px">
+                                    <div class="editor-label">
+                                        @Html.LabelFor(m => m.Name)
+                                        @Html.HiddenFor(m => m.DepartmentID, new { id="deptid", data_bind = "value: DepartmentID" })
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="input-control text" style="width:380px">
+                                        @Html.TextBoxFor(m => m.Name, new { placeholder = "Enter user name", id="uid", @class = "required", disabled = "disabled", data_bind = "value: Name" })
+                                    </div>
+                                </td>
+                            </tr>
+                                   <tr>
+                                <td >
+                                    <div class="editor-label">
+                                            @Html.LabelFor(m => m.UserEmail)
+                                    </div>
+                                </td>
+                                <td >
+                                    <div class="input-control text" style="width:380px">   
+                                    @Html.TextBoxFor(m => m.UserEmail, new { placeholder = "Enter email id", id = "email", @class = "required email", minlength = "6", disabled = "disabled", data_bind = "value: UserEmail" })
+                                      </div>
+                                </td>
+                            </tr>
+                                   <tr>
+                                <td >
+                                    <div class="editor-label">
+                                            @Html.LabelFor(m => m.Phone)
+                                    </div>
+                                </td>
+                                <td >
+                                    <div class="input-control text" style="width:380px">   
+                                    @Html.TextBoxFor(m => m.Phone, new { placeholder = "Enter phone number",  id="phone", @class = "digits", data_bind = "value: Phone" })
+                                      </div>
+                                </td>
+                            </tr>
+                                   <tr>
+                                <td >
+                                    <div class="editor-label">
+                                            @Html.LabelFor(m => m.Mobile)
+                                    </div>
+                                </td>
+                                <td >
+                                    <div class="input-control text" style="width:380px">   
+                                    @Html.TextBoxFor(m => m.Mobile, new { placeholder = "Enter mobile number", id = "mobile", @class = "digits", data_bind = "value: Mobile" })
+                                      </div>
+                                </td>
+                            </tr>
+                                   <tr>
+                                <td colspan="2">
+                                    <input class="command-button default" type="submit" value="Save" data-bind="event: { click: save }"
+                                    />
+                                    <input type="button" value="Cancel" onclick="location.href='@Url.Content("~/")'"/>
+                                   
+                                </td>
+                            </tr>
+                            </tbody>
+                        </table>
+                    
+                    
+                    
+                    </fieldset>
+                </div>
+
+        
+</form>
+@section PageFooterScripts{
+  <script type="text/javascript">
+
+      var usermodel = function (data) {
+          var self = this;
+          self.DepartmentID = data.DepartmentID;
+          self.Name = data.Name;
+          self.UserEmail = data.UserEmail;
+          self.Phone = data.Phone;
+          self.Mobile = data.Mobile;
+          self.save = function () {
+              var IsFormValid = $("#myForm").valid();
+              if (IsFormValid) {
+                  var model = ko.toJSON(this);
+                  var json = "{\"model\":" + model + "}";
+                  $.ajax({
+                      type: "POST",
+                      url: "/Account/EditProfile",
+                      data: json,
+                      contentType: "application/json; charset=utf-8",
+                      dataType: "json",
+                      success: function (data) {
+                          var jsonObj = '';
+                          if (data.hasOwnProperty("d")) { jsonObj = $.parseJSON(data.d); }
+                          else { jsonObj = $.parseJSON(data); }
+                          if (jsonObj != '' && jsonObj.Error && jsonObj.Error != '') {
+                              $.alert(jsonObj.Error, "Error", "Error");
+                             
+                          }
+                          else if (jsonObj != '' && jsonObj.Success != '') {
+                              // Display  confirmation dialog
+                              $.redirect('@Url.Content("~/Home/Default")', "Success", "Profile updated successfully.");
+                              
+                          }
+
+                      },
+                      error: function (XMLHttpRequest, textStatus, errorThrown) {
+                         
+                          $.alert("responseText=" + XMLHttpRequest.responseText + "\n textStatus=" + textStatus + "\n errorThrown=" + errorThrown, "Error", "Error");
+                      }
+                  });
+              }
+          }
+
+      };
+      $(document).ready(function () {
+          var initialData = {
+              Name: $('#uid').val(),
+              UserEmail: $('#email').val(),
+              Phone: $('#phone').val(),
+              Mobile: $('#mobile').val(),
+              DepartmentID: $('#deptid').val()
+          };
+          ko.applyBindings(new usermodel(initialData));
+      });
+        
+    </script>
+}    

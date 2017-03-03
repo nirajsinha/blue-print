@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<mvcSiteMap xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            xmlns="http://mvcsitemap.codeplex.com/schemas/MvcSiteMap-File-3.0"
+            xsi:schemaLocation="http://mvcsitemap.codeplex.com/schemas/MvcSiteMap-File-3.0 MvcSiteMapSchema.xsd"
+            enableLocalization="true">
+
+  <mvcSiteMapNode title="Home" controller="Home" action="Default" >
+    <mvcSiteMapNode title="Admin" controller="Admin" action="Index" >
+      
+        <mvcSiteMapNode title="Security" controller="Security" area="Admin" action="Index" />
+      
+      <mvcSiteMapNode title="Manage User" controller="User" area="Admin" action="ManageUser"  >
+        <mvcSiteMapNode title="Register User" controller="User" area="Admin" action="Register" />
+      </mvcSiteMapNode>
+      <mvcSiteMapNode title="Organization" controller="Organization" area="Admin" action="Index"  >
+        <mvcSiteMapNode title="Create" controller="Organization" area="Admin" action="Create" />
+        <mvcSiteMapNode title="Modify" controller="Organization" area="Admin" action="Modify" />
+      </mvcSiteMapNode>
+      <mvcSiteMapNode title="Department" controller="Department" area="Admin" action="Index" >
+        <mvcSiteMapNode title="Create" controller="Department" area="Admin" action="Create" />
+        <mvcSiteMapNode title="Modify" controller="Department" area="Admin" action="Modify" />
+        <mvcSiteMapNode title="Modify" controller="Department" area="Admin" action="Details" />
+        <mvcSiteMapNode title="Delete" controller="Department" area="Admin" action="Delete" />
+      </mvcSiteMapNode>
+      <mvcSiteMapNode title="Sub Department" controller="SubDepartment" area="Admin" action="Index" >
+        <mvcSiteMapNode title="Create" controller="SubDepartment" area="Admin" action="Create" />
+        <mvcSiteMapNode title="Modify" controller="SubDepartment" area="Admin" action="Modify" />
+        <mvcSiteMapNode title="Modify" controller="SubDepartment" area="Admin" action="Details" />
+        <mvcSiteMapNode title="Delete" controller="SubDepartment" area="Admin" action="Delete" />
+      </mvcSiteMapNode>
+      <mvcSiteMapNode title="Document Levels" controller="DocumentLevels" area="Admin" action="Index" />
+      <mvcSiteMapNode title="Master Data" controller="DocumentMaster" area="Admin" action="Index" />
+    </mvcSiteMapNode>
+    
+    <mvcSiteMapNode title="Document Library" controller="DocumentLibrary" action="Index" >
+      <mvcSiteMapNode title="Upload" controller="DocumentLibrary" action="Upload" />
+      <mvcSiteMapNode title="Document Change Request" controller="DocumentLibrary" action="ChangeRequest" />
+    </mvcSiteMapNode>
+    <mvcSiteMapNode title="Edit Profile" controller="Account" action="EditProfile" />
+    <mvcSiteMapNode title="Change Password" controller="Account" action="ChangePassword" />
+    
+    <mvcSiteMapNode title="About" controller="Home" action="About" />
+  </mvcSiteMapNode>
+ 
+  
+  
+</mvcSiteMap>

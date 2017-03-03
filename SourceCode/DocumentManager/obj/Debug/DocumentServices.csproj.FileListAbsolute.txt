@@ -1,0 +1,10 @@
+C:\RnD\DMS\DocumentServices\bin\Debug\DocumentServices.dll
+C:\RnD\DMS\DocumentServices\bin\Debug\DocumentServices.pdb
+C:\RnD\DMS\DocumentServices\obj\Debug\ResolveAssemblyReference.cache
+C:\RnD\DMS\DocumentServices\obj\Debug\DocumentServices.dll
+C:\RnD\DMS\DocumentServices\obj\Debug\DocumentServices.pdb
+C:\My Folder\eQMS\SourceCode\DocumentServices\bin\Debug\DocumentServices.dll
+C:\My Folder\eQMS\SourceCode\DocumentServices\bin\Debug\DocumentServices.pdb
+C:\My Folder\eQMS\SourceCode\DocumentServices\obj\Debug\ResolveAssemblyReference.cache
+C:\My Folder\eQMS\SourceCode\DocumentServices\obj\Debug\DocumentServices.dll
+C:\My Folder\eQMS\SourceCode\DocumentServices\obj\Debug\DocumentServices.pdb

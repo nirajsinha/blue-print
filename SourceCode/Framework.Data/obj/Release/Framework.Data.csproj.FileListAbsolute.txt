@@ -1,0 +1,13 @@
+C:\My Folder\Projects\eqms\SourceCode\Framework.Data\bin\Release\Framework.Data.dll
+C:\My Folder\Projects\eqms\SourceCode\Framework.Data\bin\Release\Framework.Data.pdb
+C:\My Folder\Projects\eqms\SourceCode\Framework.Data\obj\Release\Framework.Data.dll
+C:\My Folder\Projects\eqms\SourceCode\Framework.Data\obj\Release\Framework.Data.pdb
+C:\My Folder\Projects\Blueprint\SourceCode\Framework.Data\bin\Release\Framework.Data.dll
+C:\My Folder\Projects\Blueprint\SourceCode\Framework.Data\bin\Release\Framework.Data.pdb
+C:\My Folder\Projects\Blueprint\SourceCode\Framework.Data\obj\Release\Framework.Data.dll
+C:\My Folder\Projects\Blueprint\SourceCode\Framework.Data\obj\Release\Framework.Data.pdb
+C:\Niraj\Projects\Blueprint\SourceCode\Framework.Data\bin\Release\Framework.Data.dll
+C:\Niraj\Projects\Blueprint\SourceCode\Framework.Data\bin\Release\Framework.Data.pdb
+C:\Niraj\Projects\Blueprint\SourceCode\Framework.Data\obj\Release\Framework.Data.dll
+C:\Niraj\Projects\Blueprint\SourceCode\Framework.Data\obj\Release\Framework.Data.pdb
+C:\Niraj\Projects\Blueprint\SourceCode\Framework.Data\obj\Release\Framework.Data.csprojResolveAssemblyReference.cache

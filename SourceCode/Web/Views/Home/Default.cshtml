@@ -1,0 +1,97 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+@section MenuGroup{
+
+}
+@section PageHeader{
+    Welcome to Blueprint 1.0
+}
+ 
+
+        
+            <div class="clearfix" >
+                <a href="#" onclick="location.href='@Url.Content("~/DocumentLibrary/Index")'">
+                <div class="tile double bg-color-green" data-role="tile-slider" data-param-period="3000">
+                    <div class="tile-content">
+                        @*<h2>nsinha@hotmail.com</h2>*@
+                        <h5>Assignments!</h5>
+                        <p>
+                            Total documents assigned for approval...
+                        </p>
+                    </div>
+                    
+                    <div class="brand">
+                        <div class="badge" id="assignedCount"></div>
+                        <img class="icon" src="@Url.Content("~/images/Mail128.png")"/>
+                        
+                    </div>
+                </div>
+                </a>
+                <a href="#" onclick="location.href='@Url.Content("~/DocumentLibrary/Index")'">
+                <div class="tile double bg-color-blue">
+                    <div class="tile-content">
+                        <h5>Uploads!</h5>
+                        <p>
+                            Total documents uploaded by you.
+                        </p>
+                    </div>
+                    <div class="brand">
+                        <div class="badge" id="uploadedDocCount"></div>
+                        <img class="icon" src="@Url.Content("~/images/stock-up.png")"/>
+                    </div>
+                </div>
+                </a>
+                <a href="#" onclick="location.href='@Url.Content("~/DocumentLibrary/Index")'">
+                <div class="tile double bg-color-red">
+                    <div class="tile-content">
+                    <h5>Documents!</h5>
+                    <p>
+                            Total documents in library.
+                        </p>
+                    </div>
+                    <div class="brand">
+                        <div class="badge" id="totalDocCount"></div>
+                        <img class="icon" src="@Url.Content("~/images/documents.png")"/>
+                    </div>
+                    
+                </div>
+                </a>
+            </div>
+
+<script type="text/javascript">
+    var timeoutid;
+    var userid = $.cookie('UserID');
+    $(document).ready(function () {
+        timeoutid = window.setTimeout("LoadDashboardData(" + userid + ")", 1000);
+
+    });
+    function LoadDashboardData(userid) {
+        $.ajax({
+            url: "/ApplicationServices/CommonService.asmx/GetUserDashboard",
+            data: JSON.stringify({ UserID: userid }),
+            type: "POST",
+            contentType: "application/json; charset=utf-8",
+            async: false,
+            success: function (data) {
+                //bind data
+                var json;
+                if (data.hasOwnProperty("d")) json = data.d; else json = data;
+                $('#assignedCount').html(json.TotalAssignedCount);
+                $('#uploadedDocCount').html(json.TotalUploadedCount);
+                $('#totalDocCount').html(json.TotalDocsCount);
+                
+                window.clearTimeout(timeoutid);
+            },
+            error: function (XMLHttpRequest, textStatus, errorThrown) {
+                alert("responseText=" + XMLHttpRequest.responseText + "\n textStatus=" + textStatus + "\n errorThrown=" + errorThrown);
+                window.clearTimeout(timeoutid);
+            }
+        });
+
+    }
+
+</script>
+
+  
